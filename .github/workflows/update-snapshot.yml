@@ -1,0 +1,61 @@
+name: Update WLA snapshot
+
+on:
+  schedule:
+    # 03:00 UTC on the 1st of every month — refreshes the current year's numbers
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+    inputs:
+      year:
+        description: "Year to snapshot (leave blank for current year)"
+        required: false
+        default: ""
+      full_census:
+        description: "Fetch pageviews for every file instead of sampling (slow)"
+        type: boolean
+        required: false
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Determine year
+        id: year
+        run: |
+          if [ -n "${{ github.event.inputs.year }}" ]; then
+            echo "value=${{ github.event.inputs.year }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "value=$(date -u +%Y)" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Fetch snapshot
+        run: |
+          FLAG=""
+          if [ "${{ github.event.inputs.full_census }}" = "true" ]; then
+            FLAG="--full-census"
+          fi
+          python scripts/fetch_snapshot.py --year ${{ steps.year.outputs.value }} $FLAG
+
+      - name: Rebuild trends file
+        run: python scripts/build_trends.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "wla-snapshot-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "Update WLA ${{ steps.year.outputs.value }} snapshot"
+          git push

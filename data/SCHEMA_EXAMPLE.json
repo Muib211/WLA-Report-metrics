@@ -1,0 +1,23 @@
+{
+  "_note": "This is a hand-written example of the shape fetch_snapshot.py produces — not real data. Real files are named <year>.json, e.g. data/2025.json, and are what build_trends.py and site/index.html actually read.",
+  "year": 2025,
+  "generated_at": "2026-08-01T03:00:00+00:00",
+  "total_submissions": 12000,
+  "sample_method": "sampled",
+  "sample_size": 240,
+  "countries": [
+    { "name": "Nigeria", "count": 2200 },
+    { "name": "Cameroon", "count": 541 },
+    { "name": "Central African Republic", "count": 505 }
+  ],
+  "pending_uncategorized": 23684,
+  "top_viewed": [
+    {
+      "title": "File:Example harvest photo.jpg",
+      "country": "Nigeria",
+      "views": 15230,
+      "thumb": "https://upload.wikimedia.org/example-thumb.jpg"
+    }
+  ],
+  "elapsed_seconds": 812.4
+}
