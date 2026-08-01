@@ -1,6 +1,6 @@
 {
   "year": 2025,
-  "generated_at": "2026-08-01T00:27:09.516330+00:00",
+  "generated_at": "2026-08-01T00:37:39.751968+00:00",
   "total_submissions": 34336,
   "sample_method": "sampled",
   "sample_size": 473,
@@ -303,6 +303,12 @@
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/714A0198.jpg/500px-714A0198.jpg"
     },
     {
+      "title": "File:2 épis de mais.jpg",
+      "country": "Cameroon",
+      "views": 399,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/2_%C3%A9pis_de_mais.jpg/500px-2_%C3%A9pis_de_mais.jpg"
+    },
+    {
       "title": "File:A boy & girl in Kenya weeding kales in the farm.webm",
       "country": "Kenya",
       "views": 278,
@@ -349,13 +355,7 @@
       "country": "Burundi",
       "views": 227,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Burundi_Rutana.jpg/500px-Burundi_Rutana.jpg"
-    },
-    {
-      "title": "File:Cotonculteur.jpg",
-      "country": "Burundi",
-      "views": 220,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cotonculteur.jpg/500px-Cotonculteur.jpg"
     }
   ],
-  "elapsed_seconds": 169.8
+  "elapsed_seconds": 114.8
 }
