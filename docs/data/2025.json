@@ -1,0 +1,2256 @@
+{
+  "year": 2025,
+  "generated_at": "2026-08-01T10:26:03.293842+00:00",
+  "total_submissions": 34336,
+  "sample_method": "sampled",
+  "sample_size": 473,
+  "countries": [
+    {
+      "name": "Nigerian Communities",
+      "count": 8051
+    },
+    {
+      "name": "Senegal",
+      "count": 5598
+    },
+    {
+      "name": "Nigeria",
+      "count": 3196
+    },
+    {
+      "name": "Uganda",
+      "count": 2409
+    },
+    {
+      "name": "Togo",
+      "count": 2294
+    },
+    {
+      "name": "Ivory Coast",
+      "count": 1381
+    },
+    {
+      "name": "the Republic of the Congo",
+      "count": 1370
+    },
+    {
+      "name": "Madagascar",
+      "count": 988
+    },
+    {
+      "name": "the Central African Republic",
+      "count": 888
+    },
+    {
+      "name": "Zimbabwe",
+      "count": 863
+    },
+    {
+      "name": "Niger",
+      "count": 845
+    },
+    {
+      "name": "Ghana",
+      "count": 804
+    },
+    {
+      "name": "Libya",
+      "count": 646
+    },
+    {
+      "name": "Egypt",
+      "count": 629
+    },
+    {
+      "name": "Sudan",
+      "count": 570
+    },
+    {
+      "name": "Cameroon",
+      "count": 541
+    },
+    {
+      "name": "Botswana",
+      "count": 458
+    },
+    {
+      "name": "Morocco",
+      "count": 438
+    },
+    {
+      "name": "Burkina Faso",
+      "count": 426
+    },
+    {
+      "name": "Chad",
+      "count": 404
+    },
+    {
+      "name": "Benin",
+      "count": 343
+    },
+    {
+      "name": "Gabon",
+      "count": 285
+    },
+    {
+      "name": "Kenya",
+      "count": 239
+    },
+    {
+      "name": "Rwanda",
+      "count": 196
+    },
+    {
+      "name": "Angola",
+      "count": 176
+    },
+    {
+      "name": "South Africa",
+      "count": 89
+    },
+    {
+      "name": "Tanzania",
+      "count": 77
+    },
+    {
+      "name": "Algeria",
+      "count": 60
+    },
+    {
+      "name": "the Democratic Republic of the Congo",
+      "count": 32
+    },
+    {
+      "name": "Tunisia",
+      "count": 17
+    },
+    {
+      "name": "Mali",
+      "count": 6
+    },
+    {
+      "name": "Ethiopia",
+      "count": 4
+    },
+    {
+      "name": "Zambia",
+      "count": 4
+    },
+    {
+      "name": "Burundi",
+      "count": 3
+    },
+    {
+      "name": "Namibia",
+      "count": 2
+    },
+    {
+      "name": "Cape Verde",
+      "count": 1
+    },
+    {
+      "name": "Haiti",
+      "count": 1
+    },
+    {
+      "name": "Malawi",
+      "count": 1
+    },
+    {
+      "name": "South Sudan",
+      "count": 1
+    },
+    {
+      "name": "the Comoros",
+      "count": 0
+    },
+    {
+      "name": "Djibouti",
+      "count": 0
+    },
+    {
+      "name": "Equatorial Guinea",
+      "count": 0
+    },
+    {
+      "name": "Eritrea",
+      "count": 0
+    },
+    {
+      "name": "Eswatini",
+      "count": 0
+    },
+    {
+      "name": "the Gambia",
+      "count": 0
+    },
+    {
+      "name": "Guinea",
+      "count": 0
+    },
+    {
+      "name": "Guinea-Bissau",
+      "count": 0
+    },
+    {
+      "name": "Lesotho",
+      "count": 0
+    },
+    {
+      "name": "Liberia",
+      "count": 0
+    },
+    {
+      "name": "Mauritania",
+      "count": 0
+    },
+    {
+      "name": "Mauritius",
+      "count": 0
+    },
+    {
+      "name": "Mozambique",
+      "count": 0
+    },
+    {
+      "name": "Réunion",
+      "count": 0
+    },
+    {
+      "name": "Seychelles",
+      "count": 0
+    },
+    {
+      "name": "Sierra Leone",
+      "count": 0
+    },
+    {
+      "name": "Somalia",
+      "count": 0
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "count": 0
+    }
+  ],
+  "pending_uncategorized": 23680,
+  "top_viewed": [
+    {
+      "title": "File:Graines et feu.jpg",
+      "country": "Algeria",
+      "views": 1964,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Graines_et_feu.jpg/500px-Graines_et_feu.jpg"
+    },
+    {
+      "title": "File:Chiken in a plate.jpg",
+      "country": "Algeria",
+      "views": 1949,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chiken_in_a_plate.jpg/500px-Chiken_in_a_plate.jpg"
+    },
+    {
+      "title": "File:Algerian Butcher presenting their high quality ribs.jpg",
+      "country": "Algeria",
+      "views": 1899,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Algerian_Butcher_presenting_their_high_quality_ribs.jpg/500px-Algerian_Butcher_presenting_their_high_quality_ribs.jpg"
+    },
+    {
+      "title": "File:Kindergarten kid buying vegetables.jpg",
+      "country": "Algeria",
+      "views": 1875,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Kindergarten_kid_buying_vegetables.jpg/500px-Kindergarten_kid_buying_vegetables.jpg"
+    },
+    {
+      "title": "File:Cookies,.jpg",
+      "country": "Algeria",
+      "views": 1487,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cookies%2C.jpg/500px-Cookies%2C.jpg"
+    },
+    {
+      "title": "File:Despite globalization and development!.jpg",
+      "country": "Algeria",
+      "views": 1440,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Despite_globalization_and_development%21.jpg/500px-Despite_globalization_and_development%21.jpg"
+    },
+    {
+      "title": "File:Baguettes,.jpg",
+      "country": "Algeria",
+      "views": 1221,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Baguettes%2C.jpg/500px-Baguettes%2C.jpg"
+    },
+    {
+      "title": "File:Kindergarten Kid picking up locally grown apples.jpg",
+      "country": "Algeria",
+      "views": 991,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kindergarten_Kid_picking_up_locally_grown_apples.jpg/500px-Kindergarten_Kid_picking_up_locally_grown_apples.jpg"
+    },
+    {
+      "title": "File:2024 173001 in constantine.jpg",
+      "country": "Algeria",
+      "views": 966,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2024_173001_in_constantine.jpg/500px-2024_173001_in_constantine.jpg"
+    },
+    {
+      "title": "File:Chili pepper multicolor.jpg",
+      "country": "Libya",
+      "views": 904,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Chili_pepper_multicolor.jpg/500px-Chili_pepper_multicolor.jpg"
+    },
+    {
+      "title": "File:Algerian Merguez.jpg",
+      "country": "Algeria",
+      "views": 900,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Algerian_Merguez.jpg/500px-Algerian_Merguez.jpg"
+    },
+    {
+      "title": "File:714A0198.jpg",
+      "country": "Libya",
+      "views": 531,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/714A0198.jpg/500px-714A0198.jpg"
+    },
+    {
+      "title": "File:A-la-rencontre-des-acteurs-de-la-filiere-anacarde-entre-recolte-et-transformation-realisateur-bouba-kams-wiki-loves-africa-cote-divoire-fan-club.webm",
+      "country": "Ivory Coast",
+      "views": 500,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/A-la-rencontre-des-acteurs-de-la-filiere-anacarde-entre-recolte-et-transformation-realisateur-bouba-kams-wiki-loves-africa-cote-divoire-fan-club.webm/500px--A-la-rencontre-des-acteurs-de-la-filiere-anacarde-entre-recolte-et-transformation-realisateur-bouba-kams-wiki-loves-africa-cote-divoire-fan-club.webm.jpg"
+    },
+    {
+      "title": "File:Cotonculteur.jpg",
+      "country": "Burundi",
+      "views": 489,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cotonculteur.jpg/500px-Cotonculteur.jpg"
+    },
+    {
+      "title": "File:2 épis de mais.jpg",
+      "country": "Cameroon",
+      "views": 444,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/2_%C3%A9pis_de_mais.jpg/500px-2_%C3%A9pis_de_mais.jpg"
+    },
+    {
+      "title": "File:A boy & girl in Kenya weeding kales in the farm.webm",
+      "country": "Kenya",
+      "views": 368,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/A_boy_%26_girl_in_Kenya_weeding_kales_in_the_farm.webm/500px--A_boy_%26_girl_in_Kenya_weeding_kales_in_the_farm.webm.jpg"
+    },
+    {
+      "title": "File:Kindergarten kids shopping for fruits.jpg",
+      "country": "Algeria",
+      "views": 359,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Kindergarten_kids_shopping_for_fruits.jpg/500px-Kindergarten_kids_shopping_for_fruits.jpg"
+    },
+    {
+      "title": "File:A cut of meat.jpg",
+      "country": "Sudan",
+      "views": 352,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/A_cut_of_meat.jpg/500px-A_cut_of_meat.jpg"
+    },
+    {
+      "title": "File:Fufu Balls.jpg",
+      "country": "the Democratic Republic of the Congo",
+      "views": 342,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Fufu_Balls.jpg/500px-Fufu_Balls.jpg"
+    },
+    {
+      "title": "File:Le filet et la lame.jpg",
+      "country": "Algeria",
+      "views": 325,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Le_filet_et_la_lame.jpg/500px-Le_filet_et_la_lame.jpg"
+    }
+  ],
+  "sample_total_views": 66412,
+  "sample_pool": [
+    {
+      "title": "File:'ya'yan taura.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:6R concept Fish Processing by Rizqiya Ahmad.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:9ja Food restaurant.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:9ja Food.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 135.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 136.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 137.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 138.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 139.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 143.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 144.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 146.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 147.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 148.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 149.jpg",
+      "country": "Nigerian Communities"
+    },
+    {
+      "title": "File:02concombr.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 01.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 02.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 03.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 04.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 05.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 06.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 07.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 08.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 09.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 10.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 11.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 12.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 13.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:2025 03 22 11 07 IMG 0360 14.jpg",
+      "country": "Senegal"
+    },
+    {
+      "title": "File:'ya'yan taura.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:6R concept Fish Processing by Rizqiya Ahmad.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:9ja Food restaurant.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:9ja Food.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 135.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 136.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 137.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 138.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 139.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 143.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 144.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 146.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 147.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 148.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:@SASUPHOTOGRAPGHY 149.jpg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:A Buffet recipe.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Farmer grating pumpkins.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Farmer harvesting pumpkins 01.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Farmer harvesting pumpkins.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Mango tree 01.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Mango tree 03.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Mango tree 04.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Mango tree 05.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Nile patch under scaling.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Pawpaw on the tree 1.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Pawpaw on the tree.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Small shop filled with spices used in cooking, Banda Market Kampala.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A Village maize mill.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A banana and Cassava stall.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:A banch of jack fruit.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:0 à 10 en Ewé.ogg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:A l'INFA de Tové.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Acostage de piroge sur la plage de Kodjoviakopé 01.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Acostage de piroge sur la plage de Kodjoviakopé 02.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Acostage de piroge sur la plage de Kodjoviakopé 03.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 01.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 02.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 03.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 04.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 05.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 06.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 07.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 08.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 09.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:Activité de pêche au Togo 10.jpg",
+      "country": "Togo"
+    },
+    {
+      "title": "File:A la découverte des marchés de Bonoua.webm",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:A-la-rencontre-des-acteurs-de-la-filiere-anacarde-entre-recolte-et-transformation-realisateur-bouba-kams-wiki-loves-africa-cote-divoire-fan-club.webm",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:A-la-rencontre-des-acteurs-de-la-filiere-cacao-realisatrice-mansita-konate-wiki-loves-africa-cote-divoire-fan-club.webm",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:Abattoir de volaille.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:Activité photo dans un jardin de salades.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:Adjovan (poisson fermenté).jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:Adjovan ou poisson fermenté 1.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:Adjovan ou poisson fermenté 2.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:Adjovan ou poisson pourri en Côte d'Ivoire 01.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:Adjovan ou poisson pourri en Côte d'Ivoire 02.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:Adjovan ou poisson pourri en Côte d'Ivoire 03.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:African tomato from Ivory Coast 01.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:African tomato from Ivory Coast 02.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:African tomato from Ivory Coast 03.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:African tomato from Ivory Coast 04.jpg",
+      "country": "Ivory Coast"
+    },
+    {
+      "title": "File:2 âne allongé sur le sol.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 01.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 02.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 03.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 04.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 05.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 06.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 07.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 08.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 09.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 10.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 11.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 12.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 13.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:Africa 2025 in the Republic of the Congo 14.jpg",
+      "country": "the Republic of the Congo"
+    },
+    {
+      "title": "File:AKONDRO.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:ANTSARY.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Achard de carotte avec tomates et persil.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Achard mangues 01.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Achard mangues 02.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Achard mangues 03.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Achard mangues 04.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Agna mafana.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Agnambario.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Agnana Tsirebiky 01.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Agnantrahogno.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Agnantsahogno.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Akoho 01.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Akoho 02.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Akoho 03.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:A bobo.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:A ye ti tere ti kobè.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Ails dans sachet.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Aloé Vera3.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Amarante amère1.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Amarante avec poisson et boule de manioc.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Amarante douce avec la carrote, le haricot vert et l'oignon.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Amarante douce avec épinard.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Amarante douce dans la marmite.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Amarante douce et la viande rôtie.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Amarante douce et laitue.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Ananas mûrs.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Ananas épluché.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Ananas2.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:Angéla Bérénice.jpg",
+      "country": "the Central African Republic"
+    },
+    {
+      "title": "File:2025 Melons ,Gwanda.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:20250 Spitzkop medium, Gwanda.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:7 colours lunch.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A balance diet breakfast.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A dish with potatoes.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A head of cattle in the kraal.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A head of cattle.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A heartwarming and balance diet breakfast.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A local restaurant dish.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A meal for the bride.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A paw paw tree with paw paw.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A pig in the drinkers.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A pregnant female pig.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A stroll through the market.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:A tree of chilli pepper.jpg",
+      "country": "Zimbabwe"
+    },
+    {
+      "title": "File:\"Fierté paysanne \"une récolte coloré et prometteuse.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:\"Récolte verte en pleine croissance \".jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Alala( fait a base du niébe).jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Aller au champ à charrette. 01.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Aller au champ à charrette. 02.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Aller au champ à charrette. 03.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Apport d'engrais chimique (urée 46) aux plants de riz .1.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Apport d'engrais chimique (urée 46) aux plants de riz.2.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Apport d'engrais chimique (urée 46) aux plants de riz.3.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Apport d'engrais chimique (urée 46) aux plants de riz.4.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Apport d'engrais chimique (urée 46) aux plants de riz.5.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Apport de fumer organique au champ. 01.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Apport de fumer organique au champ. 02.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Apport de fumer organique au champ. 03.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:Apport de fumer organique au champ. 04.jpg",
+      "country": "Niger"
+    },
+    {
+      "title": "File:\"Kaafa\".jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:\"Saamia\".jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:\"Wasawasa\".jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:1.1 .Fresh pepper.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:1.1. Local rice.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:1.1.Beans.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:20kg Fertilizer.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:A Contombrɛ plant.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:A bed of Onion plant with a scattered allefo.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:A boat sailing towards the shore at sunset 001.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:A bunch of bananas 01.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:A bunch of bananas 02.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:A farm of Ayoyo.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:A farmer spraying his farm.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:A grown Ayoyo.jpg",
+      "country": "Ghana"
+    },
+    {
+      "title": "File:2025,السّوقو الدرناوي- El Sogo Al Dernawi.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:714A0155.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:714A0184.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:714A0193.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:714A0195.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:714A0198.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:714A0211.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:80s decorations.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:Black Coffee Bean.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:Bourek in Libya.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:Broad beanss.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:Cauliflowerrr.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:Chickpeass.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:Chili pepper multicolor.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:Colorful Vegetable Display at Wadi Kaam Market.jpg",
+      "country": "Libya"
+    },
+    {
+      "title": "File:\"عطاء الأرض\".jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:0423 حلب الجمال بصحراء حلايب.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:101A0054.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:101A0115.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:101A0217.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:101A0282.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:1071 شراء الخضار باحدي قري شلاتين.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:3 boys in the farm.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:8096 جزيرة جماجمون بدسوق.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:8099 الزراعة.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:8695 الصيادين بشاطي شلاتين.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:8902 الصيادين بشاطي شلاتين.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:9998 تحميل عربة.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:A Quiet Moment After Tea by the Fire.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:A ray of sunshine.jpg",
+      "country": "Egypt"
+    },
+    {
+      "title": "File:) مكونات القهوة السودانية.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:1بيتزا بالجبن.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:66مكرونة.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:A Small shop filled with spices used in cooking, Banda Market Kampala.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:A basket Full of Carrots at Banda Market Kampala.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:A carrot salad.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:A cut of meat.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:An Avocado Tree in Uganda.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:Another Home.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:Avocado Tree in Uganda (Kampala).jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:Avocado Tree in Uganda.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:Banana Tree in Uganda.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:Banana Trees in Uganda.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:Bay leaves at Banda Market.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:Bay leaves which used for cooking and medication.jpg",
+      "country": "Sudan"
+    },
+    {
+      "title": "File:2 épis de mais.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:A sow and piglet in a pigsty.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Agri Paw-paw.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Amarante - Ouest Cameroun.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Amarante1.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Arachides salé 2.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Arachides salé 3.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Arachides salé.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Arrachides.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Asiette de fruits sauvages.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Assaisonnement du Poisson.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Assiette de Goyaves.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Assiette gourmande aux saveurs locales.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Au cœur du champ d’oignons.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:Au village 01.jpg",
+      "country": "Cameroon"
+    },
+    {
+      "title": "File:A Farm in Mookane, Botswana where maize, morogo (vegetables), sweet reed, watermelon have been planted at sunset.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A balanced garden meal.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A bin in Sebele for collecting waste.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A birthday cake at home.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A blind goat.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A boiling pot of spicy chicken stew on the stove.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A box of green tea.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A bucket for collecting water to water plants.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A butternut plant.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A calf from a farm in Molepolole.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A carrot.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A carton of mik and cup on a table at home.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A cartoon birthday cake.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A cattle post.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:A chocolate bundt cake topped with white icing and garnished with fresh strawberries.jpg",
+      "country": "Botswana"
+    },
+    {
+      "title": "File:\"A Moroccan traditional market called \"Souk.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:10 \"Amazigh Pizza called \"Aghroum n tafant.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:11 \"Amazigh Pizza called \"Aghroum n tafant.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:12 \"Amazigh Pizza called \"Aghroum n tafant.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:14 \"Amazigh Pizza called \"Aghroum n tafant.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:15 \"Amazigh Pizza called \"Aghroum n tafant.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:2 \"Amazigh Pizza called \"Aghroum n tafant.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:3 \"Amazigh Pizza called \"Aghroum n tafant.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:4 \"Amazigh Pizza called \"Aghroum n tafant.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:4I9A1154.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:5 \"Amazigh Pizza called \"Aghroum n tafant.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:5157 rabat El gzaa.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:5158 rabat el geza.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:5160 rabat el gzaaa maroc.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:5161 el gza rabat.jpg",
+      "country": "Morocco"
+    },
+    {
+      "title": "File:\"Éclat de verdure sous un ciel lumineux\".jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:A l'aube du piquant.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:A l'ombre de la saveur matinale.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:A l'œuvre au jardin.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:A la ferme.webm",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:A la main, la fraicheur cueillie.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:A la source de la farine.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:A la une de la recette.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:A mubbles milk tea.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:Abelmoschus esculentus ( gombo frais).jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:Arachide 2023.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:Art culinaire local.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:Assiette composé à base de riz.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:Assiette composée.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:Assiette d'or.jpg",
+      "country": "Burkina Faso"
+    },
+    {
+      "title": "File:2025 Chad Women cooking beignets.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:2025 Chad Women working on agricultural land.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:2025 Chad butchery at market.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:2025 Chad fishing and hippopotamus.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Ails tchad.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Ambiance de marché traditionnel avec fruits et ustensiles.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Amuse-gueule.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Ananas (Tchad).jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Arachode tchad.png",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Arrosage d'engrain au jardin (Tchad).jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Arrosage d'engrain au jardin (Tchad)1.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Arrosage d'engrain au jardin (Tchad)10.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Arrosage d'engrain au jardin (Tchad)11.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Arrosage d'engrain au jardin (Tchad)12.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Arrosage d'engrain au jardin (Tchad)13.jpg",
+      "country": "Chad"
+    },
+    {
+      "title": "File:Abloyokí 1.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Abloyokí 2.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Abloyokí.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Abɔbɔ (Haricots rouges préparés) 01.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Abɔbɔ (Haricots rouges préparés) 02.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Agbade nylonylo (mais moulu).jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Akassa et monyo.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Alloco (frites de bananes).jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Ananas en baché vers la ville.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Ayikun vɔvɔ (Haricots rouges).jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Bassine de gari cuit sur étalage.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Battages du riz après récolte.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Bouillie de la farine de maïs dans la marmite 01.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Bouillie de la farine de maïs dans la marmite 02.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Bouillie de la farine de maïs dans la marmite 03.jpg",
+      "country": "Benin"
+    },
+    {
+      "title": "File:Ajout du jus de noix de palme dans les feuilles de manioc.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Alignement de bananiers dans une plantation. Ferllyprince 4.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Aliments utilisé pour la préparation du plat traditionnel Medza M'bappe.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Aliments utilisé pour la préparation du plat traditionnel chez les Fang.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Anana1.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Anguilles fumées.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Arachide à usage multiples.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Atelier Wiki Loves Africa.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Attangas en paquet.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Aubergine cru.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Aubergine cuit.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Aubergine sauvage 01.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Aubergine sauvage 02.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Aubergines Sauvages (Tsangou).jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:Aubergines avec le maquereau.jpg",
+      "country": "Gabon"
+    },
+    {
+      "title": "File:20240917 092339 LLS.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:67 years old turtle in Indian ocean Kenya.png",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A Kenyan woman cooking chapatis in her home.webm",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A bowl of earth.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A bowl of wet fry chicken.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A boy & girl in Kenya weeding kales in the farm.webm",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A boy in the farm weeding kales.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A bud and two leaves, tea plucking in Kenya.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A child eating in a restaurant in Nairobi Kenya.webm",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A child holding boiled corn.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A child in Kenya eating boiled corn.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A cup of Kenyan Coffee.webm",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A cup of Kenyan tea with cake.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A cup of Kenyan tea with pastries.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:A girl cutting tomatoes.jpg",
+      "country": "Kenya"
+    },
+    {
+      "title": "File:0B3A0265.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:A farmer on a farm.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:A herd of cattle was grazing in the field.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:African eggplant,.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Agriculture1.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Agriculture21.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Agriculture32.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Akarima k'amashu.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Amababi y'Amateke.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Amacunga mato.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Amacunga.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Amagi y' inkoko zo mu Rwanda.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Amaronji.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Amasaka.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Amashaza y'uruyange.jpg",
+      "country": "Rwanda"
+    },
+    {
+      "title": "File:Arachide grillé pour le concours de photos wiki loves Africa 2025 en Angola.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Aroz com peixe e sacafolha com wiki loves Africa em angola 2025.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Arroz com custuleta de senora 01.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Arroz com custuleta de senora 02.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Arroz com custuleta de senora 03.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Arroz e saca para wiki love Africa 2025.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Arroz, Molho de amendoim e fumbu,coxa.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Arroz, feijão e peixe grelhado.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Atelier WLA Angola.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Au champs du pays.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Bagre liboké.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Banane grillé pour le concours de photos wiki loves Africa 2025 en Angola.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Banane pour le concours wiki loves Africa 2025 en Angola.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Bolinhos de chuva concours wiki loves Africa em Angola.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:Bouillon de crabe pour le concours de photos wiki loves Africa 2025 en Angola.jpg",
+      "country": "Angola"
+    },
+    {
+      "title": "File:A Bee’s Dance Among the Pink Blooms at Pretoria National Botanical Gardens.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:A beehive entrance.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Backyard garden with mealies.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Bee Pollinating Flower at Pretoria National Botanical Gardens.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Boggomsbaai-View-Vleesbaai-2012.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Broken butterfly in the garden.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Broken growth.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Camps Bay, Western Cape.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Cloud at Lions Head.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Creating Food Security Through Community Empowerment - A Case Study of The Sprightly Seed.webm",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Discarded stones and sunset in the mine.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Eggs from Lohnmann Chickens.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Fresh garden vegetables cooking.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Fresh garden vegetables cut for cooking.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:Green Pepper Crops.jpg",
+      "country": "South Africa"
+    },
+    {
+      "title": "File:4072yhuf.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:65IMG 7683.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:A Maasai dancer jumping high.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:A family and guests at the table sharing a meal.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:A group of Maasai dancers.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:A group of Maasai eating goat meat.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:Agriculture trainer with chickens.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:Avocado on a tree.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:Bi Aika explaining to guests about some of the prepared foods.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:Boiled liver.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:Catfish for dinner.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:Chickens in a courtyard in Tanzania.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:DREAM.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:Dishes byMmL.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:Elders people of maasai tribe.jpg",
+      "country": "Tanzania"
+    },
+    {
+      "title": "File:2024 173001 in constantine.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Algerian Butcher presenting their high quality ribs.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Algerian Merguez.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Baguettes,.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Chiken in a plate.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Cookies,.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Despite globalization and development!.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Graines et feu.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Kindergarten Kid picking up locally grown apples.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Kindergarten Kids holding tomatoes.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Kindergarten Kids learning about vegetables.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Kindergarten kid buying vegetables.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Kindergarten kids shopping for fruits.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Kindergarten shopping for vegetables.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Le filet et la lame.jpg",
+      "country": "Algeria"
+    },
+    {
+      "title": "File:Banana for sale.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Confiture ananas-maracuja.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Fried Patwa (fish).jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Fruits in Kinshasa.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Fufu & Chicken.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Fufu Balls.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Fufu Bite.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Fufu on the street.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Golden Mikaté.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:KAMU NDELE - TIGE.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Kinshasa Farmers' Market.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Kwanga-chikwangue.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Kwanga.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Lunch on the go.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Lunch on the street.jpg",
+      "country": "the Democratic Republic of the Congo"
+    },
+    {
+      "title": "File:Broyage 5.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Début de l'affutâge 4.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Effeuillage et lavage 3.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Entrée Tunisienne.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Fishing tunisia 1.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Fishing tunisia 2.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Fishing tunisia 3.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Fishing tunisia 4.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:La cueillette, azetta n uzemmur 2.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:La pâte d'olives triturées 6.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Le berger Radès.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Leguem.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Méro du Cap bon.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Pain traditionnel Tunisien.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:Préparation du pain traditionnel.jpg",
+      "country": "Tunisia"
+    },
+    {
+      "title": "File:0010WL.jpg",
+      "country": "Mali"
+    },
+    {
+      "title": "File:002WL.jpg",
+      "country": "Mali"
+    },
+    {
+      "title": "File:006WL.ARW.jpg",
+      "country": "Mali"
+    },
+    {
+      "title": "File:007WL.ARW.jpg",
+      "country": "Mali"
+    },
+    {
+      "title": "File:009WL.ARW.jpg",
+      "country": "Mali"
+    },
+    {
+      "title": "File:Fleur Sauvage Mali.jpg",
+      "country": "Mali"
+    },
+    {
+      "title": "File:Deep pan pizza.jpg",
+      "country": "Ethiopia"
+    },
+    {
+      "title": "File:Eteya Cabage Farmer.jpg",
+      "country": "Ethiopia"
+    },
+    {
+      "title": "File:Eteya Onion Farm.jpg",
+      "country": "Ethiopia"
+    },
+    {
+      "title": "File:Eteya Onion farmer.jpg",
+      "country": "Ethiopia"
+    },
+    {
+      "title": "File:Green peppers 03.jpg",
+      "country": "Zambia"
+    },
+    {
+      "title": "File:Red Hot Chili harvest.jpg",
+      "country": "Zambia"
+    },
+    {
+      "title": "File:Red Hot Chili harvesting.jpg",
+      "country": "Zambia"
+    },
+    {
+      "title": "File:White and black-Thinking about the life after the heartbreak.jpg",
+      "country": "Zambia"
+    },
+    {
+      "title": "File:Burundi Rutana.jpg",
+      "country": "Burundi"
+    },
+    {
+      "title": "File:Champ de coton Burundi.jpg",
+      "country": "Burundi"
+    },
+    {
+      "title": "File:Cotonculteur.jpg",
+      "country": "Burundi"
+    },
+    {
+      "title": "File:Khwe fire.jpg",
+      "country": "Namibia"
+    },
+    {
+      "title": "File:Windpump solitaire.jpg",
+      "country": "Namibia"
+    },
+    {
+      "title": "File:American tower.png",
+      "country": "Cape Verde"
+    },
+    {
+      "title": "File:Image Plat Picca pollo.jpg",
+      "country": "Haiti"
+    },
+    {
+      "title": "File:Chef cooking fish from Lake Malawi.jpg",
+      "country": "Malawi"
+    },
+    {
+      "title": "File:الحضارة الثرات المعمار المغرب.jpg",
+      "country": "South Sudan"
+    }
+  ],
+  "elapsed_seconds": 165.8
+}

@@ -222,7 +222,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
 
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / f"{year}.json"
-        out_path.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False))
+        out_path.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"[{year}] wrote {out_path} ({total} submissions, {len(countries_sorted)} countries, {sample_total_views} sample views)", file=sys.stderr)
         return snapshot
 

@@ -7,12 +7,12 @@
       "top_country": "Nigerian Communities",
       "top_country_count": 8051,
       "sample_method": "sampled",
-      "sample_total_views": 0,
-      "top_viewed_max_views": 1701,
-      "generated_at": "2026-08-01T00:37:39.751968+00:00",
+      "sample_total_views": 66412,
+      "top_viewed_max_views": 1964,
+      "generated_at": "2026-08-01T10:26:03.293842+00:00",
       "views_refreshed_at": null
     }
   ],
-  "grand_total_sample_views": 0,
+  "grand_total_sample_views": 66412,
   "note": "sample_total_views and grand_total_sample_views are sums over sampled files only, not a full census of every submission."
 }

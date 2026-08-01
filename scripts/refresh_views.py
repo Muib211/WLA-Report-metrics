@@ -78,7 +78,7 @@ class Client:
 
 
 async def refresh_one(path: Path, client: Client):
-    snap = json.loads(path.read_text())
+    snap = json.loads(path.read_text(encoding="utf-8"))
     year = snap["year"]
     pool = snap.get("sample_pool")
     if not pool:
@@ -103,7 +103,7 @@ async def refresh_one(path: Path, client: Client):
     snap["top_viewed"] = top_ranked
     snap["sample_total_views"] = sum(r["views"] for r in results)
     snap["views_refreshed_at"] = datetime.now(timezone.utc).isoformat()
-    path.write_text(json.dumps(snap, indent=2, ensure_ascii=False))
+    path.write_text(json.dumps(snap, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[{year}] updated — sample_total_views now {snap['sample_total_views']}", file=sys.stderr)
 
 

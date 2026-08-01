@@ -22,7 +22,7 @@ def main():
 
     years = []
     for path in sorted(args.data_dir.glob("[0-9][0-9][0-9][0-9].json")):
-        snap = json.loads(path.read_text())
+        snap = json.loads(path.read_text(encoding="utf-8"))
         top_country = snap["countries"][0]["name"] if snap.get("countries") else None
         years.append({
             "year": snap["year"],
@@ -46,7 +46,7 @@ def main():
         "note": "sample_total_views and grand_total_sample_views are sums over sampled files only, not a full census of every submission.",
     }
     out_path = args.data_dir / "trends.json"
-    out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False))
+    out_path.write_text(json.dumps(out, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"wrote {out_path} with {len(years)} year(s), grand_total_sample_views={grand_total_sample_views}")
 
 
