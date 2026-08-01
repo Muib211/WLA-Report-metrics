@@ -4,29 +4,27 @@ fetch_snapshot.py — Build a "State of Wiki Loves Africa" snapshot for one year
 
 Walks the Commons category tree for a given WLA year, counts submissions per
 country (recursively, so community-level subcategories are folded into their
-parent country), then measures Wikimedia pageviews for files to rank the
-most-viewed submissions.
+parent country), then measures Wikimedia pageviews for a sample of files to
+rank the most-viewed submissions.
+
+Pageviews are cumulative from January of the contest year through TODAY —
+not capped at the end of that year — so view counts keep growing every time
+this is re-run, even for old contest years. Use refresh_views.py to cheaply
+re-check views later without re-walking the whole category tree again.
 
 Usage:
     python scripts/fetch_snapshot.py --year 2025
     python scripts/fetch_snapshot.py --year 2025 --sample-cap 40   # faster, for testing
     python scripts/fetch_snapshot.py --year 2025 --full-census     # slow, exact (no sampling)
+    python scripts/fetch_snapshot.py --year 2025 --out-dir docs/data
 
 Output:
-    data/<year>.json
-
-Notes:
-- Be a good API citizen: this script sets a descriptive User-Agent and keeps
-  concurrency modest. Wikimedia's API etiquette: https://api.wikimedia.org/wiki/Rate_limits
-- This has NOT been run against the live API in the environment that wrote it
-  (no network access to commons.wikimedia.org there). Test with --sample-cap 20
-  on a small/recent year before trusting a full unattended run.
+    <out-dir>/<year>.json
 """
 
 import argparse
 import asyncio
 import json
-import re
 import sys
 import time
 from datetime import datetime, timezone
@@ -55,7 +53,6 @@ def clean_country_name(title: str, year: int) -> str:
         if name.startswith(prefix):
             name = name[len(prefix):]
             break
-    # Strip trailing " Communities" / regional-network qualifiers picked up from nesting
     return name.strip()
 
 
@@ -97,7 +94,6 @@ class CommonsClient:
         return members
 
     async def walk_files_recursive(self, root_title: str, _seen_cats=None, _depth=0) -> set:
-        """BFS/DFS through subcategories, collecting every unique file title."""
         if _seen_cats is None:
             _seen_cats = set()
         if root_title in _seen_cats or _depth > 6:
@@ -119,15 +115,6 @@ class CommonsClient:
 
         return file_titles
 
-    async def category_info_bulk(self, titles: list) -> dict:
-        results = {}
-        for i in range(0, len(titles), 50):
-            batch = titles[i:i + 50]
-            data = await self.get_json({"action": "query", "prop": "categoryinfo", "titles": "|".join(batch)})
-            for page in data.get("query", {}).get("pages", {}).values():
-                results[page["title"]] = (page.get("categoryinfo") or {}).get("files", 0)
-        return results
-
     async def thumbnails_bulk(self, titles: list, width: int = 400) -> dict:
         results = {}
         for i in range(0, len(titles), 50):
@@ -141,8 +128,10 @@ class CommonsClient:
         return results
 
     async def pageviews(self, file_title: str, year: int) -> int:
+        """Cumulative views from Jan 1 of `year` through today — grows on every re-check."""
         encoded = file_title.replace(" ", "_")
-        url = PAGEVIEWS_API.format(title=encoded, start=f"{year}010100", end=f"{year}123100")
+        end = datetime.now(timezone.utc).strftime("%Y%m%d00")
+        url = PAGEVIEWS_API.format(title=encoded, start=f"{year}010100", end=end)
         async with self.sem:
             for attempt in range(3):
                 try:
@@ -151,14 +140,14 @@ class CommonsClient:
                             data = await resp.json()
                             return sum(item.get("views", 0) for item in data.get("items", []))
                         if resp.status == 404:
-                            return 0  # never viewed / no data
+                            return 0
                         await asyncio.sleep(1.0 * (attempt + 1))
                 except (aiohttp.ClientError, asyncio.TimeoutError):
                     await asyncio.sleep(1.0 * (attempt + 1))
         return 0
 
 
-async def build_snapshot(year: int, sample_cap: int | None, full_census: bool, out_dir: Path):
+async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path):
     root = f"Category:Images from Wiki Loves Africa {year}"
     started = time.time()
 
@@ -176,7 +165,7 @@ async def build_snapshot(year: int, sample_cap: int | None, full_census: bool, o
 
         print(f"[{year}] {len(country_branches)} country branches, {len(special_branches)} special buckets. Walking file trees...", file=sys.stderr)
 
-        country_files: dict[str, set] = {}
+        country_files: dict = {}
         for branch in country_branches:
             name = clean_country_name(branch["title"], year)
             files = await client.walk_files_recursive(branch["title"])
@@ -190,7 +179,6 @@ async def build_snapshot(year: int, sample_cap: int | None, full_census: bool, o
         total = sum(len(v) for v in country_files.values())
         countries_sorted = sorted(country_files.items(), key=lambda kv: len(kv[1]), reverse=True)
 
-        # Build the pageviews sample/census pool
         pool = []
         for name, files in countries_sorted:
             files_list = sorted(files)
@@ -209,10 +197,13 @@ async def build_snapshot(year: int, sample_cap: int | None, full_census: bool, o
                 results.append({"title": title, "country": country, "views": v})
             print(f"  ...{min(i + CHUNK, len(pool))}/{len(pool)}", file=sys.stderr)
 
-        ranked = sorted(results, key=lambda r: r["views"], reverse=True)[:20]
-        thumbs = await client.thumbnails_bulk([r["title"] for r in ranked])
-        for r in ranked:
+        ranked = sorted(results, key=lambda r: r["views"], reverse=True)
+        top_ranked = ranked[:20]
+        thumbs = await client.thumbnails_bulk([r["title"] for r in top_ranked])
+        for r in top_ranked:
             r["thumb"] = thumbs.get(r["title"], "")
+
+        sample_total_views = sum(r["views"] for r in results)
 
         snapshot = {
             "year": year,
@@ -222,14 +213,17 @@ async def build_snapshot(year: int, sample_cap: int | None, full_census: bool, o
             "sample_size": len(pool),
             "countries": [{"name": name, "count": len(files)} for name, files in countries_sorted],
             "pending_uncategorized": len(pending_files),
-            "top_viewed": ranked,
+            "top_viewed": top_ranked,
+            "sample_total_views": sample_total_views,
+            # Full pool kept so refresh_views.py can re-check views later without re-crawling categories
+            "sample_pool": [{"title": r["title"], "country": r["country"]} for r in results],
             "elapsed_seconds": round(time.time() - started, 1),
         }
 
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / f"{year}.json"
         out_path.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False))
-        print(f"[{year}] wrote {out_path} ({total} submissions, {len(countries_sorted)} countries)", file=sys.stderr)
+        print(f"[{year}] wrote {out_path} ({total} submissions, {len(countries_sorted)} countries, {sample_total_views} sample views)", file=sys.stderr)
         return snapshot
 
 

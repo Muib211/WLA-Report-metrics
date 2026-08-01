@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>State of Wiki Loves Africa</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
+
+:root {
+  --indigo: #1b2a4a; --indigo-deep: #10192e; --ochre: #d9a441; --clay: #b85c38;
+  --paper: #f2e9d8; --paper-warm: #ece0c8; --ink: #241f1a; --leaf: #5c7a3b;
+  --line: rgba(36,31,26,0.14);
+}
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'IBM Plex Sans', sans-serif; color: var(--ink); background: var(--paper);
+  background-image: radial-gradient(circle at 1px 1px, rgba(36,31,26,0.06) 1px, transparent 0); background-size: 22px 22px; }
+
+.hero { background: linear-gradient(160deg, var(--indigo) 0%, var(--indigo-deep) 100%); color: var(--paper);
+  padding: 40px 28px 30px; position: relative; overflow: hidden; }
+.hero::after { content:""; position:absolute; right:-60px; top:-60px; width:220px; height:220px; border-radius:50%;
+  background: radial-gradient(circle, rgba(217,164,65,0.35), transparent 70%); }
+.eyebrow { font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.12em; text-transform:uppercase;
+  color: var(--ochre); display:flex; align-items:center; gap:8px; margin-bottom:10px; }
+.dot { width:6px; height:6px; border-radius:50%; background: var(--ochre); }
+h1 { font-family:'Fraunces',serif; font-weight:600; font-size:clamp(28px,5vw,44px); line-height:1.05; margin:0 0 6px; letter-spacing:-.01em; }
+.year-select-row { display:flex; align-items:center; gap:10px; margin: 6px 0 24px; position:relative; z-index:1; }
+select { font-family:'IBM Plex Mono',monospace; font-size:13px; background: rgba(242,233,216,0.1); color: var(--paper);
+  border:1px solid rgba(242,233,216,0.35); padding:6px 10px; border-radius:4px; }
+.stats-row { display:flex; gap:32px; flex-wrap:wrap; position:relative; z-index:1; }
+.stat-num { font-family:'Fraunces',serif; font-weight:600; font-size:clamp(30px,5vw,46px); line-height:1; }
+.stat-label { font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color: var(--ochre); margin-top:6px; }
+
+.section { padding: 34px 28px; border-bottom: 1px solid var(--line); }
+.section-head { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:4px; }
+.section-title { font-family:'Fraunces',serif; font-weight:600; font-size:22px; margin:0; }
+.section-sub { font-family:'IBM Plex Mono',monospace; font-size:11px; color: var(--clay); text-transform:uppercase; letter-spacing:.06em; }
+.section-note { font-size:13px; color: rgba(36,31,26,0.65); margin:4px 0 22px; max-width:62ch; }
+
+.trend-wrap { overflow-x:auto; }
+.ledger { display:flex; flex-direction:column; border-top:1px solid var(--line); }
+.ledger-row { display:grid; grid-template-columns: 30px 1fr auto 70px; grid-template-rows:auto auto; align-items:center; gap:12px; padding:9px 0; border-bottom:1px solid var(--line); }
+.rank { font-family:'IBM Plex Mono',monospace; font-size:11px; color: var(--clay); }
+.country-name { font-size:14px; font-weight:500; }
+.count { font-family:'IBM Plex Mono',monospace; font-size:13px; text-align:right; color: var(--indigo); font-weight:600; }
+.bar-track { grid-column:1/-1; grid-row:2; height:6px; background:rgba(36,31,26,0.08); border-radius:3px; overflow:hidden; margin-top:4px; }
+.bar-fill { height:100%; background:linear-gradient(90deg, var(--clay), var(--ochre)); border-radius:3px; }
+.pending-note { font-size:12px; color: rgba(36,31,26,0.55); margin-top:14px; font-style:italic; }
+
+.sprockets { display:flex; gap:5px; margin-bottom:10px; }
+.sprockets span { width:7px; height:7px; border-radius:1px; background: var(--indigo); opacity:.25; }
+.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(150px,1fr)); gap:14px; margin-top:18px; }
+.card { background: var(--indigo-deep); border-radius:3px; overflow:hidden; position:relative; box-shadow:0 3px 10px rgba(16,25,46,.25); }
+.card-img-wrap { position:relative; aspect-ratio:4/3; background:#0c1424; overflow:hidden; }
+.card img { width:100%; height:100%; object-fit:cover; display:block; }
+.card-rank { position:absolute; top:6px; left:6px; font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600;
+  background: var(--ochre); color: var(--indigo-deep); padding:2px 6px; border-radius:2px; }
+.card-info { padding:8px 9px 10px; }
+.card-country { font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.06em; text-transform:uppercase; color: var(--ochre); margin-bottom:3px; }
+.card-views { font-family:'Fraunces',serif; font-weight:600; color: var(--paper); font-size:16px; }
+.card-views span { font-family:'IBM Plex Mono',monospace; font-size:10px; color: var(--paper-warm); opacity:.7; font-weight:400; }
+.card-title { font-size:10px; color: var(--paper-warm); opacity:.55; margin-top:3px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+a.card-link { text-decoration:none; color:inherit; display:block; }
+
+.footer { padding: 20px 28px 34px; font-size:12px; color: rgba(36,31,26,0.6); line-height:1.6; }
+.footer a { color: var(--clay); }
+.empty-note { font-size: 13px; color: rgba(36,31,26,0.6); padding: 20px 0; }
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="eyebrow"><span class="dot"></span>Snapshot data · updated on schedule</div>
+  <h1>State of Wiki Loves Africa</h1>
+  <div class="year-select-row">
+    <span style="font-family:'Fraunces',serif; font-style:italic; opacity:.9;" id="theme-line">loading&hellip;</span>
+    <select id="year-select"></select>
+  </div>
+  <div class="stats-row">
+    <div><div class="stat-num" id="stat-total">&hellip;</div><div class="stat-label">Submissions</div></div>
+    <div><div class="stat-num" id="stat-countries">&hellip;</div><div class="stat-label">Countries</div></div>
+    <div><div class="stat-num" id="stat-pending">&hellip;</div><div class="stat-label">Awaiting sorting</div></div>
+    <div><div class="stat-num" id="stat-year-views">&hellip;</div><div class="stat-label">Sample views, this year</div></div>
+  </div>
+</div>
+
+<div class="section" style="padding-top:20px; padding-bottom:20px;">
+  <div class="section-head"><h2 class="section-title" style="font-size:18px;">Views across all snapshots</h2><span class="section-sub" id="all-time-sub"></span></div>
+  <div class="stat-num" id="stat-grand-total" style="font-size:34px;">&hellip;</div>
+  <p class="section-note" style="margin-top:6px;">Sum of pageviews across every sampled file, in every year snapshot so far — not a full census, and it grows every time the monthly refresh runs, even for past contest years, since people keep viewing old photos.</p>
+</div>
+
+<div class="section">
+  <div class="section-head"><h2 class="section-title">Submissions, year over year</h2><span class="section-sub" id="trend-sub"></span></div>
+  <p class="section-note">Total submissions per year across all snapshots collected so far.</p>
+  <div class="trend-wrap"><svg id="trend-svg" width="100%" height="140" viewBox="0 0 700 140" preserveAspectRatio="none"></svg></div>
+</div>
+
+<div class="section">
+  <div class="section-head"><h2 class="section-title">Submissions by country</h2><span class="section-sub" id="ledger-sub"></span></div>
+  <p class="section-note">Recursive count of every file under each country's category branch for the selected year.</p>
+  <div class="ledger" id="ledger"></div>
+  <div class="pending-note" id="pending-note"></div>
+</div>
+
+<div class="section" style="border-bottom:none;">
+  <div class="sprockets"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+  <div class="section-head"><h2 class="section-title">Most viewed submissions</h2><span class="section-sub" id="views-sub"></span></div>
+  <p class="section-note" id="views-note"></p>
+  <div class="grid" id="grid"></div>
+</div>
+
+<div class="footer">
+  Snapshots are generated by a scheduled script from the Commons category tree and the Wikimedia REST pageviews API —
+  see <code>scripts/fetch_snapshot.py</code> in this repo. Years without a snapshot yet will show as unavailable below.
+</div>
+
+<script>
+const fmt = n => n.toLocaleString("en-US");
+let allYearsData = {};
+let trends = { years: [] };
+
+async function loadJson(path) {
+  try {
+    const res = await fetch(path);
+    if (!res.ok) return null;
+    return await res.json();
+  } catch (e) { return null; }
+}
+
+function renderTrend() {
+  const svg = document.getElementById("trend-svg");
+  const years = trends.years;
+  if (!years.length) { svg.innerHTML = `<text x="10" y="70" font-family="IBM Plex Mono" font-size="12" fill="#b85c38">No snapshots yet</text>`; return; }
+  const w = 700, h = 140, pad = 30;
+  const max = Math.max(...years.map(y => y.total_submissions), 1);
+  const stepX = (w - pad * 2) / Math.max(years.length - 1, 1);
+  const pts = years.map((y, i) => {
+    const x = pad + i * stepX;
+    const yPos = h - pad - (y.total_submissions / max) * (h - pad * 2);
+    return [x, yPos];
+  });
+  const path = pts.map((p, i) => (i === 0 ? "M" : "L") + p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ");
+  const circles = pts.map((p, i) =>
+    `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="#b85c38" />
+     <text x="${p[0]}" y="${h - 6}" font-family="IBM Plex Mono" font-size="10" fill="#241f1a" text-anchor="middle">${years[i].year}</text>`
+  ).join("");
+  svg.innerHTML = `<path d="${path}" fill="none" stroke="#d9a441" stroke-width="2.5" />${circles}`;
+}
+
+function renderYearSelect(activeYear) {
+  const sel = document.getElementById("year-select");
+  sel.innerHTML = "";
+  trends.years.forEach(y => {
+    const opt = document.createElement("option");
+    opt.value = y.year; opt.textContent = y.year;
+    if (y.year === activeYear) opt.selected = true;
+    sel.appendChild(opt);
+  });
+}
+
+function renderLedger(countries) {
+  const ledger = document.getElementById("ledger");
+  ledger.innerHTML = "";
+  const max = countries.length ? countries[0].count : 1;
+  countries.forEach((c, i) => {
+    const row = document.createElement("div");
+    row.className = "ledger-row";
+    row.innerHTML = `
+      <div class="rank">${String(i + 1).padStart(2, "0")}</div>
+      <div class="country-name">${c.name}</div>
+      <div></div>
+      <div class="count">${fmt(c.count)}</div>
+      <div class="bar-track"><div class="bar-fill" style="width:${(c.count / max) * 100}%"></div></div>
+    `;
+    ledger.appendChild(row);
+  });
+  document.getElementById("ledger-sub").textContent = countries.length + " countries";
+}
+
+function renderCards(topViewed) {
+  const grid = document.getElementById("grid");
+  grid.innerHTML = "";
+  if (!topViewed.length) { grid.innerHTML = `<div class="empty-note">No pageview data in this snapshot.</div>`; return; }
+  topViewed.forEach((item, i) => {
+    const shortTitle = item.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <a class="card-link" href="https://commons.wikimedia.org/wiki/${encodeURIComponent(item.title.replace(/ /g,'_'))}" target="_blank" rel="noopener">
+        <div class="card-img-wrap"><div class="card-rank">#${i + 1}</div><img src="${item.thumb || ''}" alt="${shortTitle}" loading="lazy"></div>
+        <div class="card-info">
+          <div class="card-country">${item.country}</div>
+          <div class="card-views">${fmt(item.views)}<span> views</span></div>
+          <div class="card-title">${shortTitle}</div>
+        </div>
+      </a>`;
+    grid.appendChild(card);
+  });
+}
+
+async function showYear(year) {
+  let data = allYearsData[year];
+  if (!data) {
+    data = await loadJson(`./data/${year}.json`);
+    if (data) allYearsData[year] = data;
+  }
+  if (!data) {
+    document.getElementById("theme-line").textContent = `No snapshot for ${year} yet`;
+    return;
+  }
+  const refreshedNote = data.views_refreshed_at
+    ? `, views refreshed ${new Date(data.views_refreshed_at).toLocaleDateString()}`
+    : "";
+  document.getElementById("theme-line").textContent = `Snapshot generated ${new Date(data.generated_at).toLocaleDateString()}${refreshedNote}`;
+  document.getElementById("stat-total").textContent = fmt(data.total_submissions);
+  document.getElementById("stat-countries").textContent = fmt(data.countries.length);
+  document.getElementById("stat-pending").textContent = fmt(data.pending_uncategorized);
+  document.getElementById("stat-year-views").textContent = fmt(data.sample_total_views || 0);
+  document.getElementById("pending-note").textContent = data.pending_uncategorized > 0
+    ? `Plus ${fmt(data.pending_uncategorized)} files uploaded but not yet sorted into a country category.`
+    : "";
+  renderLedger(data.countries);
+  const method = data.sample_method === "full_census" ? "full census" : `sample of ${fmt(data.sample_size)} files`;
+  document.getElementById("views-sub").textContent = method;
+  document.getElementById("views-note").textContent = `Ranked by Wikimedia pageviews since January ${year} (${method}).`;
+  renderCards(data.top_viewed || []);
+}
+
+async function main() {
+  trends = (await loadJson("./data/trends.json")) || { years: [] };
+  renderTrend();
+  document.getElementById("stat-grand-total").textContent = fmt(trends.grand_total_sample_views || 0);
+  document.getElementById("all-time-sub").textContent = trends.years.length + " year(s) tracked";
+  if (!trends.years.length) {
+    document.getElementById("theme-line").textContent = "No snapshots committed yet — run the pipeline to generate one.";
+    return;
+  }
+  const latest = trends.years[trends.years.length - 1].year;
+  renderYearSelect(latest);
+  document.getElementById("year-select").addEventListener("change", e => showYear(parseInt(e.target.value, 10)));
+  showYear(latest);
+}
+
+main();
+</script>
+</body>
+</html>

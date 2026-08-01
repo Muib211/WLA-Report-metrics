@@ -2,7 +2,7 @@ name: Update WLA snapshot
 
 on:
   schedule:
-    # 03:00 UTC on the 1st of every month — refreshes the current year's numbers
+    # 03:00 UTC on the 1st of every month
     - cron: "0 3 1 * *"
   workflow_dispatch:
     inputs:
@@ -41,21 +41,24 @@ jobs:
             echo "value=$(date -u +%Y)" >> "$GITHUB_OUTPUT"
           fi
 
-      - name: Fetch snapshot
+      - name: Full snapshot for this run's target year
         run: |
           FLAG=""
           if [ "${{ github.event.inputs.full_census }}" = "true" ]; then
             FLAG="--full-census"
           fi
-          python scripts/fetch_snapshot.py --year ${{ steps.year.outputs.value }} $FLAG
+          python scripts/fetch_snapshot.py --year ${{ steps.year.outputs.value }} $FLAG --out-dir docs/data
+
+      - name: Refresh views for every other stored year
+        run: python scripts/refresh_views.py --all --skip-year ${{ steps.year.outputs.value }} --data-dir docs/data
 
       - name: Rebuild trends file
-        run: python scripts/build_trends.py
+        run: python scripts/build_trends.py --data-dir docs/data
 
       - name: Commit and push if changed
         run: |
           git config user.name "wla-snapshot-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/
-          git diff --cached --quiet || git commit -m "Update WLA ${{ steps.year.outputs.value }} snapshot"
+          git add docs/data/
+          git diff --cached --quiet || git commit -m "Monthly snapshot + views refresh (${{ steps.year.outputs.value }})"
           git push
