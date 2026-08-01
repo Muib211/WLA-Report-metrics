@@ -1,0 +1,361 @@
+{
+  "year": 2025,
+  "generated_at": "2026-08-01T00:27:09.516330+00:00",
+  "total_submissions": 34336,
+  "sample_method": "sampled",
+  "sample_size": 473,
+  "countries": [
+    {
+      "name": "Nigerian Communities",
+      "count": 8051
+    },
+    {
+      "name": "Senegal",
+      "count": 5598
+    },
+    {
+      "name": "Nigeria",
+      "count": 3196
+    },
+    {
+      "name": "Uganda",
+      "count": 2409
+    },
+    {
+      "name": "Togo",
+      "count": 2294
+    },
+    {
+      "name": "Ivory Coast",
+      "count": 1381
+    },
+    {
+      "name": "the Republic of the Congo",
+      "count": 1370
+    },
+    {
+      "name": "Madagascar",
+      "count": 988
+    },
+    {
+      "name": "the Central African Republic",
+      "count": 888
+    },
+    {
+      "name": "Zimbabwe",
+      "count": 863
+    },
+    {
+      "name": "Niger",
+      "count": 845
+    },
+    {
+      "name": "Ghana",
+      "count": 804
+    },
+    {
+      "name": "Libya",
+      "count": 646
+    },
+    {
+      "name": "Egypt",
+      "count": 629
+    },
+    {
+      "name": "Sudan",
+      "count": 570
+    },
+    {
+      "name": "Cameroon",
+      "count": 541
+    },
+    {
+      "name": "Botswana",
+      "count": 458
+    },
+    {
+      "name": "Morocco",
+      "count": 438
+    },
+    {
+      "name": "Burkina Faso",
+      "count": 426
+    },
+    {
+      "name": "Chad",
+      "count": 404
+    },
+    {
+      "name": "Benin",
+      "count": 343
+    },
+    {
+      "name": "Gabon",
+      "count": 285
+    },
+    {
+      "name": "Kenya",
+      "count": 239
+    },
+    {
+      "name": "Rwanda",
+      "count": 196
+    },
+    {
+      "name": "Angola",
+      "count": 176
+    },
+    {
+      "name": "South Africa",
+      "count": 89
+    },
+    {
+      "name": "Tanzania",
+      "count": 77
+    },
+    {
+      "name": "Algeria",
+      "count": 60
+    },
+    {
+      "name": "the Democratic Republic of the Congo",
+      "count": 32
+    },
+    {
+      "name": "Tunisia",
+      "count": 17
+    },
+    {
+      "name": "Mali",
+      "count": 6
+    },
+    {
+      "name": "Ethiopia",
+      "count": 4
+    },
+    {
+      "name": "Zambia",
+      "count": 4
+    },
+    {
+      "name": "Burundi",
+      "count": 3
+    },
+    {
+      "name": "Namibia",
+      "count": 2
+    },
+    {
+      "name": "Cape Verde",
+      "count": 1
+    },
+    {
+      "name": "Haiti",
+      "count": 1
+    },
+    {
+      "name": "Malawi",
+      "count": 1
+    },
+    {
+      "name": "South Sudan",
+      "count": 1
+    },
+    {
+      "name": "the Comoros",
+      "count": 0
+    },
+    {
+      "name": "Djibouti",
+      "count": 0
+    },
+    {
+      "name": "Equatorial Guinea",
+      "count": 0
+    },
+    {
+      "name": "Eritrea",
+      "count": 0
+    },
+    {
+      "name": "Eswatini",
+      "count": 0
+    },
+    {
+      "name": "the Gambia",
+      "count": 0
+    },
+    {
+      "name": "Guinea",
+      "count": 0
+    },
+    {
+      "name": "Guinea-Bissau",
+      "count": 0
+    },
+    {
+      "name": "Lesotho",
+      "count": 0
+    },
+    {
+      "name": "Liberia",
+      "count": 0
+    },
+    {
+      "name": "Mauritania",
+      "count": 0
+    },
+    {
+      "name": "Mauritius",
+      "count": 0
+    },
+    {
+      "name": "Mozambique",
+      "count": 0
+    },
+    {
+      "name": "Réunion",
+      "count": 0
+    },
+    {
+      "name": "Seychelles",
+      "count": 0
+    },
+    {
+      "name": "Sierra Leone",
+      "count": 0
+    },
+    {
+      "name": "Somalia",
+      "count": 0
+    },
+    {
+      "name": "São Tomé and Príncipe",
+      "count": 0
+    }
+  ],
+  "pending_uncategorized": 23680,
+  "top_viewed": [
+    {
+      "title": "File:Graines et feu.jpg",
+      "country": "Algeria",
+      "views": 1701,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Graines_et_feu.jpg/500px-Graines_et_feu.jpg"
+    },
+    {
+      "title": "File:Kindergarten kid buying vegetables.jpg",
+      "country": "Algeria",
+      "views": 1577,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Kindergarten_kid_buying_vegetables.jpg/500px-Kindergarten_kid_buying_vegetables.jpg"
+    },
+    {
+      "title": "File:Chiken in a plate.jpg",
+      "country": "Algeria",
+      "views": 1551,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chiken_in_a_plate.jpg/500px-Chiken_in_a_plate.jpg"
+    },
+    {
+      "title": "File:Algerian Butcher presenting their high quality ribs.jpg",
+      "country": "Algeria",
+      "views": 1500,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Algerian_Butcher_presenting_their_high_quality_ribs.jpg/500px-Algerian_Butcher_presenting_their_high_quality_ribs.jpg"
+    },
+    {
+      "title": "File:Cookies,.jpg",
+      "country": "Algeria",
+      "views": 1280,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Cookies%2C.jpg/500px-Cookies%2C.jpg"
+    },
+    {
+      "title": "File:Despite globalization and development!.jpg",
+      "country": "Algeria",
+      "views": 1270,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Despite_globalization_and_development%21.jpg/500px-Despite_globalization_and_development%21.jpg"
+    },
+    {
+      "title": "File:Baguettes,.jpg",
+      "country": "Algeria",
+      "views": 967,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Baguettes%2C.jpg/500px-Baguettes%2C.jpg"
+    },
+    {
+      "title": "File:Kindergarten Kid picking up locally grown apples.jpg",
+      "country": "Algeria",
+      "views": 876,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Kindergarten_Kid_picking_up_locally_grown_apples.jpg/500px-Kindergarten_Kid_picking_up_locally_grown_apples.jpg"
+    },
+    {
+      "title": "File:2024 173001 in constantine.jpg",
+      "country": "Algeria",
+      "views": 799,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/2024_173001_in_constantine.jpg/500px-2024_173001_in_constantine.jpg"
+    },
+    {
+      "title": "File:Algerian Merguez.jpg",
+      "country": "Algeria",
+      "views": 756,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Algerian_Merguez.jpg/500px-Algerian_Merguez.jpg"
+    },
+    {
+      "title": "File:714A0198.jpg",
+      "country": "Libya",
+      "views": 496,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/714A0198.jpg/500px-714A0198.jpg"
+    },
+    {
+      "title": "File:A boy & girl in Kenya weeding kales in the farm.webm",
+      "country": "Kenya",
+      "views": 278,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/A_boy_%26_girl_in_Kenya_weeding_kales_in_the_farm.webm/500px--A_boy_%26_girl_in_Kenya_weeding_kales_in_the_farm.webm.jpg"
+    },
+    {
+      "title": "File:A-la-rencontre-des-acteurs-de-la-filiere-anacarde-entre-recolte-et-transformation-realisateur-bouba-kams-wiki-loves-africa-cote-divoire-fan-club.webm",
+      "country": "Ivory Coast",
+      "views": 276,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/A-la-rencontre-des-acteurs-de-la-filiere-anacarde-entre-recolte-et-transformation-realisateur-bouba-kams-wiki-loves-africa-cote-divoire-fan-club.webm/500px--A-la-rencontre-des-acteurs-de-la-filiere-anacarde-entre-recolte-et-transformation-realisateur-bouba-kams-wiki-loves-africa-cote-divoire-fan-club.webm.jpg"
+    },
+    {
+      "title": "File:Kindergarten Kids learning about vegetables.jpg",
+      "country": "Algeria",
+      "views": 267,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Kindergarten_Kids_learning_about_vegetables.jpg/500px-Kindergarten_Kids_learning_about_vegetables.jpg"
+    },
+    {
+      "title": "File:Kindergarten kids shopping for fruits.jpg",
+      "country": "Algeria",
+      "views": 267,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Kindergarten_kids_shopping_for_fruits.jpg/500px-Kindergarten_kids_shopping_for_fruits.jpg"
+    },
+    {
+      "title": "File:Kindergarten Kids holding tomatoes.jpg",
+      "country": "Algeria",
+      "views": 236,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kindergarten_Kids_holding_tomatoes.jpg/500px-Kindergarten_Kids_holding_tomatoes.jpg"
+    },
+    {
+      "title": "File:007WL.ARW.jpg",
+      "country": "Mali",
+      "views": 236,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/007WL.ARW.jpg/500px-007WL.ARW.jpg"
+    },
+    {
+      "title": "File:Le filet et la lame.jpg",
+      "country": "Algeria",
+      "views": 230,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Le_filet_et_la_lame.jpg/500px-Le_filet_et_la_lame.jpg"
+    },
+    {
+      "title": "File:Burundi Rutana.jpg",
+      "country": "Burundi",
+      "views": 227,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Burundi_Rutana.jpg/500px-Burundi_Rutana.jpg"
+    },
+    {
+      "title": "File:Cotonculteur.jpg",
+      "country": "Burundi",
+      "views": 220,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cotonculteur.jpg/500px-Cotonculteur.jpg"
+    }
+  ],
+  "elapsed_seconds": 169.8
+}
