@@ -41,6 +41,13 @@ USER_AGENT = "WikiAfroDemics-WLAReport/1.0 (https://github.com/muib211; muibshef
 
 SPECIAL_BUCKET_PATTERNS = ["to check", "with unknown country", "without categories", "unidentified"]
 
+# Some countries have a second top-level branch for community/network uploads
+# that Commons doesn't nest under the country category itself. Add more pairs
+# here as you spot them during backfills.
+COUNTRY_ALIASES = {
+    "Nigerian Communities": "Nigeria",
+}
+
 HEADERS = {"User-Agent": USER_AGENT}
 
 
@@ -175,6 +182,12 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         pending_files = set()
         for branch in special_branches:
             pending_files |= await client.walk_files_recursive(branch["title"])
+
+        for alias, canonical in COUNTRY_ALIASES.items():
+            if alias in country_files:
+                merged_files = country_files.pop(alias)
+                country_files[canonical] = country_files.get(canonical, set()) | merged_files
+                print(f"  merged '{alias}' into '{canonical}'", file=sys.stderr)
 
         total = sum(len(v) for v in country_files.values())
         countries_sorted = sorted(country_files.items(), key=lambda kv: len(kv[1]), reverse=True)
