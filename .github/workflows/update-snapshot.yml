@@ -47,10 +47,10 @@ jobs:
           if [ "${{ github.event.inputs.full_census }}" = "true" ]; then
             FLAG="--full-census"
           fi
-          python scripts/fetch_snapshot.py --year ${{ steps.year.outputs.value }} $FLAG
+          python scripts/fetch_snapshot.py --year ${{ steps.year.outputs.value }} $FLAG--out-dir docs/data
 
       - name: Rebuild trends file
-        run: python scripts/build_trends.py
+        run: python scripts/build_trends.py --data-dir docs/data
 
       - name: Commit and push if changed
         run: |
