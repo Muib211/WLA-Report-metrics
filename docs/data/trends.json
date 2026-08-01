@@ -2,17 +2,17 @@
   "years": [
     {
       "year": 2025,
-      "total_submissions": 34336,
-      "countries_count": 57,
-      "top_country": "Nigerian Communities",
+      "total_submissions": 31140,
+      "countries_count": 56,
+      "top_country": "Nigeria",
       "top_country_count": 8051,
       "sample_method": "sampled",
-      "sample_total_views": 46603,
-      "top_viewed_max_views": 1899,
-      "generated_at": "2026-08-01T21:59:02.692746+00:00",
+      "sample_total_views": 65151,
+      "top_viewed_max_views": 1964,
+      "generated_at": "2026-08-01T22:12:18.127425+00:00",
       "views_refreshed_at": null
     }
   ],
-  "grand_total_sample_views": 46603,
+  "grand_total_sample_views": 65151,
   "note": "sample_total_views and grand_total_sample_views are sums over sampled files only, not a full census of every submission."
 }
