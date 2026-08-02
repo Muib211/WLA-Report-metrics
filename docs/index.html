@@ -56,6 +56,26 @@ select { font-family:'IBM Plex Mono',monospace; font-size:13px; background: rgba
 .link-chip.chip-yellow:hover { border-color: var(--yellow); }
 .link-chip .chip-arrow { opacity:0.6; font-size:11px; }
 
+.logo-row { display:flex; align-items:center; gap:14px; margin-bottom:18px; position:relative; z-index:1; }
+.logo-badge {
+  background: var(--paper);
+  border-radius: 10px;
+  padding: 8px 14px;
+  display: flex; align-items: center;
+  box-shadow: 0 3px 10px rgba(7,52,48,0.25);
+}
+.logo-badge img { height: 32px; width: auto; display: block; }
+.logo-badge.placeholder {
+  color: var(--teal-deep);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 12px 14px;
+  border: 1px dashed rgba(7,52,48,0.35);
+  background: rgba(253,252,254,0.5);
+}
+
 .section { padding: 34px 28px; border-bottom: 1px solid var(--line); }
 .section-head { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:4px; }
 .section-title { font-family:'Fraunces',serif; font-weight:600; font-size:22px; margin:0; }
@@ -94,6 +114,15 @@ a.card-link { text-decoration:none; color:inherit; display:block; }
 </head>
 <body>
 <div class="hero">
+  <div class="logo-row">
+    <div class="logo-badge">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wiki_Loves_Africa_logo_2024.svg?width=200" alt="Wiki Loves Africa logo">
+    </div>
+    <div class="logo-badge">
+      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wiki_In_Africa_logo_2024.png?width=200" alt="Wiki In Africa logo">
+    </div>
+  </div>
+
   <div class="eyebrow"><span class="dot"></span>Snapshot data · updated on schedule</div>
   <h1>State of Wiki Loves Africa</h1>
 
@@ -101,11 +130,14 @@ a.card-link { text-decoration:none; color:inherit; display:block; }
     <a class="link-chip chip-teal" href="https://www.wikiinafrica.org/" target="_blank" rel="noopener">
       <span class="chip-dot" style="background:var(--teal);"></span>Wiki In Africa<span class="chip-arrow">&#8599;</span>
     </a>
-    <a class="link-chip chip-coral" href="https://meta.wikimedia.org/wiki/Wiki_In_Africa" target="_blank" rel="noopener">
-      <span class="chip-dot" style="background:var(--coral);"></span>Meta-Wiki page<span class="chip-arrow">&#8599;</span>
+    <a class="link-chip chip-coral" href="https://www.wikilovesafrica.net/" target="_blank" rel="noopener">
+      <span class="chip-dot" style="background:var(--coral);"></span>Wiki Loves Africa<span class="chip-arrow">&#8599;</span>
     </a>
-    <a class="link-chip chip-yellow" href="https://wikiinafrica.wikibase.cloud/" target="_blank" rel="noopener">
-      <span class="chip-dot" style="background:var(--yellow);"></span>Learning Repository<span class="chip-arrow">&#8599;</span>
+    <a class="link-chip chip-yellow" href="https://meta.wikimedia.org/wiki/Wiki_In_Africa" target="_blank" rel="noopener">
+      <span class="chip-dot" style="background:var(--yellow);"></span>Meta-Wiki page<span class="chip-arrow">&#8599;</span>
+    </a>
+    <a class="link-chip chip-teal" href="https://wikiinafrica.wikibase.cloud/" target="_blank" rel="noopener">
+      <span class="chip-dot" style="background:var(--teal);"></span>Learning Repository<span class="chip-arrow">&#8599;</span>
     </a>
   </div>
 
