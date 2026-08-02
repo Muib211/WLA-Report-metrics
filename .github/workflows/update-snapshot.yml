@@ -43,12 +43,11 @@ jobs:
 
       - name: Full snapshot for this run's target year
         run: |
-          FLAG=""
-          if [ "${{ github.event.inputs.full_census }}" = "true" ]; then
-            FLAG="--full-census"
+          FLAG="--full-census"
+          if [ "${{ github.event.inputs.full_census }}" = "false" ]; then
+            FLAG=""
           fi
           python scripts/fetch_snapshot.py --year ${{ steps.year.outputs.value }} $FLAG --out-dir docs/data
-
       - name: Refresh views for every other stored year
         run: python scripts/refresh_views.py --all --skip-year ${{ steps.year.outputs.value }} --data-dir docs/data
 
