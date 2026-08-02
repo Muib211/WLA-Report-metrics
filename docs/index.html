@@ -8,13 +8,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
 :root {
-  --indigo: #1b2a4a; --indigo-deep: #10192e; --ochre: #d9a441; --clay: #b85c38;
-  --paper: #f2e9d8; --paper-warm: #ece0c8; --ink: #241f1a; --leaf: #5c7a3b;
-  --line: rgba(36,31,26,0.14);
+  --coral: #f16160; --coral-deep: #c73f3f;
+  --teal: #08ad9d; --teal-deep: #045f56;
+  --yellow: #ffda27;
+  --paper: #fdfcfe; --paper-warm: #f4ede0; --ink: #14201f;
+  /* legacy aliases so the rest of the stylesheet below needs no other edits */
+  --indigo: var(--teal-deep); --indigo-deep: #073430;
+  --ochre: var(--yellow); --clay: var(--coral); --leaf: var(--teal);
+  --line: rgba(20,32,31,0.14);
 }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: 'IBM Plex Sans', sans-serif; color: var(--ink); background: var(--paper);
-  background-image: radial-gradient(circle at 1px 1px, rgba(36,31,26,0.06) 1px, transparent 0); background-size: 22px 22px; }
+  background-image: radial-gradient(circle at 1px 1px, rgba(20,32,31,0.06) 1px, transparent 0); background-size: 22px 22px; }
 
 .hero { background: linear-gradient(160deg, var(--indigo) 0%, var(--indigo-deep) 100%); color: var(--paper);
   padding: 40px 28px 30px; position: relative; overflow: hidden; }
@@ -31,11 +36,31 @@ select { font-family:'IBM Plex Mono',monospace; font-size:13px; background: rgba
 .stat-num { font-family:'Fraunces',serif; font-weight:600; font-size:clamp(30px,5vw,46px); line-height:1; }
 .stat-label { font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color: var(--ochre); margin-top:6px; }
 
+.link-row { display:flex; gap:10px; flex-wrap:wrap; margin: 18px 0 22px; position:relative; z-index:1; }
+.link-chip {
+  display:flex; align-items:center; gap:8px;
+  background: rgba(253,252,254,0.08);
+  border: 1px solid rgba(253,252,254,0.22);
+  border-radius: 999px;
+  padding: 7px 16px 7px 12px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 12.5px; font-weight: 500;
+  color: var(--paper);
+  text-decoration: none;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+.link-chip:hover { background: rgba(253,252,254,0.16); transform: translateY(-1px); }
+.link-chip .chip-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+.link-chip.chip-coral:hover { border-color: var(--coral); }
+.link-chip.chip-teal:hover { border-color: var(--teal); }
+.link-chip.chip-yellow:hover { border-color: var(--yellow); }
+.link-chip .chip-arrow { opacity:0.6; font-size:11px; }
+
 .section { padding: 34px 28px; border-bottom: 1px solid var(--line); }
 .section-head { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:4px; }
 .section-title { font-family:'Fraunces',serif; font-weight:600; font-size:22px; margin:0; }
 .section-sub { font-family:'IBM Plex Mono',monospace; font-size:11px; color: var(--clay); text-transform:uppercase; letter-spacing:.06em; }
-.section-note { font-size:13px; color: rgba(36,31,26,0.65); margin:4px 0 22px; max-width:62ch; }
+.section-note { font-size:13px; color: rgba(20,32,31,0.65); margin:4px 0 22px; max-width:62ch; }
 
 .trend-wrap { overflow-x:auto; }
 .ledger { display:flex; flex-direction:column; border-top:1px solid var(--line); }
@@ -43,14 +68,14 @@ select { font-family:'IBM Plex Mono',monospace; font-size:13px; background: rgba
 .rank { font-family:'IBM Plex Mono',monospace; font-size:11px; color: var(--clay); }
 .country-name { font-size:14px; font-weight:500; }
 .count { font-family:'IBM Plex Mono',monospace; font-size:13px; text-align:right; color: var(--indigo); font-weight:600; }
-.bar-track { grid-column:1/-1; grid-row:2; height:6px; background:rgba(36,31,26,0.08); border-radius:3px; overflow:hidden; margin-top:4px; }
+.bar-track { grid-column:1/-1; grid-row:2; height:6px; background:rgba(20,32,31,0.08); border-radius:3px; overflow:hidden; margin-top:4px; }
 .bar-fill { height:100%; background:linear-gradient(90deg, var(--clay), var(--ochre)); border-radius:3px; }
-.pending-note { font-size:12px; color: rgba(36,31,26,0.55); margin-top:14px; font-style:italic; }
+.pending-note { font-size:12px; color: rgba(20,32,31,0.55); margin-top:14px; font-style:italic; }
 
 .sprockets { display:flex; gap:5px; margin-bottom:10px; }
 .sprockets span { width:7px; height:7px; border-radius:1px; background: var(--indigo); opacity:.25; }
 .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(150px,1fr)); gap:14px; margin-top:18px; }
-.card { background: var(--indigo-deep); border-radius:3px; overflow:hidden; position:relative; box-shadow:0 3px 10px rgba(16,25,46,.25); }
+.card { background: var(--indigo-deep); border-radius:3px; overflow:hidden; position:relative; box-shadow:0 3px 10px rgba(7,52,48,.25); }
 .card-img-wrap { position:relative; aspect-ratio:4/3; background:#0c1424; overflow:hidden; }
 .card img { width:100%; height:100%; object-fit:cover; display:block; }
 .card-rank { position:absolute; top:6px; left:6px; font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600;
@@ -62,15 +87,28 @@ select { font-family:'IBM Plex Mono',monospace; font-size:13px; background: rgba
 .card-title { font-size:10px; color: var(--paper-warm); opacity:.55; margin-top:3px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
 a.card-link { text-decoration:none; color:inherit; display:block; }
 
-.footer { padding: 20px 28px 34px; font-size:12px; color: rgba(36,31,26,0.6); line-height:1.6; }
+.footer { padding: 20px 28px 34px; font-size:12px; color: rgba(20,32,31,0.6); line-height:1.6; }
 .footer a { color: var(--clay); }
-.empty-note { font-size: 13px; color: rgba(36,31,26,0.6); padding: 20px 0; }
+.empty-note { font-size: 13px; color: rgba(20,32,31,0.6); padding: 20px 0; }
 </style>
 </head>
 <body>
 <div class="hero">
   <div class="eyebrow"><span class="dot"></span>Snapshot data · updated on schedule</div>
   <h1>State of Wiki Loves Africa</h1>
+
+  <div class="link-row">
+    <a class="link-chip chip-teal" href="https://www.wikiinafrica.org/" target="_blank" rel="noopener">
+      <span class="chip-dot" style="background:var(--teal);"></span>Wiki In Africa<span class="chip-arrow">&#8599;</span>
+    </a>
+    <a class="link-chip chip-coral" href="https://meta.wikimedia.org/wiki/Wiki_In_Africa" target="_blank" rel="noopener">
+      <span class="chip-dot" style="background:var(--coral);"></span>Meta-Wiki page<span class="chip-arrow">&#8599;</span>
+    </a>
+    <a class="link-chip chip-yellow" href="https://wikiinafrica.wikibase.cloud/" target="_blank" rel="noopener">
+      <span class="chip-dot" style="background:var(--yellow);"></span>Learning Repository<span class="chip-arrow">&#8599;</span>
+    </a>
+  </div>
+
   <div class="year-select-row">
     <span style="font-family:'Fraunces',serif; font-style:italic; opacity:.9;" id="theme-line">loading&hellip;</span>
     <select id="year-select"></select>
@@ -130,7 +168,7 @@ async function loadJson(path) {
 function renderTrend() {
   const svg = document.getElementById("trend-svg");
   const years = trends.years;
-  if (!years.length) { svg.innerHTML = `<text x="10" y="70" font-family="IBM Plex Mono" font-size="12" fill="#b85c38">No snapshots yet</text>`; return; }
+  if (!years.length) { svg.innerHTML = `<text x="10" y="70" font-family="IBM Plex Mono" font-size="12" fill="#f16160">No snapshots yet</text>`; return; }
   const w = 700, h = 140, pad = 30;
   const max = Math.max(...years.map(y => y.total_submissions), 1);
   const stepX = (w - pad * 2) / Math.max(years.length - 1, 1);
@@ -141,10 +179,10 @@ function renderTrend() {
   });
   const path = pts.map((p, i) => (i === 0 ? "M" : "L") + p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ");
   const circles = pts.map((p, i) =>
-    `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="#b85c38" />
-     <text x="${p[0]}" y="${h - 6}" font-family="IBM Plex Mono" font-size="10" fill="#241f1a" text-anchor="middle">${years[i].year}</text>`
+    `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="#f16160" />
+     <text x="${p[0]}" y="${h - 6}" font-family="IBM Plex Mono" font-size="10" fill="#14201f" text-anchor="middle">${years[i].year}</text>`
   ).join("");
-  svg.innerHTML = `<path d="${path}" fill="none" stroke="#d9a441" stroke-width="2.5" />${circles}`;
+  svg.innerHTML = `<path d="${path}" fill="none" stroke="#ffda27" stroke-width="2.5" />${circles}`;
 }
 
 function renderYearSelect(activeYear) {
