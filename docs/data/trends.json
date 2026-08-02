@@ -6,13 +6,13 @@
       "countries_count": 56,
       "top_country": "Nigeria",
       "top_country_count": 8051,
-      "sample_method": "sampled",
-      "sample_total_views": 65151,
-      "top_viewed_max_views": 1964,
-      "generated_at": "2026-08-01T22:12:18.127425+00:00",
+      "sample_method": "full_census",
+      "sample_total_views": 2010053,
+      "top_viewed_max_views": 12461,
+      "generated_at": "2026-08-02T00:36:02.946187+00:00",
       "views_refreshed_at": null
     }
   ],
-  "grand_total_sample_views": 65151,
+  "grand_total_sample_views": 2010053,
   "note": "sample_total_views and grand_total_sample_views are sums over sampled files only, not a full census of every submission."
 }
