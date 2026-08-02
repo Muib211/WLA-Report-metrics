@@ -79,14 +79,14 @@ a.card-link { text-decoration:none; color:inherit; display:block; }
     <div><div class="stat-num" id="stat-total">&hellip;</div><div class="stat-label">Submissions</div></div>
     <div><div class="stat-num" id="stat-countries">&hellip;</div><div class="stat-label">Countries</div></div>
     <div><div class="stat-num" id="stat-pending">&hellip;</div><div class="stat-label">Awaiting sorting</div></div>
-    <div><div class="stat-num" id="stat-year-views">&hellip;</div><div class="stat-label">Sample views, this year</div></div>
+    <div><div class="stat-num" id="stat-year-views">&hellip;</div><div class="stat-label" id="stat-year-views-label">Views, this year</div></div>
   </div>
 </div>
 
 <div class="section" style="padding-top:20px; padding-bottom:20px;">
   <div class="section-head"><h2 class="section-title" style="font-size:18px;">Views across all snapshots</h2><span class="section-sub" id="all-time-sub"></span></div>
   <div class="stat-num" id="stat-grand-total" style="font-size:34px;">&hellip;</div>
-  <p class="section-note" style="margin-top:6px;">Sum of pageviews across every sampled file, in every year snapshot so far — not a full census, and it grows every time the monthly refresh runs, even for past contest years, since people keep viewing old photos.</p>
+  <p class="section-note" style="margin-top:6px;" id="all-time-note">Loading&hellip;</p>
 </div>
 
 <div class="section">
@@ -216,6 +216,7 @@ async function showYear(year) {
   document.getElementById("stat-countries").textContent = fmt(data.countries.length);
   document.getElementById("stat-pending").textContent = fmt(data.pending_uncategorized);
   document.getElementById("stat-year-views").textContent = fmt(data.sample_total_views || 0);
+  document.getElementById("stat-year-views-label").textContent = data.sample_method === "full_census" ? "Views, this year (exact)" : "Views, this year (sample)";
   document.getElementById("pending-note").textContent = data.pending_uncategorized > 0
     ? `Plus ${fmt(data.pending_uncategorized)} files uploaded but not yet sorted into a country category.`
     : "";
@@ -231,6 +232,19 @@ async function main() {
   renderTrend();
   document.getElementById("stat-grand-total").textContent = fmt(trends.grand_total_sample_views || 0);
   document.getElementById("all-time-sub").textContent = trends.years.length + " year(s) tracked";
+
+  const methods = trends.years.map(y => y.sample_method);
+  const allFull = methods.length > 0 && methods.every(m => m === "full_census");
+  const noneFull = methods.every(m => m !== "full_census");
+  const noteEl = document.getElementById("all-time-note");
+  if (allFull) {
+    noteEl.textContent = "Sum of pageviews across every submission in every year snapshot so far — an exact count (full census), not a sample. Grows every time the monthly refresh runs, even for past contest years, since people keep viewing old photos.";
+  } else if (noneFull) {
+    noteEl.textContent = "Sum of pageviews across a sample of files in every year snapshot so far — not a full census of every submission. Grows every time the monthly refresh runs, even for past contest years, since people keep viewing old photos.";
+  } else {
+    const fullYears = trends.years.filter(y => y.sample_method === "full_census").map(y => y.year).join(", ");
+    noteEl.textContent = `Sum of pageviews across every year snapshot so far. Exact counts for ${fullYears}; other years are based on a sample, not a full census. Grows every time the monthly refresh runs, even for past contest years, since people keep viewing old photos.`;
+  }
   if (!trends.years.length) {
     document.getElementById("theme-line").textContent = "No snapshots committed yet — run the pipeline to generate one.";
     return;
