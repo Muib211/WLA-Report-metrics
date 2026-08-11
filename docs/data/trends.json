@@ -2,17 +2,669 @@
   "years": [
     {
       "year": 2025,
-      "total_submissions": 31140,
-      "countries_count": 56,
-      "top_country": "Nigeria",
+      "total_submissions": 34336,
+      "countries_count": 39,
+      "top_country": "Nigerian Communities",
       "top_country_count": 8051,
       "sample_method": "full_census",
-      "sample_total_views": 2010053,
-      "top_viewed_max_views": 12461,
-      "generated_at": "2026-08-02T00:36:02.946187+00:00",
+      "sample_total_views": 2335060,
+      "top_viewed_max_views": 12467,
+      "contributors_count": 877,
+      "usage_total": 1741,
+      "files_used_percentage": 3.71,
+      "generated_at": "2026-08-11T23:18:11.732686+00:00",
       "views_refreshed_at": null
     }
   ],
-  "grand_total_sample_views": 2010053,
-  "note": "sample_total_views and grand_total_sample_views are sums over sampled files only, not a full census of every submission."
+  "grand_total_sample_views": 2335060,
+  "grand_total_unique_contributors": 877,
+  "grand_total_usage_entries": 1741,
+  "grand_usage_by_wiki": [
+    {
+      "wiki": "fr.wikipedia.org",
+      "count": 567,
+      "percentage": 32.57
+    },
+    {
+      "wiki": "meta.wikimedia.org",
+      "count": 223,
+      "percentage": 12.81
+    },
+    {
+      "wiki": "ar.wikipedia.org",
+      "count": 159,
+      "percentage": 9.13
+    },
+    {
+      "wiki": "www.wikidata.org",
+      "count": 124,
+      "percentage": 7.12
+    },
+    {
+      "wiki": "en.wikipedia.org",
+      "count": 104,
+      "percentage": 5.97
+    },
+    {
+      "wiki": "incubator.wikimedia.org",
+      "count": 61,
+      "percentage": 3.5
+    },
+    {
+      "wiki": "dga.wikipedia.org",
+      "count": 38,
+      "percentage": 2.18
+    },
+    {
+      "wiki": "ha.wikipedia.org",
+      "count": 29,
+      "percentage": 1.67
+    },
+    {
+      "wiki": "de.wikipedia.org",
+      "count": 29,
+      "percentage": 1.67
+    },
+    {
+      "wiki": "he.wikipedia.org",
+      "count": 26,
+      "percentage": 1.49
+    },
+    {
+      "wiki": "arz.wikipedia.org",
+      "count": 24,
+      "percentage": 1.38
+    },
+    {
+      "wiki": "ru.wikipedia.org",
+      "count": 17,
+      "percentage": 0.98
+    },
+    {
+      "wiki": "tr.wiktionary.org",
+      "count": 14,
+      "percentage": 0.8
+    },
+    {
+      "wiki": "en.wikibooks.org",
+      "count": 14,
+      "percentage": 0.8
+    },
+    {
+      "wiki": "mg.wikipedia.org",
+      "count": 11,
+      "percentage": 0.63
+    },
+    {
+      "wiki": "en.wiktionary.org",
+      "count": 10,
+      "percentage": 0.57
+    },
+    {
+      "wiki": "kcg.wiktionary.org",
+      "count": 9,
+      "percentage": 0.52
+    },
+    {
+      "wiki": "en.wikivoyage.org",
+      "count": 9,
+      "percentage": 0.52
+    },
+    {
+      "wiki": "es.wikipedia.org",
+      "count": 9,
+      "percentage": 0.52
+    },
+    {
+      "wiki": "ja.wikipedia.org",
+      "count": 8,
+      "percentage": 0.46
+    },
+    {
+      "wiki": "zh.wikipedia.org",
+      "count": 8,
+      "percentage": 0.46
+    },
+    {
+      "wiki": "fr.wiktionary.org",
+      "count": 7,
+      "percentage": 0.4
+    },
+    {
+      "wiki": "ig.wikipedia.org",
+      "count": 7,
+      "percentage": 0.4
+    },
+    {
+      "wiki": "uk.wikipedia.org",
+      "count": 7,
+      "percentage": 0.4
+    },
+    {
+      "wiki": "zu.wikipedia.org",
+      "count": 7,
+      "percentage": 0.4
+    },
+    {
+      "wiki": "ki.wikipedia.org",
+      "count": 7,
+      "percentage": 0.4
+    },
+    {
+      "wiki": "it.wikipedia.org",
+      "count": 7,
+      "percentage": 0.4
+    },
+    {
+      "wiki": "ig.wiktionary.org",
+      "count": 6,
+      "percentage": 0.34
+    },
+    {
+      "wiki": "pl.wikipedia.org",
+      "count": 6,
+      "percentage": 0.34
+    },
+    {
+      "wiki": "ca.wikipedia.org",
+      "count": 5,
+      "percentage": 0.29
+    },
+    {
+      "wiki": "ms.wikibooks.org",
+      "count": 5,
+      "percentage": 0.29
+    },
+    {
+      "wiki": "id.wikibooks.org",
+      "count": 5,
+      "percentage": 0.29
+    },
+    {
+      "wiki": "nl.wikibooks.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "sv.wikipedia.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "dag.wikipedia.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "ceb.wikipedia.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "vi.wikipedia.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "ko.wikipedia.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "ia.wikipedia.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "de.wikivoyage.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "nl.wikipedia.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "fon.wikipedia.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "ee.wikipedia.org",
+      "count": 4,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "ms.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "es.wiktionary.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "sk.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "kcg.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "rw.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "igl.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "lg.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "eu.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "ts.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "fi.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "sw.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "de.wiktionary.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "hr.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "ha.wiktionary.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "pt.wikipedia.org",
+      "count": 3,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "new.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "ff.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "ro.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "yo.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "kus.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "en.wikiquote.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "tn.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "pl.wiktionary.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "bn.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "nso.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "simple.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "el.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "rsk.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "sh.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "ur.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "bg.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "bm.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "tl.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "so.wikipedia.org",
+      "count": 2,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "es.wikiversity.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ckb.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "zh-yue.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "lad.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "nr.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "tt.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ml.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ary.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "fa.wiktionary.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "gur.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "bjn.wiktionary.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "rue.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "tk.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "bcl.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "rn.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "bn.wikibooks.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "sv.wiktionary.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ru.wikinews.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "el.wiktionary.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "sn.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "bjn.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "st.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "te.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "xh.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "sd.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "nia.wiktionary.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "mk.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "fr.wikivoyage.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "kai.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "tr.wikisource.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "af.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ast.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ht.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "gl.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "da.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "eo.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "oc.wiktionary.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "vi.wikibooks.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "et.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "fr.wikiquote.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "si.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "inh.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "az.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "be.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "cs.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "hu.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "hy.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "id.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ka.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "sco.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "sr.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "vo.wikipedia.org",
+      "count": 1,
+      "percentage": 0.06
+    }
+  ],
+  "note": "sample_total_views / grand_total_sample_views are sums over sampled (or, for full-census years, all) files - check each year's sample_method. contributors_count and grand_total_unique_contributors are exact (every sorted file's uploader is checked, not sampled). Usage figures come from Commons' GlobalUsage data - exact, not estimated - but only cover files that have already been sorted into a country category."
 }
