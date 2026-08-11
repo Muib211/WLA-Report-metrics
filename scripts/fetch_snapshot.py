@@ -41,13 +41,6 @@ USER_AGENT = "WikiAfroDemics-WLAReport/1.0 (https://github.com/muib211; muibshef
 
 SPECIAL_BUCKET_PATTERNS = ["to check", "with unknown country", "without categories", "unidentified"]
 
-# Some countries have a second top-level branch for community/network uploads
-# that Commons doesn't nest under the country category itself. Add more pairs
-# here as you spot them during backfills.
-COUNTRY_ALIASES = {
-    "Nigerian Communities": "Nigeria",
-}
-
 HEADERS = {"User-Agent": USER_AGENT}
 
 
@@ -134,6 +127,38 @@ class CommonsClient:
                     results[page["title"]] = url
         return results
 
+    async def uploaders_bulk(self, titles: list) -> dict:
+        """Who uploaded each file — batched, cheap (one field on the same imageinfo call)."""
+        async def fetch_batch(batch):
+            data = await self.get_json({"action": "query", "prop": "imageinfo", "iiprop": "user", "titles": "|".join(batch)})
+            out = {}
+            for page in data.get("query", {}).get("pages", {}).values():
+                info = page.get("imageinfo") or [{}]
+                if info and info[0].get("user"):
+                    out[page["title"]] = info[0]["user"]
+            return out
+        batches = [titles[i:i + 50] for i in range(0, len(titles), 50)]
+        merged = {}
+        for r in await asyncio.gather(*[fetch_batch(b) for b in batches]):
+            merged.update(r)
+        return merged
+
+    async def globalusage_bulk(self, titles: list) -> dict:
+        """Which WMF wikis actually use each file — real cross-project usage, not an estimate."""
+        async def fetch_batch(batch):
+            data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500"})
+            out = {}
+            for page in data.get("query", {}).get("pages", {}).values():
+                wikis = [g.get("wiki") for g in page.get("globalusage", []) if g.get("wiki")]
+                if wikis:
+                    out[page["title"]] = wikis
+            return out
+        batches = [titles[i:i + 50] for i in range(0, len(titles), 50)]
+        merged = {}
+        for r in await asyncio.gather(*[fetch_batch(b) for b in batches]):
+            merged.update(r)
+        return merged
+
     async def pageviews(self, file_title: str, year: int) -> int:
         """Cumulative views from Jan 1 of `year` through today — grows on every re-check."""
         encoded = file_title.replace(" ", "_")
@@ -183,14 +208,37 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         for branch in special_branches:
             pending_files |= await client.walk_files_recursive(branch["title"])
 
-        for alias, canonical in COUNTRY_ALIASES.items():
-            if alias in country_files:
-                merged_files = country_files.pop(alias)
-                country_files[canonical] = country_files.get(canonical, set()) | merged_files
-                print(f"  merged '{alias}' into '{canonical}'", file=sys.stderr)
-
         total = sum(len(v) for v in country_files.values())
-        countries_sorted = sorted(country_files.items(), key=lambda kv: len(kv[1]), reverse=True)
+        # Drop countries with zero submissions — a branch existing on Commons
+        # doesn't mean anyone from that country actually took part.
+        countries_sorted = sorted(
+            ((name, files) for name, files in country_files.items() if len(files) > 0),
+            key=lambda kv: len(kv[1]), reverse=True
+        )
+
+        all_sorted_files = sorted(set().union(*country_files.values())) if country_files else []
+
+        print(f"[{year}] fetching contributor usernames for {len(all_sorted_files)} files...", file=sys.stderr)
+        uploader_map = await client.uploaders_bulk(all_sorted_files)
+        contributors = sorted(set(uploader_map.values()))
+
+        print(f"[{year}] fetching cross-wiki usage for {len(all_sorted_files)} files...", file=sys.stderr)
+        usage_map = await client.globalusage_bulk(all_sorted_files)
+        wiki_counts: dict = {}
+        total_usage_entries = 0
+        files_used_count = 0
+        for title, wikis in usage_map.items():
+            if wikis:
+                files_used_count += 1
+                for w in wikis:
+                    wiki_counts[w] = wiki_counts.get(w, 0) + 1
+                    total_usage_entries += 1
+        usage_by_wiki = [
+            {"wiki": w, "count": c, "percentage": round(c / total_usage_entries * 100, 2) if total_usage_entries else 0}
+            for w, c in sorted(wiki_counts.items(), key=lambda kv: kv[1], reverse=True)
+        ]
+        files_used_percentage = round(files_used_count / total * 100, 2) if total else 0
+        print(f"[{year}] {len(contributors)} contributors, {files_used_count} files used across {len(usage_by_wiki)} wikis ({total_usage_entries} total usages)", file=sys.stderr)
 
         pool = []
         for name, files in countries_sorted:
@@ -228,6 +276,14 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
             "pending_uncategorized": len(pending_files),
             "top_viewed": top_ranked,
             "sample_total_views": sample_total_views,
+            "contributors_count": len(contributors),
+            "contributors": contributors,
+            "usage": {
+                "total_usage_entries": total_usage_entries,
+                "files_used_count": files_used_count,
+                "files_used_percentage": files_used_percentage,
+                "by_wiki": usage_by_wiki,
+            },
             # Full pool kept so refresh_views.py can re-check views later without re-crawling categories
             "sample_pool": [{"title": r["title"], "country": r["country"]} for r in results],
             "elapsed_seconds": round(time.time() - started, 1),
@@ -236,7 +292,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / f"{year}.json"
         out_path.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"[{year}] wrote {out_path} ({total} submissions, {len(countries_sorted)} countries, {sample_total_views} sample views)", file=sys.stderr)
+        print(f"[{year}] wrote {out_path} ({total} submissions, {len(countries_sorted)} participating countries, {len(contributors)} contributors, {sample_total_views} sample views)", file=sys.stderr)
         return snapshot
 
 
