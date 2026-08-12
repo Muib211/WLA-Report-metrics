@@ -34,7 +34,8 @@ select { font-family:'IBM Plex Mono',monospace; font-size:13px; background: rgba
   border:1px solid rgba(242,233,216,0.35); padding:6px 10px; border-radius:4px; }
 .stats-row { display:flex; gap:32px; flex-wrap:wrap; position:relative; z-index:1; }
 .stat-num { font-family:'Fraunces',serif; font-weight:600; font-size:clamp(30px,5vw,46px); line-height:1; }
-.stat-label { font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color: var(--ochre); margin-top:6px; }
+.stat-label { font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color: var(--coral-deep); margin-top:6px; }
+.hero .stat-label { color: var(--ochre); }
 
 .link-row { display:flex; gap:10px; flex-wrap:wrap; margin: 18px 0 22px; position:relative; z-index:1; }
 .link-chip {
@@ -110,6 +111,16 @@ a.card-link { text-decoration:none; color:inherit; display:block; }
 .footer { padding: 20px 28px 34px; font-size:12px; color: rgba(20,32,31,0.6); line-height:1.6; }
 .footer a { color: var(--clay); }
 .empty-note { font-size: 13px; color: rgba(20,32,31,0.6); padding: 20px 0; }
+
+.tab-select-row { display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:6px; }
+.tab-select-label { font-family:'Fraunces',serif; font-style:italic; font-size:16px; color: var(--ink); }
+.tab-select-row select {
+  font-family:'IBM Plex Mono',monospace; font-size:13px; background: var(--paper);
+  color: var(--ink); border:1px solid var(--line); padding:8px 12px; border-radius:6px;
+}
+.tab-panel { display:none; }
+.tab-panel.active { display:block; }
+
 </style>
 </head>
 <body>
@@ -154,40 +165,48 @@ a.card-link { text-decoration:none; color:inherit; display:block; }
   </div>
 </div>
 
-<div class="section" style="padding-top:20px; padding-bottom:20px;">
-  <div class="section-head"><h2 class="section-title" style="font-size:18px;">Across all snapshots</h2><span class="section-sub" id="all-time-sub"></span></div>
-  <div style="display:flex; gap:36px; flex-wrap:wrap; margin-top:6px;">
-    <div><div class="stat-num" id="stat-grand-total" style="font-size:30px;">&hellip;</div><div class="stat-label">Sample views</div></div>
-    <div><div class="stat-num" id="stat-grand-contributors" style="font-size:30px;">&hellip;</div><div class="stat-label">Unique contributors</div></div>
-    <div><div class="stat-num" id="stat-grand-usage" style="font-size:30px;">&hellip;</div><div class="stat-label">Uses on WMF projects</div></div>
+<div class="section" style="padding-top:24px; padding-bottom:24px;">
+  <div class="section-head"><h2 class="section-title" style="font-size:18px;">Year over year</h2><span class="section-sub" id="trend-sub"></span></div>
+  <p class="section-note">Submissions per year, across every snapshot collected so far.</p>
+  <div class="trend-wrap"><svg id="trend-svg" width="100%" height="140" viewBox="0 0 700 140" preserveAspectRatio="none"></svg></div>
+
+  <div style="display:flex; gap:36px; flex-wrap:wrap; margin-top:22px;">
+    <div><div class="stat-num" id="stat-grand-total" style="font-size:28px;">&hellip;</div><div class="stat-label">Sample views, all years</div></div>
+    <div><div class="stat-num" id="stat-grand-contributors" style="font-size:28px;">&hellip;</div><div class="stat-label">Unique contributors</div></div>
+    <div><div class="stat-num" id="stat-grand-usage" style="font-size:28px;">&hellip;</div><div class="stat-label">Uses on WMF projects</div></div>
   </div>
   <p class="section-note" style="margin-top:10px;" id="all-time-note">Loading&hellip;</p>
 </div>
 
-<div class="section">
-  <div class="section-head"><h2 class="section-title">Usage on Wikimedia projects</h2><span class="section-sub" id="usage-sub"></span></div>
-  <p class="section-note">Where the selected year's submissions are actually being used — every wiki that embeds a file, from Commons' own usage data, not an estimate.</p>
-  <div class="ledger" id="usage-ledger"></div>
+<div class="section" style="border-bottom:none; padding-bottom:0;">
+  <div class="tab-select-row">
+    <span class="tab-select-label">What would you like to see?</span>
+    <select id="tab-select">
+      <option value="country">Submissions by country</option>
+      <option value="winners">Winning pictures</option>
+      <option value="usage">Usage on Wikimedia projects</option>
+    </select>
+  </div>
 </div>
 
-<div class="section">
-  <div class="section-head"><h2 class="section-title">Submissions, year over year</h2><span class="section-sub" id="trend-sub"></span></div>
-  <p class="section-note">Total submissions per year across all snapshots collected so far.</p>
-  <div class="trend-wrap"><svg id="trend-svg" width="100%" height="140" viewBox="0 0 700 140" preserveAspectRatio="none"></svg></div>
-</div>
-
-<div class="section">
+<div class="section tab-panel active" data-panel="country">
   <div class="section-head"><h2 class="section-title">Submissions by country</h2><span class="section-sub" id="ledger-sub"></span></div>
   <p class="section-note">Every country with at least one submission, ranked by a recursive file count under its category branch. Countries with zero submissions aren't shown.</p>
   <div class="ledger" id="ledger"></div>
   <div class="pending-note" id="pending-note"></div>
 </div>
 
-<div class="section" style="border-bottom:none;">
+<div class="section tab-panel" data-panel="winners">
   <div class="sprockets"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-  <div class="section-head"><h2 class="section-title">Most viewed submissions</h2><span class="section-sub" id="views-sub"></span></div>
+  <div class="section-head"><h2 class="section-title">Winning pictures</h2><span class="section-sub" id="views-sub"></span></div>
   <p class="section-note" id="views-note"></p>
   <div class="grid" id="grid"></div>
+</div>
+
+<div class="section tab-panel" data-panel="usage">
+  <div class="section-head"><h2 class="section-title">Usage on Wikimedia projects</h2><span class="section-sub" id="usage-sub"></span></div>
+  <p class="section-note">Where the selected year's submissions are actually being used — every wiki that embeds a file, from Commons' own usage data, not an estimate.</p>
+  <div class="ledger" id="usage-ledger"></div>
 </div>
 
 <div class="footer">
@@ -334,7 +353,15 @@ async function showYear(year) {
   }
 }
 
+function selectTab(name) {
+  document.querySelectorAll(".tab-panel").forEach(el => {
+    el.classList.toggle("active", el.dataset.panel === name);
+  });
+}
+
 async function main() {
+  document.getElementById("tab-select").addEventListener("change", e => selectTab(e.target.value));
+
   trends = (await loadJson("./data/trends.json")) || { years: [] };
   renderTrend();
   document.getElementById("stat-grand-total").textContent = fmt(trends.grand_total_sample_views || 0);
