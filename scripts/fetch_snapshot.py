@@ -159,6 +159,22 @@ class CommonsClient:
             merged.update(r)
         return merged
 
+    async def globalusage_detailed_bulk(self, titles: list) -> dict:
+        """Same as globalusage_bulk but keeps each usage's specific page title, so it can be linked directly."""
+        async def fetch_batch(batch):
+            data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500"})
+            out = {}
+            for page in data.get("query", {}).get("pages", {}).values():
+                entries = [{"wiki": g.get("wiki"), "title": g.get("title")} for g in page.get("globalusage", []) if g.get("wiki")]
+                if entries:
+                    out[page["title"]] = entries
+            return out
+        batches = [titles[i:i + 50] for i in range(0, len(titles), 50)]
+        merged = {}
+        for r in await asyncio.gather(*[fetch_batch(b) for b in batches]):
+            merged.update(r)
+        return merged
+
     async def pageviews(self, file_title: str, year: int) -> int:
         """Cumulative views from Jan 1 of `year` through today — grows on every re-check."""
         encoded = file_title.replace(" ", "_")
@@ -240,6 +256,45 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         files_used_percentage = round(files_used_count / total * 100, 2) if total else 0
         print(f"[{year}] {len(contributors)} contributors, {files_used_count} files used across {len(usage_by_wiki)} wikis ({total_usage_entries} total usages)", file=sys.stderr)
 
+        # Real jury-selected winners, from Commons' own winners category — not
+        # derived from views or any other proxy. Naming has varied by year, so
+        # try a couple of known patterns before giving up.
+        winners_category_candidates = [
+            f"Category:Wiki Loves Africa {year} winning pictures",
+            f"Category:Wiki Loves Africa {year} Winners",
+            f"Category:Wiki Loves Africa {year} winners",
+        ]
+        winner_titles = []
+        winners_category_used = None
+        for cat in winners_category_candidates:
+            members = await client.category_members(cat, "file")
+            if members:
+                winner_titles = [m["title"] for m in members]
+                winners_category_used = cat
+                break
+
+        file_to_country = {}
+        for name, files in country_files.items():
+            for f in files:
+                file_to_country[f] = name
+
+        winners = []
+        if winner_titles:
+            print(f"[{year}] found {len(winner_titles)} winning pictures in {winners_category_used}, fetching details...", file=sys.stderr)
+            w_uploaders = await client.uploaders_bulk(winner_titles)
+            w_usage = await client.globalusage_detailed_bulk(winner_titles)
+            w_thumbs = await client.thumbnails_bulk(winner_titles, width=500)
+            for t in winner_titles:
+                winners.append({
+                    "title": t,
+                    "uploader": w_uploaders.get(t),
+                    "country": file_to_country.get(t),
+                    "thumb": w_thumbs.get(t, ""),
+                    "usage": w_usage.get(t, []),  # [{"wiki": "enwiki", "title": "Page name"}, ...]
+                })
+        else:
+            print(f"[{year}] no winners category found under any known naming pattern — skipping winners.", file=sys.stderr)
+
         pool = []
         for name, files in countries_sorted:
             files_list = sorted(files)
@@ -284,6 +339,8 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
                 "files_used_percentage": files_used_percentage,
                 "by_wiki": usage_by_wiki,
             },
+            "winners": winners,
+            "winners_source_category": winners_category_used,
             # Full pool kept so refresh_views.py can re-check views later without re-crawling categories
             "sample_pool": [{"title": r["title"], "country": r["country"]} for r in results],
             "elapsed_seconds": round(time.time() - started, 1),
@@ -292,7 +349,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         out_dir.mkdir(parents=True, exist_ok=True)
         out_path = out_dir / f"{year}.json"
         out_path.write_text(json.dumps(snapshot, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"[{year}] wrote {out_path} ({total} submissions, {len(countries_sorted)} participating countries, {len(contributors)} contributors, {sample_total_views} sample views)", file=sys.stderr)
+        print(f"[{year}] wrote {out_path} ({total} submissions, {len(countries_sorted)} participating countries, {len(contributors)} contributors, {len(winners)} winners, {sample_total_views} sample views)", file=sys.stderr)
         return snapshot
 
 
