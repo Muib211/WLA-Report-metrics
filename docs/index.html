@@ -216,6 +216,7 @@ a.card-link { text-decoration:none; color:inherit; display:block; }
 
 <script>
 const fmt = n => n.toLocaleString("en-US");
+const setText = (id, text) => { const el = document.getElementById(id); if (el) el.textContent = text; };
 let allYearsData = {};
 let trends = { years: [] };
 
@@ -364,10 +365,10 @@ async function main() {
 
   trends = (await loadJson("./data/trends.json")) || { years: [] };
   renderTrend();
-  document.getElementById("stat-grand-total").textContent = fmt(trends.grand_total_sample_views || 0);
-  document.getElementById("stat-grand-contributors").textContent = fmt(trends.grand_total_unique_contributors || 0);
-  document.getElementById("stat-grand-usage").textContent = fmt(trends.grand_total_usage_entries || 0);
-  document.getElementById("all-time-sub").textContent = trends.years.length + " year(s) tracked";
+  setText("stat-grand-total", fmt(trends.grand_total_sample_views || 0));
+  setText("stat-grand-contributors", fmt(trends.grand_total_unique_contributors || 0));
+  setText("stat-grand-usage", fmt(trends.grand_total_usage_entries || 0));
+  setText("trend-sub", trends.years.length + " year(s) tracked");
 
   const methods = trends.years.map(y => y.sample_method);
   const allFull = methods.length > 0 && methods.every(m => m === "full_census");
