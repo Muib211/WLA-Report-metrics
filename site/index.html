@@ -111,14 +111,15 @@ a.card-link { text-decoration:none; color:inherit; display:block; }
 .winner-uploader { font-size:11px; color: var(--yellow); margin-top:2px; }
 .winner-uploader a { color: inherit; text-decoration:none; border-bottom:1px dotted rgba(253,252,254,0.4); }
 .winner-uploader a:hover { border-bottom-style:solid; }
-.winner-usage-list { margin-top:6px; display:flex; flex-direction:column; gap:3px; }
-.winner-usage-list a {
-  font-family:'IBM Plex Mono',monospace; font-size:9.5px; color: var(--paper-warm);
-  text-decoration:none; border-bottom:1px dotted rgba(244,237,224,0.35);
-  overflow:hidden; text-overflow:ellipsis; white-space:nowrap; display:block;
+.winner-usage-list { margin-top:6px; display:flex; flex-direction:column; gap:5px; }
+.winner-usage-list a, .winner-usage-list span {
+  font-family:'IBM Plex Sans', sans-serif; font-size:10.5px; color: #ffffff;
+  text-decoration:none; border-bottom:1px dotted rgba(255,255,255,0.4);
+  display:block; line-height:1.35; white-space:normal;
 }
-.winner-usage-list a:hover { color: var(--paper); border-bottom-style:solid; }
-.winner-not-used { font-family:'IBM Plex Mono',monospace; font-size:9.5px; color: rgba(244,237,224,0.45); font-style:italic; margin-top:6px; }
+.winner-usage-list span { border-bottom:none; opacity:0.85; }
+.winner-usage-list a:hover { color: var(--yellow); border-bottom-color: var(--yellow); }
+.winner-not-used { font-family:'IBM Plex Mono',monospace; font-size:9.5px; color: #ffffff; opacity:0.55; font-style:italic; margin-top:6px; }
 
 .footer { padding: 20px 28px 34px; font-size:12px; color: rgba(20,32,31,0.6); line-height:1.6; }
 .footer a { color: var(--clay); }
@@ -260,6 +261,42 @@ function wikiPageUrl(wikiCode, pageTitle) {
   return null;
 }
 
+// General, not a special case for any one page: converts any wiki dbname
+// (e.g. "hawiki", "metawiki", "frwiktionary") into a human-readable project
+// name. Covers the languages likeliest to show up for African contest
+// entries plus major world languages; anything unrecognized still gets a
+// readable fallback like "XX Wikipedia" instead of the raw dbname.
+const WIKI_SPECIAL_NAMES = {
+  commonswiki: "Wikimedia Commons", wikidatawiki: "Wikidata", metawiki: "Meta-Wiki",
+  specieswiki: "Wikispecies", incubatorwiki: "Wikimedia Incubator",
+  mediawikiwiki: "MediaWiki.org", foundationwiki: "Wikimedia Foundation wiki",
+};
+const WIKI_PROJECT_SUFFIXES = [
+  ["wiktionary", "Wiktionary"], ["wikibooks", "Wikibooks"], ["wikinews", "Wikinews"],
+  ["wikiquote", "Wikiquote"], ["wikisource", "Wikisource"], ["wikiversity", "Wikiversity"],
+  ["wikivoyage", "Wikivoyage"], ["wiki", "Wikipedia"],
+];
+const WIKI_LANG_NAMES = {
+  en: "English", fr: "French", ha: "Hausa", sw: "Swahili", yo: "Yoruba", ig: "Igbo",
+  am: "Amharic", ar: "Arabic", pt: "Portuguese", es: "Spanish", de: "German", ko: "Korean",
+  zh: "Chinese", ja: "Japanese", ru: "Russian", it: "Italian", nl: "Dutch", tr: "Turkish",
+  pl: "Polish", fa: "Persian", hi: "Hindi", so: "Somali", rw: "Kinyarwanda", zu: "Zulu",
+  xh: "Xhosa", af: "Afrikaans", sn: "Shona", ff: "Fulah", wo: "Wolof", ln: "Lingala",
+  ny: "Chichewa", mg: "Malagasy", ti: "Tigrinya", om: "Oromo",
+};
+function wikiFriendlyName(wikiCode) {
+  if (!wikiCode) return "Unknown wiki";
+  if (WIKI_SPECIAL_NAMES[wikiCode]) return WIKI_SPECIAL_NAMES[wikiCode];
+  for (const [suffix, projectName] of WIKI_PROJECT_SUFFIXES) {
+    if (wikiCode.endsWith(suffix)) {
+      const lang = wikiCode.slice(0, -suffix.length);
+      const langName = WIKI_LANG_NAMES[lang] || lang.toUpperCase();
+      return `${langName} ${projectName}`;
+    }
+  }
+  return wikiCode;
+}
+
 let allYearsData = {};
 let trends = { years: [] };
 
@@ -337,10 +374,11 @@ function renderWinners(winners, sourceCategory) {
     if (w.usage && w.usage.length) {
       const links = w.usage.slice(0, 6).map(u => {
         const url = wikiPageUrl(u.wiki, u.title);
-        const label = `${u.wiki}: ${u.title}`;
+        const cleanTitle = (u.title || "").replace(/_/g, " ");
+        const label = `${wikiFriendlyName(u.wiki)}: ${cleanTitle}`;
         return url ? `<a href="${url}" target="_blank" rel="noopener">${label}</a>` : `<span>${label}</span>`;
       }).join("");
-      const more = w.usage.length > 6 ? `<div style="font-size:9px; opacity:.5; margin-top:2px;">+${w.usage.length - 6} more</div>` : "";
+      const more = w.usage.length > 6 ? `<div style="font-size:9px; opacity:.6; color:#fff; margin-top:2px;">+${w.usage.length - 6} more</div>` : "";
       usageHtml = `<div class="winner-usage-list">${links}${more}</div>`;
     } else {
       usageHtml = `<div class="winner-not-used">Not yet used on any Wikimedia project &mdash; rechecked automatically each month</div>`;
