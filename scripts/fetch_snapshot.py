@@ -208,7 +208,13 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
             print(f"[{year}] no subcategories found — category may not exist for this year.", file=sys.stderr)
             return None
 
-        country_branches = [s for s in top_subcats if not is_special_bucket(s["title"])]
+        ignored_index_patterns = ["by country", "by theme", "by year", "by type"]
+        before_count = len(top_subcats)
+        top_subcats = [s for s in top_subcats if not any(p in s["title"].lower() for p in ignored_index_patterns)]
+        if len(top_subcats) < before_count:
+            print(f"[{year}] ignored {before_count - len(top_subcats)} navigation/index categor(ies), e.g. '... by country'", file=sys.stderr)
+            
+            country_branches = [s for s in top_subcats if not is_special_bucket(s["title"])]
         special_branches = [s for s in top_subcats if is_special_bucket(s["title"])]
 
         print(f"[{year}] {len(country_branches)} country branches, {len(special_branches)} special buckets. Walking file trees...", file=sys.stderr)
