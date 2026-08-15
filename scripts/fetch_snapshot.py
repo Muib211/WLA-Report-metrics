@@ -351,7 +351,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
             "sample_method": "full_census" if full_census else "sampled",
             "sample_size": len(pool),
             "countries": [{"name": name, "count": len(files)} for name, files in countries_sorted],
-            "pending_uncategorized": len(pending_files),
+            "pending_uncategorized": len(pending_files - all_unique_files),
             "top_viewed": top_ranked,
             "sample_total_views": sample_total_views,
             "contributors_count": len(contributors),
