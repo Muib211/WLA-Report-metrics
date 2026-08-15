@@ -224,6 +224,10 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         for branch in special_branches:
             pending_files |= await client.walk_files_recursive(branch["title"])
 
+        if "Nigerian Communities" in country_files:
+            country_files["Nigeria"] = country_files.get("Nigeria", set()) | country_files.pop("Nigerian Communities")
+            print("  merged 'Nigerian Communities' into 'Nigeria'", file=sys.stderr)
+
         total = sum(len(v) for v in country_files.values())
         # Drop countries with zero submissions — a branch existing on Commons
         # doesn't mean anyone from that country actually took part.
@@ -313,13 +317,26 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
                 results.append({"title": title, "country": country, "views": v})
             print(f"  ...{min(i + CHUNK, len(pool))}/{len(pool)}", file=sys.stderr)
 
-        ranked = sorted(results, key=lambda r: r["views"], reverse=True)
+        # De-duplicate before ranking — the same file can legitimately end up
+        # tagged under more than one country category on Commons, which would
+        # otherwise make it appear twice in the results (and inflate the
+        # views total). Keep the first occurrence only.
+        seen_titles = set()
+        deduped_results = []
+        for r in results:
+            if r["title"] not in seen_titles:
+                seen_titles.add(r["title"])
+                deduped_results.append(r)
+        if len(deduped_results) < len(results):
+            print(f"[{year}] removed {len(results) - len(deduped_results)} duplicate file(s) before ranking", file=sys.stderr)
+
+        ranked = sorted(deduped_results, key=lambda r: r["views"], reverse=True)
         top_ranked = ranked[:20]
         thumbs = await client.thumbnails_bulk([r["title"] for r in top_ranked])
         for r in top_ranked:
             r["thumb"] = thumbs.get(r["title"], "")
 
-        sample_total_views = sum(r["views"] for r in results)
+        sample_total_views = sum(r["views"] for r in deduped_results)
 
         snapshot = {
             "year": year,
