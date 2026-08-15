@@ -234,7 +234,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
             country_files["Nigeria"] = country_files.get("Nigeria", set()) | country_files.pop("Nigerian Communities")
             print("  merged 'Nigerian Communities' into 'Nigeria'", file=sys.stderr)
 
-        total = sum(len(v) for v in country_files.values())
+        all_unique_files = set().union(*country_files.values()) if country_files else set(); overlap_with_pending = all_unique_files & pending_files; print(f"[{year}] {len(overlap_with_pending)} files are tagged with a country AND still in pending", file=sys.stderr) if overlap_with_pending else None; total = len(all_unique_files)
         # Drop countries with zero submissions — a branch existing on Commons
         # doesn't mean anyone from that country actually took part.
         countries_sorted = sorted(
