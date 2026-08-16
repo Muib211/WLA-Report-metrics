@@ -213,10 +213,9 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         top_subcats = [s for s in top_subcats if not any(p in s["title"].lower() for p in ignored_index_patterns)]
         if len(top_subcats) < before_count:
             print(f"[{year}] ignored {before_count - len(top_subcats)} navigation/index categor(ies), e.g. '... by country'", file=sys.stderr)
-            
-            country_branches = [s for s in top_subcats if not is_special_bucket(s["title"]) and "by country" not in s["title"].lower() and "by theme" not in s["title"].lower() and "by year" not in s["title"].lower()]
+        country_branches = [s for s in top_subcats if not is_special_bucket(s["title"])]
         special_branches = [s for s in top_subcats if is_special_bucket(s["title"])]
-
+        
         print(f"[{year}] {len(country_branches)} country branches, {len(special_branches)} special buckets. Walking file trees...", file=sys.stderr)
 
         country_files: dict = {}
