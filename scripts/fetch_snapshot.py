@@ -248,15 +248,15 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         contributors = sorted(set(uploader_map.values()))
 
         print(f"[{year}] fetching cross-wiki usage for {len(all_sorted_files)} files...", file=sys.stderr)
-        usage_map = await client.globalusage_bulk(all_sorted_files)
+        usage_map_detailed = await client.globalusage_detailed_bulk(all_sorted_files)
         wiki_counts: dict = {}
         total_usage_entries = 0
         files_used_count = 0
-        for title, wikis in usage_map.items():
-            if wikis:
+        for title, entries in usage_map_detailed.items():
+            if entries:
                 files_used_count += 1
-                for w in wikis:
-                    wiki_counts[w] = wiki_counts.get(w, 0) + 1
+                for e in entries:
+                    wiki_counts[e["wiki"]] = wiki_counts.get(e["wiki"], 0) + 1
                     total_usage_entries += 1
         usage_by_wiki = [
             {"wiki": w, "count": c, "percentage": round(c / total_usage_entries * 100, 2) if total_usage_entries else 0}
@@ -334,15 +334,26 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
                 deduped_results.append(r)
         if len(deduped_results) < len(results):
             print(f"[{year}] removed {len(results) - len(deduped_results)} duplicate file(s) before ranking", file=sys.stderr)
+        reuse_pairs = []
+        for r in deduped_results:
+            for e in usage_map_detailed.get(r["title"], []):
+                reuse_pairs.append((r, e))
+        print(f"[{year}] measuring real reuse views across {len(reuse_pairs)} usage(s) on other Wikimedia pages...", file=sys.stderr)
+        reuse_view_counts = await asyncio.gather(*[client.pageviews_on_page(e["wiki"], e["title"], year) for _, e in reuse_pairs])
+        for (r, _), v in zip(reuse_pairs, reuse_view_counts):
+            r["reuse_views"] = r.get("reuse_views", 0) + v
+        for r in deduped_results:
+            r["commons_views"] = r["views"]
+            r["reuse_views"] = r.get("reuse_views", 0)
+            r["total_views"] = r["commons_views"] + r["reuse_views"]
 
-        ranked = sorted(deduped_results, key=lambda r: r["views"], reverse=True)
+        ranked = sorted(deduped_results, key=lambda r: r["total_views"], reverse=True)
         top_ranked = ranked[:20]
         thumbs = await client.thumbnails_bulk([r["title"] for r in top_ranked])
         for r in top_ranked:
             r["thumb"] = thumbs.get(r["title"], "")
-
-        sample_total_views = sum(r["views"] for r in deduped_results)
-
+        sample_total_views = sum(r["total_views"] for r in deduped_results)
+        
         snapshot = {
             "year": year,
             "generated_at": datetime.now(timezone.utc).isoformat(),
