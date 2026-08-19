@@ -174,6 +174,43 @@ class CommonsClient:
         for r in await asyncio.gather(*[fetch_batch(b) for b in batches]):
             merged.update(r)
         return merged
+        def dbname_to_domain(self, wiki_code):
+        """Same domain logic the dashboard uses, so real-usage pageviews query the right wiki."""
+        special = {
+            "commonswiki": "commons.wikimedia.org", "wikidatawiki": "www.wikidata.org",
+            "metawiki": "meta.wikimedia.org", "specieswiki": "species.wikimedia.org",
+            "incubatorwiki": "incubator.wikimedia.org", "mediawikiwiki": "www.mediawiki.org",
+            "foundationwiki": "foundation.wikimedia.org",
+        }
+        if wiki_code in special:
+            return special[wiki_code]
+        suffixes = [
+            ("wiktionary", "wiktionary.org"), ("wikibooks", "wikibooks.org"), ("wikinews", "wikinews.org"),
+            ("wikiquote", "wikiquote.org"), ("wikisource", "wikisource.org"), ("wikiversity", "wikiversity.org"),
+            ("wikivoyage", "wikivoyage.org"), ("wiki", "wikipedia.org"),
+        ]
+        for suffix, domain in suffixes:
+            if wiki_code.endswith(suffix):
+                return f"{wiki_code[:-len(suffix)]}.{domain}"
+        return None
+
+    async def pageviews_on_page(self, wiki_code, page_title, year):
+        """Real views of a specific page on a specific wiki — used to measure actual reuse, not just Commons visits."""
+        domain = self.dbname_to_domain(wiki_code)
+        if not domain:
+            return 0
+        encoded = page_title.replace(" ", "_")
+        end = datetime.now(timezone.utc).strftime("%Y%m%d00")
+        url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{domain}/all-access/all-agents/{encoded}/monthly/{year}010100/{end}"
+        async with self.sem:
+            try:
+                async with self.session.get(url, headers=HEADERS, timeout=20) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        return sum(item.get("views", 0) for item in data.get("items", []))
+            except (aiohttp.ClientError, asyncio.TimeoutError):
+                pass
+        return 0
 
     async def pageviews(self, file_title: str, year: int) -> int:
         """Cumulative views from Jan 1 of `year` through today — grows on every re-check."""
