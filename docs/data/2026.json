@@ -1,9 +1,9 @@
 {
   "year": 2026,
-  "generated_at": "2026-08-16T09:57:06.054456+00:00",
-  "total_submissions": 49233,
+  "generated_at": "2026-08-20T07:37:12.349969+00:00",
+  "total_submissions": 49231,
   "sample_method": "full_census",
-  "sample_size": 49272,
+  "sample_size": 49270,
   "countries": [
     {
       "name": "Nigeria",
@@ -39,11 +39,11 @@
     },
     {
       "name": "Uganda",
-      "count": 596
+      "count": 595
     },
     {
       "name": "Ivory Coast",
-      "count": 581
+      "count": 580
     },
     {
       "name": "the Republic of the Congo",
@@ -178,131 +178,191 @@
       "count": 1
     }
   ],
-  "pending_uncategorized": 23,
+  "pending_uncategorized": 24,
   "top_viewed": [
+    {
+      "title": "File:Prestation théâtrale de la troupe de Labé au Festival International de Théâtre de Guinée 09.jpg",
+      "country": "Guinea",
+      "views": 1567,
+      "commons_views": 1567,
+      "reuse_views": 0,
+      "total_views": 1567,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Prestation_th%C3%A9%C3%A2trale_de_la_troupe_de_Lab%C3%A9_au_Festival_International_de_Th%C3%A9%C3%A2tre_de_Guin%C3%A9e_09.jpg/500px-Prestation_th%C3%A9%C3%A2trale_de_la_troupe_de_Lab%C3%A9_au_Festival_International_de_Th%C3%A9%C3%A2tre_de_Guin%C3%A9e_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
     {
       "title": "File:Arbres rituelliques de Pout Diack 06.jpg",
       "country": "Senegal",
-      "views": 1090,
+      "views": 1119,
+      "commons_views": 1119,
+      "reuse_views": 0,
+      "total_views": 1119,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arbres_rituelliques_de_Pout_Diack_06.jpg/500px-Arbres_rituelliques_de_Pout_Diack_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Arbres rituelliques de Pout Diack 01.jpg",
-      "country": "Senegal",
-      "views": 1074,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Arbres_rituelliques_de_Pout_Diack_01.jpg/500px-Arbres_rituelliques_de_Pout_Diack_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 07.jpg",
       "country": "Senegal",
-      "views": 967,
+      "views": 994,
+      "commons_views": 994,
+      "reuse_views": 0,
+      "total_views": 994,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Arbres_rituelliques_de_Pout_Diack_07.jpg/500px-Arbres_rituelliques_de_Pout_Diack_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 14.jpg",
       "country": "Senegal",
-      "views": 967,
+      "views": 993,
+      "commons_views": 993,
+      "reuse_views": 0,
+      "total_views": 993,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Arbres_rituelliques_de_Pout_Diack_14.jpg/500px-Arbres_rituelliques_de_Pout_Diack_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Arbres rituelliques de Pout Diack 02.jpg",
-      "country": "Senegal",
-      "views": 965,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Arbres_rituelliques_de_Pout_Diack_02.jpg/500px-Arbres_rituelliques_de_Pout_Diack_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Arbres rituelliques de Pout Diack 04.jpg",
-      "country": "Senegal",
-      "views": 964,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Arbres_rituelliques_de_Pout_Diack_04.jpg/500px-Arbres_rituelliques_de_Pout_Diack_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 05.jpg",
       "country": "Senegal",
-      "views": 963,
+      "views": 992,
+      "commons_views": 992,
+      "reuse_views": 0,
+      "total_views": 992,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Arbres_rituelliques_de_Pout_Diack_05.jpg/500px-Arbres_rituelliques_de_Pout_Diack_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 09.jpg",
       "country": "Senegal",
-      "views": 961,
+      "views": 990,
+      "commons_views": 990,
+      "reuse_views": 0,
+      "total_views": 990,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Arbres_rituelliques_de_Pout_Diack_09.jpg/500px-Arbres_rituelliques_de_Pout_Diack_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 03.jpg",
-      "country": "Senegal",
-      "views": 960,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Arbres_rituelliques_de_Pout_Diack_03.jpg/500px-Arbres_rituelliques_de_Pout_Diack_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "title": "File:Community Gathering at a Funeral in Zimbabwe.jpg",
+      "country": "Zimbabwe",
+      "views": 989,
+      "reuse_views": 0,
+      "commons_views": 989,
+      "total_views": 989,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Community_Gathering_at_a_Funeral_in_Zimbabwe.jpg/500px-Community_Gathering_at_a_Funeral_in_Zimbabwe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 11.jpg",
       "country": "Senegal",
-      "views": 959,
+      "views": 986,
+      "commons_views": 986,
+      "reuse_views": 0,
+      "total_views": 986,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Arbres_rituelliques_de_Pout_Diack_11.jpg/500px-Arbres_rituelliques_de_Pout_Diack_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 10.jpg",
       "country": "Senegal",
-      "views": 958,
+      "views": 985,
+      "commons_views": 985,
+      "reuse_views": 0,
+      "total_views": 985,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Arbres_rituelliques_de_Pout_Diack_10.jpg/500px-Arbres_rituelliques_de_Pout_Diack_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 08.jpg",
       "country": "Senegal",
-      "views": 957,
+      "views": 984,
+      "commons_views": 984,
+      "reuse_views": 0,
+      "total_views": 984,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arbres_rituelliques_de_Pout_Diack_08.jpg/500px-Arbres_rituelliques_de_Pout_Diack_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 12.jpg",
       "country": "Senegal",
-      "views": 956,
+      "views": 983,
+      "commons_views": 983,
+      "reuse_views": 0,
+      "total_views": 983,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Arbres_rituelliques_de_Pout_Diack_12.jpg/500px-Arbres_rituelliques_de_Pout_Diack_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:A̱di̱ri̱m (kcg) - A̱gatak (kaj) - Drum beaten for the demi-gods (en) 01.jpg",
-      "country": "Nigeria",
-      "views": 954,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/A%CC%B1di%CC%B1ri%CC%B1m_%28kcg%29_-_A%CC%B1gatak_%28kaj%29_-_Drum_beaten_for_the_demi-gods_%28en%29_01.jpg/500px-A%CC%B1di%CC%B1ri%CC%B1m_%28kcg%29_-_A%CC%B1gatak_%28kaj%29_-_Drum_beaten_for_the_demi-gods_%28en%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 13.jpg",
       "country": "Senegal",
-      "views": 954,
+      "views": 982,
+      "commons_views": 982,
+      "reuse_views": 0,
+      "total_views": 982,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Arbres_rituelliques_de_Pout_Diack_13.jpg/500px-Arbres_rituelliques_de_Pout_Diack_13.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
-      "title": "File:Community Gathering at a Funeral in Zimbabwe.jpg",
+      "title": "File:Funeral Procession in Zimbabwe.jpg",
       "country": "Zimbabwe",
-      "views": 952,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Community_Gathering_at_a_Funeral_in_Zimbabwe.jpg/500px-Community_Gathering_at_a_Funeral_in_Zimbabwe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "views": 978,
+      "commons_views": 978,
+      "reuse_views": 0,
+      "total_views": 978,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Funeral_Procession_in_Zimbabwe.jpg/500px-Funeral_Procession_in_Zimbabwe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:A Tiv man appears wearing cultural attire 12.jpg",
       "country": "Nigeria",
-      "views": 948,
+      "views": 975,
+      "commons_views": 975,
+      "reuse_views": 0,
+      "total_views": 975,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/A_Tiv_man_appears_wearing_cultural_attire_12.jpg/500px-A_Tiv_man_appears_wearing_cultural_attire_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
-      "title": "File:Course de pirogues traditionnelles Dialaw Festival.jpg",
-      "country": "Senegal",
-      "views": 937,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Course_de_pirogues_traditionnelles_Dialaw_Festival.jpg/500px-Course_de_pirogues_traditionnelles_Dialaw_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Corps à corps debout en lutte traditionnelle Dialaw Festival.jpg",
-      "country": "Senegal",
-      "views": 933,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Corps_%C3%A0_corps_debout_en_lutte_traditionnelle_Dialaw_Festival.jpg/500px-Corps_%C3%A0_corps_debout_en_lutte_traditionnelle_Dialaw_Festival.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "title": "File:A̱di̱ri̱m (kcg) - A̱gatak (kaj) - Drum beaten for the demi-gods (en) 01.jpg",
+      "country": "Nigeria",
+      "views": 955,
+      "commons_views": 955,
+      "reuse_views": 0,
+      "total_views": 955,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/A%CC%B1di%CC%B1ri%CC%B1m_%28kcg%29_-_A%CC%B1gatak_%28kaj%29_-_Drum_beaten_for_the_demi-gods_%28en%29_01.jpg/500px-A%CC%B1di%CC%B1ri%CC%B1m_%28kcg%29_-_A%CC%B1gatak_%28kaj%29_-_Drum_beaten_for_the_demi-gods_%28en%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     },
     {
       "title": "File:Célébration traditionnelle après la course de pirogues.jpg",
       "country": "Senegal",
-      "views": 916,
+      "views": 952,
+      "commons_views": 952,
+      "reuse_views": 0,
+      "total_views": 952,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/C%C3%A9l%C3%A9bration_traditionnelle_apr%C3%A8s_la_course_de_pirogues.jpg/500px-C%C3%A9l%C3%A9bration_traditionnelle_apr%C3%A8s_la_course_de_pirogues.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "File:Décoration Carte Afrique.jpg",
+      "country": "Senegal",
+      "views": 948,
+      "commons_views": 948,
+      "reuse_views": 0,
+      "total_views": 948,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/D%C3%A9coration_Carte_Afrique.jpg/500px-D%C3%A9coration_Carte_Afrique.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "File:Buvette mbin sérère à Ndiaganiao.jpg",
+      "country": "Senegal",
+      "views": 927,
+      "commons_views": 927,
+      "reuse_views": 0,
+      "total_views": 927,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Buvette_mbin_s%C3%A9r%C3%A8re_%C3%A0_Ndiaganiao.jpg/500px-Buvette_mbin_s%C3%A9r%C3%A8re_%C3%A0_Ndiaganiao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "File:Festival Ndiaganiao.jpg",
+      "country": "Senegal",
+      "views": 920,
+      "commons_views": 920,
+      "reuse_views": 0,
+      "total_views": 920,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Festival_Ndiaganiao.jpg/500px-Festival_Ndiaganiao.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    },
+    {
+      "title": "File:Food date.jpg",
+      "country": "Nigeria",
+      "views": 916,
+      "commons_views": 916,
+      "reuse_views": 0,
+      "total_views": 916,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Food_date.jpg/500px-Food_date.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
     }
   ],
-  "sample_total_views": 1251581,
-  "contributors_count": 907,
+  "sample_total_views": 1242289,
+  "contributors_count": 909,
   "contributors": [
     "007melaniin",
     "10kdollz",
@@ -376,6 +436,7 @@
     "Akwanwa1",
     "Akwugo",
     "Alameen.ng",
+    "Alexandro Delgado Costa",
     "Alhaj Darajaati",
     "Alive-craft consulting",
     "Aliya 2018",
@@ -396,6 +457,7 @@
     "Anita ginika",
     "AnneRiri",
     "Annick green",
+    "Anthere",
     "AnthonyOmw",
     "Antony Trivet",
     "Anumaasuma12",
@@ -461,6 +523,7 @@
     "Bless Media",
     "Blessingmoses",
     "Blink Irisa",
+    "BloomAbbie",
     "Blsamue",
     "Bluerose25",
     "Bnhn",
@@ -645,7 +708,6 @@
     "Hauwa'u Adam",
     "Hauwasysy",
     "Hejjo246",
-    "Henrique sungo",
     "Henrylens",
     "Hermannkass",
     "Hhhhyuh",
@@ -655,6 +717,7 @@
     "Honeydear",
     "Hope A Ncube",
     "Hopeballa",
+    "Hopeblues321",
     "Hosam Badraldin",
     "Houss 2020",
     "Houssain tork",
@@ -687,14 +750,11 @@
     "Isaacayodele32",
     "Isaacf121",
     "Ismbadini",
-    "IssamBarhoumi",
     "Issiaga0",
     "ItzAbdullahi",
     "Iwai-Dialax",
     "Iwuala chisom",
-    "Iykeibeh",
     "JASTINE OKWIR",
-    "JOSHUA JOESH",
     "JUSCAR KARUBAMBA",
     "Jaaraf",
     "Jacoma226",
@@ -811,7 +871,6 @@
     "MUCUNGUZI Jr ANOLD",
     "MaRally",
     "Madame shE³",
-    "Madit Matuek Raineen Luak",
     "Maelan123",
     "Maggyza",
     "Mahamadou Ibrahim Harouna Ousmane",
@@ -886,6 +945,7 @@
     "Muelder",
     "Muhammad Oladapo",
     "Mulavu123",
+    "Mureithikivuti",
     "Musahfm",
     "Mustafa Shorbaji",
     "Mustbetj",
@@ -1102,6 +1162,7 @@
     "T.Adelin",
     "TOUMOU",
     "TOURE MARIUS",
+    "Tafara Matare",
     "Taherdawood2026",
     "Tamdra",
     "Tarekwajeh",
@@ -1129,10 +1190,10 @@
     "Tusasirwe Mackline",
     "TututuM",
     "Tuyishimejosue",
+    "UBGaladima21",
     "Udofa Eventus Godspower",
     "Udom Rosemary",
     "Udysam",
-    "Ugly Art",
     "Umar A Muhammad",
     "Umar Asiya",
     "Umargadam",
@@ -1149,6 +1210,7 @@
     "Verhody",
     "Victor.ngonzo",
     "Victorpeter001",
+    "Viktragi",
     "Viktuer",
     "Vincentbelema",
     "Violinistman",
@@ -1212,113 +1274,121 @@
     "سلمى الصادق المبارك",
     "وقاص محمد مهدي"
   ],
+  "campaign_start_estimate": "2025-08-31T22:00:21",
+  "new_account_before_campaign_count": 19,
+  "new_account_before_campaign_percentage": 2.09,
   "usage": {
-    "total_usage_entries": 1211,
-    "files_used_count": 772,
-    "files_used_percentage": 1.57,
+    "total_usage_entries": 1226,
+    "files_used_count": 788,
+    "files_used_percentage": 1.6,
     "by_wiki": [
       {
         "wiki": "fr.wikipedia.org",
-        "count": 374,
-        "percentage": 30.88
+        "count": 390,
+        "percentage": 31.81
       },
       {
         "wiki": "meta.wikimedia.org",
-        "count": 241,
-        "percentage": 19.9
+        "count": 239,
+        "percentage": 19.49
       },
       {
         "wiki": "en.wikipedia.org",
-        "count": 165,
-        "percentage": 13.63
+        "count": 164,
+        "percentage": 13.38
       },
       {
         "wiki": "www.wikidata.org",
-        "count": 77,
-        "percentage": 6.36
+        "count": 75,
+        "percentage": 6.12
       },
       {
         "wiki": "ha.wikipedia.org",
         "count": 47,
-        "percentage": 3.88
+        "percentage": 3.83
       },
       {
         "wiki": "ig.wikipedia.org",
         "count": 47,
-        "percentage": 3.88
+        "percentage": 3.83
       },
       {
         "wiki": "ar.wikipedia.org",
-        "count": 31,
-        "percentage": 2.56
+        "count": 32,
+        "percentage": 2.61
       },
       {
         "wiki": "ig.wiktionary.org",
         "count": 26,
-        "percentage": 2.15
+        "percentage": 2.12
       },
       {
         "wiki": "incubator.wikimedia.org",
         "count": 15,
-        "percentage": 1.24
+        "percentage": 1.22
       },
       {
         "wiki": "ru.wikipedia.org",
         "count": 13,
-        "percentage": 1.07
+        "percentage": 1.06
       },
       {
         "wiki": "az.wikipedia.org",
         "count": 12,
-        "percentage": 0.99
+        "percentage": 0.98
+      },
+      {
+        "wiki": "lt.wikipedia.org",
+        "count": 12,
+        "percentage": 0.98
       },
       {
         "wiki": "dga.wikipedia.org",
         "count": 12,
-        "percentage": 0.99
+        "percentage": 0.98
       },
       {
         "wiki": "yo.wikipedia.org",
         "count": 11,
-        "percentage": 0.91
+        "percentage": 0.9
       },
       {
         "wiki": "rw.wikipedia.org",
         "count": 11,
-        "percentage": 0.91
+        "percentage": 0.9
       },
       {
-        "wiki": "lt.wikipedia.org",
-        "count": 11,
-        "percentage": 0.91
+        "wiki": "es.wikipedia.org",
+        "count": 8,
+        "percentage": 0.65
       },
       {
         "wiki": "de.wikipedia.org",
         "count": 7,
-        "percentage": 0.58
+        "percentage": 0.57
       },
       {
-        "wiki": "es.wikipedia.org",
+        "wiki": "en.wikivoyage.org",
         "count": 7,
-        "percentage": 0.58
+        "percentage": 0.57
       },
       {
         "wiki": "pt.wikipedia.org",
         "count": 6,
-        "percentage": 0.5
+        "percentage": 0.49
       },
       {
-        "wiki": "en.wikivoyage.org",
-        "count": 6,
-        "percentage": 0.5
-      },
-      {
-        "wiki": "kcg.wikipedia.org",
+        "wiki": "zu.wikipedia.org",
         "count": 5,
         "percentage": 0.41
       },
       {
         "wiki": "id.wikipedia.org",
+        "count": 4,
+        "percentage": 0.33
+      },
+      {
+        "wiki": "kcg.wikipedia.org",
         "count": 4,
         "percentage": 0.33
       },
@@ -1333,11 +1403,6 @@
         "percentage": 0.33
       },
       {
-        "wiki": "he.wikipedia.org",
-        "count": 4,
-        "percentage": 0.33
-      },
-      {
         "wiki": "ro.wikipedia.org",
         "count": 4,
         "percentage": 0.33
@@ -1345,82 +1410,77 @@
       {
         "wiki": "tn.wikipedia.org",
         "count": 3,
-        "percentage": 0.25
+        "percentage": 0.24
       },
       {
         "wiki": "ff.wikipedia.org",
         "count": 3,
-        "percentage": 0.25
+        "percentage": 0.24
       },
       {
         "wiki": "zh.wikipedia.org",
         "count": 3,
-        "percentage": 0.25
+        "percentage": 0.24
       },
       {
         "wiki": "it.wikipedia.org",
         "count": 3,
-        "percentage": 0.25
+        "percentage": 0.24
+      },
+      {
+        "wiki": "he.wikipedia.org",
+        "count": 3,
+        "percentage": 0.24
       },
       {
         "wiki": "en.wikiversity.org",
         "count": 3,
-        "percentage": 0.25
+        "percentage": 0.24
       },
       {
         "wiki": "simple.wikipedia.org",
         "count": 2,
-        "percentage": 0.17
+        "percentage": 0.16
       },
       {
         "wiki": "tr.wiktionary.org",
         "count": 2,
-        "percentage": 0.17
+        "percentage": 0.16
       },
       {
         "wiki": "nso.wikipedia.org",
         "count": 2,
-        "percentage": 0.17
+        "percentage": 0.16
       },
       {
         "wiki": "ceb.wikipedia.org",
         "count": 2,
-        "percentage": 0.17
+        "percentage": 0.16
       },
       {
         "wiki": "pl.wikipedia.org",
         "count": 2,
-        "percentage": 0.17
+        "percentage": 0.16
       },
       {
         "wiki": "uk.wikipedia.org",
         "count": 2,
-        "percentage": 0.17
+        "percentage": 0.16
       },
       {
         "wiki": "eo.wikipedia.org",
         "count": 2,
-        "percentage": 0.17
+        "percentage": 0.16
       },
       {
         "wiki": "no.wikipedia.org",
         "count": 2,
-        "percentage": 0.17
+        "percentage": 0.16
       },
       {
-        "wiki": "ms.wikipedia.org",
+        "wiki": "sw.wikipedia.org",
         "count": 2,
-        "percentage": 0.17
-      },
-      {
-        "wiki": "ca.wikipedia.org",
-        "count": 2,
-        "percentage": 0.17
-      },
-      {
-        "wiki": "zu.wikipedia.org",
-        "count": 2,
-        "percentage": 0.17
+        "percentage": 0.16
       },
       {
         "wiki": "simple.wiktionary.org",
@@ -1513,11 +1573,6 @@
         "percentage": 0.08
       },
       {
-        "wiki": "sw.wikipedia.org",
-        "count": 1,
-        "percentage": 0.08
-      },
-      {
         "wiki": "bjn.wikipedia.org",
         "count": 1,
         "percentage": 0.08
@@ -1534,6 +1589,16 @@
       },
       {
         "wiki": "tum.wikipedia.org",
+        "count": 1,
+        "percentage": 0.08
+      },
+      {
+        "wiki": "ms.wikipedia.org",
+        "count": 1,
+        "percentage": 0.08
+      },
+      {
+        "wiki": "ca.wikipedia.org",
         "count": 1,
         "percentage": 0.08
       },
@@ -1579,22 +1644,31 @@
       "title": "File:Mijikenda Wedding Blessing Ceremony – Coastal Kenya.jpg",
       "uploader": "Victor.ngonzo",
       "country": "Kenya",
+      "year": 2026,
+      "license": "CC BY-SA 4.0",
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg/500px-Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "usage": []
+      "usage": [],
+      "core_usage_count": 0
     },
     {
       "title": "File:خشوع صلاة ٢١١٦٢٨.jpg",
       "uploader": "Hhhhyuh",
       "country": "Egypt",
+      "year": 2026,
+      "license": "CC BY-SA 4.0",
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg/500px-%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "usage": []
+      "usage": [],
+      "core_usage_count": 0
     },
     {
       "title": "File:صلاة العيد في مسجد الصديق 37.jpg",
       "uploader": "Mohamed shokry algarnosy",
       "country": "Egypt",
+      "year": 2026,
+      "license": "CC BY-SA 4.0",
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg/500px-%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "usage": []
+      "usage": [],
+      "core_usage_count": 0
     }
   ],
   "winners_source_category": "Category:Wiki Loves Africa 2026 winning pictures",
@@ -175080,10 +175154,6 @@
       "country": "Uganda"
     },
     {
-      "title": "File:The Introduction Ceremony Rite in Buganda.jpg",
-      "country": "Uganda"
-    },
-    {
       "title": "File:The Jogging Ritual.jpg",
       "country": "Uganda"
     },
@@ -176977,10 +177047,6 @@
     },
     {
       "title": "File:Le rituel du masque Dogon 05.jpg",
-      "country": "Ivory Coast"
-    },
-    {
-      "title": "File:Le rituel du masque Dogon 06.jpg",
       "country": "Ivory Coast"
     },
     {
@@ -191592,18 +191658,6 @@
       "country": "Madagascar"
     },
     {
-      "title": "File:Coutume malgache sur la riziculture.jpg",
-      "country": "Madagascar"
-    },
-    {
-      "title": "File:Coutume musulman.jpg",
-      "country": "Madagascar"
-    },
-    {
-      "title": "File:Coutume pour les malgaches dans une mariage.jpg",
-      "country": "Madagascar"
-    },
-    {
       "title": "File:Couverture BETSILEO.jpg",
       "country": "Madagascar"
     },
@@ -191705,6 +191759,10 @@
     },
     {
       "title": "File:Cérémonie de la mise en place d'un roi 17.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Danse au mariage coutumier.jpg",
       "country": "Madagascar"
     },
     {
@@ -192036,6 +192094,10 @@
       "country": "Madagascar"
     },
     {
+      "title": "File:Mariage musulman.jpg",
+      "country": "Madagascar"
+    },
+    {
       "title": "File:Marmite (cuisson).jpg",
       "country": "Madagascar"
     },
@@ -192236,6 +192298,10 @@
       "country": "Madagascar"
     },
     {
+      "title": "File:Paddy (vary ankotry).jpg",
+      "country": "Madagascar"
+    },
+    {
       "title": "File:Panneau de reconnaissance ou explication.jpg",
       "country": "Madagascar"
     },
@@ -192341,10 +192407,6 @@
     },
     {
       "title": "File:Riz et Poisson.jpg",
-      "country": "Madagascar"
-    },
-    {
-      "title": "File:Rizs non blanc malgache.jpg",
       "country": "Madagascar"
     },
     {
@@ -192557,6 +192619,10 @@
     },
     {
       "title": "File:Vakisôva.jpg",
+      "country": "Madagascar"
+    },
+    {
+      "title": "File:Vannage de riz (mikorôko vary).jpg",
       "country": "Madagascar"
     },
     {
@@ -198688,5 +198754,5 @@
       "country": "Sierra Leone"
     }
   ],
-  "elapsed_seconds": 14197.0
+  "elapsed_seconds": 17509.5
 }

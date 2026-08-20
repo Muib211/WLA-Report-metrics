@@ -1,16 +1,12 @@
 #!/usr/bin/env python3
 """
-refresh_views.py — Re-check pageviews for an existing snapshot, cheaply.
+refresh_views.py — Re-check views for an existing snapshot, cheaply.
 
-Unlike fetch_snapshot.py, this does NOT re-crawl the Commons category tree
-(that part is done once and doesn't change). It reads the file list already
-stored in a snapshot's "sample_pool", re-checks cumulative pageviews for
-those same files (Jan of the contest year through today), and rewrites the
-"top_viewed" / "sample_total_views" fields — leaving "countries" and
-"total_submissions" untouched.
-
-This is what lets past years' "most viewed" numbers keep growing every
-month, instead of freezing the moment the contest year ends.
+Does NOT re-crawl the Commons category tree (that part doesn't change). Reads
+the file list already stored in a snapshot's "sample_pool", re-checks both
+Commons-page views and real reuse views on other Wikimedia projects for those
+same files, and rewrites "top_viewed" / "sample_total_views" — leaving
+"countries" and "total_submissions" untouched.
 
 Usage:
     python scripts/refresh_views.py --year 2024 --data-dir docs/data
@@ -41,34 +37,88 @@ class Client:
         self.session = session
         self.sem = asyncio.Semaphore(concurrency)
 
+    async def get_json(self, params):
+        params = dict(params)
+        params.setdefault("format", "json")
+        async with self.sem:
+            try:
+                async with self.session.get(COMMONS_API, params=params, headers=HEADERS, timeout=30) as resp:
+                    if resp.status == 200:
+                        return await resp.json()
+            except (aiohttp.ClientError, asyncio.TimeoutError):
+                pass
+        return {}
+
     async def pageviews(self, file_title: str, year: int) -> int:
         encoded = file_title.replace(" ", "_")
         end = datetime.now(timezone.utc).strftime("%Y%m%d00")
         url = PAGEVIEWS_API.format(title=encoded, start=f"{year}010100", end=end)
         async with self.sem:
-            for attempt in range(3):
-                try:
-                    async with self.session.get(url, headers=HEADERS, timeout=20) as resp:
-                        if resp.status == 200:
-                            data = await resp.json()
-                            return sum(item.get("views", 0) for item in data.get("items", []))
-                        if resp.status == 404:
-                            return 0
-                        await asyncio.sleep(1.0 * (attempt + 1))
-                except (aiohttp.ClientError, asyncio.TimeoutError):
-                    await asyncio.sleep(1.0 * (attempt + 1))
+            try:
+                async with self.session.get(url, headers=HEADERS, timeout=20) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        return sum(item.get("views", 0) for item in data.get("items", []))
+            except (aiohttp.ClientError, asyncio.TimeoutError):
+                pass
         return 0
+
+    def dbname_to_domain(self, wiki_code):
+        special = {
+            "commonswiki": "commons.wikimedia.org", "wikidatawiki": "www.wikidata.org",
+            "metawiki": "meta.wikimedia.org", "specieswiki": "species.wikimedia.org",
+            "incubatorwiki": "incubator.wikimedia.org", "mediawikiwiki": "www.mediawiki.org",
+            "foundationwiki": "foundation.wikimedia.org",
+        }
+        if wiki_code in special:
+            return special[wiki_code]
+        suffixes = [
+            ("wiktionary", "wiktionary.org"), ("wikibooks", "wikibooks.org"), ("wikinews", "wikinews.org"),
+            ("wikiquote", "wikiquote.org"), ("wikisource", "wikisource.org"), ("wikiversity", "wikiversity.org"),
+            ("wikivoyage", "wikivoyage.org"), ("wiki", "wikipedia.org"),
+        ]
+        for suffix, domain in suffixes:
+            if wiki_code and wiki_code.endswith(suffix):
+                return f"{wiki_code[:-len(suffix)]}.{domain}"
+        return None
+
+    async def pageviews_on_page(self, wiki_code, page_title, year):
+        domain = self.dbname_to_domain(wiki_code)
+        if not domain:
+            return 0
+        encoded = (page_title or "").replace(" ", "_")
+        end = datetime.now(timezone.utc).strftime("%Y%m%d00")
+        url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{domain}/all-access/all-agents/{encoded}/monthly/{year}010100/{end}"
+        async with self.sem:
+            try:
+                async with self.session.get(url, headers=HEADERS, timeout=20) as resp:
+                    if resp.status == 200:
+                        data = await resp.json()
+                        return sum(item.get("views", 0) for item in data.get("items", []))
+            except (aiohttp.ClientError, asyncio.TimeoutError):
+                pass
+        return 0
+
+    async def globalusage_detailed_bulk(self, titles: list) -> dict:
+        async def fetch_batch(batch):
+            data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500"})
+            out = {}
+            for page in data.get("query", {}).get("pages", {}).values():
+                entries = [{"wiki": g.get("wiki"), "title": g.get("title")} for g in page.get("globalusage", []) if g.get("wiki")]
+                if entries:
+                    out[page["title"]] = entries
+            return out
+        batches = [titles[i:i + 50] for i in range(0, len(titles), 50)]
+        merged = {}
+        for r in await asyncio.gather(*[fetch_batch(b) for b in batches]):
+            merged.update(r)
+        return merged
 
     async def thumbnails_bulk(self, titles: list, width: int = 400) -> dict:
         results = {}
         for i in range(0, len(titles), 50):
             batch = titles[i:i + 50]
-            params = {"action": "query", "prop": "imageinfo", "iiprop": "url", "iiurlwidth": str(width), "titles": "|".join(batch), "format": "json"}
-            async with self.sem:
-                async with self.session.get(COMMONS_API, params=params, headers=HEADERS, timeout=30) as resp:
-                    if resp.status != 200:
-                        continue
-                    data = await resp.json()
+            data = await self.get_json({"action": "query", "prop": "imageinfo", "iiprop": "url", "iiurlwidth": str(width), "titles": "|".join(batch)})
             for page in data.get("query", {}).get("pages", {}).values():
                 info = (page.get("imageinfo") or [{}])[0]
                 url = info.get("thumburl") or info.get("url")
@@ -82,26 +132,45 @@ async def refresh_one(path: Path, client: Client):
     year = snap["year"]
     pool = snap.get("sample_pool")
     if not pool:
-        print(f"[{year}] no sample_pool stored in {path.name} (older snapshot format) — skipping. Re-run fetch_snapshot.py for this year to enable refreshes.", file=sys.stderr)
+        print(f"[{year}] no sample_pool stored in {path.name} — skipping. Re-run fetch_snapshot.py for this year to enable refreshes.", file=sys.stderr)
         return
 
-    print(f"[{year}] refreshing views for {len(pool)} files...", file=sys.stderr)
-    results = []
-    CHUNK = 200
-    for i in range(0, len(pool), CHUNK):
-        chunk = pool[i:i + CHUNK]
-        views = await asyncio.gather(*[client.pageviews(item["title"], year) for item in chunk])
-        for item, v in zip(chunk, views):
-            results.append({"title": item["title"], "country": item["country"], "views": v})
+    print(f"[{year}] refreshing Commons views for {len(pool)} files...", file=sys.stderr)
+    titles = [item["title"] for item in pool]
+    commons_views = await asyncio.gather(*[client.pageviews(t, year) for t in titles])
 
-    ranked = sorted(results, key=lambda r: r["views"], reverse=True)
+    print(f"[{year}] refreshing reuse views across other Wikimedia projects...", file=sys.stderr)
+    usage_map = await client.globalusage_detailed_bulk(titles)
+
+    reuse_pairs = []
+    results = []
+    for item, cv in zip(pool, commons_views):
+        r = {"title": item["title"], "country": item["country"], "commons_views": cv}
+        results.append(r)
+        for e in usage_map.get(item["title"], []):
+            reuse_pairs.append((r, e))
+
+    reuse_view_counts = await asyncio.gather(*[client.pageviews_on_page(e["wiki"], e["title"], year) for _, e in reuse_pairs])
+    for (r, _), v in zip(reuse_pairs, reuse_view_counts):
+        r["reuse_views"] = r.get("reuse_views", 0) + v
+
+    seen_titles = set()
+    deduped = []
+    for r in results:
+        r["reuse_views"] = r.get("reuse_views", 0)
+        r["total_views"] = r["commons_views"] + r["reuse_views"]
+        if r["title"] not in seen_titles:
+            seen_titles.add(r["title"])
+            deduped.append(r)
+
+    ranked = sorted(deduped, key=lambda r: r["total_views"], reverse=True)
     top_ranked = ranked[:20]
     thumbs = await client.thumbnails_bulk([r["title"] for r in top_ranked])
     for r in top_ranked:
         r["thumb"] = thumbs.get(r["title"], "")
 
     snap["top_viewed"] = top_ranked
-    snap["sample_total_views"] = sum(r["views"] for r in results)
+    snap["sample_total_views"] = sum(r["total_views"] for r in deduped)
     snap["views_refreshed_at"] = datetime.now(timezone.utc).isoformat()
     path.write_text(json.dumps(snap, indent=2, ensure_ascii=False), encoding="utf-8")
     print(f"[{year}] updated — sample_total_views now {snap['sample_total_views']}", file=sys.stderr)
@@ -128,9 +197,9 @@ async def main_async(args):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     group = ap.add_mutually_exclusive_group(required=True)
-    group.add_argument("--year", type=int, help="Refresh a single year")
-    group.add_argument("--all", action="store_true", help="Refresh every snapshot found in --data-dir")
-    ap.add_argument("--skip-year", type=int, help="With --all, skip this year (e.g. because fetch_snapshot.py already refreshed it in the same run)")
+    group.add_argument("--year", type=int)
+    group.add_argument("--all", action="store_true")
+    ap.add_argument("--skip-year", type=int)
     ap.add_argument("--data-dir", type=Path, default=Path("data"))
     args = ap.parse_args()
     asyncio.run(main_async(args))

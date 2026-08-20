@@ -11,107 +11,94 @@
   --coral: #f16160; --coral-deep: #c73f3f;
   --teal: #08ad9d; --teal-deep: #045f56;
   --yellow: #ffda27;
-  --paper: #fdfcfe; --paper-warm: #f4ede0; --ink: #14201f;
-  /* legacy aliases so the rest of the stylesheet below needs no other edits */
+  --paper: #fdfcfe; --paper-warm: #f4ede0; --ink: #000000;
   --indigo: var(--teal-deep); --indigo-deep: #073430;
   --ochre: var(--yellow); --clay: var(--coral); --leaf: var(--teal);
-  --line: rgba(20,32,31,0.14);
+  --line: rgba(0,0,0,0.16);
+  --text-strong: #000000;
+  --max-width: 1160px;
 }
 * { box-sizing: border-box; }
 body { margin: 0; font-family: 'IBM Plex Sans', sans-serif; color: var(--ink); background: var(--paper);
-  background-image: radial-gradient(circle at 1px 1px, rgba(20,32,31,0.06) 1px, transparent 0); background-size: 22px 22px; }
+  background-image: radial-gradient(circle at 1px 1px, rgba(0,0,0,0.06) 1px, transparent 0); background-size: 22px 22px; }
+.page-inner { max-width: var(--max-width); margin: 0 auto; }
 
 .hero { background: linear-gradient(160deg, var(--indigo) 0%, var(--indigo-deep) 100%); color: var(--paper);
-  padding: 40px 28px 30px; position: relative; overflow: hidden; }
+  padding: 40px 28px 0; position: relative; overflow: hidden; }
 .hero::after { content:""; position:absolute; right:-60px; top:-60px; width:220px; height:220px; border-radius:50%;
   background: radial-gradient(circle, rgba(217,164,65,0.35), transparent 70%); }
 .eyebrow { font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.12em; text-transform:uppercase;
-  color: var(--ochre); display:flex; align-items:center; gap:8px; margin-bottom:10px; }
-.dot { width:6px; height:6px; border-radius:50%; background: var(--ochre); }
+  color: var(--yellow); display:flex; align-items:center; gap:8px; margin-bottom:10px; }
+.dot { width:6px; height:6px; border-radius:50%; background: var(--yellow); }
 h1 { font-family:'Fraunces',serif; font-weight:600; font-size:clamp(28px,5vw,44px); line-height:1.05; margin:0 0 6px; letter-spacing:-.01em; }
-.year-select-row { display:flex; align-items:center; gap:10px; margin: 6px 0 24px; position:relative; z-index:1; }
-select { font-family:'IBM Plex Mono',monospace; font-size:13px; background: rgba(242,233,216,0.1); color: var(--paper);
-  border:1px solid rgba(242,233,216,0.35); padding:6px 10px; border-radius:4px; }
-.stats-row { display:flex; gap:32px; flex-wrap:wrap; position:relative; z-index:1; }
-.stat-num { font-family:'Fraunces',serif; font-weight:600; font-size:clamp(30px,5vw,46px); line-height:1; }
-.stat-label { font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color: var(--coral-deep); margin-top:6px; }
-.hero .stat-label { color: var(--ochre); }
-
-.link-row { display:flex; gap:10px; flex-wrap:wrap; margin: 18px 0 22px; position:relative; z-index:1; }
-.link-chip {
-  display:flex; align-items:center; gap:8px;
-  background: rgba(253,252,254,0.08);
-  border: 1px solid rgba(253,252,254,0.22);
-  border-radius: 999px;
-  padding: 7px 16px 7px 12px;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 12.5px; font-weight: 500;
-  color: var(--paper);
-  text-decoration: none;
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
-}
-.link-chip:hover { background: rgba(253,252,254,0.16); transform: translateY(-1px); }
-.link-chip .chip-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
-.link-chip.chip-coral:hover { border-color: var(--coral); }
-.link-chip.chip-teal:hover { border-color: var(--teal); }
-.link-chip.chip-yellow:hover { border-color: var(--yellow); }
-.link-chip .chip-arrow { opacity:0.6; font-size:11px; }
 
 .logo-row { display:flex; align-items:center; gap:14px; margin-bottom:18px; position:relative; z-index:1; }
-.logo-badge {
-  background: var(--paper);
-  border-radius: 10px;
-  padding: 8px 14px;
-  display: flex; align-items: center;
-  box-shadow: 0 3px 10px rgba(7,52,48,0.25);
-}
+.logo-badge { background: var(--paper); border-radius: 10px; padding: 8px 14px; display: flex; align-items: center; box-shadow: 0 3px 10px rgba(7,52,48,0.25); }
 .logo-badge img { height: 32px; width: auto; display: block; }
-.logo-badge.placeholder {
-  color: var(--teal-deep);
-  font-family: 'IBM Plex Mono', monospace;
-  font-size: 10px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  padding: 12px 14px;
-  border: 1px dashed rgba(7,52,48,0.35);
-  background: rgba(253,252,254,0.5);
-}
 
-.section { padding: 34px 28px; border-bottom: 1px solid var(--line); }
+.link-row { display:flex; gap:10px; flex-wrap:wrap; margin: 18px 0 26px; position:relative; z-index:1; }
+.link-chip { display:flex; align-items:center; gap:8px; background: rgba(253,252,254,0.1); border: 1px solid rgba(253,252,254,0.3);
+  border-radius: 999px; padding: 7px 16px 7px 12px; font-size: 12.5px; font-weight: 500; color: var(--paper); text-decoration:none; }
+.link-chip:hover { background: rgba(253,252,254,0.18); }
+.link-chip .chip-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+.link-chip .chip-arrow { opacity:0.7; font-size:11px; }
+
+/* Tab bar — primary navigation between Overview and each year */
+.year-tabs { display:flex; gap:4px; overflow-x:auto; padding-bottom:0; position:relative; z-index:1; -ms-overflow-style:none; scrollbar-width:none; }
+.year-tabs::-webkit-scrollbar { display:none; }
+.year-tab { flex-shrink:0; background: transparent; border:none; border-bottom:3px solid transparent; color: rgba(253,252,254,0.65);
+  font-family:'IBM Plex Mono',monospace; font-size:13px; font-weight:600; padding: 12px 18px; cursor:pointer; letter-spacing:.03em; }
+.year-tab:hover { color: var(--paper); }
+.year-tab.active { color: var(--paper); border-bottom-color: var(--yellow); }
+
+.subnav { display:flex; gap:10px; flex-wrap:wrap; padding: 18px 28px 0; max-width: var(--max-width); margin:0 auto; }
+.subnav-btn { font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:600; letter-spacing:.03em;
+  background: var(--paper-warm); border:1px solid var(--line); color: var(--text-strong); padding:8px 14px; border-radius:6px; cursor:pointer; }
+.subnav-btn.active { background: var(--teal-deep); border-color: var(--teal-deep); color: var(--paper); }
+
+.section { padding: 30px 28px; border-bottom: 1px solid var(--line); max-width: var(--max-width); margin: 0 auto; }
 .section-head { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:4px; }
-.section-title { font-family:'Fraunces',serif; font-weight:600; font-size:22px; margin:0; }
-.section-sub { font-family:'IBM Plex Mono',monospace; font-size:11px; color: var(--clay); text-transform:uppercase; letter-spacing:.06em; }
-.section-note { font-size:13px; color: rgba(20,32,31,0.65); margin:4px 0 22px; max-width:62ch; }
+.section-title { font-family:'Fraunces',serif; font-weight:600; font-size:21px; margin:0; color: var(--text-strong); }
+.section-sub { font-family:'IBM Plex Mono',monospace; font-size:11px; color: var(--coral-deep); text-transform:uppercase; letter-spacing:.06em; }
+.section-note { font-size:13.5px; color: var(--text-strong); opacity:0.85; margin:4px 0 20px; max-width:66ch; line-height:1.5; }
 
-.trend-wrap { overflow-x:auto; }
+.stats-row { display:grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap:22px 28px; position:relative; z-index:1; padding-bottom:26px; }
+.stat-num { font-family:'Fraunces',serif; font-weight:600; font-size:clamp(26px,4vw,38px); line-height:1; color: var(--paper); }
+.stat-label { font-family:'IBM Plex Mono',monospace; font-size:11px; letter-spacing:.06em; text-transform:uppercase; color: var(--yellow); margin-top:6px; }
+
+.two-col { display:grid; grid-template-columns: 1fr; gap: 34px; }
+@media (min-width: 820px) { .two-col { grid-template-columns: 1fr 1fr; } }
+
+.mini-stat-row { display:flex; gap:30px; flex-wrap:wrap; margin: 4px 0 18px; }
+.mini-stat { }
+.mini-stat-num { font-family:'Fraunces',serif; font-weight:700; font-size:26px; color: var(--text-strong); }
+.mini-stat-label { font-family:'IBM Plex Mono',monospace; font-size:10.5px; color: var(--coral-deep); text-transform:uppercase; letter-spacing:.05em; margin-top:3px; }
+
 .ledger { display:flex; flex-direction:column; border-top:1px solid var(--line); }
-.ledger-row { display:grid; grid-template-columns: 30px 1fr auto 70px; grid-template-rows:auto auto; align-items:center; gap:12px; padding:9px 0; border-bottom:1px solid var(--line); }
-.rank { font-family:'IBM Plex Mono',monospace; font-size:11px; color: var(--clay); }
-.country-name { font-size:14px; font-weight:500; }
-.count { font-family:'IBM Plex Mono',monospace; font-size:13px; text-align:right; color: var(--indigo); font-weight:600; }
-.bar-track { grid-column:1/-1; grid-row:2; height:6px; background:rgba(20,32,31,0.08); border-radius:3px; overflow:hidden; margin-top:4px; }
-.bar-fill { height:100%; background:linear-gradient(90deg, var(--clay), var(--ochre)); border-radius:3px; }
-.pending-note { font-size:12px; color: rgba(20,32,31,0.55); margin-top:14px; font-style:italic; }
+.ledger-row { display:grid; grid-template-columns: 30px 1fr auto 90px; grid-template-rows:auto auto; align-items:center; gap:12px; padding:9px 0; border-bottom:1px solid var(--line); }
+.rank { font-family:'IBM Plex Mono',monospace; font-size:11px; color: var(--coral-deep); }
+.country-name { font-size:14px; font-weight:500; color: var(--text-strong); }
+.count { font-family:'IBM Plex Mono',monospace; font-size:13px; text-align:right; color: var(--teal-deep); font-weight:600; }
+.bar-track { grid-column:1/-1; grid-row:2; height:6px; background:rgba(0,0,0,0.1); border-radius:3px; overflow:hidden; margin-top:4px; }
+.bar-fill { height:100%; background:linear-gradient(90deg, var(--coral), var(--yellow)); border-radius:3px; }
 
-.sprockets { display:flex; gap:5px; margin-bottom:10px; }
-.sprockets span { width:7px; height:7px; border-radius:1px; background: var(--indigo); opacity:.25; }
-.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(150px,1fr)); gap:14px; margin-top:18px; }
-.card { background: var(--indigo-deep); border-radius:3px; overflow:hidden; position:relative; box-shadow:0 3px 10px rgba(7,52,48,.25); }
+.grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(170px,1fr)); gap:16px; margin-top:18px; }
+.card { background: var(--indigo-deep); border-radius:5px; overflow:hidden; position:relative; box-shadow:0 3px 10px rgba(7,52,48,.25); }
 .card-img-wrap { position:relative; aspect-ratio:4/3; background:#0c1424; overflow:hidden; }
 .card img { width:100%; height:100%; object-fit:cover; display:block; }
 .card-rank { position:absolute; top:6px; left:6px; font-family:'IBM Plex Mono',monospace; font-size:10px; font-weight:600;
-  background: var(--ochre); color: var(--indigo-deep); padding:2px 6px; border-radius:2px; }
-.card-info { padding:8px 9px 10px; }
-.card-country { font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.06em; text-transform:uppercase; color: var(--ochre); margin-bottom:3px; }
-.card-views { font-family:'Fraunces',serif; font-weight:600; color: var(--paper); font-size:16px; }
-.card-views span { font-family:'IBM Plex Mono',monospace; font-size:10px; color: var(--paper-warm); opacity:.7; font-weight:400; }
-.card-title { font-size:10px; color: var(--paper-warm); opacity:.55; margin-top:3px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+  background: var(--yellow); color: var(--indigo-deep); padding:2px 6px; border-radius:2px; }
+.card-info { padding:10px 11px 12px; }
+.card-country { font-family:'IBM Plex Mono',monospace; font-size:9px; letter-spacing:.06em; text-transform:uppercase; color: var(--yellow); margin-bottom:3px; }
+.card-views { font-family:'Fraunces',serif; font-weight:600; color: #ffffff; font-size:16px; }
+.card-views span { font-family:'IBM Plex Mono',monospace; font-size:10px; color: #ffffff; opacity:.75; font-weight:400; }
+.card-views-breakdown { font-family:'IBM Plex Mono',monospace; font-size:9px; color: #ffffff; opacity:.65; margin-top:2px; }
+.card-title { font-size:11px; color: #ffffff; opacity:.85; margin-top:5px; }
 a.card-link { text-decoration:none; color:inherit; display:block; }
 
-.winner-uploader { font-size:11px; color: var(--yellow); margin-top:2px; }
-.winner-uploader a { color: inherit; text-decoration:none; border-bottom:1px dotted rgba(253,252,254,0.4); }
-.winner-uploader a:hover { border-bottom-style:solid; }
-.winner-usage-list { margin-top:6px; display:flex; flex-direction:column; gap:5px; }
+.winner-field { font-size:11.5px; color: #ffffff; margin-top:3px; }
+.winner-field b { color: var(--yellow); font-weight:600; }
+.winner-usage-list { margin-top:8px; display:flex; flex-direction:column; gap:5px; }
 .winner-usage-list a, .winner-usage-list span {
   font-family:'IBM Plex Sans', sans-serif; font-size:10.5px; color: #ffffff;
   text-decoration:none; border-bottom:1px dotted rgba(255,255,255,0.4);
@@ -119,153 +106,63 @@ a.card-link { text-decoration:none; color:inherit; display:block; }
 }
 .winner-usage-list span { border-bottom:none; opacity:0.85; }
 .winner-usage-list a:hover { color: var(--yellow); border-bottom-color: var(--yellow); }
-.winner-not-used { font-family:'IBM Plex Mono',monospace; font-size:9.5px; color: #ffffff; opacity:0.55; font-style:italic; margin-top:6px; }
+.winner-not-used { font-family:'IBM Plex Mono',monospace; font-size:9.5px; color:#ffffff; opacity:0.6; font-style:italic; margin-top:8px; }
 
-.footer { padding: 20px 28px 34px; font-size:12px; color: rgba(20,32,31,0.6); line-height:1.6; }
-.footer a { color: var(--clay); }
-.empty-note { font-size: 13px; color: rgba(20,32,31,0.6); padding: 20px 0; }
+.gap-line { margin: 6px 0 22px; }
+.gap-line-title { font-family:'IBM Plex Mono',monospace; font-size:11px; color: var(--coral-deep); text-transform:uppercase; letter-spacing:.05em; margin-bottom:8px; }
+.gap-items { display:flex; gap:16px; flex-wrap:wrap; }
+.gap-item { background: var(--paper-warm); border:1px solid var(--line); border-radius:6px; padding:10px 14px; min-width:120px; }
+.gap-item .gy { font-family:'IBM Plex Mono',monospace; font-size:10px; color: var(--text-strong); opacity:.7; }
+.gap-item .gv { font-family:'Fraunces',serif; font-weight:700; font-size:19px; color: var(--text-strong); margin-top:2px; }
+.gap-item .gd { font-family:'IBM Plex Mono',monospace; font-size:11px; margin-top:2px; }
+.gd.pos { color: var(--teal-deep); }
+.gd.neg { color: var(--coral-deep); }
 
-.tab-select-row { display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-bottom:6px; }
-.tab-select-label { font-family:'Fraunces',serif; font-style:italic; font-size:16px; color: var(--ink); }
-.tab-select-row select {
-  font-family:'IBM Plex Mono',monospace; font-size:13px; background: var(--paper);
-  color: var(--ink); border:1px solid var(--line); padding:8px 12px; border-radius:6px;
-}
-.tab-panel { display:none; }
-.tab-panel.active { display:block; }
+.retention-bars { display:flex; flex-direction:column; gap:10px; margin-top:8px; }
+.retention-row { display:grid; grid-template-columns: 130px 1fr 70px; align-items:center; gap:10px; }
+.retention-label { font-size:13px; color: var(--text-strong); }
+.retention-track { height:10px; background:rgba(0,0,0,0.08); border-radius:5px; overflow:hidden; }
+.retention-fill { height:100%; background:linear-gradient(90deg, var(--teal), var(--teal-deep)); }
+.retention-pct { font-family:'IBM Plex Mono',monospace; font-size:12px; text-align:right; color: var(--text-strong); font-weight:600; }
 
+.empty-note { font-size: 13px; color: var(--text-strong); opacity:0.7; padding: 20px 0; }
+.footer { padding: 20px 28px 34px; font-size:12px; color: var(--text-strong); opacity:0.75; line-height:1.6; max-width: var(--max-width); margin:0 auto; }
+.footer a { color: var(--coral-deep); }
 </style>
 </head>
 <body>
 <div class="hero">
-  <div class="logo-row">
-    <div class="logo-badge">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wiki_Loves_Africa_logo_2024.svg?width=200" alt="Wiki Loves Africa logo">
+  <div class="page-inner">
+    <div class="logo-row">
+      <div class="logo-badge"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wiki_Loves_Africa_logo_2024.svg?width=200" alt="Wiki Loves Africa logo"></div>
+      <div class="logo-badge"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wiki_In_Africa_logo_2024.png?width=200" alt="Wiki In Africa logo"></div>
     </div>
-    <div class="logo-badge">
-      <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wiki_In_Africa_logo_2024.png?width=200" alt="Wiki In Africa logo">
+    <div class="eyebrow"><span class="dot"></span>Snapshot data &middot; updated on schedule</div>
+    <h1>State of Wiki Loves Africa</h1>
+    <div class="link-row">
+      <a class="link-chip" href="https://www.wikiinafrica.org/" target="_blank" rel="noopener"><span class="chip-dot" style="background:var(--teal);"></span>Wiki In Africa<span class="chip-arrow">&#8599;</span></a>
+      <a class="link-chip" href="https://www.wikilovesafrica.net/" target="_blank" rel="noopener"><span class="chip-dot" style="background:var(--coral);"></span>Wiki Loves Africa<span class="chip-arrow">&#8599;</span></a>
+      <a class="link-chip" href="https://meta.wikimedia.org/wiki/Wiki_In_Africa" target="_blank" rel="noopener"><span class="chip-dot" style="background:var(--yellow);"></span>Meta-Wiki page<span class="chip-arrow">&#8599;</span></a>
+      <a class="link-chip" href="https://wikiinafrica.wikibase.cloud/" target="_blank" rel="noopener"><span class="chip-dot" style="background:var(--teal);"></span>Learning Repository<span class="chip-arrow">&#8599;</span></a>
     </div>
-  </div>
-
-  <div class="eyebrow"><span class="dot"></span>Snapshot data · updated on schedule</div>
-  <h1>State of Wiki Loves Africa</h1>
-
-  <div class="link-row">
-    <a class="link-chip chip-teal" href="https://www.wikiinafrica.org/" target="_blank" rel="noopener">
-      <span class="chip-dot" style="background:var(--teal);"></span>Wiki In Africa<span class="chip-arrow">&#8599;</span>
-    </a>
-    <a class="link-chip chip-coral" href="https://www.wikilovesafrica.net/" target="_blank" rel="noopener">
-      <span class="chip-dot" style="background:var(--coral);"></span>Wiki Loves Africa<span class="chip-arrow">&#8599;</span>
-    </a>
-    <a class="link-chip chip-yellow" href="https://meta.wikimedia.org/wiki/Wiki_In_Africa" target="_blank" rel="noopener">
-      <span class="chip-dot" style="background:var(--yellow);"></span>Meta-Wiki page<span class="chip-arrow">&#8599;</span>
-    </a>
-    <a class="link-chip chip-teal" href="https://wikiinafrica.wikibase.cloud/" target="_blank" rel="noopener">
-      <span class="chip-dot" style="background:var(--teal);"></span>Learning Repository<span class="chip-arrow">&#8599;</span>
-    </a>
-  </div>
-
-  <div class="year-select-row">
-    <span style="font-family:'Fraunces',serif; font-style:italic; opacity:.9;" id="theme-line">loading&hellip;</span>
-    <select id="year-select"></select>
-  </div>
-  <div class="stats-row">
-    <div><div class="stat-num" id="stat-total">&hellip;</div><div class="stat-label">Submissions</div></div>
-    <div><div class="stat-num" id="stat-countries">&hellip;</div><div class="stat-label">Participating countries</div></div>
-    <div><div class="stat-num" id="stat-pending">&hellip;</div><div class="stat-label">Awaiting sorting</div></div>
-    <div><div class="stat-num" id="stat-contributors">&hellip;</div><div class="stat-label">Contributors</div></div>
-    <div><div class="stat-num" id="stat-year-views">&hellip;</div><div class="stat-label" id="stat-year-views-label">Views, this year</div></div>
+    <div id="hero-stats-slot"></div>
+    <div class="year-tabs" id="year-tabs"></div>
   </div>
 </div>
 
-<div class="section" style="padding-top:24px; padding-bottom:24px;">
-  <div class="section-head"><h2 class="section-title" style="font-size:18px;">Year over year</h2><span class="section-sub" id="trend-sub"></span></div>
-  <p class="section-note">Submissions per year, across every snapshot collected so far.</p>
-  <div class="trend-wrap"><svg id="trend-svg" width="100%" height="140" viewBox="0 0 700 140" preserveAspectRatio="none"></svg></div>
+<div class="subnav" id="subnav" style="display:none;"></div>
 
-  <div style="display:flex; gap:36px; flex-wrap:wrap; margin-top:22px;">
-    <div><div class="stat-num" id="stat-grand-total" style="font-size:28px;">&hellip;</div><div class="stat-label" id="stat-grand-total-label">Views, all years</div></div>
-    <div><div class="stat-num" id="stat-grand-contributors" style="font-size:28px;">&hellip;</div><div class="stat-label">Unique contributors</div></div>
-    <div><div class="stat-num" id="stat-grand-usage" style="font-size:28px;">&hellip;</div><div class="stat-label">Uses on WMF projects</div></div>
-  </div>
-  <p class="section-note" style="margin-top:10px;" id="all-time-note">Loading&hellip;</p>
-</div>
-
-<div class="section" style="border-bottom:none; padding-bottom:0;">
-  <div class="tab-select-row">
-    <span class="tab-select-label">What would you like to see?</span>
-    <select id="tab-select">
-      <option value="country">Submissions by country</option>
-      <option value="topviewed">Top viewed images</option>
-      <option value="winners">Contest winners</option>
-      <option value="usage">Usage on Wikimedia projects</option>
-    </select>
-  </div>
-</div>
-
-<div class="section tab-panel active" data-panel="country">
-  <div class="section-head"><h2 class="section-title">Submissions by country</h2><span class="section-sub" id="ledger-sub"></span></div>
-  <p class="section-note">Every country with at least one submission, ranked by a recursive file count under its category branch. Countries with zero submissions aren't shown.</p>
-  <div class="ledger" id="ledger"></div>
-  <div class="pending-note" id="pending-note"></div>
-</div>
-
-<div class="section tab-panel" data-panel="topviewed">
-  <div class="sprockets"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
-  <div class="section-head"><h2 class="section-title">Top viewed images</h2><span class="section-sub" id="views-sub"></span></div>
-  <p class="section-note" id="views-note"></p>
-  <div class="grid" id="grid"></div>
-</div>
-
-<div class="section tab-panel" data-panel="winners">
-  <div class="section-head"><h2 class="section-title">Contest winners</h2><span class="section-sub" id="winners-sub"></span></div>
-  <p class="section-note" id="winners-note">The jury-selected winning images for this year, from Commons' own winners category — not ranked by views or an estimate.</p>
-  <div class="grid" id="winners-grid"></div>
-</div>
-
-<div class="section tab-panel" data-panel="usage">
-  <div class="section-head"><h2 class="section-title">Usage on Wikimedia projects</h2><span class="section-sub" id="usage-sub"></span></div>
-  <p class="section-note">Where the selected year's submissions are actually being used — every wiki that embeds a file, from Commons' own usage data, not an estimate.</p>
-  <div class="ledger" id="usage-ledger"></div>
-</div>
+<div id="panels"></div>
 
 <div class="footer">
-  Snapshots are generated by a scheduled script from the Commons category tree and the Wikimedia REST pageviews API —
-  see <code>scripts/fetch_snapshot.py</code> in this repo. Years without a snapshot yet will show as unavailable below.
+  Snapshots are generated by a scheduled script from the Commons category tree and the Wikimedia REST pageviews API &mdash;
+  see <code>scripts/fetch_snapshot.py</code> in this repo.
 </div>
 
 <script>
-const fmt = n => n.toLocaleString("en-US");
+const fmt = n => (n || 0).toLocaleString("en-US");
 const setText = (id, text) => { const el = document.getElementById(id); if (el) el.textContent = text; };
 
-function wikiPageUrl(wikiCode, pageTitle) {
-  const special = {
-    commonswiki: "commons.wikimedia.org", wikidatawiki: "www.wikidata.org",
-    metawiki: "meta.wikimedia.org", specieswiki: "species.wikimedia.org",
-    incubatorwiki: "incubator.wikimedia.org", mediawikiwiki: "www.mediawiki.org",
-    foundationwiki: "foundation.wikimedia.org",
-  };
-  const encoded = encodeURIComponent((pageTitle || "").replace(/ /g, "_"));
-  if (special[wikiCode]) return `https://${special[wikiCode]}/wiki/${encoded}`;
-  const suffixes = [
-    ["wiktionary", "wiktionary.org"], ["wikibooks", "wikibooks.org"], ["wikinews", "wikinews.org"],
-    ["wikiquote", "wikiquote.org"], ["wikisource", "wikisource.org"], ["wikiversity", "wikiversity.org"],
-    ["wikivoyage", "wikivoyage.org"], ["wiki", "wikipedia.org"],
-  ];
-  for (const [suffix, domain] of suffixes) {
-    if (wikiCode && wikiCode.endsWith(suffix)) {
-      const lang = wikiCode.slice(0, -suffix.length);
-      return `https://${lang}.${domain}/wiki/${encoded}`;
-    }
-  }
-  return null;
-}
-
-// General, not a special case for any one page: converts any wiki dbname
-// (e.g. "hawiki", "metawiki", "frwiktionary") into a human-readable project
-// name. Covers the languages likeliest to show up for African contest
-// entries plus major world languages; anything unrecognized still gets a
-// readable fallback like "XX Wikipedia" instead of the raw dbname.
 const WIKI_SPECIAL_NAMES = {
   commonswiki: "Wikimedia Commons", wikidatawiki: "Wikidata", metawiki: "Meta-Wiki",
   specieswiki: "Wikispecies", incubatorwiki: "Wikimedia Incubator",
@@ -290,15 +187,37 @@ function wikiFriendlyName(wikiCode) {
   for (const [suffix, projectName] of WIKI_PROJECT_SUFFIXES) {
     if (wikiCode.endsWith(suffix)) {
       const lang = wikiCode.slice(0, -suffix.length);
-      const langName = WIKI_LANG_NAMES[lang] || lang.toUpperCase();
-      return `${langName} ${projectName}`;
+      return `${WIKI_LANG_NAMES[lang] || lang.toUpperCase()} ${projectName}`;
     }
   }
   return wikiCode;
 }
+function wikiPageUrl(wikiCode, pageTitle) {
+  const special = {
+    commonswiki: "commons.wikimedia.org", wikidatawiki: "www.wikidata.org",
+    metawiki: "meta.wikimedia.org", specieswiki: "species.wikimedia.org",
+    incubatorwiki: "incubator.wikimedia.org", mediawikiwiki: "www.mediawiki.org",
+    foundationwiki: "foundation.wikimedia.org",
+  };
+  const encoded = encodeURIComponent((pageTitle || "").replace(/ /g, "_"));
+  if (special[wikiCode]) return `https://${special[wikiCode]}/wiki/${encoded}`;
+  const suffixes = [
+    ["wiktionary", "wiktionary.org"], ["wikibooks", "wikibooks.org"], ["wikinews", "wikinews.org"],
+    ["wikiquote", "wikiquote.org"], ["wikisource", "wikisource.org"], ["wikiversity", "wikiversity.org"],
+    ["wikivoyage", "wikivoyage.org"], ["wiki", "wikipedia.org"],
+  ];
+  for (const [suffix, domain] of suffixes) {
+    if (wikiCode && wikiCode.endsWith(suffix)) {
+      return `https://${wikiCode.slice(0, -suffix.length)}.${domain}/wiki/${encoded}`;
+    }
+  }
+  return null;
+}
 
-let allYearsData = {};
 let trends = { years: [] };
+let yearDataCache = {};
+let activeYearTab = "overview";
+let activeSubTab = "country";
 
 async function loadJson(path) {
   try {
@@ -308,214 +227,337 @@ async function loadJson(path) {
   } catch (e) { return null; }
 }
 
-function renderTrend() {
-  const svg = document.getElementById("trend-svg");
+function renderYearTabs() {
+  const wrap = document.getElementById("year-tabs");
+  wrap.innerHTML = "";
+  const overviewBtn = document.createElement("button");
+  overviewBtn.className = "year-tab" + (activeYearTab === "overview" ? " active" : "");
+  overviewBtn.textContent = "Overview";
+  overviewBtn.onclick = () => switchYearTab("overview");
+  wrap.appendChild(overviewBtn);
+  trends.years.slice().reverse().forEach(y => {
+    const btn = document.createElement("button");
+    btn.className = "year-tab" + (activeYearTab === String(y.year) ? " active" : "");
+    btn.textContent = y.year;
+    btn.onclick = () => switchYearTab(String(y.year));
+    wrap.appendChild(btn);
+  });
+}
+
+function switchYearTab(tab) {
+  activeYearTab = tab;
+  renderYearTabs();
+  if (tab === "overview") {
+    document.getElementById("subnav").style.display = "none";
+    renderOverview();
+  } else {
+    document.getElementById("subnav").style.display = "flex";
+    showYear(parseInt(tab, 10));
+  }
+}
+
+function renderSubnav() {
+  const wrap = document.getElementById("subnav");
+  const options = [
+    ["country", "Submissions by country"],
+    ["topviewed", "Top viewed images"],
+    ["winners", "Contest winners"],
+    ["usage", "Usage on Wikimedia projects"],
+  ];
+  wrap.innerHTML = "";
+  options.forEach(([key, label]) => {
+    const btn = document.createElement("button");
+    btn.className = "subnav-btn" + (activeSubTab === key ? " active" : "");
+    btn.textContent = label;
+    btn.onclick = () => { activeSubTab = key; renderSubnav(); renderYearPanels(yearDataCache[activeYearTab]); };
+    wrap.appendChild(btn);
+  });
+}
+
+function fmtDelta(curr, prev) {
+  if (prev === undefined || prev === null) return null;
+  const diff = curr - prev;
+  const pct = prev ? Math.round((diff / prev) * 1000) / 10 : 0;
+  return { diff, pct };
+}
+
+function renderOverview() {
+  const panels = document.getElementById("panels");
   const years = trends.years;
-  if (!years.length) { svg.innerHTML = `<text x="10" y="70" font-family="IBM Plex Mono" font-size="12" fill="#f16160">No snapshots yet</text>`; return; }
-  const w = 700, h = 140, pad = 30;
-  const max = Math.max(...years.map(y => y.total_submissions), 1);
-  const stepX = (w - pad * 2) / Math.max(years.length - 1, 1);
-  const pts = years.map((y, i) => {
-    const x = pad + i * stepX;
-    const yPos = h - pad - (y.total_submissions / max) * (h - pad * 2);
-    return [x, yPos];
-  });
-  const path = pts.map((p, i) => (i === 0 ? "M" : "L") + p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ");
-  const circles = pts.map((p, i) =>
-    `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="#f16160" />
-     <text x="${p[0]}" y="${h - 6}" font-family="IBM Plex Mono" font-size="10" fill="#14201f" text-anchor="middle">${years[i].year}</text>`
-  ).join("");
-  svg.innerHTML = `<path d="${path}" fill="none" stroke="#ffda27" stroke-width="2.5" />${circles}`;
-}
+  const latest = years[years.length - 1];
+  const totalSubs = years.reduce((s, y) => s + y.total_submissions, 0);
 
-function renderYearSelect(activeYear) {
-  const sel = document.getElementById("year-select");
-  sel.innerHTML = "";
-  trends.years.forEach(y => {
-    const opt = document.createElement("option");
-    opt.value = y.year; opt.textContent = y.year;
-    if (y.year === activeYear) opt.selected = true;
-    sel.appendChild(opt);
-  });
-}
+  let heroHtml = `<div class="stats-row">
+    <div><div class="stat-num">${fmt(totalSubs)}</div><div class="stat-label">Submissions, all years</div></div>
+    <div><div class="stat-num">${fmt(trends.grand_total_unique_contributors)}</div><div class="stat-label">Unique contributors</div></div>
+    <div><div class="stat-num">${fmt(trends.grand_total_sample_views)}</div><div class="stat-label">Views, all years</div></div>
+    <div><div class="stat-num">${fmt(trends.grand_total_usage_entries)}</div><div class="stat-label">Uses on WMF projects</div></div>
+  </div>`;
+  document.getElementById("hero-stats-slot").innerHTML = heroHtml;
 
-function renderLedger(countries) {
-  const ledger = document.getElementById("ledger");
-  ledger.innerHTML = "";
-  const max = countries.length ? countries[0].count : 1;
+  let gapHtml = "";
+  for (let i = 0; i < years.length; i++) {
+    const y = years[i];
+    const prev = years[i - 1];
+    const subDelta = fmtDelta(y.total_submissions, prev ? prev.total_submissions : null);
+    const contribDelta = fmtDelta(y.contributors_count, prev ? prev.contributors_count : null);
+    gapHtml += `<div class="gap-item"><div class="gy">${y.year}</div>
+      <div class="gv">${fmt(y.total_submissions)}</div>
+      <div class="gd ${subDelta && subDelta.diff >= 0 ? 'pos' : 'neg'}">${subDelta ? (subDelta.diff >= 0 ? '+' : '') + fmt(subDelta.diff) + ' (' + (subDelta.pct >= 0 ? '+' : '') + subDelta.pct + '%)' : 'first year on record'}</div>
+    </div>`;
+  }
+  let contribGapHtml = "";
+  for (let i = 0; i < years.length; i++) {
+    const y = years[i];
+    const prev = years[i - 1];
+    const cDelta = fmtDelta(y.contributors_count, prev ? prev.contributors_count : null);
+    contribGapHtml += `<div class="gap-item"><div class="gy">${y.year}</div>
+      <div class="gv">${fmt(y.contributors_count)}</div>
+      <div class="gd ${cDelta && cDelta.diff >= 0 ? 'pos' : 'neg'}">${cDelta ? (cDelta.diff >= 0 ? '+' : '') + fmt(cDelta.diff) + ' (' + (cDelta.pct >= 0 ? '+' : '') + cDelta.pct + '%)' : 'first year on record'}</div>
+    </div>`;
+  }
+
+  let retentionHtml = "";
+  const retention = trends.contributor_retention || [];
+  if (!retention.length) {
+    retentionHtml = `<div class="empty-note">Need at least two years of data to measure retention.</div>`;
+  } else {
+    const maxPct = Math.max(...retention.map(r => r.percentage), 1);
+    retention.forEach(r => {
+      const label = r.min_years === 1 ? "Active 1+ years" : `Active ${r.min_years}+ years`;
+      retentionHtml += `<div class="retention-row">
+        <div class="retention-label">${label}</div>
+        <div class="retention-track"><div class="retention-fill" style="width:${(r.percentage / maxPct) * 100}%"></div></div>
+        <div class="retention-pct">${fmt(r.count)} (${r.percentage}%)</div>
+      </div>`;
+    });
+  }
+
+  const countries = (trends.grand_countries || []).filter(c => c.count > 0);
+  const maxCountry = countries.length ? countries[0].count : 1;
+  let countryHtml = "";
   countries.forEach((c, i) => {
-    const row = document.createElement("div");
-    row.className = "ledger-row";
-    row.innerHTML = `
+    countryHtml += `<div class="ledger-row">
       <div class="rank">${String(i + 1).padStart(2, "0")}</div>
       <div class="country-name">${c.name}</div>
       <div></div>
       <div class="count">${fmt(c.count)}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:${(c.count / max) * 100}%"></div></div>
-    `;
-    ledger.appendChild(row);
+      <div class="bar-track"><div class="bar-fill" style="width:${(c.count / maxCountry) * 100}%"></div></div>
+    </div>`;
   });
-  document.getElementById("ledger-sub").textContent = countries.length + " countries";
-}
 
-function renderWinners(winners, sourceCategory) {
-  const grid = document.getElementById("winners-grid");
-  grid.innerHTML = "";
-  if (!winners || !winners.length) {
-    grid.innerHTML = `<div class="empty-note">No winners category found for this year yet — Commons' naming for the winners category has varied by year, so this may need a manual check.</div>`;
-    return;
+  let usageHtml = "";
+  const usage = trends.grand_usage_by_wiki || [];
+  if (!usage.length) {
+    usageHtml = `<div class="empty-note">No cross-wiki usage recorded yet.</div>`;
+  } else {
+    const maxUsage = usage[0].count;
+    usage.slice(0, 20).forEach((u, i) => {
+      usageHtml += `<div class="ledger-row">
+        <div class="rank">${String(i + 1).padStart(2, "0")}</div>
+        <div class="country-name">${wikiFriendlyName(u.wiki)}</div>
+        <div></div>
+        <div class="count">${fmt(u.count)} <span style="opacity:.65; font-weight:400;">(${u.percentage}%)</span></div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(u.count / maxUsage) * 100}%"></div></div>
+      </div>`;
+    });
   }
-  winners.forEach((w) => {
-    const shortTitle = w.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");
-    const fileUrl = `https://commons.wikimedia.org/wiki/${encodeURIComponent(w.title.replace(/ /g, "_"))}`;
-    const uploaderUrl = w.uploader ? `https://commons.wikimedia.org/wiki/User:${encodeURIComponent(w.uploader.replace(/ /g, "_"))}` : null;
 
-    let usageHtml;
-    if (w.usage && w.usage.length) {
-      const links = w.usage.slice(0, 6).map(u => {
-        const url = wikiPageUrl(u.wiki, u.title);
-        const cleanTitle = (u.title || "").replace(/_/g, " ");
-        const label = `${wikiFriendlyName(u.wiki)}: ${cleanTitle}`;
-        return url ? `<a href="${url}" target="_blank" rel="noopener">${label}</a>` : `<span>${label}</span>`;
-      }).join("");
-      const more = w.usage.length > 6 ? `<div style="font-size:9px; opacity:.6; color:#fff; margin-top:2px;">+${w.usage.length - 6} more</div>` : "";
-      usageHtml = `<div class="winner-usage-list">${links}${more}</div>`;
-    } else {
-      usageHtml = `<div class="winner-not-used">Not yet used on any Wikimedia project &mdash; rechecked automatically each month</div>`;
-    }
-
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <div class="card-img-wrap">
-        <a href="${fileUrl}" target="_blank" rel="noopener"><img src="${w.thumb || ''}" alt="${shortTitle}" loading="lazy"></a>
-      </div>
-      <div class="card-info">
-        <div class="card-country">${w.country || "country unknown"}</div>
-        <div class="card-title" style="white-space:normal; overflow:visible;">${shortTitle}</div>
-        <div class="winner-uploader">${uploaderUrl ? `by <a href="${uploaderUrl}" target="_blank" rel="noopener">${w.uploader}</a>` : "uploader unknown"}</div>
-        ${usageHtml}
-      </div>
-    `;
-    grid.appendChild(card);
-  });
-  document.getElementById("winners-sub").textContent = sourceCategory ? `${winners.length} winners` : "";
-}
-
-function renderCards(topViewed) {
-  const grid = document.getElementById("grid");
-  grid.innerHTML = "";
-  if (!topViewed.length) { grid.innerHTML = `<div class="empty-note">No pageview data in this snapshot.</div>`; return; }
-  topViewed.forEach((item, i) => {
-    const shortTitle = item.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <a class="card-link" href="https://commons.wikimedia.org/wiki/${encodeURIComponent(item.title.replace(/ /g,'_'))}" target="_blank" rel="noopener">
-        <div class="card-img-wrap"><div class="card-rank">#${i + 1}</div><img src="${item.thumb || ''}" alt="${shortTitle}" loading="lazy"></div>
-        <div class="card-info">
-          <div class="card-country">${item.country}</div>
-          <div class="card-views">${fmt(item.views)}<span> views</span></div>
-          <div class="card-title">${shortTitle}</div>
+  panels.innerHTML = `
+    <div class="section">
+      <div class="section-head"><h2 class="section-title">Year over year</h2></div>
+      <div class="two-col">
+        <div>
+          <div class="gap-line-title">Submissions</div>
+          <div class="gap-items">${gapHtml}</div>
         </div>
-      </a>`;
-    grid.appendChild(card);
-  });
+        <div>
+          <div class="gap-line-title">Contributors</div>
+          <div class="gap-items">${contribGapHtml}</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2 class="section-title">Contributor retention</h2></div>
+      <p class="section-note">How many contributors have taken part across multiple years, out of ${fmt(trends.grand_total_unique_contributors)} unique contributors on record.</p>
+      <div class="retention-bars">${retentionHtml}</div>
+    </div>
+
+    <div class="section">
+      <div class="section-head"><h2 class="section-title">Submissions by country</h2><span class="section-sub">all years combined</span></div>
+      <p class="section-note">Every country's submissions summed across every snapshot collected so far.</p>
+      <div class="ledger">${countryHtml}</div>
+    </div>
+
+    <div class="section" style="border-bottom:none;">
+      <div class="section-head"><h2 class="section-title">Usage on Wikimedia projects</h2><span class="section-sub">all years combined</span></div>
+      <p class="section-note">Real cross-project usage, summed across every year — not an estimate.</p>
+      <div class="ledger">${usageHtml}</div>
+    </div>
+  `;
 }
 
 async function showYear(year) {
-  let data = allYearsData[year];
+  let data = yearDataCache[year];
   if (!data) {
     data = await loadJson(`./data/${year}.json`);
-    if (data) allYearsData[year] = data;
+    if (data) yearDataCache[year] = data;
   }
+  yearDataCache[activeYearTab] = data;
   if (!data) {
-    document.getElementById("theme-line").textContent = `No snapshot for ${year} yet`;
+    document.getElementById("hero-stats-slot").innerHTML = `<div class="section-note" style="color:#fff;">No snapshot for ${year} yet.</div>`;
+    document.getElementById("panels").innerHTML = "";
     return;
   }
-  const refreshedNote = data.views_refreshed_at
-    ? `, views refreshed ${new Date(data.views_refreshed_at).toLocaleDateString()}`
-    : "";
-  document.getElementById("theme-line").textContent = `Snapshot generated ${new Date(data.generated_at).toLocaleDateString()}${refreshedNote}`;
-  const participatingCountries = (data.countries || []).filter(c => c.count > 0);
-  document.getElementById("stat-total").textContent = fmt(data.total_submissions);
-  document.getElementById("stat-countries").textContent = fmt(participatingCountries.length);
-  document.getElementById("stat-pending").textContent = fmt(data.pending_uncategorized);
-  document.getElementById("stat-contributors").textContent = fmt(data.contributors_count || 0);
-  document.getElementById("stat-year-views").textContent = fmt(data.sample_total_views || 0);
-  document.getElementById("stat-year-views-label").textContent = data.sample_method === "full_census" ? "Views, this year (exact)" : "Views, this year (sample)";
-  document.getElementById("pending-note").textContent = data.pending_uncategorized > 0
-    ? `Plus ${fmt(data.pending_uncategorized)} files uploaded but not yet sorted into a country category.`
-    : "";
-  renderLedger(participatingCountries);
-  const method = data.sample_method === "full_census" ? "full census" : `sample of ${fmt(data.sample_size)} files`;
-  document.getElementById("views-sub").textContent = method;
-  document.getElementById("views-note").textContent = `Ranked by Wikimedia pageviews since January ${year} (${method}).`;
-  renderCards(data.top_viewed || []);
-  renderWinners(data.winners || [], data.winners_source_category);
 
-  const usage = data.usage || { by_wiki: [], total_usage_entries: 0, files_used_count: 0, files_used_percentage: 0 };
-  document.getElementById("usage-sub").textContent = usage.total_usage_entries
-    ? `${fmt(usage.files_used_count)} files used (${usage.files_used_percentage}% of submissions)`
-    : "no usage yet";
-  const usageLedger = document.getElementById("usage-ledger");
-  usageLedger.innerHTML = "";
-  if (!usage.by_wiki || !usage.by_wiki.length) {
-    usageLedger.innerHTML = `<div class="empty-note">No cross-wiki usage recorded for this year's submissions yet.</div>`;
-  } else {
-    const maxCount = usage.by_wiki[0].count;
-    usage.by_wiki.slice(0, 20).forEach((entry, i) => {
-      const row = document.createElement("div");
-      row.className = "ledger-row";
-      row.innerHTML = `
-        <div class="rank">${String(i + 1).padStart(2, "0")}</div>
-        <div class="country-name">${entry.wiki}</div>
-        <div></div>
-        <div class="count">${fmt(entry.count)} <span style="opacity:.6; font-weight:400;">(${entry.percentage}%)</span></div>
-        <div class="bar-track"><div class="bar-fill" style="width:${(entry.count / maxCount) * 100}%"></div></div>
-      `;
-      usageLedger.appendChild(row);
-    });
-  }
+  const yearTrend = (trends.years || []).find(y => y.year === year) || {};
+  const method = data.sample_method === "full_census" ? "exact" : "sampled";
+
+  document.getElementById("hero-stats-slot").innerHTML = `
+    <div class="stats-row">
+      <div><div class="stat-num">${fmt(data.total_submissions)}</div><div class="stat-label">Submissions</div></div>
+      <div><div class="stat-num">${fmt((data.countries || []).filter(c => c.count > 0).length)}</div><div class="stat-label">Participating countries</div></div>
+      <div><div class="stat-num">${fmt(data.contributors_count)}</div><div class="stat-label">Contributors</div></div>
+      <div><div class="stat-num">${fmt(data.sample_total_views)}</div><div class="stat-label">Views (${method})</div></div>
+    </div>
+    <div class="mini-stat-row">
+      <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(yearTrend.new_contributors_count)} (${yearTrend.new_contributors_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">New contributors</div></div>
+      <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(yearTrend.returning_contributors_count)} (${yearTrend.returning_contributors_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">Returning contributors</div></div>
+      <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(data.new_account_before_campaign_count)} (${data.new_account_before_campaign_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">Account opened ~2mo before campaign</div></div>
+    </div>
+  `;
+
+  renderSubnav();
+  renderYearPanels(data);
 }
 
-function selectTab(name) {
-  document.querySelectorAll(".tab-panel").forEach(el => {
-    el.classList.toggle("active", el.dataset.panel === name);
-  });
+function renderYearPanels(data) {
+  if (!data) return;
+  const panels = document.getElementById("panels");
+
+  if (activeSubTab === "country") {
+    const countries = (data.countries || []).filter(c => c.count > 0);
+    const max = countries.length ? countries[0].count : 1;
+    let html = "";
+    countries.forEach((c, i) => {
+      html += `<div class="ledger-row">
+        <div class="rank">${String(i + 1).padStart(2, "0")}</div>
+        <div class="country-name">${c.name}</div>
+        <div></div>
+        <div class="count">${fmt(c.count)}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(c.count / max) * 100}%"></div></div>
+      </div>`;
+    });
+    panels.innerHTML = `<div class="section" style="border-bottom:none;">
+      <div class="section-head"><h2 class="section-title">Submissions by country</h2><span class="section-sub">${countries.length} countries</span></div>
+      <p class="section-note">Every country with at least one submission, ranked by a deduplicated file count under its category branch.</p>
+      <div class="ledger">${html}</div>
+    </div>`;
+    return;
+  }
+
+  if (activeSubTab === "topviewed") {
+    const items = data.top_viewed || [];
+    let html = "";
+    items.forEach((item, i) => {
+      const shortTitle = item.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");
+      html += `<div class="card">
+        <a class="card-link" href="https://commons.wikimedia.org/wiki/${encodeURIComponent(item.title.replace(/ /g,'_'))}" target="_blank" rel="noopener">
+          <div class="card-img-wrap"><div class="card-rank">#${i + 1}</div><img src="${item.thumb || ''}" alt="${shortTitle}" loading="lazy"></div>
+          <div class="card-info">
+            <div class="card-country">${item.country}</div>
+            <div class="card-views">${fmt(item.total_views)}<span> total views</span></div>
+            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused elsewhere</div>
+            <div class="card-title">${shortTitle}</div>
+          </div>
+        </a>
+      </div>`;
+    });
+    panels.innerHTML = `<div class="section" style="border-bottom:none;">
+      <div class="section-head"><h2 class="section-title">Top viewed images</h2></div>
+      <p class="section-note">Ranked by total real views: visits to the file's own Commons page, plus real reuse on every Wikimedia page that embeds it.</p>
+      <div class="grid">${html || '<div class="empty-note">No view data yet.</div>'}</div>
+    </div>`;
+    return;
+  }
+
+  if (activeSubTab === "winners") {
+    const winners = data.winners || [];
+    let html = "";
+    if (!winners.length) {
+      html = `<div class="empty-note">No winners category found for this year yet.</div>`;
+    } else {
+      winners.forEach((w) => {
+        const shortTitle = w.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");
+        const fileUrl = `https://commons.wikimedia.org/wiki/${encodeURIComponent(w.title.replace(/ /g, "_"))}`;
+        const coreUsage = (w.usage || []).filter(u => u.wiki !== "metawiki");
+        let usageHtml;
+        if (coreUsage.length) {
+          const links = coreUsage.slice(0, 8).map(u => {
+            const url = wikiPageUrl(u.wiki, u.title);
+            const cleanTitle = (u.title || "").replace(/_/g, " ");
+            return url ? `<a href="${url}" target="_blank" rel="noopener">${cleanTitle}</a>` : `<span>${cleanTitle}</span>`;
+          }).join("");
+          usageHtml = `<div class="winner-usage-list">${links}</div>`;
+        } else {
+          usageHtml = `<div class="winner-not-used">Not yet used on any core Wikimedia project</div>`;
+        }
+        html += `<div class="card">
+          <div class="card-img-wrap"><a href="${fileUrl}" target="_blank" rel="noopener"><img src="${w.thumb || ''}" alt="${shortTitle}" loading="lazy"></a></div>
+          <div class="card-info">
+            <a href="${fileUrl}" target="_blank" rel="noopener" style="color:#fff; font-size:12px; font-weight:600; text-decoration:underline;">${shortTitle}</a>
+            <div class="winner-field"><b>Country:</b> ${w.country || "unknown"}</div>
+            <div class="winner-field"><b>Year:</b> ${w.year}</div>
+            <div class="winner-field"><b>License:</b> ${w.license || "Unknown"}</div>
+            <div class="winner-field"><b>Core usage:</b> ${fmt(w.core_usage_count)} page(s)</div>
+            ${usageHtml}
+          </div>
+        </div>`;
+      });
+    }
+    panels.innerHTML = `<div class="section" style="border-bottom:none;">
+      <div class="section-head"><h2 class="section-title">Contest winners</h2><span class="section-sub">${winners.length} winners</span></div>
+      <p class="section-note">The jury-selected winning images for this year, from Commons' own winners category. "Core usage" counts every Wikimedia project except Meta-Wiki.</p>
+      <div class="grid">${html}</div>
+    </div>`;
+    return;
+  }
+
+  if (activeSubTab === "usage") {
+    const usage = data.usage || { by_wiki: [] };
+    let html = "";
+    if (!usage.by_wiki || !usage.by_wiki.length) {
+      html = `<div class="empty-note">No cross-wiki usage recorded for this year's submissions yet.</div>`;
+    } else {
+      const max = usage.by_wiki[0].count;
+      usage.by_wiki.slice(0, 20).forEach((entry, i) => {
+        html += `<div class="ledger-row">
+          <div class="rank">${String(i + 1).padStart(2, "0")}</div>
+          <div class="country-name">${wikiFriendlyName(entry.wiki)}</div>
+          <div></div>
+          <div class="count">${fmt(entry.count)} <span style="opacity:.65; font-weight:400;">(${entry.percentage}%)</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:${(entry.count / max) * 100}%"></div></div>
+        </div>`;
+      });
+    }
+    panels.innerHTML = `<div class="section" style="border-bottom:none;">
+      <div class="section-head"><h2 class="section-title">Usage on Wikimedia projects</h2><span class="section-sub">${fmt(usage.files_used_count)} files used (${usage.files_used_percentage || 0}% of submissions)</span></div>
+      <p class="section-note">Where this year's submissions are actually being used — every wiki that embeds a file, from Commons' own usage data.</p>
+      <div class="ledger">${html}</div>
+    </div>`;
+    return;
+  }
 }
 
 async function main() {
-  document.getElementById("tab-select").addEventListener("change", e => selectTab(e.target.value));
-
   trends = (await loadJson("./data/trends.json")) || { years: [] };
-  renderTrend();
-  setText("stat-grand-total", fmt(trends.grand_total_sample_views || 0));
-  setText("stat-grand-contributors", fmt(trends.grand_total_unique_contributors || 0));
-  setText("stat-grand-usage", fmt(trends.grand_total_usage_entries || 0));
-  setText("trend-sub", trends.years.length + " year(s) tracked");
-
-  const methods = trends.years.map(y => y.sample_method);
-  const allFull = methods.length > 0 && methods.every(m => m === "full_census");
-  const noneFull = methods.every(m => m !== "full_census");
-  setText("stat-grand-total-label", allFull ? "Views, all years (exact)" : noneFull ? "Views, all years (sample)" : "Views, all years (mixed)");
-  const noteEl = document.getElementById("all-time-note");
-  if (allFull) {
-    noteEl.textContent = "Sum of pageviews across every submission in every year snapshot so far — an exact count (full census), not a sample. Grows every time the monthly refresh runs, even for past contest years, since people keep viewing old photos.";
-  } else if (noneFull) {
-    noteEl.textContent = "Sum of pageviews across a sample of files in every year snapshot so far — not a full census of every submission. Grows every time the monthly refresh runs, even for past contest years, since people keep viewing old photos.";
-  } else {
-    const fullYears = trends.years.filter(y => y.sample_method === "full_census").map(y => y.year).join(", ");
-    noteEl.textContent = `Sum of pageviews across every year snapshot so far. Exact counts for ${fullYears}; other years are based on a sample, not a full census. Grows every time the monthly refresh runs, even for past contest years, since people keep viewing old photos.`;
-  }
   if (!trends.years.length) {
-    document.getElementById("theme-line").textContent = "No snapshots committed yet — run the pipeline to generate one.";
+    document.getElementById("hero-stats-slot").innerHTML = `<div class="section-note" style="color:#fff;">No snapshots committed yet.</div>`;
     return;
   }
-  const latest = trends.years[trends.years.length - 1].year;
-  renderYearSelect(latest);
-  document.getElementById("year-select").addEventListener("change", e => showYear(parseInt(e.target.value, 10)));
-  showYear(latest);
+  renderYearTabs();
+  renderOverview();
 }
 
 main();
