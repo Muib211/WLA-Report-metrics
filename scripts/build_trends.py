@@ -102,6 +102,25 @@ def main():
             "percentage": round(count_at_least_k / total_contributors * 100, 1) if total_contributors else 0,
         })
 
+    # Cumulative "top viewed" — merge every year's own top 20 (already the
+    # highest-viewed files that year), tag each with its year, and re-rank
+    # the combined pool. Built entirely from what each year's snapshot
+    # already fetched — no need to re-crawl anything for this view.
+    grand_top_viewed_pool = []
+    for snap in snapshots:
+        for item in snap.get("top_viewed", []):
+            entry = dict(item)
+            entry["year"] = snap["year"]
+            grand_top_viewed_pool.append(entry)
+    grand_top_viewed_pool.sort(key=lambda r: r.get("total_views", 0), reverse=True)
+    grand_top_viewed = grand_top_viewed_pool[:20]
+
+    # Every jury-selected winner across every year, already tagged with its
+    # own year in each snapshot.
+    grand_winners = []
+    for snap in snapshots:
+        grand_winners.extend(snap.get("winners", []))
+
     out = {
         "years": years,
         "grand_total_sample_views": grand_total_sample_views,
@@ -110,6 +129,8 @@ def main():
         "grand_usage_by_wiki": grand_usage_by_wiki,
         "grand_countries": grand_countries,
         "contributor_retention": retention,
+        "grand_top_viewed": grand_top_viewed,
+        "grand_winners": grand_winners,
         "note": (
             "sample_total_views figures use full totals for full-census years and sums over a sample "
             "otherwise — check each year's sample_method. Views combine Commons-page visits with real "

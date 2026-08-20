@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>State of Wiki Loves Africa</title>
+<title>Wiki Loves Africa Impact Dashboard</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
@@ -55,6 +55,13 @@ h1 { font-family:'Fraunces',serif; font-weight:600; font-size:clamp(28px,5vw,44p
 .subnav-btn { font-family:'IBM Plex Mono',monospace; font-size:12px; font-weight:600; letter-spacing:.03em;
   background: var(--paper-warm); border:1px solid var(--line); color: var(--text-strong); padding:8px 14px; border-radius:6px; cursor:pointer; }
 .subnav-btn.active { background: var(--teal-deep); border-color: var(--teal-deep); color: var(--paper); }
+
+.view-toggle { display:inline-flex; border:1px solid var(--line); border-radius:8px; overflow:hidden; margin: 10px 0 4px; }
+.view-toggle-btn { font-family:'IBM Plex Sans',sans-serif; font-size:12.5px; font-weight:600; padding:8px 16px;
+  background: var(--paper); color: var(--text-strong); border:none; cursor:pointer; border-right:1px solid var(--line); }
+.view-toggle-btn:last-child { border-right:none; }
+.view-toggle-btn.active { background: var(--coral); color:#fff; }
+.view-toggle-hint { font-size:12px; color: var(--text-strong); opacity:0.7; margin: 0 0 16px; }
 
 .section { padding: 30px 28px; border-bottom: 1px solid var(--line); max-width: var(--max-width); margin: 0 auto; }
 .section-head { display:flex; align-items:baseline; justify-content:space-between; flex-wrap:wrap; gap:6px; margin-bottom:4px; }
@@ -218,6 +225,8 @@ let trends = { years: [] };
 let yearDataCache = {};
 let activeYearTab = "overview";
 let activeSubTab = "country";
+let overviewSubTab = "country";
+let topViewedMode = "seen"; // "seen" | "useful"
 
 async function loadJson(path) {
   try {
@@ -281,6 +290,55 @@ function fmtDelta(curr, prev) {
   return { diff, pct };
 }
 
+function filterTopViewed(items, mode) {
+  if (mode === "useful") return items.filter(i => (i.reuse_views || 0) > 0);
+  return items;
+}
+
+function setTopViewedMode(mode) {
+  topViewedMode = mode;
+  if (activeYearTab === "overview") {
+    renderOverviewSubPanel();
+  } else {
+    renderYearPanels(yearDataCache[activeYearTab]);
+  }
+}
+
+function topViewedToggleHtml(handlerName) {
+  const seenActive = topViewedMode === "seen" ? " active" : "";
+  const usefulActive = topViewedMode === "useful" ? " active" : "";
+  const hint = topViewedMode === "useful"
+    ? "Filtered to images actually reused on another Wikimedia page. Pulled from this list's existing top 20, so it may show fewer than 20."
+    : "Ranked by total views: visits to the file's own Commons page, plus real reuse elsewhere.";
+  return `<div class="view-toggle">
+      <button class="view-toggle-btn${seenActive}" onclick="${handlerName}('seen')">Most Seen</button>
+      <button class="view-toggle-btn${usefulActive}" onclick="${handlerName}('useful')">Most Useful</button>
+    </div>
+    <p class="view-toggle-hint">${hint}</p>`;
+}
+
+function buildLineChart(years, values, color, height) {
+  height = height || 130;
+  const w = 640, h = height, padX = 34, padY = 26;
+  const max = Math.max(...values, 1);
+  const min = Math.min(...values, 0);
+  const range = (max - min) || 1;
+  const stepX = years.length > 1 ? (w - padX * 2) / (years.length - 1) : 0;
+  const points = values.map((v, i) => {
+    const x = years.length > 1 ? padX + i * stepX : w / 2;
+    const y = h - padY - ((v - min) / range) * (h - padY * 2);
+    return [x, y];
+  });
+  const path = points.map((p, i) => (i === 0 ? "M" : "L") + p[0].toFixed(1) + "," + p[1].toFixed(1)).join(" ");
+  let dots = "";
+  points.forEach((p, i) => {
+    dots += `<circle cx="${p[0]}" cy="${p[1]}" r="4" fill="${color}" />`;
+    dots += `<text x="${p[0]}" y="${h - 6}" font-family="IBM Plex Mono" font-size="10" fill="#000" text-anchor="middle">${years[i]}</text>`;
+    dots += `<text x="${p[0]}" y="${p[1] - 10}" font-family="IBM Plex Mono" font-size="11" fill="#000" font-weight="600" text-anchor="middle">${fmt(values[i])}</text>`;
+  });
+  return `<svg width="100%" height="${h}" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet"><path d="${path}" fill="none" stroke="${color}" stroke-width="2.5" />${dots}</svg>`;
+}
+
 function renderOverview() {
   const panels = document.getElementById("panels");
   const years = trends.years;
@@ -295,27 +353,9 @@ function renderOverview() {
   </div>`;
   document.getElementById("hero-stats-slot").innerHTML = heroHtml;
 
-  let gapHtml = "";
-  for (let i = 0; i < years.length; i++) {
-    const y = years[i];
-    const prev = years[i - 1];
-    const subDelta = fmtDelta(y.total_submissions, prev ? prev.total_submissions : null);
-    const contribDelta = fmtDelta(y.contributors_count, prev ? prev.contributors_count : null);
-    gapHtml += `<div class="gap-item"><div class="gy">${y.year}</div>
-      <div class="gv">${fmt(y.total_submissions)}</div>
-      <div class="gd ${subDelta && subDelta.diff >= 0 ? 'pos' : 'neg'}">${subDelta ? (subDelta.diff >= 0 ? '+' : '') + fmt(subDelta.diff) + ' (' + (subDelta.pct >= 0 ? '+' : '') + subDelta.pct + '%)' : 'first year on record'}</div>
-    </div>`;
-  }
-  let contribGapHtml = "";
-  for (let i = 0; i < years.length; i++) {
-    const y = years[i];
-    const prev = years[i - 1];
-    const cDelta = fmtDelta(y.contributors_count, prev ? prev.contributors_count : null);
-    contribGapHtml += `<div class="gap-item"><div class="gy">${y.year}</div>
-      <div class="gv">${fmt(y.contributors_count)}</div>
-      <div class="gd ${cDelta && cDelta.diff >= 0 ? 'pos' : 'neg'}">${cDelta ? (cDelta.diff >= 0 ? '+' : '') + fmt(cDelta.diff) + ' (' + (cDelta.pct >= 0 ? '+' : '') + cDelta.pct + '%)' : 'first year on record'}</div>
-    </div>`;
-  }
+  const yearLabels = years.map(y => y.year);
+  const submissionsChart = buildLineChart(yearLabels, years.map(y => y.total_submissions), "#f16160");
+  const contributorsChart = buildLineChart(yearLabels, years.map(y => y.contributors_count), "#08ad9d");
 
   let retentionHtml = "";
   const retention = trends.contributor_retention || [];
@@ -333,47 +373,17 @@ function renderOverview() {
     });
   }
 
-  const countries = (trends.grand_countries || []).filter(c => c.count > 0);
-  const maxCountry = countries.length ? countries[0].count : 1;
-  let countryHtml = "";
-  countries.forEach((c, i) => {
-    countryHtml += `<div class="ledger-row">
-      <div class="rank">${String(i + 1).padStart(2, "0")}</div>
-      <div class="country-name">${c.name}</div>
-      <div></div>
-      <div class="count">${fmt(c.count)}</div>
-      <div class="bar-track"><div class="bar-fill" style="width:${(c.count / maxCountry) * 100}%"></div></div>
-    </div>`;
-  });
-
-  let usageHtml = "";
-  const usage = trends.grand_usage_by_wiki || [];
-  if (!usage.length) {
-    usageHtml = `<div class="empty-note">No cross-wiki usage recorded yet.</div>`;
-  } else {
-    const maxUsage = usage[0].count;
-    usage.slice(0, 20).forEach((u, i) => {
-      usageHtml += `<div class="ledger-row">
-        <div class="rank">${String(i + 1).padStart(2, "0")}</div>
-        <div class="country-name">${wikiFriendlyName(u.wiki)}</div>
-        <div></div>
-        <div class="count">${fmt(u.count)} <span style="opacity:.65; font-weight:400;">(${u.percentage}%)</span></div>
-        <div class="bar-track"><div class="bar-fill" style="width:${(u.count / maxUsage) * 100}%"></div></div>
-      </div>`;
-    });
-  }
-
   panels.innerHTML = `
     <div class="section">
       <div class="section-head"><h2 class="section-title">Year over year</h2></div>
       <div class="two-col">
         <div>
           <div class="gap-line-title">Submissions</div>
-          <div class="gap-items">${gapHtml}</div>
+          ${submissionsChart}
         </div>
         <div>
           <div class="gap-line-title">Contributors</div>
-          <div class="gap-items">${contribGapHtml}</div>
+          ${contributorsChart}
         </div>
       </div>
     </div>
@@ -384,18 +394,151 @@ function renderOverview() {
       <div class="retention-bars">${retentionHtml}</div>
     </div>
 
-    <div class="section">
+    <div class="subnav" id="overview-subnav" style="padding: 18px 0 0; max-width: none; margin: 0 28px;"></div>
+    <div id="overview-subpanel"></div>
+  `;
+
+  renderOverviewSubnav();
+  renderOverviewSubPanel();
+}
+
+function renderOverviewSubnav() {
+  const wrap = document.getElementById("overview-subnav");
+  if (!wrap) return;
+  const options = [
+    ["country", "Total submissions by country"],
+    ["usage", "Total usage on Wikimedia projects"],
+    ["topviewed", "Total top viewed images"],
+    ["winners", "All winning pictures"],
+  ];
+  wrap.innerHTML = "";
+  options.forEach(([key, label]) => {
+    const btn = document.createElement("button");
+    btn.className = "subnav-btn" + (overviewSubTab === key ? " active" : "");
+    btn.textContent = label;
+    btn.onclick = () => { overviewSubTab = key; renderOverviewSubnav(); renderOverviewSubPanel(); };
+    wrap.appendChild(btn);
+  });
+}
+
+function renderOverviewSubPanel() {
+  const wrap = document.getElementById("overview-subpanel");
+  if (!wrap) return;
+
+  if (overviewSubTab === "country") {
+    const countries = (trends.grand_countries || []).filter(c => c.count > 0);
+    const maxCountry = countries.length ? countries[0].count : 1;
+    let html = "";
+    countries.forEach((c, i) => {
+      html += `<div class="ledger-row">
+        <div class="rank">${String(i + 1).padStart(2, "0")}</div>
+        <div class="country-name">${c.name}</div>
+        <div></div>
+        <div class="count">${fmt(c.count)}</div>
+        <div class="bar-track"><div class="bar-fill" style="width:${(c.count / maxCountry) * 100}%"></div></div>
+      </div>`;
+    });
+    wrap.innerHTML = `<div class="section" style="border-bottom:none;">
       <div class="section-head"><h2 class="section-title">Submissions by country</h2><span class="section-sub">all years combined</span></div>
       <p class="section-note">Every country's submissions summed across every snapshot collected so far.</p>
-      <div class="ledger">${countryHtml}</div>
-    </div>
+      <div class="ledger">${html}</div>
+    </div>`;
+    return;
+  }
 
-    <div class="section" style="border-bottom:none;">
+  if (overviewSubTab === "usage") {
+    const usage = trends.grand_usage_by_wiki || [];
+    let html = "";
+    if (!usage.length) {
+      html = `<div class="empty-note">No cross-wiki usage recorded yet.</div>`;
+    } else {
+      const maxUsage = usage[0].count;
+      usage.slice(0, 20).forEach((u, i) => {
+        html += `<div class="ledger-row">
+          <div class="rank">${String(i + 1).padStart(2, "0")}</div>
+          <div class="country-name">${wikiFriendlyName(u.wiki)}</div>
+          <div></div>
+          <div class="count">${fmt(u.count)} <span style="opacity:.65; font-weight:400;">(${u.percentage}%)</span></div>
+          <div class="bar-track"><div class="bar-fill" style="width:${(u.count / maxUsage) * 100}%"></div></div>
+        </div>`;
+      });
+    }
+    wrap.innerHTML = `<div class="section" style="border-bottom:none;">
       <div class="section-head"><h2 class="section-title">Usage on Wikimedia projects</h2><span class="section-sub">all years combined</span></div>
       <p class="section-note">Real cross-project usage, summed across every year — not an estimate.</p>
-      <div class="ledger">${usageHtml}</div>
-    </div>
-  `;
+      <div class="ledger">${html}</div>
+    </div>`;
+    return;
+  }
+
+  if (overviewSubTab === "topviewed") {
+    const allItems = trends.grand_top_viewed || [];
+    const items = filterTopViewed(allItems, topViewedMode);
+    let html = "";
+    items.forEach((item, i) => {
+      const shortTitle = item.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");
+      html += `<div class="card">
+        <a class="card-link" href="https://commons.wikimedia.org/wiki/${encodeURIComponent(item.title.replace(/ /g,'_'))}" target="_blank" rel="noopener">
+          <div class="card-img-wrap"><div class="card-rank">#${i + 1}</div><img src="${item.thumb || ''}" alt="${shortTitle}" loading="lazy"></div>
+          <div class="card-info">
+            <div class="card-country">${item.country} &middot; ${item.year}</div>
+            <div class="card-views">${fmt(item.total_views)}<span> total views</span></div>
+            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused elsewhere</div>
+            <div class="card-title">${shortTitle}</div>
+          </div>
+        </a>
+      </div>`;
+    });
+    wrap.innerHTML = `<div class="section" style="border-bottom:none;">
+      <div class="section-head"><h2 class="section-title">Top viewed images</h2><span class="section-sub">all years combined</span></div>
+      <p class="section-note">The highest-viewed images across every year on record, re-ranked from each year's own top 20.</p>
+      ${topViewedToggleHtml("setTopViewedMode")}
+      <div class="grid">${html || '<div class="empty-note">No images match this filter.</div>'}</div>
+    </div>`;
+    return;
+  }
+
+  if (overviewSubTab === "winners") {
+    const winners = (trends.grand_winners || []).filter(w => w.title.toLowerCase().endsWith(".jpg"));
+    let html = "";
+    if (!winners.length) {
+      html = `<div class="empty-note">No winners recorded yet.</div>`;
+    } else {
+      winners.forEach((w) => {
+        const shortTitle = w.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");
+        const fileUrl = `https://commons.wikimedia.org/wiki/${encodeURIComponent(w.title.replace(/ /g, "_"))}`;
+        const coreUsage = (w.usage || []).filter(u => u.wiki !== "metawiki");
+        let usageHtml;
+        if (coreUsage.length) {
+          const links = coreUsage.slice(0, 8).map(u => {
+            const url = wikiPageUrl(u.wiki, u.title);
+            const cleanTitle = (u.title || "").replace(/_/g, " ");
+            return url ? `<a href="${url}" target="_blank" rel="noopener">${cleanTitle}</a>` : `<span>${cleanTitle}</span>`;
+          }).join("");
+          usageHtml = `<div class="winner-usage-list">${links}</div>`;
+        } else {
+          usageHtml = `<div class="winner-not-used">Not yet used on any core Wikimedia project</div>`;
+        }
+        html += `<div class="card">
+          <div class="card-img-wrap"><a href="${fileUrl}" target="_blank" rel="noopener"><img src="${w.thumb || ''}" alt="${shortTitle}" loading="lazy"></a></div>
+          <div class="card-info">
+            <a href="${fileUrl}" target="_blank" rel="noopener" style="color:#fff; font-size:12px; font-weight:600; text-decoration:underline;">${shortTitle}</a>
+            <div class="winner-field"><b>Country:</b> ${w.country || "unknown"}</div>
+            <div class="winner-field"><b>Year:</b> ${w.year}</div>
+            <div class="winner-field"><b>License:</b> ${w.license || "Unknown"}</div>
+            <div class="winner-field"><b>Core usage:</b> ${fmt(w.core_usage_count)} page(s)</div>
+            ${usageHtml}
+          </div>
+        </div>`;
+      });
+    }
+    wrap.innerHTML = `<div class="section" style="border-bottom:none;">
+      <div class="section-head"><h2 class="section-title">All winning pictures</h2><span class="section-sub">${winners.length} winners &middot; JPG only</span></div>
+      <p class="section-note">Every jury-selected winner across every year, restricted to JPG files. "Core usage" counts every Wikimedia project except Meta-Wiki.</p>
+      <div class="grid">${html}</div>
+    </div>`;
+    return;
+  }
 }
 
 async function showYear(year) {
@@ -458,7 +601,8 @@ function renderYearPanels(data) {
   }
 
   if (activeSubTab === "topviewed") {
-    const items = data.top_viewed || [];
+    const allItems = data.top_viewed || [];
+    const items = filterTopViewed(allItems, topViewedMode);
     let html = "";
     items.forEach((item, i) => {
       const shortTitle = item.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");
@@ -477,7 +621,8 @@ function renderYearPanels(data) {
     panels.innerHTML = `<div class="section" style="border-bottom:none;">
       <div class="section-head"><h2 class="section-title">Top viewed images</h2></div>
       <p class="section-note">Ranked by total real views: visits to the file's own Commons page, plus real reuse on every Wikimedia page that embeds it.</p>
-      <div class="grid">${html || '<div class="empty-note">No view data yet.</div>'}</div>
+      ${topViewedToggleHtml("setTopViewedMode")}
+      <div class="grid">${html || '<div class="empty-note">No images match this filter.</div>'}</div>
     </div>`;
     return;
   }
