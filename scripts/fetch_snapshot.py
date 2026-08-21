@@ -280,6 +280,7 @@ class CommonsClient:
         """Real views of a specific page on a specific wiki — measures actual reuse, not just Commons visits."""
         domain = self.dbname_to_domain(wiki_code)
         if not domain:
+            print(f"  warning: unrecognized wiki code '{wiki_code}' — reuse views for this page couldn't be counted", file=sys.stderr)
             return 0
         encoded = (page_title or "").replace(" ", "_")
         end = datetime.now(timezone.utc).strftime("%Y%m%d00")
@@ -501,8 +502,19 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
 
         ranked = sorted(deduped_results, key=lambda r: r["total_views"], reverse=True)
         top_ranked = ranked[:20]
-        thumbs = await client.thumbnails_bulk([r["title"] for r in top_ranked])
+
+        # A genuinely independent ranking, not a filter of the "Most Seen" list —
+        # only files with real reuse are even in the running, so a highly-viewed
+        # but never-reused file can't crowd out a less-viewed but genuinely used one.
+        useful_pool = [r for r in deduped_results if r.get("reuse_views", 0) > 0]
+        ranked_useful = sorted(useful_pool, key=lambda r: r["total_views"], reverse=True)
+        top_useful = ranked_useful[:20]
+
+        thumb_titles = list({r["title"] for r in top_ranked} | {r["title"] for r in top_useful})
+        thumbs = await client.thumbnails_bulk(thumb_titles)
         for r in top_ranked:
+            r["thumb"] = thumbs.get(r["title"], "")
+        for r in top_useful:
             r["thumb"] = thumbs.get(r["title"], "")
         sample_total_views = sum(r["total_views"] for r in deduped_results)
 
@@ -515,6 +527,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
             "countries": [{"name": name, "count": len(files)} for name, files in countries_sorted],
             "pending_uncategorized": len(pending_files - all_unique_files),
             "top_viewed": top_ranked,
+            "top_viewed_useful": top_useful,
             "sample_total_views": sample_total_views,
             "contributors_count": len(contributors),
             "contributors": contributors,

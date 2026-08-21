@@ -107,13 +107,20 @@ def main():
     # the combined pool. Built entirely from what each year's snapshot
     # already fetched — no need to re-crawl anything for this view.
     grand_top_viewed_pool = []
+    grand_top_viewed_useful_pool = []
     for snap in snapshots:
         for item in snap.get("top_viewed", []):
             entry = dict(item)
             entry["year"] = snap["year"]
             grand_top_viewed_pool.append(entry)
+        for item in snap.get("top_viewed_useful", []):
+            entry = dict(item)
+            entry["year"] = snap["year"]
+            grand_top_viewed_useful_pool.append(entry)
     grand_top_viewed_pool.sort(key=lambda r: r.get("total_views", 0), reverse=True)
     grand_top_viewed = grand_top_viewed_pool[:20]
+    grand_top_viewed_useful_pool.sort(key=lambda r: r.get("total_views", 0), reverse=True)
+    grand_top_viewed_useful = grand_top_viewed_useful_pool[:20]
 
     # Every jury-selected winner across every year, already tagged with its
     # own year in each snapshot.
@@ -130,6 +137,7 @@ def main():
         "grand_countries": grand_countries,
         "contributor_retention": retention,
         "grand_top_viewed": grand_top_viewed,
+        "grand_top_viewed_useful": grand_top_viewed_useful,
         "grand_winners": grand_winners,
         "note": (
             "sample_total_views figures use full totals for full-census years and sums over a sample "

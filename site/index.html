@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wiki Loves Africa Impact Dashboard</title>
+<title>State of Wiki Loves Africa</title>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap');
 
@@ -290,11 +290,6 @@ function fmtDelta(curr, prev) {
   return { diff, pct };
 }
 
-function filterTopViewed(items, mode) {
-  if (mode === "useful") return items.filter(i => (i.reuse_views || 0) > 0);
-  return items;
-}
-
 function setTopViewedMode(mode) {
   topViewedMode = mode;
   if (activeYearTab === "overview") {
@@ -308,7 +303,7 @@ function topViewedToggleHtml(handlerName) {
   const seenActive = topViewedMode === "seen" ? " active" : "";
   const usefulActive = topViewedMode === "useful" ? " active" : "";
   const hint = topViewedMode === "useful"
-    ? "Filtered to images actually reused on another Wikimedia page. Pulled from this list's existing top 20, so it may show fewer than 20."
+    ? "Ranked independently from every image with real reuse on another Wikimedia page — unused images, however popular on Commons, aren't in the running at all."
     : "Ranked by total views: visits to the file's own Commons page, plus real reuse elsewhere.";
   return `<div class="view-toggle">
       <button class="view-toggle-btn${seenActive}" onclick="${handlerName}('seen')">Most Seen</button>
@@ -472,8 +467,7 @@ function renderOverviewSubPanel() {
   }
 
   if (overviewSubTab === "topviewed") {
-    const allItems = trends.grand_top_viewed || [];
-    const items = filterTopViewed(allItems, topViewedMode);
+    const items = topViewedMode === "useful" ? (trends.grand_top_viewed_useful || []) : (trends.grand_top_viewed || []);
     let html = "";
     items.forEach((item, i) => {
       const shortTitle = item.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");
@@ -601,8 +595,7 @@ function renderYearPanels(data) {
   }
 
   if (activeSubTab === "topviewed") {
-    const allItems = data.top_viewed || [];
-    const items = filterTopViewed(allItems, topViewedMode);
+    const items = topViewedMode === "useful" ? (data.top_viewed_useful || []) : (data.top_viewed || []);
     let html = "";
     items.forEach((item, i) => {
       const shortTitle = item.title.replace("File:", "").replace(/\.(jpg|jpeg|png)$/i, "");

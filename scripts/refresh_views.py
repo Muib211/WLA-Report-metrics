@@ -165,11 +165,20 @@ async def refresh_one(path: Path, client: Client):
 
     ranked = sorted(deduped, key=lambda r: r["total_views"], reverse=True)
     top_ranked = ranked[:20]
-    thumbs = await client.thumbnails_bulk([r["title"] for r in top_ranked])
+
+    useful_pool = [r for r in deduped if r.get("reuse_views", 0) > 0]
+    ranked_useful = sorted(useful_pool, key=lambda r: r["total_views"], reverse=True)
+    top_useful = ranked_useful[:20]
+
+    thumb_titles = list({r["title"] for r in top_ranked} | {r["title"] for r in top_useful})
+    thumbs = await client.thumbnails_bulk(thumb_titles)
     for r in top_ranked:
+        r["thumb"] = thumbs.get(r["title"], "")
+    for r in top_useful:
         r["thumb"] = thumbs.get(r["title"], "")
 
     snap["top_viewed"] = top_ranked
+    snap["top_viewed_useful"] = top_useful
     snap["sample_total_views"] = sum(r["total_views"] for r in deduped)
     snap["views_refreshed_at"] = datetime.now(timezone.utc).isoformat()
     path.write_text(json.dumps(snap, indent=2, ensure_ascii=False), encoding="utf-8")

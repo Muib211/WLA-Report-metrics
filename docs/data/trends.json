@@ -7,19 +7,19 @@
       "top_country": "Nigeria",
       "top_country_count": 8051,
       "sample_method": "full_census",
-      "sample_total_views": 2040847,
-      "top_viewed_max_views": 12467,
-      "contributors_count": 883,
-      "usage_total": 1744,
-      "files_used_percentage": 4.12,
+      "sample_total_views": 2082178,
+      "top_viewed_max_views": 12476,
+      "contributors_count": 886,
+      "usage_total": 1764,
+      "files_used_percentage": 4.2,
       "new_account_before_campaign_count": 27,
-      "new_account_before_campaign_percentage": 3.06,
-      "new_contributors_count": 883,
+      "new_account_before_campaign_percentage": 3.05,
+      "new_contributors_count": 886,
       "new_contributors_percentage": 100.0,
       "returning_contributors_count": 0,
       "returning_contributors_percentage": 0.0,
       "winners_count": 6,
-      "generated_at": "2026-08-20T02:45:21.951906+00:00",
+      "generated_at": "2026-08-21T12:58:24.649598+00:00",
       "views_refreshed_at": null
     },
     {
@@ -29,90 +29,90 @@
       "top_country": "Nigeria",
       "top_country_count": 17107,
       "sample_method": "full_census",
-      "sample_total_views": 1242289,
+      "sample_total_views": 1266907,
       "top_viewed_max_views": 1567,
-      "contributors_count": 909,
-      "usage_total": 1226,
-      "files_used_percentage": 1.6,
+      "contributors_count": 917,
+      "usage_total": 1225,
+      "files_used_percentage": 1.59,
       "new_account_before_campaign_count": 19,
-      "new_account_before_campaign_percentage": 2.09,
-      "new_contributors_count": 725,
-      "new_contributors_percentage": 79.8,
-      "returning_contributors_count": 184,
-      "returning_contributors_percentage": 20.2,
+      "new_account_before_campaign_percentage": 2.07,
+      "new_contributors_count": 735,
+      "new_contributors_percentage": 80.2,
+      "returning_contributors_count": 182,
+      "returning_contributors_percentage": 19.8,
       "winners_count": 3,
-      "generated_at": "2026-08-20T07:37:12.349969+00:00",
+      "generated_at": "2026-08-21T21:33:21.235241+00:00",
       "views_refreshed_at": null
     }
   ],
-  "grand_total_sample_views": 3283136,
-  "grand_total_unique_contributors": 1608,
-  "grand_total_usage_entries": 2970,
+  "grand_total_sample_views": 3349085,
+  "grand_total_unique_contributors": 1621,
+  "grand_total_usage_entries": 2989,
   "grand_usage_by_wiki": [
     {
       "wiki": "fr.wikipedia.org",
-      "count": 933,
-      "percentage": 31.41
+      "count": 941,
+      "percentage": 31.48
     },
     {
       "wiki": "meta.wikimedia.org",
-      "count": 445,
-      "percentage": 14.98
+      "count": 463,
+      "percentage": 15.49
     },
     {
       "wiki": "en.wikipedia.org",
-      "count": 266,
-      "percentage": 8.96
+      "count": 264,
+      "percentage": 8.83
     },
     {
       "wiki": "ar.wikipedia.org",
       "count": 242,
-      "percentage": 8.15
+      "percentage": 8.1
     },
     {
       "wiki": "www.wikidata.org",
-      "count": 203,
-      "percentage": 6.84
+      "count": 196,
+      "percentage": 6.56
     },
     {
       "wiki": "incubator.wikimedia.org",
-      "count": 76,
-      "percentage": 2.56
+      "count": 77,
+      "percentage": 2.58
     },
     {
       "wiki": "ha.wikipedia.org",
       "count": 76,
-      "percentage": 2.56
+      "percentage": 2.54
     },
     {
       "wiki": "ig.wikipedia.org",
-      "count": 53,
-      "percentage": 1.78
+      "count": 54,
+      "percentage": 1.81
     },
     {
       "wiki": "dga.wikipedia.org",
-      "count": 49,
-      "percentage": 1.65
-    },
-    {
-      "wiki": "he.wikipedia.org",
-      "count": 32,
-      "percentage": 1.08
-    },
-    {
-      "wiki": "ig.wiktionary.org",
-      "count": 32,
-      "percentage": 1.08
+      "count": 50,
+      "percentage": 1.67
     },
     {
       "wiki": "de.wikipedia.org",
-      "count": 30,
-      "percentage": 1.01
+      "count": 32,
+      "percentage": 1.07
     },
     {
       "wiki": "ru.wikipedia.org",
       "count": 30,
-      "percentage": 1.01
+      "percentage": 1.0
+    },
+    {
+      "wiki": "ig.wiktionary.org",
+      "count": 30,
+      "percentage": 1.0
+    },
+    {
+      "wiki": "he.wikipedia.org",
+      "count": 29,
+      "percentage": 0.97
     },
     {
       "wiki": "arz.wikipedia.org",
@@ -120,82 +120,77 @@
       "percentage": 0.94
     },
     {
-      "wiki": "es.wikipedia.org",
-      "count": 17,
-      "percentage": 0.57
-    },
-    {
       "wiki": "tr.wiktionary.org",
-      "count": 15,
-      "percentage": 0.51
+      "count": 16,
+      "percentage": 0.54
     },
     {
       "wiki": "en.wikivoyage.org",
+      "count": 16,
+      "percentage": 0.54
+    },
+    {
+      "wiki": "es.wikipedia.org",
       "count": 15,
-      "percentage": 0.51
+      "percentage": 0.5
     },
     {
       "wiki": "en.wikibooks.org",
-      "count": 13,
-      "percentage": 0.44
-    },
-    {
-      "wiki": "kcg.wiktionary.org",
-      "count": 13,
-      "percentage": 0.44
+      "count": 14,
+      "percentage": 0.47
     },
     {
       "wiki": "rw.wikipedia.org",
-      "count": 13,
-      "percentage": 0.44
+      "count": 14,
+      "percentage": 0.47
     },
     {
       "wiki": "yo.wikipedia.org",
       "count": 13,
-      "percentage": 0.44
+      "percentage": 0.43
     },
     {
       "wiki": "az.wikipedia.org",
       "count": 13,
-      "percentage": 0.44
+      "percentage": 0.43
+    },
+    {
+      "wiki": "kcg.wiktionary.org",
+      "count": 12,
+      "percentage": 0.4
     },
     {
       "wiki": "uk.wikipedia.org",
-      "count": 12,
-      "percentage": 0.4
-    },
-    {
-      "wiki": "zu.wikipedia.org",
-      "count": 12,
-      "percentage": 0.4
-    },
-    {
-      "wiki": "lt.wikipedia.org",
-      "count": 12,
-      "percentage": 0.4
-    },
-    {
-      "wiki": "mg.wikipedia.org",
       "count": 11,
       "percentage": 0.37
     },
     {
-      "wiki": "en.wiktionary.org",
-      "count": 10,
-      "percentage": 0.34
+      "wiki": "zh.wikipedia.org",
+      "count": 11,
+      "percentage": 0.37
     },
     {
-      "wiki": "zh.wikipedia.org",
-      "count": 10,
-      "percentage": 0.34
+      "wiki": "lt.wikipedia.org",
+      "count": 11,
+      "percentage": 0.37
     },
     {
       "wiki": "it.wikipedia.org",
+      "count": 10,
+      "percentage": 0.33
+    },
+    {
+      "wiki": "zu.wikipedia.org",
+      "count": 10,
+      "percentage": 0.33
+    },
+    {
+      "wiki": "mg.wikipedia.org",
       "count": 9,
       "percentage": 0.3
     },
     {
-      "wiki": "pt.wikipedia.org",
+      "wiki": "en.wiktionary.org",
       "count": 9,
       "percentage": 0.3
     },
@@ -215,22 +210,27 @@
       "percentage": 0.27
     },
     {
+      "wiki": "kcg.wikipedia.org",
+      "count": 8,
+      "percentage": 0.27
+    },
+    {
+      "wiki": "pt.wikipedia.org",
+      "count": 8,
+      "percentage": 0.27
+    },
+    {
       "wiki": "ja.wikipedia.org",
       "count": 7,
-      "percentage": 0.24
-    },
-    {
-      "wiki": "kcg.wikipedia.org",
-      "count": 7,
-      "percentage": 0.24
-    },
-    {
-      "wiki": "ms.wikibooks.org",
-      "count": 6,
-      "percentage": 0.2
+      "percentage": 0.23
     },
     {
       "wiki": "ca.wikipedia.org",
+      "count": 7,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "ms.wikibooks.org",
       "count": 6,
       "percentage": 0.2
     },
@@ -265,17 +265,12 @@
       "percentage": 0.17
     },
     {
-      "wiki": "ko.wikipedia.org",
-      "count": 5,
-      "percentage": 0.17
-    },
-    {
       "wiki": "de.wikivoyage.org",
       "count": 5,
       "percentage": 0.17
     },
     {
-      "wiki": "sw.wikipedia.org",
+      "wiki": "ms.wikipedia.org",
       "count": 5,
       "percentage": 0.17
     },
@@ -310,12 +305,12 @@
       "percentage": 0.13
     },
     {
-      "wiki": "ee.wikipedia.org",
+      "wiki": "nl.wikipedia.org",
       "count": 4,
       "percentage": 0.13
     },
     {
-      "wiki": "ms.wikipedia.org",
+      "wiki": "ee.wikipedia.org",
       "count": 4,
       "percentage": 0.13
     },
@@ -325,12 +320,32 @@
       "percentage": 0.13
     },
     {
+      "wiki": "ko.wikipedia.org",
+      "count": 4,
+      "percentage": 0.13
+    },
+    {
       "wiki": "eu.wikipedia.org",
       "count": 4,
       "percentage": 0.13
     },
     {
+      "wiki": "sw.wikipedia.org",
+      "count": 4,
+      "percentage": 0.13
+    },
+    {
+      "wiki": "hr.wikipedia.org",
+      "count": 4,
+      "percentage": 0.13
+    },
+    {
       "wiki": "nso.wikipedia.org",
+      "count": 4,
+      "percentage": 0.13
+    },
+    {
+      "wiki": "simple.wikipedia.org",
       "count": 4,
       "percentage": 0.13
     },
@@ -345,17 +360,7 @@
       "percentage": 0.1
     },
     {
-      "wiki": "igl.wikipedia.org",
-      "count": 3,
-      "percentage": 0.1
-    },
-    {
       "wiki": "lg.wikipedia.org",
-      "count": 3,
-      "percentage": 0.1
-    },
-    {
-      "wiki": "nl.wikipedia.org",
       "count": 3,
       "percentage": 0.1
     },
@@ -365,17 +370,7 @@
       "percentage": 0.1
     },
     {
-      "wiki": "ts.wikipedia.org",
-      "count": 3,
-      "percentage": 0.1
-    },
-    {
       "wiki": "fi.wikipedia.org",
-      "count": 3,
-      "percentage": 0.1
-    },
-    {
-      "wiki": "ha.wiktionary.org",
       "count": 3,
       "percentage": 0.1
     },
@@ -395,12 +390,12 @@
       "percentage": 0.1
     },
     {
-      "wiki": "hr.wikipedia.org",
+      "wiki": "bg.wikipedia.org",
       "count": 3,
       "percentage": 0.1
     },
     {
-      "wiki": "bg.wikipedia.org",
+      "wiki": "tl.wikipedia.org",
       "count": 3,
       "percentage": 0.1
     },
@@ -410,7 +405,7 @@
       "percentage": 0.1
     },
     {
-      "wiki": "simple.wikipedia.org",
+      "wiki": "eo.wikipedia.org",
       "count": 3,
       "percentage": 0.1
     },
@@ -440,7 +435,12 @@
       "percentage": 0.07
     },
     {
-      "wiki": "ur.wikipedia.org",
+      "wiki": "igl.wikipedia.org",
+      "count": 2,
+      "percentage": 0.07
+    },
+    {
+      "wiki": "ts.wikipedia.org",
       "count": 2,
       "percentage": 0.07
     },
@@ -450,12 +450,22 @@
       "percentage": 0.07
     },
     {
-      "wiki": "bm.wikipedia.org",
+      "wiki": "sh.wikipedia.org",
       "count": 2,
       "percentage": 0.07
     },
     {
-      "wiki": "tl.wikipedia.org",
+      "wiki": "ur.wikipedia.org",
+      "count": 2,
+      "percentage": 0.07
+    },
+    {
+      "wiki": "ha.wiktionary.org",
+      "count": 2,
+      "percentage": 0.07
+    },
+    {
+      "wiki": "bm.wikipedia.org",
       "count": 2,
       "percentage": 0.07
     },
@@ -466,6 +476,11 @@
     },
     {
       "wiki": "bjn.wikipedia.org",
+      "count": 2,
+      "percentage": 0.07
+    },
+    {
+      "wiki": "sd.wikipedia.org",
       "count": 2,
       "percentage": 0.07
     },
@@ -500,11 +515,6 @@
       "percentage": 0.07
     },
     {
-      "wiki": "eo.wikipedia.org",
-      "count": 2,
-      "percentage": 0.07
-    },
-    {
       "wiki": "no.wikipedia.org",
       "count": 2,
       "percentage": 0.07
@@ -531,6 +541,11 @@
     },
     {
       "wiki": "nr.wikipedia.org",
+      "count": 1,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "ml.wikipedia.org",
       "count": 1,
       "percentage": 0.03
     },
@@ -605,17 +620,7 @@
       "percentage": 0.03
     },
     {
-      "wiki": "te.wikipedia.org",
-      "count": 1,
-      "percentage": 0.03
-    },
-    {
       "wiki": "xh.wikipedia.org",
-      "count": 1,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "sd.wikipedia.org",
       "count": 1,
       "percentage": 0.03
     },
@@ -626,11 +631,6 @@
     },
     {
       "wiki": "mk.wikipedia.org",
-      "count": 1,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "sh.wikipedia.org",
       "count": 1,
       "percentage": 0.03
     },
@@ -661,6 +661,16 @@
     },
     {
       "wiki": "vi.wikibooks.org",
+      "count": 1,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "et.wikipedia.org",
+      "count": 1,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "fr.wikiquote.org",
       "count": 1,
       "percentage": 0.03
     },
@@ -929,13 +939,422 @@
   "contributor_retention": [
     {
       "min_years": 1,
-      "count": 1608,
+      "count": 1621,
       "percentage": 100.0
     },
     {
       "min_years": 2,
-      "count": 184,
-      "percentage": 11.4
+      "count": 182,
+      "percentage": 11.2
+    }
+  ],
+  "grand_top_viewed": [
+    {
+      "title": "File:Water borehole 2025.jpg",
+      "country": "Nigeria",
+      "views": 12476,
+      "commons_views": 12476,
+      "reuse_views": 0,
+      "total_views": 12476,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Water_borehole_2025.jpg/500px-Water_borehole_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Goutte à goutte.jpg",
+      "country": "Senegal",
+      "views": 4884,
+      "commons_views": 4884,
+      "reuse_views": 0,
+      "total_views": 4884,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Goutte_%C3%A0_goutte.jpg/500px-Goutte_%C3%A0_goutte.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Goutte a goutte relie.jpg",
+      "country": "Senegal",
+      "views": 4814,
+      "commons_views": 4814,
+      "reuse_views": 0,
+      "total_views": 4814,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Goutte_a_goutte_relie.jpg/500px-Goutte_a_goutte_relie.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Fraise work.jpg",
+      "country": "Senegal",
+      "views": 4727,
+      "commons_views": 4727,
+      "reuse_views": 0,
+      "total_views": 4727,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Fraise_work.jpg/500px-Fraise_work.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Dfraise.jpg",
+      "country": "Senegal",
+      "views": 4697,
+      "commons_views": 4697,
+      "reuse_views": 0,
+      "total_views": 4697,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Dfraise.jpg/500px-Dfraise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Pousse plante.jpg",
+      "country": "Senegal",
+      "views": 4673,
+      "commons_views": 4673,
+      "reuse_views": 0,
+      "total_views": 4673,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Pousse_plante.jpg/500px-Pousse_plante.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Plante mangue.jpg",
+      "country": "Senegal",
+      "views": 4667,
+      "commons_views": 4667,
+      "reuse_views": 0,
+      "total_views": 4667,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Plante_mangue.jpg/500px-Plante_mangue.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Pépinière.jpg",
+      "country": "Senegal",
+      "views": 4665,
+      "commons_views": 4665,
+      "reuse_views": 0,
+      "total_views": 4665,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/P%C3%A9pini%C3%A8re.jpg/500px-P%C3%A9pini%C3%A8re.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Pickier.jpg",
+      "country": "Senegal",
+      "views": 4641,
+      "commons_views": 4641,
+      "reuse_views": 0,
+      "total_views": 4641,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Pickier.jpg/500px-Pickier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Fresh Tomatoes 2025.jpg",
+      "country": "Nigeria",
+      "views": 4525,
+      "commons_views": 4525,
+      "reuse_views": 0,
+      "total_views": 4525,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Fresh_Tomatoes_2025.jpg/500px-Fresh_Tomatoes_2025.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Pepine.jpg",
+      "country": "Senegal",
+      "views": 4195,
+      "commons_views": 4195,
+      "reuse_views": 0,
+      "total_views": 4195,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Pepine.jpg/500px-Pepine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Tree mango dfraise.jpg",
+      "country": "Senegal",
+      "views": 3253,
+      "commons_views": 3253,
+      "reuse_views": 0,
+      "total_views": 3253,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tree_mango_dfraise.jpg/500px-Tree_mango_dfraise.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Tree nose.jpg",
+      "country": "Senegal",
+      "views": 3233,
+      "commons_views": 3233,
+      "reuse_views": 0,
+      "total_views": 3233,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Tree_nose.jpg/500px-Tree_nose.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Acacia seeds (bagaruwa).jpg",
+      "country": "Nigeria",
+      "views": 3217,
+      "reuse_views": 0,
+      "commons_views": 3217,
+      "total_views": 3217,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Acacia_seeds_%28bagaruwa%29.jpg/500px-Acacia_seeds_%28bagaruwa%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Tree shoot.jpg",
+      "country": "Senegal",
+      "views": 3214,
+      "commons_views": 3214,
+      "reuse_views": 0,
+      "total_views": 3214,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Tree_shoot.jpg/500px-Tree_shoot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:La mangrove de Jebalè 01.jpg",
+      "country": "Cameroon",
+      "views": 2799,
+      "commons_views": 2799,
+      "reuse_views": 0,
+      "total_views": 2799,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/La_mangrove_de_Jebal%C3%A8_01.jpg/500px-La_mangrove_de_Jebal%C3%A8_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Chiken in a plate.jpg",
+      "country": "Algeria",
+      "views": 1986,
+      "reuse_views": 0,
+      "commons_views": 1986,
+      "total_views": 1986,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Chiken_in_a_plate.jpg/500px-Chiken_in_a_plate.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Graines et feu.jpg",
+      "country": "Algeria",
+      "views": 1976,
+      "commons_views": 1976,
+      "reuse_views": 0,
+      "total_views": 1976,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Graines_et_feu.jpg/500px-Graines_et_feu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Algerian Butcher presenting their high quality ribs.jpg",
+      "country": "Algeria",
+      "views": 1920,
+      "reuse_views": 0,
+      "commons_views": 1920,
+      "total_views": 1920,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Algerian_Butcher_presenting_their_high_quality_ribs.jpg/500px-Algerian_Butcher_presenting_their_high_quality_ribs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    },
+    {
+      "title": "File:Kindergarten kid buying vegetables.jpg",
+      "country": "Algeria",
+      "views": 1880,
+      "commons_views": 1880,
+      "reuse_views": 0,
+      "total_views": 1880,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Kindergarten_kid_buying_vegetables.jpg/500px-Kindergarten_kid_buying_vegetables.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2025
+    }
+  ],
+  "grand_top_viewed_useful": [],
+  "grand_winners": [
+    {
+      "title": "File:Abakaliki rice mill 71.jpg",
+      "uploader": "MediaMOF",
+      "country": "Nigeria",
+      "year": 2025,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Abakaliki_rice_mill_71.jpg/500px-Abakaliki_rice_mill_71.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "User:MediaMOF"
+        }
+      ],
+      "core_usage_count": 1
+    },
+    {
+      "title": "File:Aerial view of a busy tomato market in Lagos Nigeria.jpg",
+      "uploader": "Ayorinde Ogundele",
+      "country": "Nigeria",
+      "year": 2025,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Aerial_view_of_a_busy_tomato_market_in_Lagos_Nigeria.jpg/500px-Aerial_view_of_a_busy_tomato_market_in_Lagos_Nigeria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Loves_Africa_2026/Communication/Twelve_Years_of_Wiki_Loves_Africa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/de"
+        },
+        {
+          "wiki": "sk.wikipedia.org",
+          "title": "Wikipédia:Obrázky_týždňa/archív_2026"
+        },
+        {
+          "wiki": "sk.wikipedia.org",
+          "title": "Šablóna:Obrázky_týždňa/1_2026"
+        }
+      ],
+      "core_usage_count": 8
+    },
+    {
+      "title": "File:An aerial view of a 10,000 hectares of rice farm.webm",
+      "uploader": "Ahbeegyd",
+      "country": null,
+      "year": 2025,
+      "license": "CC0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/An_aerial_view_of_a_10%2C000_hectares_of_rice_farm.webm/500px--An_aerial_view_of_a_10%2C000_hectares_of_rice_farm.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "usage": [
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/de"
+        }
+      ],
+      "core_usage_count": 5
+    },
+    {
+      "title": "File:At the very beginning.jpg",
+      "uploader": "Aabdulazim",
+      "country": "Egypt",
+      "year": 2025,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/At_the_very_beginning.jpg/500px-At_the_very_beginning.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Egypt_Wikimedians_User_Group/Reports/2025"
+        }
+      ],
+      "core_usage_count": 1
+    },
+    {
+      "title": "File:Eeman Saalih Corn to Corn Flour Meal Farm to plate.webm",
+      "uploader": "Saalyha Eeman",
+      "country": "Nigeria",
+      "year": 2025,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Eeman_Saalih_Corn_to_Corn_Flour_Meal_Farm_to_plate.webm/500px--Eeman_Saalih_Corn_to_Corn_Flour_Meal_Farm_to_plate.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "usage": [
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/de"
+        }
+      ],
+      "core_usage_count": 5
+    },
+    {
+      "title": "File:Le voyage de l'atoukpou.webm",
+      "uploader": "Ecran bleu",
+      "country": "Ivory Coast",
+      "year": 2025,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Le_voyage_de_l%27atoukpou.webm/500px--Le_voyage_de_l%27atoukpou.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
+      "usage": [
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Attoukpou"
+        },
+        {
+          "wiki": "incubator.wikimedia.org",
+          "title": "Wp/bci/Attoukpou"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/de"
+        }
+      ],
+      "core_usage_count": 7
+    },
+    {
+      "title": "File:Mijikenda Wedding Blessing Ceremony – Coastal Kenya.jpg",
+      "uploader": "Victor.ngonzo",
+      "country": "Kenya",
+      "year": 2026,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg/500px-Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [],
+      "core_usage_count": 0
+    },
+    {
+      "title": "File:خشوع صلاة ٢١١٦٢٨.jpg",
+      "uploader": "Hhhhyuh",
+      "country": "Egypt",
+      "year": 2026,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg/500px-%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [],
+      "core_usage_count": 0
+    },
+    {
+      "title": "File:صلاة العيد في مسجد الصديق 37.jpg",
+      "uploader": "Mohamed shokry algarnosy",
+      "country": "Egypt",
+      "year": 2026,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg/500px-%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [],
+      "core_usage_count": 0
     }
   ],
   "note": "sample_total_views figures use full totals for full-census years and sums over a sample otherwise — check each year's sample_method. Views combine Commons-page visits with real reuse pageviews on other Wikimedia projects. contributors_count and grand_total_unique_contributors are exact. Usage figures come from Commons' GlobalUsage data. Retention and new-vs-returning figures only reflect years with a snapshot generated so far."
