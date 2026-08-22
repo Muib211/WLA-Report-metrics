@@ -23,6 +23,28 @@
       "views_refreshed_at": null
     },
     {
+      "year": 2015,
+      "total_submissions": 7179,
+      "countries_count": 47,
+      "top_country": "Tunisia",
+      "top_country_count": 1237,
+      "sample_method": "full_census",
+      "sample_total_views": 21490595,
+      "top_viewed_max_views": 5238230,
+      "contributors_count": 723,
+      "usage_total": 4372,
+      "files_used_percentage": 15.22,
+      "new_account_before_campaign_count": 17,
+      "new_account_before_campaign_percentage": 2.35,
+      "new_contributors_count": 686,
+      "new_contributors_percentage": 94.9,
+      "returning_contributors_count": 37,
+      "returning_contributors_percentage": 5.1,
+      "winners_count": 4,
+      "generated_at": "2026-08-22T03:01:32.460069+00:00",
+      "views_refreshed_at": null
+    },
+    {
       "year": 2025,
       "total_submissions": 31103,
       "countries_count": 38,
@@ -36,10 +58,10 @@
       "files_used_percentage": 4.2,
       "new_account_before_campaign_count": 27,
       "new_account_before_campaign_percentage": 3.05,
-      "new_contributors_count": 878,
-      "new_contributors_percentage": 99.1,
-      "returning_contributors_count": 8,
-      "returning_contributors_percentage": 0.9,
+      "new_contributors_count": 873,
+      "new_contributors_percentage": 98.5,
+      "returning_contributors_count": 13,
+      "returning_contributors_percentage": 1.5,
       "winners_count": 6,
       "generated_at": "2026-08-21T12:58:24.649598+00:00",
       "views_refreshed_at": null
@@ -58,1058 +80,1223 @@
       "files_used_percentage": 1.59,
       "new_account_before_campaign_count": 19,
       "new_account_before_campaign_percentage": 2.07,
-      "new_contributors_count": 728,
-      "new_contributors_percentage": 79.4,
-      "returning_contributors_count": 189,
-      "returning_contributors_percentage": 20.6,
+      "new_contributors_count": 727,
+      "new_contributors_percentage": 79.3,
+      "returning_contributors_count": 190,
+      "returning_contributors_percentage": 20.7,
       "winners_count": 3,
       "generated_at": "2026-08-21T21:33:21.235241+00:00",
       "views_refreshed_at": null
     }
   ],
-  "grand_total_sample_views": 152291038,
-  "grand_total_unique_contributors": 2484,
-  "grand_total_usage_entries": 9726,
+  "grand_total_sample_views": 173781633,
+  "grand_total_unique_contributors": 3164,
+  "grand_total_usage_entries": 14098,
   "grand_usage_by_wiki": [
     {
       "wiki": "fr.wikipedia.org",
-      "count": 1615,
-      "percentage": 16.6
-    },
-    {
-      "wiki": "meta.wikimedia.org",
-      "count": 995,
-      "percentage": 10.23
+      "count": 2423,
+      "percentage": 17.19
     },
     {
       "wiki": "en.wikipedia.org",
-      "count": 819,
-      "percentage": 8.42
+      "count": 1394,
+      "percentage": 9.89
+    },
+    {
+      "wiki": "meta.wikimedia.org",
+      "count": 1358,
+      "percentage": 9.63
     },
     {
       "wiki": "ar.wikipedia.org",
-      "count": 751,
-      "percentage": 7.72
+      "count": 971,
+      "percentage": 6.89
     },
     {
       "wiki": "www.wikidata.org",
-      "count": 394,
-      "percentage": 4.05
-    },
-    {
-      "wiki": "ko.wikipedia.org",
-      "count": 285,
-      "percentage": 2.93
+      "count": 591,
+      "percentage": 4.19
     },
     {
       "wiki": "ha.wikipedia.org",
-      "count": 247,
-      "percentage": 2.54
+      "count": 366,
+      "percentage": 2.6
     },
     {
-      "wiki": "en.wikibooks.org",
-      "count": 244,
-      "percentage": 2.51
-    },
-    {
-      "wiki": "incubator.wikimedia.org",
-      "count": 189,
-      "percentage": 1.94
+      "wiki": "ko.wikipedia.org",
+      "count": 302,
+      "percentage": 2.14
     },
     {
       "wiki": "es.wikipedia.org",
-      "count": 182,
-      "percentage": 1.87
-    },
-    {
-      "wiki": "ig.wikipedia.org",
-      "count": 177,
-      "percentage": 1.82
-    },
-    {
-      "wiki": "arz.wikipedia.org",
-      "count": 169,
-      "percentage": 1.74
-    },
-    {
-      "wiki": "uk.wikipedia.org",
-      "count": 145,
-      "percentage": 1.49
-    },
-    {
-      "wiki": "dga.wikipedia.org",
-      "count": 144,
-      "percentage": 1.48
-    },
-    {
-      "wiki": "he.wikipedia.org",
-      "count": 141,
-      "percentage": 1.45
+      "count": 272,
+      "percentage": 1.93
     },
     {
       "wiki": "ru.wikipedia.org",
-      "count": 124,
-      "percentage": 1.27
+      "count": 262,
+      "percentage": 1.86
+    },
+    {
+      "wiki": "en.wikibooks.org",
+      "count": 247,
+      "percentage": 1.75
+    },
+    {
+      "wiki": "incubator.wikimedia.org",
+      "count": 224,
+      "percentage": 1.59
+    },
+    {
+      "wiki": "ig.wikipedia.org",
+      "count": 213,
+      "percentage": 1.51
+    },
+    {
+      "wiki": "uk.wikipedia.org",
+      "count": 212,
+      "percentage": 1.5
+    },
+    {
+      "wiki": "arz.wikipedia.org",
+      "count": 205,
+      "percentage": 1.45
     },
     {
       "wiki": "de.wikipedia.org",
-      "count": 115,
-      "percentage": 1.18
+      "count": 202,
+      "percentage": 1.43
     },
     {
-      "wiki": "sr.wikipedia.org",
-      "count": 103,
-      "percentage": 1.06
+      "wiki": "he.wikipedia.org",
+      "count": 174,
+      "percentage": 1.23
+    },
+    {
+      "wiki": "dga.wikipedia.org",
+      "count": 162,
+      "percentage": 1.15
     },
     {
       "wiki": "it.wikipedia.org",
-      "count": 93,
-      "percentage": 0.96
+      "count": 147,
+      "percentage": 1.04
+    },
+    {
+      "wiki": "sr.wikipedia.org",
+      "count": 120,
+      "percentage": 0.85
     },
     {
       "wiki": "fa.wikipedia.org",
-      "count": 90,
-      "percentage": 0.93
+      "count": 119,
+      "percentage": 0.84
     },
     {
       "wiki": "yo.wikipedia.org",
-      "count": 87,
-      "percentage": 0.89
+      "count": 119,
+      "percentage": 0.84
     },
     {
       "wiki": "pt.wikipedia.org",
-      "count": 77,
-      "percentage": 0.79
-    },
-    {
-      "wiki": "jv.wikipedia.org",
-      "count": 75,
-      "percentage": 0.77
-    },
-    {
-      "wiki": "sw.wikipedia.org",
-      "count": 67,
-      "percentage": 0.69
+      "count": 115,
+      "percentage": 0.82
     },
     {
       "wiki": "id.wikipedia.org",
-      "count": 60,
+      "count": 102,
+      "percentage": 0.72
+    },
+    {
+      "wiki": "sw.wikipedia.org",
+      "count": 97,
+      "percentage": 0.69
+    },
+    {
+      "wiki": "ja.wikipedia.org",
+      "count": 88,
       "percentage": 0.62
     },
     {
-      "wiki": "zh.wikipedia.org",
-      "count": 60,
+      "wiki": "jv.wikipedia.org",
+      "count": 87,
       "percentage": 0.62
+    },
+    {
+      "wiki": "en.wiktionary.org",
+      "count": 87,
+      "percentage": 0.62
+    },
+    {
+      "wiki": "rw.wikipedia.org",
+      "count": 82,
+      "percentage": 0.58
+    },
+    {
+      "wiki": "zh.wikipedia.org",
+      "count": 78,
+      "percentage": 0.55
+    },
+    {
+      "wiki": "fr.wiktionary.org",
+      "count": 78,
+      "percentage": 0.55
+    },
+    {
+      "wiki": "en.wikivoyage.org",
+      "count": 77,
+      "percentage": 0.55
+    },
+    {
+      "wiki": "hy.wikipedia.org",
+      "count": 75,
+      "percentage": 0.53
+    },
+    {
+      "wiki": "nl.wikipedia.org",
+      "count": 71,
+      "percentage": 0.5
+    },
+    {
+      "wiki": "vi.wikipedia.org",
+      "count": 68,
+      "percentage": 0.48
+    },
+    {
+      "wiki": "bn.wikipedia.org",
+      "count": 67,
+      "percentage": 0.48
+    },
+    {
+      "wiki": "pl.wikipedia.org",
+      "count": 67,
+      "percentage": 0.48
+    },
+    {
+      "wiki": "cs.wikipedia.org",
+      "count": 64,
+      "percentage": 0.45
+    },
+    {
+      "wiki": "lt.wikipedia.org",
+      "count": 64,
+      "percentage": 0.45
+    },
+    {
+      "wiki": "af.wikipedia.org",
+      "count": 62,
+      "percentage": 0.44
     },
     {
       "wiki": "wa.wikipedia.org",
       "count": 59,
-      "percentage": 0.61
-    },
-    {
-      "wiki": "hy.wikipedia.org",
-      "count": 59,
-      "percentage": 0.61
-    },
-    {
-      "wiki": "ja.wikipedia.org",
-      "count": 59,
-      "percentage": 0.61
-    },
-    {
-      "wiki": "en.wiktionary.org",
-      "count": 58,
-      "percentage": 0.6
-    },
-    {
-      "wiki": "fr.wiktionary.org",
-      "count": 55,
-      "percentage": 0.57
-    },
-    {
-      "wiki": "bn.wikipedia.org",
-      "count": 53,
-      "percentage": 0.54
-    },
-    {
-      "wiki": "rw.wikipedia.org",
-      "count": 52,
-      "percentage": 0.53
-    },
-    {
-      "wiki": "cs.wikipedia.org",
-      "count": 50,
-      "percentage": 0.51
-    },
-    {
-      "wiki": "wa.wiktionary.org",
-      "count": 49,
-      "percentage": 0.5
-    },
-    {
-      "wiki": "en.wikivoyage.org",
-      "count": 48,
-      "percentage": 0.49
-    },
-    {
-      "wiki": "vi.wikipedia.org",
-      "count": 47,
-      "percentage": 0.48
-    },
-    {
-      "wiki": "fr.wikibooks.org",
-      "count": 45,
-      "percentage": 0.46
-    },
-    {
-      "wiki": "dag.wikipedia.org",
-      "count": 40,
-      "percentage": 0.41
-    },
-    {
-      "wiki": "af.wikipedia.org",
-      "count": 39,
-      "percentage": 0.4
-    },
-    {
-      "wiki": "simple.wikipedia.org",
-      "count": 39,
-      "percentage": 0.4
-    },
-    {
-      "wiki": "nl.wikipedia.org",
-      "count": 35,
-      "percentage": 0.36
-    },
-    {
-      "wiki": "eu.wikipedia.org",
-      "count": 35,
-      "percentage": 0.36
-    },
-    {
-      "wiki": "ig.wiktionary.org",
-      "count": 35,
-      "percentage": 0.36
+      "percentage": 0.42
     },
     {
       "wiki": "ca.wikipedia.org",
-      "count": 33,
-      "percentage": 0.34
+      "count": 59,
+      "percentage": 0.42
     },
     {
-      "wiki": "lt.wikipedia.org",
-      "count": 32,
-      "percentage": 0.33
+      "wiki": "simple.wikipedia.org",
+      "count": 57,
+      "percentage": 0.4
     },
     {
-      "wiki": "tr.wiktionary.org",
-      "count": 32,
-      "percentage": 0.33
+      "wiki": "eo.wikipedia.org",
+      "count": 56,
+      "percentage": 0.4
     },
     {
-      "wiki": "pl.wikipedia.org",
-      "count": 31,
-      "percentage": 0.32
+      "wiki": "eu.wikipedia.org",
+      "count": 55,
+      "percentage": 0.39
+    },
+    {
+      "wiki": "tr.wikipedia.org",
+      "count": 55,
+      "percentage": 0.39
+    },
+    {
+      "wiki": "wa.wiktionary.org",
+      "count": 51,
+      "percentage": 0.36
+    },
+    {
+      "wiki": "dag.wikipedia.org",
+      "count": 51,
+      "percentage": 0.36
+    },
+    {
+      "wiki": "pl.wiktionary.org",
+      "count": 51,
+      "percentage": 0.36
     },
     {
       "wiki": "mk.wikipedia.org",
-      "count": 30,
-      "percentage": 0.31
+      "count": 48,
+      "percentage": 0.34
+    },
+    {
+      "wiki": "fr.wikibooks.org",
+      "count": 46,
+      "percentage": 0.33
+    },
+    {
+      "wiki": "fi.wikipedia.org",
+      "count": 42,
+      "percentage": 0.3
+    },
+    {
+      "wiki": "ig.wiktionary.org",
+      "count": 40,
+      "percentage": 0.28
+    },
+    {
+      "wiki": "sv.wikipedia.org",
+      "count": 36,
+      "percentage": 0.26
     },
     {
       "wiki": "de.wikivoyage.org",
-      "count": 28,
-      "percentage": 0.29
+      "count": 35,
+      "percentage": 0.25
+    },
+    {
+      "wiki": "nn.wikipedia.org",
+      "count": 35,
+      "percentage": 0.25
+    },
+    {
+      "wiki": "ro.wikipedia.org",
+      "count": 34,
+      "percentage": 0.24
+    },
+    {
+      "wiki": "zu.wikipedia.org",
+      "count": 34,
+      "percentage": 0.24
+    },
+    {
+      "wiki": "ka.wikipedia.org",
+      "count": 33,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "tr.wiktionary.org",
+      "count": 33,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "ceb.wikipedia.org",
+      "count": 32,
+      "percentage": 0.23
+    },
+    {
+      "wiki": "hu.wikipedia.org",
+      "count": 31,
+      "percentage": 0.22
+    },
+    {
+      "wiki": "lg.wikipedia.org",
+      "count": 31,
+      "percentage": 0.22
+    },
+    {
+      "wiki": "az.wikipedia.org",
+      "count": 31,
+      "percentage": 0.22
+    },
+    {
+      "wiki": "ms.wikipedia.org",
+      "count": 29,
+      "percentage": 0.21
+    },
+    {
+      "wiki": "el.wikipedia.org",
+      "count": 29,
+      "percentage": 0.21
+    },
+    {
+      "wiki": "it.wikivoyage.org",
+      "count": 29,
+      "percentage": 0.21
     },
     {
       "wiki": "outreach.wikimedia.org",
       "count": 27,
-      "percentage": 0.28
+      "percentage": 0.19
     },
     {
-      "wiki": "ms.wikipedia.org",
-      "count": 27,
-      "percentage": 0.28
+      "wiki": "te.wikipedia.org",
+      "count": 26,
+      "percentage": 0.18
     },
     {
-      "wiki": "ka.wikipedia.org",
-      "count": 25,
-      "percentage": 0.26
+      "wiki": "gpe.wikipedia.org",
+      "count": 24,
+      "percentage": 0.17
     },
     {
-      "wiki": "az.wikipedia.org",
-      "count": 25,
-      "percentage": 0.26
+      "wiki": "no.wikipedia.org",
+      "count": 24,
+      "percentage": 0.17
     },
     {
-      "wiki": "nn.wikipedia.org",
+      "wiki": "da.wikipedia.org",
+      "count": 24,
+      "percentage": 0.17
+    },
+    {
+      "wiki": "kk.wikipedia.org",
       "count": 23,
-      "percentage": 0.24
+      "percentage": 0.16
     },
     {
-      "wiki": "pl.wiktionary.org",
+      "wiki": "mg.wikipedia.org",
       "count": 23,
-      "percentage": 0.24
-    },
-    {
-      "wiki": "eo.wikipedia.org",
-      "count": 23,
-      "percentage": 0.24
+      "percentage": 0.16
     },
     {
       "wiki": "avk.wikipedia.org",
       "count": 22,
-      "percentage": 0.23
-    },
-    {
-      "wiki": "el.wikipedia.org",
-      "count": 22,
-      "percentage": 0.23
-    },
-    {
-      "wiki": "sv.wikipedia.org",
-      "count": 21,
-      "percentage": 0.22
-    },
-    {
-      "wiki": "hu.wikipedia.org",
-      "count": 20,
-      "percentage": 0.21
-    },
-    {
-      "wiki": "ro.wikipedia.org",
-      "count": 19,
-      "percentage": 0.2
-    },
-    {
-      "wiki": "zu.wikipedia.org",
-      "count": 19,
-      "percentage": 0.2
-    },
-    {
-      "wiki": "tr.wikipedia.org",
-      "count": 18,
-      "percentage": 0.19
-    },
-    {
-      "wiki": "it.wikivoyage.org",
-      "count": 18,
-      "percentage": 0.19
-    },
-    {
-      "wiki": "lg.wikipedia.org",
-      "count": 18,
-      "percentage": 0.19
-    },
-    {
-      "wiki": "nl.wikibooks.org",
-      "count": 18,
-      "percentage": 0.19
-    },
-    {
-      "wiki": "ceb.wikipedia.org",
-      "count": 17,
-      "percentage": 0.17
-    },
-    {
-      "wiki": "ary.wikipedia.org",
-      "count": 16,
       "percentage": 0.16
     },
     {
-      "wiki": "kcg.wiktionary.org",
-      "count": 16,
+      "wiki": "igl.wikipedia.org",
+      "count": 22,
+      "percentage": 0.16
+    },
+    {
+      "wiki": "fr.wikivoyage.org",
+      "count": 22,
+      "percentage": 0.16
+    },
+    {
+      "wiki": "ur.wikipedia.org",
+      "count": 22,
+      "percentage": 0.16
+    },
+    {
+      "wiki": "hr.wikipedia.org",
+      "count": 22,
       "percentage": 0.16
     },
     {
       "wiki": "tw.wikipedia.org",
-      "count": 15,
-      "percentage": 0.15
-    },
-    {
-      "wiki": "bn.wikivoyage.org",
-      "count": 15,
-      "percentage": 0.15
-    },
-    {
-      "wiki": "sl.wikipedia.org",
-      "count": 15,
-      "percentage": 0.15
-    },
-    {
-      "wiki": "igl.wikipedia.org",
-      "count": 15,
-      "percentage": 0.15
-    },
-    {
-      "wiki": "fi.wikipedia.org",
-      "count": 15,
-      "percentage": 0.15
-    },
-    {
-      "wiki": "so.wikipedia.org",
-      "count": 14,
+      "count": 20,
       "percentage": 0.14
     },
     {
-      "wiki": "fr.wikivoyage.org",
-      "count": 13,
+      "wiki": "bn.wikivoyage.org",
+      "count": 20,
+      "percentage": 0.14
+    },
+    {
+      "wiki": "ary.wikipedia.org",
+      "count": 20,
+      "percentage": 0.14
+    },
+    {
+      "wiki": "sl.wikipedia.org",
+      "count": 20,
+      "percentage": 0.14
+    },
+    {
+      "wiki": "as.wikipedia.org",
+      "count": 19,
       "percentage": 0.13
     },
     {
-      "wiki": "no.wikipedia.org",
-      "count": 13,
+      "wiki": "kcg.wiktionary.org",
+      "count": 19,
       "percentage": 0.13
+    },
+    {
+      "wiki": "be.wikipedia.org",
+      "count": 19,
+      "percentage": 0.13
+    },
+    {
+      "wiki": "sh.wikipedia.org",
+      "count": 19,
+      "percentage": 0.13
+    },
+    {
+      "wiki": "nl.wikibooks.org",
+      "count": 18,
+      "percentage": 0.13
+    },
+    {
+      "wiki": "so.wikipedia.org",
+      "count": 18,
+      "percentage": 0.13
+    },
+    {
+      "wiki": "ff.wikipedia.org",
+      "count": 18,
+      "percentage": 0.13
+    },
+    {
+      "wiki": "si.wikipedia.org",
+      "count": 17,
+      "percentage": 0.12
+    },
+    {
+      "wiki": "oc.wikipedia.org",
+      "count": 16,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "fon.wikipedia.org",
+      "count": 16,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "sg.wiktionary.org",
+      "count": 16,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "hi.wikipedia.org",
+      "count": 15,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "tum.wikipedia.org",
+      "count": 15,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "tt.wikipedia.org",
+      "count": 15,
+      "percentage": 0.11
+    },
+    {
+      "wiki": "et.wikipedia.org",
+      "count": 14,
+      "percentage": 0.1
+    },
+    {
+      "wiki": "bg.wikipedia.org",
+      "count": 14,
+      "percentage": 0.1
+    },
+    {
+      "wiki": "gl.wikipedia.org",
+      "count": 14,
+      "percentage": 0.1
+    },
+    {
+      "wiki": "tn.wikipedia.org",
+      "count": 14,
+      "percentage": 0.1
+    },
+    {
+      "wiki": "kcg.wikipedia.org",
+      "count": 14,
+      "percentage": 0.1
     },
     {
       "wiki": "kus.wikipedia.org",
       "count": 13,
-      "percentage": 0.13
+      "percentage": 0.09
     },
     {
-      "wiki": "fon.wikipedia.org",
+      "wiki": "sn.wikipedia.org",
       "count": 13,
-      "percentage": 0.13
+      "percentage": 0.09
     },
     {
-      "wiki": "gpe.wikipedia.org",
-      "count": 12,
-      "percentage": 0.12
-    },
-    {
-      "wiki": "ff.wikipedia.org",
-      "count": 12,
-      "percentage": 0.12
-    },
-    {
-      "wiki": "te.wikipedia.org",
-      "count": 11,
-      "percentage": 0.11
-    },
-    {
-      "wiki": "ur.wikipedia.org",
-      "count": 11,
-      "percentage": 0.11
-    },
-    {
-      "wiki": "da.wikipedia.org",
-      "count": 11,
-      "percentage": 0.11
+      "wiki": "ky.wikipedia.org",
+      "count": 13,
+      "percentage": 0.09
     },
     {
       "wiki": "ta.wikipedia.org",
-      "count": 10,
-      "percentage": 0.1
+      "count": 12,
+      "percentage": 0.09
     },
     {
-      "wiki": "hr.wikipedia.org",
+      "wiki": "sd.wikipedia.org",
+      "count": 12,
+      "percentage": 0.09
+    },
+    {
+      "wiki": "lv.wikipedia.org",
+      "count": 11,
+      "percentage": 0.08
+    },
+    {
+      "wiki": "kbp.wikipedia.org",
+      "count": 11,
+      "percentage": 0.08
+    },
+    {
+      "wiki": "tl.wikipedia.org",
+      "count": 11,
+      "percentage": 0.08
+    },
+    {
+      "wiki": "ru.wiktionary.org",
       "count": 10,
-      "percentage": 0.1
+      "percentage": 0.07
+    },
+    {
+      "wiki": "uz.wikipedia.org",
+      "count": 10,
+      "percentage": 0.07
     },
     {
       "wiki": "ms.wikibooks.org",
       "count": 10,
-      "percentage": 0.1
+      "percentage": 0.07
     },
     {
-      "wiki": "mg.wikipedia.org",
+      "wiki": "ki.wikipedia.org",
       "count": 10,
-      "percentage": 0.1
-    },
-    {
-      "wiki": "oc.wikipedia.org",
-      "count": 9,
-      "percentage": 0.09
+      "percentage": 0.07
     },
     {
       "wiki": "ar.wikibooks.org",
       "count": 9,
-      "percentage": 0.09
+      "percentage": 0.06
     },
     {
-      "wiki": "tum.wikipedia.org",
+      "wiki": "lb.wikipedia.org",
       "count": 9,
-      "percentage": 0.09
+      "percentage": 0.06
     },
     {
-      "wiki": "bg.wikipedia.org",
+      "wiki": "fat.wikipedia.org",
       "count": 9,
-      "percentage": 0.09
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ast.wikipedia.org",
+      "count": 9,
+      "percentage": 0.06
     },
     {
       "wiki": "es.wiktionary.org",
       "count": 9,
-      "percentage": 0.09
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ru.wikinews.org",
+      "count": 9,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "als.wikipedia.org",
+      "count": 9,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "hyw.wikipedia.org",
+      "count": 9,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "en.wikiquote.org",
+      "count": 9,
+      "percentage": 0.06
     },
     {
       "wiki": "bcl.wiktionary.org",
       "count": 8,
-      "percentage": 0.08
+      "percentage": 0.06
     },
     {
       "wiki": "la.wikipedia.org",
       "count": 8,
-      "percentage": 0.08
-    },
-    {
-      "wiki": "hi.wikipedia.org",
-      "count": 8,
-      "percentage": 0.08
-    },
-    {
-      "wiki": "lb.wikipedia.org",
-      "count": 8,
-      "percentage": 0.08
-    },
-    {
-      "wiki": "et.wikipedia.org",
-      "count": 8,
-      "percentage": 0.08
-    },
-    {
-      "wiki": "tt.wikipedia.org",
-      "count": 8,
-      "percentage": 0.08
-    },
-    {
-      "wiki": "tn.wikipedia.org",
-      "count": 8,
-      "percentage": 0.08
-    },
-    {
-      "wiki": "ki.wikipedia.org",
-      "count": 8,
-      "percentage": 0.08
-    },
-    {
-      "wiki": "kcg.wikipedia.org",
-      "count": 8,
-      "percentage": 0.08
-    },
-    {
-      "wiki": "lt.wiktionary.org",
-      "count": 7,
-      "percentage": 0.07
-    },
-    {
-      "wiki": "fat.wikipedia.org",
-      "count": 7,
-      "percentage": 0.07
-    },
-    {
-      "wiki": "si.wikipedia.org",
-      "count": 7,
-      "percentage": 0.07
-    },
-    {
-      "wiki": "ml.wikipedia.org",
-      "count": 7,
-      "percentage": 0.07
-    },
-    {
-      "wiki": "ast.wikipedia.org",
-      "count": 7,
-      "percentage": 0.07
-    },
-    {
-      "wiki": "sd.wikipedia.org",
-      "count": 7,
-      "percentage": 0.07
-    },
-    {
-      "wiki": "de.wiktionary.org",
-      "count": 7,
-      "percentage": 0.07
-    },
-    {
-      "wiki": "ee.wikipedia.org",
-      "count": 7,
-      "percentage": 0.07
-    },
-    {
-      "wiki": "dsb.wikipedia.org",
-      "count": 6,
       "percentage": 0.06
     },
     {
-      "wiki": "www.wikifunctions.org",
-      "count": 6,
+      "wiki": "lt.wiktionary.org",
+      "count": 8,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ml.wikipedia.org",
+      "count": 8,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "de.wiktionary.org",
+      "count": 8,
       "percentage": 0.06
     },
     {
       "wiki": "gur.wikipedia.org",
-      "count": 6,
+      "count": 8,
       "percentage": 0.06
     },
     {
-      "wiki": "zh.wiktionary.org",
-      "count": 5,
+      "wiki": "pa.wikipedia.org",
+      "count": 8,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "io.wikipedia.org",
+      "count": 8,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ee.wikipedia.org",
+      "count": 8,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "dsb.wikipedia.org",
+      "count": 7,
       "percentage": 0.05
     },
     {
       "wiki": "es.wikivoyage.org",
-      "count": 5,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "ce.wikipedia.org",
-      "count": 5,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "ru.wikibooks.org",
-      "count": 5,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "ru.wiktionary.org",
-      "count": 5,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "as.wikipedia.org",
-      "count": 5,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "wo.wikipedia.org",
-      "count": 5,
+      "count": 7,
       "percentage": 0.05
     },
     {
       "wiki": "shy.wiktionary.org",
-      "count": 5,
+      "count": 7,
       "percentage": 0.05
     },
     {
-      "wiki": "xh.wikipedia.org",
-      "count": 5,
+      "wiki": "nl.wiktionary.org",
+      "count": 7,
       "percentage": 0.05
     },
     {
-      "wiki": "el.wiktionary.org",
-      "count": 5,
+      "wiki": "su.wikipedia.org",
+      "count": 7,
       "percentage": 0.05
     },
     {
-      "wiki": "bn.wikibooks.org",
-      "count": 5,
+      "wiki": "sq.wikipedia.org",
+      "count": 7,
       "percentage": 0.05
     },
     {
-      "wiki": "sn.wikipedia.org",
-      "count": 5,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "uz.wikipedia.org",
-      "count": 5,
+      "wiki": "wikimania2016.wikimedia.org",
+      "count": 7,
       "percentage": 0.05
     },
     {
       "wiki": "ts.wikipedia.org",
-      "count": 5,
+      "count": 7,
       "percentage": 0.05
     },
     {
-      "wiki": "be.wikipedia.org",
-      "count": 5,
+      "wiki": "pl.wikivoyage.org",
+      "count": 7,
       "percentage": 0.05
     },
     {
-      "wiki": "bjn.wikipedia.org",
-      "count": 5,
+      "wiki": "br.wikipedia.org",
+      "count": 7,
       "percentage": 0.05
+    },
+    {
+      "wiki": "simple.wiktionary.org",
+      "count": 7,
+      "percentage": 0.05
+    },
+    {
+      "wiki": "mt.wikipedia.org",
+      "count": 7,
+      "percentage": 0.05
+    },
+    {
+      "wiki": "azb.wikipedia.org",
+      "count": 7,
+      "percentage": 0.05
+    },
+    {
+      "wiki": "kai.wikipedia.org",
+      "count": 7,
+      "percentage": 0.05
+    },
+    {
+      "wiki": "www.wikifunctions.org",
+      "count": 6,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "zh.wiktionary.org",
+      "count": 6,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "guw.wiktionary.org",
+      "count": 6,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "ba.wikipedia.org",
+      "count": 6,
+      "percentage": 0.04
     },
     {
       "wiki": "en.wikiversity.org",
-      "count": 5,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "nso.wikipedia.org",
-      "count": 5,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "id.wikibooks.org",
-      "count": 5,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "lv.wikipedia.org",
-      "count": 4,
+      "count": 6,
       "percentage": 0.04
     },
     {
-      "wiki": "pa.wikipedia.org",
-      "count": 4,
+      "wiki": "st.wikipedia.org",
+      "count": 6,
       "percentage": 0.04
     },
     {
-      "wiki": "io.wikipedia.org",
-      "count": 4,
+      "wiki": "kab.wikipedia.org",
+      "count": 6,
       "percentage": 0.04
     },
     {
-      "wiki": "kk.wikipedia.org",
-      "count": 4,
+      "wiki": "it.wikiquote.org",
+      "count": 6,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "ia.wikipedia.org",
+      "count": 6,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "ce.wikipedia.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "ru.wikibooks.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "wo.wikipedia.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "xh.wikipedia.org",
+      "count": 5,
       "percentage": 0.04
     },
     {
       "wiki": "pnb.wikipedia.org",
-      "count": 4,
+      "count": 5,
       "percentage": 0.04
     },
     {
-      "wiki": "nl.wiktionary.org",
-      "count": 4,
+      "wiki": "el.wiktionary.org",
+      "count": 5,
       "percentage": 0.04
     },
     {
-      "wiki": "su.wikipedia.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "sq.wikipedia.org",
-      "count": 4,
+      "wiki": "bn.wikibooks.org",
+      "count": 5,
       "percentage": 0.04
     },
     {
       "wiki": "th.wikipedia.org",
-      "count": 4,
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "bjn.wikipedia.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "zh.wikivoyage.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "nqo.wikipedia.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "mdf.wikipedia.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "fr.wikiquote.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "ga.wikipedia.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "nso.wikipedia.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "sk.wikipedia.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "id.wikibooks.org",
+      "count": 5,
       "percentage": 0.04
     },
     {
       "wiki": "frp.wikipedia.org",
       "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "guw.wiktionary.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "wikimania2016.wikimedia.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "sg.wiktionary.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "ru.wikinews.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "gl.wikipedia.org",
-      "count": 4,
-      "percentage": 0.04
+      "percentage": 0.03
     },
     {
       "wiki": "zh-yue.wikipedia.org",
       "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "sh.wikipedia.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "en.wikiquote.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "tl.wikipedia.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "sk.wikipedia.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "ia.wikipedia.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "wikisource.org",
-      "count": 4,
-      "percentage": 0.04
-    },
-    {
-      "wiki": "species.wikimedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "ja.wikivoyage.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "eo.wikivoyage.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "als.wikipedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "ug.wikipedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "pl.wikivoyage.org",
-      "count": 3,
       "percentage": 0.03
     },
     {
       "wiki": "ru.wikivoyage.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "br.wikipedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "hyw.wikipedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "mai.wikipedia.org",
-      "count": 3,
+      "count": 4,
       "percentage": 0.03
     },
     {
       "wiki": "id.wikivoyage.org",
-      "count": 3,
+      "count": 4,
       "percentage": 0.03
     },
     {
-      "wiki": "kbp.wikipedia.org",
-      "count": 3,
+      "wiki": "cv.wikipedia.org",
+      "count": 4,
       "percentage": 0.03
+    },
+    {
+      "wiki": "ta.wiktionary.org",
+      "count": 4,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "bar.wikipedia.org",
+      "count": 4,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "bol.wikipedia.org",
+      "count": 4,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "ckb.wikipedia.org",
+      "count": 4,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "wikisource.org",
+      "count": 4,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "species.wikimedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "ja.wikivoyage.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "eo.wikivoyage.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "ug.wikipedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "mai.wikipedia.org",
+      "count": 3,
+      "percentage": 0.02
     },
     {
       "wiki": "mos.wikipedia.org",
       "count": 3,
-      "percentage": 0.03
+      "percentage": 0.02
     },
     {
       "wiki": "ku.wiktionary.org",
       "count": 3,
-      "percentage": 0.03
+      "percentage": 0.02
     },
     {
       "wiki": "ar.wikiquote.org",
       "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "simple.wiktionary.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "rn.wikipedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "oc.wiktionary.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "zh.wikivoyage.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "nqo.wikipedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "st.wikipedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "bm.wikipedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "rsk.wikipedia.org",
-      "count": 3,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "sc.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "ky.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "pcm.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "ba.wikipedia.org",
-      "count": 2,
       "percentage": 0.02
     },
     {
       "wiki": "wuu.wikipedia.org",
-      "count": 2,
+      "count": 3,
       "percentage": 0.02
     },
     {
-      "wiki": "min.wiktionary.org",
-      "count": 2,
+      "wiki": "rn.wikipedia.org",
+      "count": 3,
       "percentage": 0.02
     },
     {
-      "wiki": "mad.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "cv.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "fi.wiktionary.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "bn.wiktionary.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "pl.wikibooks.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "am.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "ta.wiktionary.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "be-tarask.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "ja.wiktionary.org",
-      "count": 2,
+      "wiki": "oc.wiktionary.org",
+      "count": 3,
       "percentage": 0.02
     },
     {
       "wiki": "kw.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "mt.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "kg.wikipedia.org",
-      "count": 2,
+      "count": 3,
       "percentage": 0.02
     },
     {
       "wiki": "ne.wikipedia.org",
-      "count": 2,
+      "count": 3,
       "percentage": 0.02
+    },
+    {
+      "wiki": "zh-min-nan.wikipedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "nl.wikinews.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "guw.wikipedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "bm.wikipedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "sat.wikipedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "rs.wikimedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "ht.wikipedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "rsk.wikipedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "sc.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "pcm.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "min.wiktionary.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "mad.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "fi.wiktionary.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "bn.wiktionary.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "pl.wikibooks.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "am.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "be-tarask.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "ja.wiktionary.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "kg.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
     },
     {
       "wiki": "mi.wikipedia.org",
       "count": 2,
-      "percentage": 0.02
+      "percentage": 0.01
     },
     {
       "wiki": "nia.wikipedia.org",
       "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "mdf.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
+      "percentage": 0.01
     },
     {
       "wiki": "hy.wikibooks.org",
       "count": 2,
-      "percentage": 0.02
+      "percentage": 0.01
     },
     {
-      "wiki": "fr.wikiquote.org",
+      "wiki": "vec.wikipedia.org",
       "count": 2,
-      "percentage": 0.02
+      "percentage": 0.01
     },
     {
-      "wiki": "ga.wikipedia.org",
+      "wiki": "lbe.wikipedia.org",
       "count": 2,
-      "percentage": 0.02
+      "percentage": 0.01
+    },
+    {
+      "wiki": "vep.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "iba.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
     },
     {
       "wiki": "bcl.wikipedia.org",
       "count": 2,
-      "percentage": 0.02
+      "percentage": 0.01
+    },
+    {
+      "wiki": "bs.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "he.wikivoyage.org",
+      "count": 2,
+      "percentage": 0.01
     },
     {
       "wiki": "nia.wiktionary.org",
       "count": 2,
-      "percentage": 0.02
+      "percentage": 0.01
+    },
+    {
+      "wiki": "hif.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "an.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "is.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "bew.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "diq.wiktionary.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "ss.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "pt.wikinews.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "war.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "to.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "it.wiktionary.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "cy.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "xmf.wikipedia.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "fa.wiktionary.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "bjn.wiktionary.org",
+      "count": 2,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "vi.wikibooks.org",
+      "count": 2,
+      "percentage": 0.01
     },
     {
       "wiki": "new.wikipedia.org",
       "count": 2,
-      "percentage": 0.02
+      "percentage": 0.01
     },
     {
       "wiki": "ha.wiktionary.org",
       "count": 2,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "kai.wikipedia.org",
-      "count": 2,
-      "percentage": 0.02
+      "percentage": 0.01
     },
     {
       "wiki": "scn.wikipedia.org",
@@ -1133,11 +1320,6 @@
     },
     {
       "wiki": "az.wikibooks.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "zh-min-nan.wikipedia.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1182,21 +1364,6 @@
       "percentage": 0.01
     },
     {
-      "wiki": "nl.wikinews.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "vec.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "kab.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
       "wiki": "min.wikipedia.org",
       "count": 1,
       "percentage": 0.01
@@ -1217,17 +1384,7 @@
       "percentage": 0.01
     },
     {
-      "wiki": "guw.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
       "wiki": "it.wikibooks.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "lbe.wikipedia.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1257,11 +1414,6 @@
       "percentage": 0.01
     },
     {
-      "wiki": "vep.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
       "wiki": "ar.wikinews.org",
       "count": 1,
       "percentage": 0.01
@@ -1273,11 +1425,6 @@
     },
     {
       "wiki": "dtp.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "iba.wikipedia.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1302,27 +1449,12 @@
       "percentage": 0.01
     },
     {
-      "wiki": "bs.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
       "wiki": "sw.wiktionary.org",
       "count": 1,
       "percentage": 0.01
     },
     {
-      "wiki": "he.wikivoyage.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
       "wiki": "ban.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "hif.wikipedia.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1338,11 +1470,6 @@
     },
     {
       "wiki": "krc.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "an.wikipedia.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1367,37 +1494,12 @@
       "percentage": 0.01
     },
     {
-      "wiki": "is.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "bew.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
       "wiki": "stq.wikipedia.org",
       "count": 1,
       "percentage": 0.01
     },
     {
-      "wiki": "diq.wiktionary.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
       "wiki": "sat.wiktionary.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "ss.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "bar.wikipedia.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1412,17 +1514,167 @@
       "percentage": 0.01
     },
     {
-      "wiki": "pt.wikinews.org",
+      "wiki": "ka.wiktionary.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "hy.wiktionary.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "csb.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "li.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "frr.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "eo.wikinews.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "hi.wiktionary.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "ig.wikiquote.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "pcm.wikiquote.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "pt.wikiquote.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "lmo.wiktionary.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "bat-smg.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "fr.wikinews.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "om.wiktionary.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "ca.wiktionary.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "shi.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "ru.wikiquote.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "lfn.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "ln.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "nds-nl.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "zgh.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "yi.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "knc.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "nup.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "kn.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "fy.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "hi.wikivoyage.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "smn.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "pt.wikivoyage.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "vi.wikivoyage.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "din.wikipedia.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "szl.wikipedia.org",
       "count": 1,
       "percentage": 0.01
     },
     {
       "wiki": "es.wikiversity.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "ckb.wikipedia.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1433,16 +1685,6 @@
     },
     {
       "wiki": "nr.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "fa.wiktionary.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "bjn.wiktionary.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1463,16 +1705,6 @@
     },
     {
       "wiki": "tr.wikisource.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "ht.wikipedia.org",
-      "count": 1,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "vi.wikibooks.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1500,39 +1732,47 @@
   "grand_countries": [
     {
       "name": "Nigeria",
-      "count": 25458
+      "count": 25878
     },
     {
       "name": "Senegal",
-      "count": 11865
+      "count": 11946
     },
     {
       "name": "Kenya",
-      "count": 9606
+      "count": 9924
     },
     {
       "name": "Ghana",
-      "count": 4681
+      "count": 4885
     },
     {
       "name": "Uganda",
-      "count": 3736
-    },
-    {
-      "name": "Egypt",
-      "count": 3565
-    },
-    {
-      "name": "Togo",
-      "count": 3355
+      "count": 4392
     },
     {
       "name": "Ivory Coast",
-      "count": 2958
+      "count": 4097
+    },
+    {
+      "name": "Egypt",
+      "count": 3999
+    },
+    {
+      "name": "Togo",
+      "count": 3385
+    },
+    {
+      "name": "Tunisia",
+      "count": 2252
     },
     {
       "name": "Guinea",
-      "count": 2123
+      "count": 2129
+    },
+    {
+      "name": "Cameroon",
+      "count": 1982
     },
     {
       "name": "Burundi",
@@ -1544,51 +1784,51 @@
     },
     {
       "name": "Madagascar",
-      "count": 1310
+      "count": 1333
     },
     {
       "name": "Zimbabwe",
-      "count": 1157
+      "count": 1173
     },
     {
-      "name": "Cameroon",
-      "count": 1133
+      "name": "Tanzania",
+      "count": 1094
     },
     {
       "name": "Niger",
-      "count": 1065
+      "count": 1067
     },
     {
       "name": "Sudan",
-      "count": 1043
-    },
-    {
-      "name": "Tunisia",
-      "count": 1015
-    },
-    {
-      "name": "the Central African Republic",
-      "count": 891
+      "count": 1054
     },
     {
       "name": "Morocco",
-      "count": 881
+      "count": 1044
+    },
+    {
+      "name": "the Central African Republic",
+      "count": 953
     },
     {
       "name": "Burkina Faso",
-      "count": 841
+      "count": 861
     },
     {
       "name": "Benin",
-      "count": 768
+      "count": 818
     },
     {
       "name": "Angola",
-      "count": 747
+      "count": 753
+    },
+    {
+      "name": "South Africa",
+      "count": 752
     },
     {
       "name": "Rwanda",
-      "count": 696
+      "count": 720
     },
     {
       "name": "Libya",
@@ -1596,58 +1836,66 @@
     },
     {
       "name": "Botswana",
-      "count": 640
-    },
-    {
-      "name": "Tanzania",
-      "count": 628
-    },
-    {
-      "name": "South Africa",
-      "count": 578
-    },
-    {
-      "name": "Chad",
-      "count": 410
-    },
-    {
-      "name": "Gabon",
-      "count": 292
+      "count": 647
     },
     {
       "name": "Algeria",
-      "count": 220
+      "count": 493
+    },
+    {
+      "name": "Chad",
+      "count": 412
+    },
+    {
+      "name": "Gabon",
+      "count": 324
     },
     {
       "name": "Ethiopia",
-      "count": 157
-    },
-    {
-      "name": "Malawi",
-      "count": 81
-    },
-    {
-      "name": "Mali",
-      "count": 80
-    },
-    {
-      "name": "Zambia",
-      "count": 59
+      "count": 256
     },
     {
       "name": "the Democratic Republic of the Congo",
-      "count": 55
+      "count": 131
+    },
+    {
+      "name": "Mali",
+      "count": 124
+    },
+    {
+      "name": "Malawi",
+      "count": 109
+    },
+    {
+      "name": "Zambia",
+      "count": 103
     },
     {
       "name": "Mozambique",
-      "count": 44
+      "count": 84
+    },
+    {
+      "name": "Namibia",
+      "count": 43
     },
     {
       "name": "Liberia",
-      "count": 34
+      "count": 35
+    },
+    {
+      "name": "Guinea-Bissau",
+      "count": 25
+    },
+    {
+      "name": "an unknown country",
+      "count": 23
     },
     {
       "name": "Cape Verde",
+      "count": 19
+    },
+    {
+      "name": "South Sudan",
       "count": 19
     },
     {
@@ -1655,56 +1903,44 @@
       "count": 17
     },
     {
-      "name": "Namibia",
-      "count": 11
+      "name": "Somalia",
+      "count": 16
+    },
+    {
+      "name": "France",
+      "count": 15
     },
     {
       "name": "Mauritania",
-      "count": 10
-    },
-    {
-      "name": "South Sudan",
-      "count": 10
-    },
-    {
-      "name": "Somalia",
-      "count": 6
+      "count": 15
     },
     {
       "name": "Réunion",
-      "count": 6
+      "count": 13
     },
     {
       "name": "Djibouti",
+      "count": 13
+    },
+    {
+      "name": "Eswatini",
+      "count": 10
+    },
+    {
+      "name": "Eritrea",
       "count": 5
     },
     {
-      "name": "an unknown country",
+      "name": "the Comoros",
+      "count": 5
+    },
+    {
+      "name": "Mauritius",
       "count": 4
     },
     {
       "name": "Haiti",
       "count": 4
-    },
-    {
-      "name": "France",
-      "count": 3
-    },
-    {
-      "name": "Guinea-Bissau",
-      "count": 3
-    },
-    {
-      "name": "Eritrea",
-      "count": 2
-    },
-    {
-      "name": "Mauritius",
-      "count": 2
-    },
-    {
-      "name": "the Comoros",
-      "count": 2
     },
     {
       "name": "the Gambia",
@@ -1714,18 +1950,23 @@
   "contributor_retention": [
     {
       "min_years": 1,
-      "count": 2484,
+      "count": 3164,
       "percentage": 100.0
     },
     {
       "min_years": 2,
-      "count": 192,
-      "percentage": 7.7
+      "count": 223,
+      "percentage": 7.0
     },
     {
       "min_years": 3,
-      "count": 5,
-      "percentage": 0.2
+      "count": 14,
+      "percentage": 0.4
+    },
+    {
+      "min_years": 4,
+      "count": 3,
+      "percentage": 0.1
     }
   ],
   "grand_top_viewed": [
@@ -1738,6 +1979,26 @@
       "total_views": 5446363,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/%D9%87%D8%B1%D9%8A%D8%B3%D8%A9_%D8%AF%D9%8A%D8%A7%D8%B1%D9%8A.JPG/500px-%D9%87%D8%B1%D9%8A%D8%B3%D8%A9_%D8%AF%D9%8A%D8%A7%D8%B1%D9%8A.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "year": 2014
+    },
+    {
+      "title": "File:سوق الشواشين.jpg",
+      "country": "Tunisia",
+      "views": 1539,
+      "reuse_views": 5236691,
+      "commons_views": 1539,
+      "total_views": 5238230,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/%D8%B3%D9%88%D9%82_%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%B4%D9%8A%D9%86.jpg/500px-%D8%B3%D9%88%D9%82_%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%B4%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2015
+    },
+    {
+      "title": "File:Artisan bijoutier.jpg",
+      "country": "Tunisia",
+      "views": 697,
+      "reuse_views": 5236691,
+      "commons_views": 697,
+      "total_views": 5237388,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Artisan_bijoutier.jpg/500px-Artisan_bijoutier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2015
     },
     {
       "title": "File:Spaghetti fruit de mer.JPG",
@@ -1907,26 +2168,6 @@
       "commons_views": 1266,
       "total_views": 1994544,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9_%D8%B9%D8%B1%D8%A8%D9%8A.jpg/500px-%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9_%D8%B9%D8%B1%D8%A8%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2014
-    },
-    {
-      "title": "File:سوق بمدينة المنستير التونسية 1.JPG",
-      "country": "Tunisia",
-      "views": 0,
-      "reuse_views": 1966882,
-      "commons_views": 0,
-      "total_views": 1966882,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%D8%B3%D9%88%D9%82_%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%B3%D8%AA%D9%8A%D8%B1_%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9_1.JPG/500px-%D8%B3%D9%88%D9%82_%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%B3%D8%AA%D9%8A%D8%B1_%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2014
-    },
-    {
-      "title": "File:عصبان تونسي 1.JPG",
-      "country": "Tunisia",
-      "views": 3203,
-      "reuse_views": 1890698,
-      "commons_views": 3203,
-      "total_views": 1893901,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%D8%B9%D8%B5%D8%A8%D8%A7%D9%86_%D8%AA%D9%88%D9%86%D8%B3%D9%8A_1.JPG/500px-%D8%B9%D8%B5%D8%A8%D8%A7%D9%86_%D8%AA%D9%88%D9%86%D8%B3%D9%8A_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "year": 2014
     }
   ],
@@ -1942,6 +2183,26 @@
       "year": 2014
     },
     {
+      "title": "File:سوق الشواشين.jpg",
+      "country": "Tunisia",
+      "views": 1539,
+      "reuse_views": 5236691,
+      "commons_views": 1539,
+      "total_views": 5238230,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/%D8%B3%D9%88%D9%82_%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%B4%D9%8A%D9%86.jpg/500px-%D8%B3%D9%88%D9%82_%D8%A7%D9%84%D8%B4%D9%88%D8%A7%D8%B4%D9%8A%D9%86.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2015
+    },
+    {
+      "title": "File:Artisan bijoutier.jpg",
+      "country": "Tunisia",
+      "views": 697,
+      "reuse_views": 5236691,
+      "commons_views": 697,
+      "total_views": 5237388,
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Artisan_bijoutier.jpg/500px-Artisan_bijoutier.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2015
+    },
+    {
       "title": "File:Spaghetti fruit de mer.JPG",
       "country": "Tunisia",
       "views": 0,
@@ -2109,26 +2370,6 @@
       "commons_views": 1266,
       "total_views": 1994544,
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9_%D8%B9%D8%B1%D8%A8%D9%8A.jpg/500px-%D8%B9%D8%B5%D9%8A%D8%AF%D8%A9_%D8%B9%D8%B1%D8%A8%D9%8A.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2014
-    },
-    {
-      "title": "File:سوق بمدينة المنستير التونسية 1.JPG",
-      "country": "Tunisia",
-      "views": 0,
-      "reuse_views": 1966882,
-      "commons_views": 0,
-      "total_views": 1966882,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/%D8%B3%D9%88%D9%82_%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%B3%D8%AA%D9%8A%D8%B1_%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9_1.JPG/500px-%D8%B3%D9%88%D9%82_%D8%A8%D9%85%D8%AF%D9%8A%D9%86%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%B3%D8%AA%D9%8A%D8%B1_%D8%A7%D9%84%D8%AA%D9%88%D9%86%D8%B3%D9%8A%D8%A9_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2014
-    },
-    {
-      "title": "File:عصبان تونسي 1.JPG",
-      "country": "Tunisia",
-      "views": 3203,
-      "reuse_views": 1890698,
-      "commons_views": 3203,
-      "total_views": 1893901,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/%D8%B9%D8%B5%D8%A8%D8%A7%D9%86_%D8%AA%D9%88%D9%86%D8%B3%D9%8A_1.JPG/500px-%D8%B9%D8%B5%D8%A8%D8%A7%D9%86_%D8%AA%D9%88%D9%86%D8%B3%D9%8A_1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "year": 2014
     }
   ],
@@ -4225,6 +4466,1706 @@
       "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Wiki_Loves_Africa_2014Winners_PosterFR.jpg/500px-Wiki_Loves_Africa_2014Winners_PosterFR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "usage": [],
       "core_usage_count": 0
+    },
+    {
+      "title": "File:Ak55-Busy afternoon.jpg",
+      "uploader": "Zuraj studio",
+      "country": "Kenya",
+      "year": 2015,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Ak55-Busy_afternoon.jpg/500px-Ak55-Busy_afternoon.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [
+        {
+          "wiki": "bol.wikipedia.org",
+          "title": "Kenya"
+        },
+        {
+          "wiki": "ca.wikipedia.org",
+          "title": "Amistat"
+        },
+        {
+          "wiki": "da.wikipedia.org",
+          "title": "Strikning"
+        },
+        {
+          "wiki": "de.wikipedia.org",
+          "title": "Portal:Afrika/Bild_des_Tages/Dezember"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Wikipedia_Signpost/2016-02-24/Blog"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Wikipedia_Signpost/Single/2016-02-24"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Meetup/NYC/AfroCrowd/Schomburg_2018"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Meetup/Afrocrowd/Paris"
+        },
+        {
+          "wiki": "es.wikipedia.org",
+          "title": "Amistad"
+        },
+        {
+          "wiki": "es.wikipedia.org",
+          "title": "Habilidades_sociales"
+        },
+        {
+          "wiki": "fi.wikipedia.org",
+          "title": "Kenia"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Tricot"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Amitié"
+        },
+        {
+          "wiki": "gl.wikipedia.org",
+          "title": "Wikipedia:Galería_de_Imaxes_da_Semana"
+        },
+        {
+          "wiki": "gl.wikipedia.org",
+          "title": "Wikipedia:Imaxe_da_semana/Propostas_pechadas/2016"
+        },
+        {
+          "wiki": "gl.wikipedia.org",
+          "title": "Wikipedia:Imaxe_da_semana/Propostas/Ficheiro:Ak55-Busy_afternoon.jpg"
+        },
+        {
+          "wiki": "gl.wikipedia.org",
+          "title": "Wikipedia:Imaxe_da_semana/21_2017"
+        },
+        {
+          "wiki": "ha.wikipedia.org",
+          "title": "Kenya"
+        },
+        {
+          "wiki": "hi.wikipedia.org",
+          "title": "विकिपीडिया:विकिपीडिया_पेजेज़_वांटिंग_फोटोज़_२०२०"
+        },
+        {
+          "wiki": "hr.wikipedia.org",
+          "title": "Afrika"
+        },
+        {
+          "wiki": "hy.wikipedia.org",
+          "title": "Վիքինախագիծ:Վիքիպեդիայի_էջերը_սպասում_են_պատկերներին"
+        },
+        {
+          "wiki": "hy.wikipedia.org",
+          "title": "Վիքինախագիծ:Վիքիպեդիայի_էջերը_սպասում_են_պատկերներին_2023"
+        },
+        {
+          "wiki": "hy.wikipedia.org",
+          "title": "Սոցիալական_հմտություններ"
+        },
+        {
+          "wiki": "incubator.wikimedia.org",
+          "title": "Wp/bol/Kenya"
+        },
+        {
+          "wiki": "it.wikipedia.org",
+          "title": "Lavorazione_a_maglia"
+        },
+        {
+          "wiki": "it.wikipedia.org",
+          "title": "Progetto:WikiDonne/Wikipedia_Pages_Wanting_Photos_2021"
+        },
+        {
+          "wiki": "ja.wikipedia.org",
+          "title": "ビーズ手芸"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "User:John_Cummings/notes"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/yo"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/eo"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/es"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/zh"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/pl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/uk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ru"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/th"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/cs"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/sk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/hr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/el"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/gl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/lv"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/uz"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ro"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ur"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/mr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/sv"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/nl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ja"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/sw"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/bg"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ms"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/tr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/it"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ar"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/gu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/fa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/la"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/az"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/be-tarask"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/hi"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ha"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/pt"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/tl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/pt-br"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/mk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/de"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/mwl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ml"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/kn"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/sq"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/bn"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/io"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/de-formal"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/sr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/da"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/or"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/id"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Photo_Talk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/sh"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Photo_Talk/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Photo_Talk/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/ja"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/he"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/tr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/uk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/gu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/pt"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/zh"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/bcl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/ckb"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/ru"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/hyw"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/bn"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/pap"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/min"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/sq"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/ar"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/io"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/be-tarask"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/id"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/hi"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/uz"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/fa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/es"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/ur"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/eo"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/ha"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/it"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/arq"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/nl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/su"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/su"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/sv"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/th"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/te"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/ro"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/mk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/sat"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/de"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/si"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/el"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/cs"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/jv"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/sr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/hu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/pl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/nan"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Photo_Talk/nan"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/ta"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Photo_Talk/de"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/ja"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/ar"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/ha"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/ru"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/he"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/hi"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/ta"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/sq"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/sv"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/th"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/si"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/id"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/pt"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/bn"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/my"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/mrh"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/te"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/tr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/ks-arab"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/sat"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/it"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/as"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/mk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Photo_Talk/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/ru"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/eo"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/ar"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/kcg"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/es"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/ro"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/ja"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/fi"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/id"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/zh"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/si"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/kn"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/mk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/hu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/hu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos/hu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/bn"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/sq"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/de"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/ig"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/th"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/uk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Loves_Africa_2024/Communication/Ten_Years_of_Wiki_Loves_Africa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/dtp"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/pa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/sq"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/it"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/tr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_In_Igbo_2024"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/zh"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/ar"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/sw"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/ff"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/ha"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/yo"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/sr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/aa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/de"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/ru"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/id"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/yo"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/es"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/uk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/te"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/hu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2021/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Loves_Africa_2025/Communication/Eleven_Years_of_Wiki_Loves_Africa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025_in_Gungbe_Wikipedia"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Translations:Wikipedia_Pages_Wanting_Photos_2025/5/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/hu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Translations:Wikipedia_Pages_Wanting_Photos_2025/5/hu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/ja"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Translations:Wikipedia_Pages_Wanting_Photos_2025/5/ja"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/uk"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/pl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/sq"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/kr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/ml"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/nl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/ff"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/igl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/pcm"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/guw"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/ar"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/kaa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/ha"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/vi"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_in_the_Philippines_2025"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/sr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/ru"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_In_Igbo_2025"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/es"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/fr"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/zh"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/fa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/pt-br"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/uz"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/de"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/hi"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2025/ps"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_in_the_Philippines_2025/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Loves_Africa_2026/Communication/Twelve_Years_of_Wiki_Loves_Africa"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_In_Africa/Wiki_Loves_Africa/de"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_in_the_Philippines_2025/ko"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2022/nl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2023/nl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2024/nl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_in_the_Philippines_2025/nl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2026"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2026/hu"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2026/en"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Event:Wikipedia_Pages_Wanting_Photos_2026_in_Igbo"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2026/nl"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikipedia_Pages_Wanting_Photos_2027"
+        },
+        {
+          "wiki": "mk.wikipedia.org",
+          "title": "Википедија:Статии_без_илустрација"
+        },
+        {
+          "wiki": "mk.wikipedia.org",
+          "title": "Википедија:Статии_без_илустрација_2021"
+        },
+        {
+          "wiki": "mk.wikipedia.org",
+          "title": "Википедија:Статии_без_илустрација_2022"
+        },
+        {
+          "wiki": "mk.wikipedia.org",
+          "title": "Википедија:Статии_без_илустрација_2023"
+        },
+        {
+          "wiki": "mk.wikipedia.org",
+          "title": "Википедија:Статии_без_илустрација_2024"
+        },
+        {
+          "wiki": "mk.wikipedia.org",
+          "title": "Википедија:Статии_без_илустрација_2025"
+        },
+        {
+          "wiki": "mk.wikipedia.org",
+          "title": "Википедија:Статии_без_илустрација_2026"
+        },
+        {
+          "wiki": "nl.wikinews.org",
+          "title": "Categorie:Cultuur_in_Kenia"
+        },
+        {
+          "wiki": "nn.wikipedia.org",
+          "title": "Perlearbeid"
+        },
+        {
+          "wiki": "oc.wikipedia.org",
+          "title": "Amistat"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Eugeny1988"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:SSneg"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Miruva"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:StagiaireMGIMO"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Meiræ/Рассылки/Архив/2016/1"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Ace111/Signpost_Digest"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Проект:Сайнпост-Дайджест/Архив/XII-08"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участницы:Liasmi/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Demidenko/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Раммон/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Arbnos/Архив-до_6_июня_2016_года"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:АлександрЛаптев/Архив/7"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Komap/Архив/2006-2019"
+        },
+        {
+          "wiki": "ru.wikinews.org",
+          "title": "Статьи_Википедии_про_Дональда_Трампа_бьют_рекорды_посещаемости"
+        },
+        {
+          "wiki": "rw.wikipedia.org",
+          "title": "Uburanga_bw'umugore"
+        },
+        {
+          "wiki": "sq.wikipedia.org",
+          "title": "Wikipedia:Ilustro_Wikipedia-n_2020"
+        },
+        {
+          "wiki": "sr.wikipedia.org",
+          "title": "Википедија:Такмичење_Вики_чланци_траже_илустрацију_2020"
+        },
+        {
+          "wiki": "sr.wikipedia.org",
+          "title": "Википедија:Такмичење_Вики_чланци_траже_илустрацију_2023"
+        },
+        {
+          "wiki": "sr.wikipedia.org",
+          "title": "Википедија:Такмичење_Вики_чланци_траже_илустрацију_2024"
+        },
+        {
+          "wiki": "sr.wikipedia.org",
+          "title": "Википедија:Такмичење_Вики_чланци_траже_илустрацију_2025"
+        },
+        {
+          "wiki": "te.wikipedia.org",
+          "title": "వికీపీడియా:వికీప్రాజెక్టు/వికీపీడియా_పేజస్_వాంటింగ్_ఫోటోస్_2021"
+        },
+        {
+          "wiki": "te.wikipedia.org",
+          "title": "వాడుకరి:K.Venkataramana/వికీపీడియా_పేజస్_వాంటింగ్_ఫోటోస్_2021"
+        },
+        {
+          "wiki": "te.wikipedia.org",
+          "title": "వికీపీడియా:వికీప్రాజెక్టు/వికీపీడియా_పేజస్_వాంటింగ్_ఫోటోస్_2022"
+        },
+        {
+          "wiki": "te.wikipedia.org",
+          "title": "వికీపీడియా:వికీప్రాజెక్టు/వికీపీడియా_పేజస్_వాంటింగ్_ఫోటోస్_2023"
+        },
+        {
+          "wiki": "te.wikipedia.org",
+          "title": "వాడుకరి:K.Venkataramana/వికీపీడియా_పేజస్_వాంటింగ్_ఫోటోస్_2022"
+        },
+        {
+          "wiki": "uk.wikipedia.org",
+          "title": "Бісероплетіння"
+        },
+        {
+          "wiki": "vi.wikipedia.org",
+          "title": "Tình_bạn"
+        },
+        {
+          "wiki": "www.wikidata.org",
+          "title": "Q1413287"
+        },
+        {
+          "wiki": "wikimania2016.wikimedia.org",
+          "title": "Programme/Exhibition_Wiki_Loves_Africa_winners"
+        }
+      ],
+      "core_usage_count": 314
+    },
+    {
+      "title": "File:Colors of africa.jpg",
+      "uploader": "Teemages",
+      "country": "Ghana",
+      "year": 2015,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Colors_of_africa.jpg/500px-Colors_of_africa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [
+        {
+          "wiki": "ar.wikipedia.org",
+          "title": "ربطة_الرأس"
+        },
+        {
+          "wiki": "arz.wikipedia.org",
+          "title": "ربطة_الراس"
+        },
+        {
+          "wiki": "de.wikipedia.org",
+          "title": "Portal:Afrika/Bild_des_Tages/Dezember"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Head_tie"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Wiki_Loves_Women/Writing_Contest"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Wikipedia_Signpost/2016-02-24/Blog"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Wikipedia_Signpost/Single/2016-02-24"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Meetup/NYC/AfroCrowd/Schomburg_2018"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Meetup/Afrocrowd/Paris"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Projet:Wiki_Loves_Women/Concours_d'écriture"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Projet:Wiki_Loves_Women/Côte_d'Ivoire"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:African_Hope/Modèles/Soirée_contributive_WLW"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:African_Hope/Modèles/Soirée_contributive_WLW/Bannière"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:Yasield/Brouillon/Soirée_contributive_5"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:Yasield/Brouillon/Soirée_contributive_4"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:Yasield/Brouillon/soirée_contributive_6"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:Yasield/Brouillon/soirées_contributives_7"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:Yasield/Brouillon/soirée_contributive_9"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:Yasield/contributions_hors_soirée"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:Yasield/Brouillon/contribution_hors_soirée_contributive"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:Yasield/Brouillon/contribution_hors_soirée_2"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Utilisateur:Yasield/Brouillon/Liste_article"
+        },
+        {
+          "wiki": "hr.wikipedia.org",
+          "title": "Afrika"
+        },
+        {
+          "wiki": "hy.wikipedia.org",
+          "title": "Մասնակից:Armineaghayan/Wiki_Loves_Women"
+        },
+        {
+          "wiki": "hy.wikipedia.org",
+          "title": "Մասնակից:TonJ/Wiki_Loves_Women"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Eugeny1988"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:SSneg"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Miruva"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:StagiaireMGIMO"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Meiræ/Рассылки/Архив/2016/1"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Ace111/Signpost_Digest"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Проект:Сайнпост-Дайджест/Архив/XII-08"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участницы:Liasmi/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Demidenko/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Раммон/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Arbnos/Архив-до_6_июня_2016_года"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:АлександрЛаптев/Архив/7"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Komap/Архив/2006-2019"
+        },
+        {
+          "wiki": "ru.wikinews.org",
+          "title": "Статьи_Википедии_про_Дональда_Трампа_бьют_рекорды_посещаемости"
+        },
+        {
+          "wiki": "simple.wikipedia.org",
+          "title": "User:Wmbata/test"
+        },
+        {
+          "wiki": "wikimania2016.wikimedia.org",
+          "title": "Programme/Exhibition_Wiki_Loves_Africa_winners"
+        }
+      ],
+      "core_usage_count": 41
+    },
+    {
+      "title": "File:Djey.JPG",
+      "uploader": "Mariememissiaen",
+      "country": "Senegal",
+      "year": 2015,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Djey.JPG/500px-Djey.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [
+        {
+          "wiki": "de.wikipedia.org",
+          "title": "Portal:Afrika/Bild_des_Tages/Februar"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Wikipedia_Signpost/2016-02-24/Blog"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Wikipedia_Signpost/Single/2016-02-24"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Meetup/NYC/AfroCrowd/Schomburg_2018"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Meetup/Afrocrowd/Paris"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Sénégal"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Couture"
+        },
+        {
+          "wiki": "fr.wikipedia.org",
+          "title": "Mode_(habillement)"
+        },
+        {
+          "wiki": "id.wikipedia.org",
+          "title": "Penjahit"
+        },
+        {
+          "wiki": "jv.wikipedia.org",
+          "title": "Greji"
+        },
+        {
+          "wiki": "jv.wikipedia.org",
+          "title": "ꦒꦽꦗꦶ"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Loves_Africa_2016/Team_survey"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wiki_Loves_Africa_2017"
+        },
+        {
+          "wiki": "meta.wikimedia.org",
+          "title": "Wikimedia_UG_Nigeria/Ilorin_Wikimedia_Hub/News"
+        },
+        {
+          "wiki": "oc.wikipedia.org",
+          "title": "Cordura"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Eugeny1988"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:SSneg"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Miruva"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:StagiaireMGIMO"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Meiræ/Рассылки/Архив/2016/1"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Ace111/Signpost_Digest"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Проект:Сайнпост-Дайджест/Архив/XII-08"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участницы:Liasmi/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Demidenko/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Раммон/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Arbnos/Архив-до_6_июня_2016_года"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:АлександрЛаптев/Архив/7"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Komap/Архив/2006-2019"
+        },
+        {
+          "wiki": "ru.wikinews.org",
+          "title": "Статьи_Википедии_про_Дональда_Трампа_бьют_рекорды_посещаемости"
+        },
+        {
+          "wiki": "wikimania2016.wikimedia.org",
+          "title": "Programme/Exhibition_Wiki_Loves_Africa_winners"
+        }
+      ],
+      "core_usage_count": 30
+    },
+    {
+      "title": "File:Nº 3 HAÏK alt version.jpg",
+      "uploader": "Wilfredor",
+      "country": "Algeria",
+      "year": 2015,
+      "license": "CC BY-SA 4.0",
+      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/N%C2%BA_3_HA%C3%8FK_alt_version.jpg/500px-N%C2%BA_3_HA%C3%8FK_alt_version.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "usage": [
+        {
+          "wiki": "ar.wikipedia.org",
+          "title": "حجاب_(ملابس)"
+        },
+        {
+          "wiki": "bn.wikipedia.org",
+          "title": "দেশ_অনুযায়ী_ইসলামী_পর্দার_রীতিনীতি"
+        },
+        {
+          "wiki": "bn.wikipedia.org",
+          "title": "হাইক_(পোশাক)"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Veil"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Wikipedia_Signpost/2016-02-24/Blog"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Wikipedia:Wikipedia_Signpost/Single/2016-02-24"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Haik_(garment)"
+        },
+        {
+          "wiki": "en.wikipedia.org",
+          "title": "Burqa_by_country"
+        },
+        {
+          "wiki": "en.wiktionary.org",
+          "title": "haik"
+        },
+        {
+          "wiki": "id.wikipedia.org",
+          "title": "Haik"
+        },
+        {
+          "wiki": "kn.wikipedia.org",
+          "title": "ಮೇಲುಮುಸುಕು"
+        },
+        {
+          "wiki": "pa.wikipedia.org",
+          "title": "ਹਾਇਕ_(ਕੱਪੜਾ)"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Eugeny1988"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:SSneg"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Miruva"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:StagiaireMGIMO"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Meiræ/Рассылки/Архив/2016/1"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Ace111/Signpost_Digest"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Проект:Сайнпост-Дайджест/Архив/XII-08"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участницы:Liasmi/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Demidenko/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Раммон/Архив/2016"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Arbnos/Архив-до_6_июня_2016_года"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:АлександрЛаптев/Архив/7"
+        },
+        {
+          "wiki": "ru.wikipedia.org",
+          "title": "Обсуждение_участника:Komap/Архив/2006-2019"
+        },
+        {
+          "wiki": "ru.wikinews.org",
+          "title": "Статьи_Википедии_про_Дональда_Трампа_бьют_рекорды_посещаемости"
+        },
+        {
+          "wiki": "te.wikipedia.org",
+          "title": "మేలిముసుగు"
+        },
+        {
+          "wiki": "tr.wikipedia.org",
+          "title": "Ülkelere_göre_tesettür"
+        },
+        {
+          "wiki": "uk.wikipedia.org",
+          "title": "Хайк_(одяг)"
+        }
+      ],
+      "core_usage_count": 29
     },
     {
       "title": "File:Abakaliki rice mill 71.jpg",
