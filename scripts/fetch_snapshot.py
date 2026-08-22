@@ -258,6 +258,12 @@ class CommonsClient:
 
     def dbname_to_domain(self, wiki_code):
         """Converts any wiki dbname (e.g. 'hawiki') to its real domain — works for any language, not just English."""
+        if not wiki_code:
+            return None
+        # Some responses already hand back a full domain (e.g. "sw.wikipedia.org")
+        # instead of a short dbname (e.g. "swwiki") — use it directly if so.
+        if "." in wiki_code and " " not in wiki_code:
+            return wiki_code
         special = {
             "commonswiki": "commons.wikimedia.org", "wikidatawiki": "www.wikidata.org",
             "metawiki": "meta.wikimedia.org", "specieswiki": "species.wikimedia.org",
