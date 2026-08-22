@@ -51,19 +51,19 @@
       "top_country": "Nigeria",
       "top_country_count": 8051,
       "sample_method": "full_census",
-      "sample_total_views": 2082178,
-      "top_viewed_max_views": 12476,
-      "contributors_count": 886,
-      "usage_total": 1764,
-      "files_used_percentage": 4.2,
+      "sample_total_views": 5169859,
+      "top_viewed_max_views": 1303986,
+      "contributors_count": 870,
+      "usage_total": 1736,
+      "files_used_percentage": 4.13,
       "new_account_before_campaign_count": 27,
-      "new_account_before_campaign_percentage": 3.05,
-      "new_contributors_count": 873,
-      "new_contributors_percentage": 98.5,
-      "returning_contributors_count": 13,
-      "returning_contributors_percentage": 1.5,
+      "new_account_before_campaign_percentage": 3.1,
+      "new_contributors_count": 858,
+      "new_contributors_percentage": 98.6,
+      "returning_contributors_count": 12,
+      "returning_contributors_percentage": 1.4,
       "winners_count": 6,
-      "generated_at": "2026-08-21T12:58:24.649598+00:00",
+      "generated_at": "2026-08-22T07:08:19.099682+00:00",
       "views_refreshed_at": null
     },
     {
@@ -73,60 +73,60 @@
       "top_country": "Nigeria",
       "top_country_count": 17107,
       "sample_method": "full_census",
-      "sample_total_views": 1266907,
-      "top_viewed_max_views": 1567,
-      "contributors_count": 917,
-      "usage_total": 1225,
-      "files_used_percentage": 1.59,
+      "sample_total_views": 1449666,
+      "top_viewed_max_views": 174493,
+      "contributors_count": 914,
+      "usage_total": 1226,
+      "files_used_percentage": 1.61,
       "new_account_before_campaign_count": 19,
-      "new_account_before_campaign_percentage": 2.07,
+      "new_account_before_campaign_percentage": 2.08,
       "new_contributors_count": 727,
-      "new_contributors_percentage": 79.3,
-      "returning_contributors_count": 190,
-      "returning_contributors_percentage": 20.7,
+      "new_contributors_percentage": 79.5,
+      "returning_contributors_count": 187,
+      "returning_contributors_percentage": 20.5,
       "winners_count": 3,
-      "generated_at": "2026-08-21T21:33:21.235241+00:00",
+      "generated_at": "2026-08-22T10:51:58.659007+00:00",
       "views_refreshed_at": null
     }
   ],
-  "grand_total_sample_views": 173781633,
-  "grand_total_unique_contributors": 3164,
-  "grand_total_usage_entries": 14098,
+  "grand_total_sample_views": 177052073,
+  "grand_total_unique_contributors": 3149,
+  "grand_total_usage_entries": 14071,
   "grand_usage_by_wiki": [
     {
       "wiki": "fr.wikipedia.org",
-      "count": 2423,
-      "percentage": 17.19
+      "count": 2425,
+      "percentage": 17.23
     },
     {
       "wiki": "en.wikipedia.org",
-      "count": 1394,
-      "percentage": 9.89
+      "count": 1390,
+      "percentage": 9.88
     },
     {
       "wiki": "meta.wikimedia.org",
-      "count": 1358,
-      "percentage": 9.63
+      "count": 1340,
+      "percentage": 9.52
     },
     {
       "wiki": "ar.wikipedia.org",
-      "count": 971,
-      "percentage": 6.89
+      "count": 967,
+      "percentage": 6.87
     },
     {
       "wiki": "www.wikidata.org",
-      "count": 591,
-      "percentage": 4.19
+      "count": 598,
+      "percentage": 4.25
     },
     {
       "wiki": "ha.wikipedia.org",
-      "count": 366,
-      "percentage": 2.6
+      "count": 363,
+      "percentage": 2.58
     },
     {
       "wiki": "ko.wikipedia.org",
-      "count": 302,
-      "percentage": 2.14
+      "count": 303,
+      "percentage": 2.15
     },
     {
       "wiki": "es.wikipedia.org",
@@ -141,42 +141,42 @@
     {
       "wiki": "en.wikibooks.org",
       "count": 247,
-      "percentage": 1.75
+      "percentage": 1.76
     },
     {
       "wiki": "incubator.wikimedia.org",
-      "count": 224,
-      "percentage": 1.59
+      "count": 220,
+      "percentage": 1.56
     },
     {
-      "wiki": "ig.wikipedia.org",
+      "wiki": "uk.wikipedia.org",
       "count": 213,
       "percentage": 1.51
     },
     {
-      "wiki": "uk.wikipedia.org",
+      "wiki": "ig.wikipedia.org",
       "count": 212,
-      "percentage": 1.5
+      "percentage": 1.51
     },
     {
       "wiki": "arz.wikipedia.org",
       "count": 205,
-      "percentage": 1.45
+      "percentage": 1.46
     },
     {
       "wiki": "de.wikipedia.org",
-      "count": 202,
-      "percentage": 1.43
+      "count": 203,
+      "percentage": 1.44
     },
     {
       "wiki": "he.wikipedia.org",
-      "count": 174,
-      "percentage": 1.23
+      "count": 176,
+      "percentage": 1.25
     },
     {
       "wiki": "dga.wikipedia.org",
-      "count": 162,
-      "percentage": 1.15
+      "count": 161,
+      "percentage": 1.14
     },
     {
       "wiki": "it.wikipedia.org",
@@ -191,16 +191,16 @@
     {
       "wiki": "fa.wikipedia.org",
       "count": 119,
-      "percentage": 0.84
+      "percentage": 0.85
     },
     {
       "wiki": "yo.wikipedia.org",
       "count": 119,
-      "percentage": 0.84
+      "percentage": 0.85
     },
     {
       "wiki": "pt.wikipedia.org",
-      "count": 115,
+      "count": 116,
       "percentage": 0.82
     },
     {
@@ -210,21 +210,21 @@
     },
     {
       "wiki": "sw.wikipedia.org",
-      "count": 97,
-      "percentage": 0.69
+      "count": 98,
+      "percentage": 0.7
     },
     {
       "wiki": "ja.wikipedia.org",
-      "count": 88,
-      "percentage": 0.62
-    },
-    {
-      "wiki": "jv.wikipedia.org",
-      "count": 87,
-      "percentage": 0.62
+      "count": 89,
+      "percentage": 0.63
     },
     {
       "wiki": "en.wiktionary.org",
+      "count": 88,
+      "percentage": 0.63
+    },
+    {
+      "wiki": "jv.wikipedia.org",
       "count": 87,
       "percentage": 0.62
     },
@@ -234,17 +234,17 @@
       "percentage": 0.58
     },
     {
-      "wiki": "zh.wikipedia.org",
+      "wiki": "en.wikivoyage.org",
       "count": 78,
+      "percentage": 0.55
+    },
+    {
+      "wiki": "zh.wikipedia.org",
+      "count": 77,
       "percentage": 0.55
     },
     {
       "wiki": "fr.wiktionary.org",
-      "count": 78,
-      "percentage": 0.55
-    },
-    {
-      "wiki": "en.wikivoyage.org",
       "count": 77,
       "percentage": 0.55
     },
@@ -270,16 +270,16 @@
     },
     {
       "wiki": "pl.wikipedia.org",
-      "count": 67,
-      "percentage": 0.48
-    },
-    {
-      "wiki": "cs.wikipedia.org",
-      "count": 64,
-      "percentage": 0.45
+      "count": 66,
+      "percentage": 0.47
     },
     {
       "wiki": "lt.wikipedia.org",
+      "count": 65,
+      "percentage": 0.46
+    },
+    {
+      "wiki": "cs.wikipedia.org",
       "count": 64,
       "percentage": 0.45
     },
@@ -295,13 +295,13 @@
     },
     {
       "wiki": "ca.wikipedia.org",
-      "count": 59,
-      "percentage": 0.42
+      "count": 58,
+      "percentage": 0.41
     },
     {
       "wiki": "simple.wikipedia.org",
       "count": 57,
-      "percentage": 0.4
+      "percentage": 0.41
     },
     {
       "wiki": "eo.wikipedia.org",
@@ -335,8 +335,8 @@
     },
     {
       "wiki": "mk.wikipedia.org",
-      "count": 48,
-      "percentage": 0.34
+      "count": 47,
+      "percentage": 0.33
     },
     {
       "wiki": "fr.wikibooks.org",
@@ -350,11 +350,11 @@
     },
     {
       "wiki": "ig.wiktionary.org",
-      "count": 40,
-      "percentage": 0.28
+      "count": 41,
+      "percentage": 0.29
     },
     {
-      "wiki": "sv.wikipedia.org",
+      "wiki": "zu.wikipedia.org",
       "count": 36,
       "percentage": 0.26
     },
@@ -369,12 +369,12 @@
       "percentage": 0.25
     },
     {
-      "wiki": "ro.wikipedia.org",
-      "count": 34,
-      "percentage": 0.24
+      "wiki": "sv.wikipedia.org",
+      "count": 35,
+      "percentage": 0.25
     },
     {
-      "wiki": "zu.wikipedia.org",
+      "wiki": "ro.wikipedia.org",
       "count": 34,
       "percentage": 0.24
     },
@@ -384,17 +384,12 @@
       "percentage": 0.23
     },
     {
-      "wiki": "tr.wiktionary.org",
-      "count": 33,
-      "percentage": 0.23
-    },
-    {
-      "wiki": "ceb.wikipedia.org",
-      "count": 32,
-      "percentage": 0.23
-    },
-    {
       "wiki": "hu.wikipedia.org",
+      "count": 31,
+      "percentage": 0.22
+    },
+    {
+      "wiki": "tr.wiktionary.org",
       "count": 31,
       "percentage": 0.22
     },
@@ -409,9 +404,9 @@
       "percentage": 0.22
     },
     {
-      "wiki": "ms.wikipedia.org",
-      "count": 29,
-      "percentage": 0.21
+      "wiki": "ceb.wikipedia.org",
+      "count": 31,
+      "percentage": 0.22
     },
     {
       "wiki": "el.wikipedia.org",
@@ -424,14 +419,19 @@
       "percentage": 0.21
     },
     {
+      "wiki": "ms.wikipedia.org",
+      "count": 28,
+      "percentage": 0.2
+    },
+    {
       "wiki": "outreach.wikimedia.org",
       "count": 27,
       "percentage": 0.19
     },
     {
       "wiki": "te.wikipedia.org",
-      "count": 26,
-      "percentage": 0.18
+      "count": 27,
+      "percentage": 0.19
     },
     {
       "wiki": "gpe.wikipedia.org",
@@ -449,12 +449,12 @@
       "percentage": 0.17
     },
     {
-      "wiki": "kk.wikipedia.org",
-      "count": 23,
-      "percentage": 0.16
+      "wiki": "mg.wikipedia.org",
+      "count": 24,
+      "percentage": 0.17
     },
     {
-      "wiki": "mg.wikipedia.org",
+      "wiki": "kk.wikipedia.org",
       "count": 23,
       "percentage": 0.16
     },
@@ -469,11 +469,6 @@
       "percentage": 0.16
     },
     {
-      "wiki": "fr.wikivoyage.org",
-      "count": 22,
-      "percentage": 0.16
-    },
-    {
       "wiki": "ur.wikipedia.org",
       "count": 22,
       "percentage": 0.16
@@ -482,6 +477,11 @@
       "wiki": "hr.wikipedia.org",
       "count": 22,
       "percentage": 0.16
+    },
+    {
+      "wiki": "fr.wikivoyage.org",
+      "count": 21,
+      "percentage": 0.15
     },
     {
       "wiki": "tw.wikipedia.org",
@@ -494,34 +494,34 @@
       "percentage": 0.14
     },
     {
-      "wiki": "ary.wikipedia.org",
-      "count": 20,
-      "percentage": 0.14
-    },
-    {
       "wiki": "sl.wikipedia.org",
       "count": 20,
       "percentage": 0.14
     },
     {
-      "wiki": "as.wikipedia.org",
-      "count": 19,
-      "percentage": 0.13
+      "wiki": "kcg.wiktionary.org",
+      "count": 20,
+      "percentage": 0.14
     },
     {
-      "wiki": "kcg.wiktionary.org",
+      "wiki": "ary.wikipedia.org",
       "count": 19,
-      "percentage": 0.13
+      "percentage": 0.14
+    },
+    {
+      "wiki": "as.wikipedia.org",
+      "count": 19,
+      "percentage": 0.14
     },
     {
       "wiki": "be.wikipedia.org",
       "count": 19,
-      "percentage": 0.13
+      "percentage": 0.14
     },
     {
       "wiki": "sh.wikipedia.org",
       "count": 19,
-      "percentage": 0.13
+      "percentage": 0.14
     },
     {
       "wiki": "nl.wikibooks.org",
@@ -529,14 +529,14 @@
       "percentage": 0.13
     },
     {
-      "wiki": "so.wikipedia.org",
+      "wiki": "ff.wikipedia.org",
       "count": 18,
       "percentage": 0.13
     },
     {
-      "wiki": "ff.wikipedia.org",
-      "count": 18,
-      "percentage": 0.13
+      "wiki": "so.wikipedia.org",
+      "count": 17,
+      "percentage": 0.12
     },
     {
       "wiki": "si.wikipedia.org",
@@ -619,11 +619,6 @@
       "percentage": 0.09
     },
     {
-      "wiki": "sd.wikipedia.org",
-      "count": 12,
-      "percentage": 0.09
-    },
-    {
       "wiki": "lv.wikipedia.org",
       "count": 11,
       "percentage": 0.08
@@ -639,6 +634,11 @@
       "percentage": 0.08
     },
     {
+      "wiki": "sd.wikipedia.org",
+      "count": 10,
+      "percentage": 0.07
+    },
+    {
       "wiki": "ru.wiktionary.org",
       "count": 10,
       "percentage": 0.07
@@ -650,11 +650,6 @@
     },
     {
       "wiki": "ms.wikibooks.org",
-      "count": 10,
-      "percentage": 0.07
-    },
-    {
-      "wiki": "ki.wikipedia.org",
       "count": 10,
       "percentage": 0.07
     },
@@ -675,6 +670,11 @@
     },
     {
       "wiki": "ast.wikipedia.org",
+      "count": 9,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "de.wiktionary.org",
       "count": 9,
       "percentage": 0.06
     },
@@ -724,11 +724,6 @@
       "percentage": 0.06
     },
     {
-      "wiki": "de.wiktionary.org",
-      "count": 8,
-      "percentage": 0.06
-    },
-    {
       "wiki": "gur.wikipedia.org",
       "count": 8,
       "percentage": 0.06
@@ -745,6 +740,16 @@
     },
     {
       "wiki": "ee.wikipedia.org",
+      "count": 8,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ts.wikipedia.org",
+      "count": 8,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "ki.wikipedia.org",
       "count": 8,
       "percentage": 0.06
     },
@@ -784,11 +789,6 @@
       "percentage": 0.05
     },
     {
-      "wiki": "ts.wikipedia.org",
-      "count": 7,
-      "percentage": 0.05
-    },
-    {
       "wiki": "pl.wikivoyage.org",
       "count": 7,
       "percentage": 0.05
@@ -814,11 +814,6 @@
       "percentage": 0.05
     },
     {
-      "wiki": "kai.wikipedia.org",
-      "count": 7,
-      "percentage": 0.05
-    },
-    {
       "wiki": "www.wikifunctions.org",
       "count": 6,
       "percentage": 0.04
@@ -839,11 +834,6 @@
       "percentage": 0.04
     },
     {
-      "wiki": "en.wikiversity.org",
-      "count": 6,
-      "percentage": 0.04
-    },
-    {
       "wiki": "st.wikipedia.org",
       "count": 6,
       "percentage": 0.04
@@ -859,7 +849,7 @@
       "percentage": 0.04
     },
     {
-      "wiki": "ia.wikipedia.org",
+      "wiki": "kai.wikipedia.org",
       "count": 6,
       "percentage": 0.04
     },
@@ -919,6 +909,11 @@
       "percentage": 0.04
     },
     {
+      "wiki": "en.wikiversity.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
       "wiki": "mdf.wikipedia.org",
       "count": 5,
       "percentage": 0.04
@@ -940,6 +935,11 @@
     },
     {
       "wiki": "sk.wikipedia.org",
+      "count": 5,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "ia.wikipedia.org",
       "count": 5,
       "percentage": 0.04
     },
@@ -1095,6 +1095,11 @@
     },
     {
       "wiki": "ht.wikipedia.org",
+      "count": 3,
+      "percentage": 0.02
+    },
+    {
+      "wiki": "ha.wiktionary.org",
       "count": 3,
       "percentage": 0.02
     },
@@ -1274,11 +1279,6 @@
       "percentage": 0.01
     },
     {
-      "wiki": "fa.wiktionary.org",
-      "count": 2,
-      "percentage": 0.01
-    },
-    {
       "wiki": "bjn.wiktionary.org",
       "count": 2,
       "percentage": 0.01
@@ -1290,11 +1290,6 @@
     },
     {
       "wiki": "new.wikipedia.org",
-      "count": 2,
-      "percentage": 0.01
-    },
-    {
-      "wiki": "ha.wiktionary.org",
       "count": 2,
       "percentage": 0.01
     },
@@ -1510,6 +1505,11 @@
     },
     {
       "wiki": "he.wiktionary.org",
+      "count": 1,
+      "percentage": 0.01
+    },
+    {
+      "wiki": "fa.wiktionary.org",
       "count": 1,
       "percentage": 0.01
     },
@@ -1950,17 +1950,17 @@
   "contributor_retention": [
     {
       "min_years": 1,
-      "count": 3164,
+      "count": 3149,
       "percentage": 100.0
     },
     {
       "min_years": 2,
-      "count": 223,
+      "count": 220,
       "percentage": 7.0
     },
     {
       "min_years": 3,
-      "count": 14,
+      "count": 13,
       "percentage": 0.4
     },
     {
