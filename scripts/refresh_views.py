@@ -107,7 +107,7 @@ class Client:
 
     async def globalusage_detailed_bulk(self, titles: list) -> dict:
         async def fetch_batch(batch):
-            data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500"})
+            data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500", "gunamespace": "0"})
             out = {}
             for page in data.get("query", {}).get("pages", {}).values():
                 entries = [{"wiki": g.get("wiki"), "title": g.get("title")} for g in page.get("globalusage", []) if g.get("wiki")]

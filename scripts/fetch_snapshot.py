@@ -120,7 +120,14 @@ class CommonsClient:
                 try:
                     async with self.session.get(base, params=params, headers=HEADERS, timeout=30) as resp:
                         if resp.status == 200:
-                            return await resp.json()
+                            data = await resp.json()
+                            if "error" in data:
+                                # MediaWiki often returns HTTP 200 even for a bad request —
+                                # the real error is buried in the JSON body. Surface it instead
+                                # of silently returning nothing, so a broken query is visible.
+                                print(f"  API error for params {params}: {data['error']}", file=sys.stderr)
+                                return {}
+                            return data
                         await asyncio.sleep(1.5 * (attempt + 1))
                 except (aiohttp.ClientError, asyncio.TimeoutError):
                     await asyncio.sleep(1.5 * (attempt + 1))
@@ -162,7 +169,13 @@ class CommonsClient:
         return file_titles
 
     async def uploaders_bulk(self, titles: list) -> dict:
-        """Who uploaded each file and when — batched. Timestamp is used to estimate campaign start."""
+        """Who uploaded each file and when — batched. Timestamp is used to estimate campaign start.
+
+        Note: this reflects the CURRENT file revision's uploader, which can differ from the
+        original submitter if a file was later re-uploaded by someone else. An attempt to match
+        the project's rev_parent_id=0 (first-revision) definition via prop=revisions failed in
+        testing (returned 0 contributors — likely an invalid parameter combination when batching
+        multiple titles with rvlimit), so it's reverted here pending a safer, isolated retest."""
         async def fetch_batch(batch):
             data = await self.get_json({"action": "query", "prop": "imageinfo", "iiprop": "user|timestamp", "titles": "|".join(batch)})
             out = {}
@@ -227,7 +240,7 @@ class CommonsClient:
 
     async def globalusage_bulk(self, titles: list) -> dict:
         async def fetch_batch(batch):
-            data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500"})
+            data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500", "gunamespace": "0"})
             out = {}
             for page in data.get("query", {}).get("pages", {}).values():
                 wikis = [g.get("wiki") for g in page.get("globalusage", []) if g.get("wiki")]
@@ -243,7 +256,7 @@ class CommonsClient:
     async def globalusage_detailed_bulk(self, titles: list) -> dict:
         """Same as globalusage_bulk but keeps each usage's specific page title, so it can be linked directly."""
         async def fetch_batch(batch):
-            data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500"})
+            data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500", "gunamespace": "0"})
             out = {}
             for page in data.get("query", {}).get("pages", {}).values():
                 entries = [{"wiki": g.get("wiki"), "title": g.get("title")} for g in page.get("globalusage", []) if g.get("wiki")]
@@ -334,6 +347,15 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
             print(f"[{year}] no subcategories found — category may not exist for this year.", file=sys.stderr)
             return None
 
+        # Cross-check figure, matching the exact definition used in this project's own
+        # verified Quarry queries (cl_to = root category, page_namespace = 6, direct
+        # membership only — not the recursive per-country walk this script otherwise
+        # uses). Kept as a separate field rather than replacing the country-based total,
+        # since only the country walk carries per-country attribution.
+        root_direct_files = await client.category_members(root, "file")
+        root_direct_file_count = len(root_direct_files)
+        print(f"[{year}] {root_direct_file_count} files directly in the flat root category (cross-check figure)", file=sys.stderr)
+
         before_count = len(top_subcats)
         top_subcats = [s for s in top_subcats if not any(p in s["title"].lower() for p in IGNORED_INDEX_PATTERNS)]
         if len(top_subcats) < before_count:
@@ -389,7 +411,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         if timestamps:
             skip = min(5, len(timestamps) - 1)
             campaign_start = timestamps[skip]
-            cutoff_start = campaign_start - timedelta(days=60)
+            cutoff_start = campaign_start - timedelta(days=30)
             print(f"[{year}] estimated campaign start: {campaign_start.date()} (from upload data)", file=sys.stderr)
 
             print(f"[{year}] checking account registration dates for {len(contributors)} contributors...", file=sys.stderr)
@@ -401,7 +423,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
                     flagged.append(user)
             new_account_count = len(flagged)
             new_account_percentage = round(new_account_count / len(contributors) * 100, 2) if contributors else 0
-            print(f"[{year}] {new_account_count} contributors ({new_account_percentage}%) opened their account within ~2 months before the campaign", file=sys.stderr)
+            print(f"[{year}] {new_account_count} contributors ({new_account_percentage}%) opened their account within ~1 month before the campaign", file=sys.stderr)
 
         print(f"[{year}] fetching cross-wiki usage for {len(all_unique_files)} files...", file=sys.stderr)
         usage_map_detailed = await client.globalusage_detailed_bulk(sorted(all_unique_files))
@@ -528,6 +550,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
             "year": year,
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "total_submissions": total,
+            "root_category_direct_file_count": root_direct_file_count,
             "sample_method": "full_census" if full_census else "sampled",
             "sample_size": len(pool),
             "countries": [{"name": name, "count": len(files)} for name, files in countries_sorted],
