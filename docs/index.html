@@ -303,8 +303,8 @@ function topViewedToggleHtml(handlerName) {
   const seenActive = topViewedMode === "seen" ? " active" : "";
   const usefulActive = topViewedMode === "useful" ? " active" : "";
   const hint = topViewedMode === "useful"
-    ? "Ranked independently from every image with real reuse on another Wikimedia page — unused images, however popular on Commons, aren't in the running at all."
-    : "Ranked by total views: visits to the file's own Commons page, plus real reuse elsewhere.";
+    ? "Ranked independently from every image genuinely used in an article on another Wikimedia project — unused images, however popular on Commons, aren't in the running at all."
+    : "Ranked by total views: visits to the file's own Commons page, plus real article usage elsewhere.";
   return `<div class="view-toggle">
       <button class="view-toggle-btn${seenActive}" onclick="${handlerName}('seen')">Most Seen</button>
       <button class="view-toggle-btn${usefulActive}" onclick="${handlerName}('useful')">Most Useful</button>
@@ -460,7 +460,7 @@ function renderOverviewSubPanel() {
     }
     wrap.innerHTML = `<div class="section" style="border-bottom:none;">
       <div class="section-head"><h2 class="section-title">Usage on Wikimedia projects</h2><span class="section-sub">all years combined</span></div>
-      <p class="section-note">Real cross-project usage, summed across every year — not an estimate.</p>
+      <p class="section-note">Real article usage (mainspace only — not talk pages, user pages, or project pages) summed across every year.</p>
       <div class="ledger">${html}</div>
     </div>`;
     return;
@@ -477,7 +477,7 @@ function renderOverviewSubPanel() {
           <div class="card-info">
             <div class="card-country">${item.country} &middot; ${item.year}</div>
             <div class="card-views">${fmt(item.total_views)}<span> total views</span></div>
-            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused elsewhere</div>
+            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused on WMF projects</div>
             <div class="card-title">${shortTitle}</div>
           </div>
         </a>
@@ -553,7 +553,7 @@ async function showYear(year) {
 
   document.getElementById("hero-stats-slot").innerHTML = `
     <div class="stats-row">
-      <div><div class="stat-num">${fmt(data.total_submissions)}</div><div class="stat-label">Submissions</div></div>
+      <div><div class="stat-num">${fmt(data.total_submissions)}</div><div class="stat-label">Submissions</div>${data.root_category_direct_file_count !== undefined ? `<div style="font-family:'IBM Plex Mono',monospace; font-size:10px; color:#fff; opacity:0.6; margin-top:3px;">${fmt(data.root_category_direct_file_count)} in flat root category</div>` : ''}</div>
       <div><div class="stat-num">${fmt((data.countries || []).filter(c => c.count > 0).length)}</div><div class="stat-label">Participating countries</div></div>
       <div><div class="stat-num">${fmt(data.contributors_count)}</div><div class="stat-label">Contributors</div></div>
       <div><div class="stat-num">${fmt(data.sample_total_views)}</div><div class="stat-label">Views (${method})</div></div>
@@ -561,7 +561,7 @@ async function showYear(year) {
     <div class="mini-stat-row">
       <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(yearTrend.new_contributors_count)} (${yearTrend.new_contributors_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">New contributors</div></div>
       <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(yearTrend.returning_contributors_count)} (${yearTrend.returning_contributors_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">Returning contributors</div></div>
-      <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(data.new_account_before_campaign_count)} (${data.new_account_before_campaign_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">Account opened ~2mo before campaign</div></div>
+      <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(data.new_account_before_campaign_count)} (${data.new_account_before_campaign_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">Account opened ~1mo before/during campaign</div></div>
     </div>
   `;
 
@@ -605,7 +605,7 @@ function renderYearPanels(data) {
           <div class="card-info">
             <div class="card-country">${item.country}</div>
             <div class="card-views">${fmt(item.total_views)}<span> total views</span></div>
-            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused elsewhere</div>
+            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused on WMF projects</div>
             <div class="card-title">${shortTitle}</div>
           </div>
         </a>
@@ -613,7 +613,7 @@ function renderYearPanels(data) {
     });
     panels.innerHTML = `<div class="section" style="border-bottom:none;">
       <div class="section-head"><h2 class="section-title">Top viewed images</h2></div>
-      <p class="section-note">Ranked by total real views: visits to the file's own Commons page, plus real reuse on every Wikimedia page that embeds it.</p>
+      <p class="section-note">Ranked by total real views: visits to the file's own Commons page, plus real usage in articles on other Wikimedia projects.</p>
       ${topViewedToggleHtml("setTopViewedMode")}
       <div class="grid">${html || '<div class="empty-note">No images match this filter.</div>'}</div>
     </div>`;
@@ -681,7 +681,7 @@ function renderYearPanels(data) {
     }
     panels.innerHTML = `<div class="section" style="border-bottom:none;">
       <div class="section-head"><h2 class="section-title">Usage on Wikimedia projects</h2><span class="section-sub">${fmt(usage.files_used_count)} files used (${usage.files_used_percentage || 0}% of submissions)</span></div>
-      <p class="section-note">Where this year's submissions are actually being used — every wiki that embeds a file, from Commons' own usage data.</p>
+      <p class="section-note">Where this year's submissions are actually being used in articles — mainspace usage only, from Commons' own usage data.</p>
       <div class="ledger">${html}</div>
     </div>`;
     return;
