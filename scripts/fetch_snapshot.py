@@ -401,29 +401,33 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         upload_info = await client.uploaders_bulk(sorted(all_unique_files))
         contributors = sorted({v["user"] for v in upload_info.values() if v.get("user")})
 
-        # Estimate campaign start from real upload timestamps (skip a few of the
-        # very earliest in case of stray pre-campaign test uploads), so this
+        # Estimate campaign start AND end from real upload timestamps (skip a few
+        # of the very earliest/latest in case of stray outlier uploads), so this
         # works automatically for any year without hardcoded dates.
         timestamps = sorted(t for t in (parse_mw_timestamp(v.get("timestamp")) for v in upload_info.values()) if t)
         campaign_start = None
+        campaign_end = None
         new_account_count = 0
         new_account_percentage = 0
         if timestamps:
             skip = min(5, len(timestamps) - 1)
             campaign_start = timestamps[skip]
+            campaign_end = timestamps[-(skip + 1)]
+            if campaign_end < campaign_start:
+                campaign_end = campaign_start
             cutoff_start = campaign_start - timedelta(days=30)
-            print(f"[{year}] estimated campaign start: {campaign_start.date()} (from upload data)", file=sys.stderr)
+            print(f"[{year}] estimated campaign window: {campaign_start.date()} to {campaign_end.date()} (from upload data)", file=sys.stderr)
 
             print(f"[{year}] checking account registration dates for {len(contributors)} contributors...", file=sys.stderr)
             registrations = await client.users_registration_bulk(contributors)
             flagged = []
             for user, reg in registrations.items():
                 reg_dt = parse_mw_timestamp(reg)
-                if reg_dt and cutoff_start <= reg_dt < campaign_start:
+                if reg_dt and cutoff_start <= reg_dt <= campaign_end:
                     flagged.append(user)
             new_account_count = len(flagged)
             new_account_percentage = round(new_account_count / len(contributors) * 100, 2) if contributors else 0
-            print(f"[{year}] {new_account_count} contributors ({new_account_percentage}%) opened their account within ~1 month before the campaign", file=sys.stderr)
+            print(f"[{year}] {new_account_count} contributors ({new_account_percentage}%) opened their account within ~1 month before or during the campaign", file=sys.stderr)
 
         print(f"[{year}] fetching cross-wiki usage for {len(all_unique_files)} files...", file=sys.stderr)
         usage_map_detailed = await client.globalusage_detailed_bulk(sorted(all_unique_files))

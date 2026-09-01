@@ -477,7 +477,7 @@ function renderOverviewSubPanel() {
           <div class="card-info">
             <div class="card-country">${item.country} &middot; ${item.year}</div>
             <div class="card-views">${fmt(item.total_views)}<span> total views</span></div>
-            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused elsewhere</div>
+            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused on WMF projects</div>
             <div class="card-title">${shortTitle}</div>
           </div>
         </a>
@@ -561,7 +561,7 @@ async function showYear(year) {
     <div class="mini-stat-row">
       <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(yearTrend.new_contributors_count)} (${yearTrend.new_contributors_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">New contributors</div></div>
       <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(yearTrend.returning_contributors_count)} (${yearTrend.returning_contributors_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">Returning contributors</div></div>
-      <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(data.new_account_before_campaign_count)} (${data.new_account_before_campaign_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">Account opened ~1mo before campaign</div></div>
+      <div class="mini-stat"><div class="mini-stat-num" style="color:var(--yellow);">${fmt(data.new_account_before_campaign_count)} (${data.new_account_before_campaign_percentage || 0}%)</div><div class="mini-stat-label" style="color:var(--yellow);">Account opened ~1mo before/during campaign</div></div>
     </div>
   `;
 
@@ -605,7 +605,7 @@ function renderYearPanels(data) {
           <div class="card-info">
             <div class="card-country">${item.country}</div>
             <div class="card-views">${fmt(item.total_views)}<span> total views</span></div>
-            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused elsewhere</div>
+            <div class="card-views-breakdown">${fmt(item.commons_views)} on Commons + ${fmt(item.reuse_views)} reused on WMF projects</div>
             <div class="card-title">${shortTitle}</div>
           </div>
         </a>
