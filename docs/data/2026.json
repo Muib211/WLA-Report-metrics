@@ -1,9 +1,10 @@
 {
   "year": 2026,
-  "generated_at": "2026-08-22T10:51:58.659007+00:00",
-  "total_submissions": 49231,
+  "generated_at": "2026-09-01T11:29:52.904751+00:00",
+  "total_submissions": 49036,
+  "root_category_direct_file_count": 46265,
   "sample_method": "full_census",
-  "sample_size": 49270,
+  "sample_size": 49066,
   "countries": [
     {
       "name": "Nigeria",
@@ -19,7 +20,7 @@
     },
     {
       "name": "Ghana",
-      "count": 3037
+      "count": 3035
     },
     {
       "name": "Egypt",
@@ -39,7 +40,7 @@
     },
     {
       "name": "Uganda",
-      "count": 595
+      "count": 599
     },
     {
       "name": "Ivory Coast",
@@ -67,7 +68,7 @@
     },
     {
       "name": "Benin",
-      "count": 417
+      "count": 415
     },
     {
       "name": "Burkina Faso",
@@ -84,10 +85,6 @@
     {
       "name": "Tunisia",
       "count": 247
-    },
-    {
-      "name": "Niger",
-      "count": 204
     },
     {
       "name": "Tanzania",
@@ -178,35 +175,8 @@
       "count": 1
     }
   ],
-  "pending_uncategorized": 18,
+  "pending_uncategorized": 108,
   "top_viewed": [
-    {
-      "title": "File:The public garden next to Abi al-Junud Mosque during sunset, Fes. (77503).jpg",
-      "country": "Morocco",
-      "views": 18,
-      "reuse_views": 174475,
-      "commons_views": 18,
-      "total_views": 174493,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/The_public_garden_next_to_Abi_al-Junud_Mosque_during_sunset%2C_Fes._%2877503%29.jpg/500px-The_public_garden_next_to_Abi_al-Junud_Mosque_during_sunset%2C_Fes._%2877503%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Fantazia Algerie (10).webm",
-      "country": "Algeria",
-      "views": 90,
-      "reuse_views": 11990,
-      "commons_views": 90,
-      "total_views": 12080,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Fantazia_Algerie_%2810%29.webm/500px--Fantazia_Algerie_%2810%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo"
-    },
-    {
-      "title": "File:Winneba Fancy Dress Festival 100.jpg",
-      "country": "Ghana",
-      "views": 26,
-      "reuse_views": 2468,
-      "commons_views": 26,
-      "total_views": 2494,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Winneba_Fancy_Dress_Festival_100.jpg/500px-Winneba_Fancy_Dress_Festival_100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
     {
       "title": "File:Prestation théâtrale de la troupe de Labé au Festival International de Théâtre de Guinée 09.jpg",
       "country": "Guinea",
@@ -214,229 +184,183 @@
       "commons_views": 1567,
       "reuse_views": 0,
       "total_views": 1567,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Prestation_th%C3%A9%C3%A2trale_de_la_troupe_de_Lab%C3%A9_au_Festival_International_de_Th%C3%A9%C3%A2tre_de_Guin%C3%A9e_09.jpg/500px-Prestation_th%C3%A9%C3%A2trale_de_la_troupe_de_Lab%C3%A9_au_Festival_International_de_Th%C3%A9%C3%A2tre_de_Guin%C3%A9e_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Gusezerana mu mategeko mu Rwanda.jpg",
-      "country": "Rwanda",
-      "views": 68,
-      "reuse_views": 1222,
-      "commons_views": 68,
-      "total_views": 1290,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Gusezerana_mu_mategeko_mu_Rwanda.jpg/500px-Gusezerana_mu_mategeko_mu_Rwanda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "thumb": ""
     },
     {
       "title": "File:Arbres rituelliques de Pout Diack 01.jpg",
       "country": "Senegal",
-      "views": 1120,
-      "commons_views": 1120,
+      "views": 1126,
+      "commons_views": 1126,
       "reuse_views": 0,
-      "total_views": 1120,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Arbres_rituelliques_de_Pout_Diack_01.jpg/500px-Arbres_rituelliques_de_Pout_Diack_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Arbres rituelliques de Pout Diack 06.jpg",
-      "country": "Senegal",
-      "views": 1119,
-      "commons_views": 1119,
-      "reuse_views": 0,
-      "total_views": 1119,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Arbres_rituelliques_de_Pout_Diack_06.jpg/500px-Arbres_rituelliques_de_Pout_Diack_06.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "total_views": 1126,
+      "thumb": ""
     },
     {
       "title": "File:Community Gathering at a Funeral in Zimbabwe.jpg",
       "country": "Zimbabwe",
-      "views": 1002,
+      "views": 1073,
       "reuse_views": 0,
-      "commons_views": 1002,
-      "total_views": 1002,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Community_Gathering_at_a_Funeral_in_Zimbabwe.jpg/500px-Community_Gathering_at_a_Funeral_in_Zimbabwe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "commons_views": 1073,
+      "total_views": 1073,
+      "thumb": ""
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 07.jpg",
+      "title": "File:A Tiv man appears wearing cultural attire 12.jpg",
+      "country": "Nigeria",
+      "views": 1057,
+      "commons_views": 1057,
+      "reuse_views": 0,
+      "total_views": 1057,
+      "thumb": ""
+    },
+    {
+      "title": "File:Corps à corps debout en lutte traditionnelle Dialaw Festival.jpg",
+      "country": "Senegal",
+      "views": 1043,
+      "commons_views": 1043,
+      "reuse_views": 0,
+      "total_views": 1043,
+      "thumb": ""
+    },
+    {
+      "title": "File:Course de pirogues traditionnelles Dialaw Festival.jpg",
+      "country": "Senegal",
+      "views": 1043,
+      "commons_views": 1043,
+      "reuse_views": 0,
+      "total_views": 1043,
+      "thumb": ""
+    },
+    {
+      "title": "File:Célébration traditionnelle après la course de pirogues.jpg",
+      "country": "Senegal",
+      "views": 1027,
+      "commons_views": 1027,
+      "reuse_views": 0,
+      "total_views": 1027,
+      "thumb": ""
+    },
+    {
+      "title": "File:Décoration Carte Afrique.jpg",
+      "country": "Senegal",
+      "views": 1027,
+      "commons_views": 1027,
+      "reuse_views": 0,
+      "total_views": 1027,
+      "thumb": ""
+    },
+    {
+      "title": "File:Arbres rituelliques de Pout Diack 14.jpg",
+      "country": "Senegal",
+      "views": 1002,
+      "commons_views": 1002,
+      "reuse_views": 0,
+      "total_views": 1002,
+      "thumb": ""
+    },
+    {
+      "title": "File:A Tiv man appears wearing cultural attire 01.jpg",
+      "country": "Nigeria",
+      "views": 1001,
+      "commons_views": 1001,
+      "reuse_views": 0,
+      "total_views": 1001,
+      "thumb": ""
+    },
+    {
+      "title": "File:Buvette mbin sérère à Ndiaganiao.jpg",
+      "country": "Senegal",
+      "views": 1001,
+      "commons_views": 1001,
+      "reuse_views": 0,
+      "total_views": 1001,
+      "thumb": ""
+    },
+    {
+      "title": "File:Arbres rituelliques de Pout Diack 02.jpg",
+      "country": "Senegal",
+      "views": 1000,
+      "commons_views": 1000,
+      "reuse_views": 0,
+      "total_views": 1000,
+      "thumb": ""
+    },
+    {
+      "title": "File:Festival Ndiaganiao.jpg",
+      "country": "Senegal",
+      "views": 996,
+      "commons_views": 996,
+      "reuse_views": 0,
+      "total_views": 996,
+      "thumb": ""
+    },
+    {
+      "title": "File:Boubou traditionnel du Sénégal.jpg",
       "country": "Senegal",
       "views": 995,
       "commons_views": 995,
       "reuse_views": 0,
       "total_views": 995,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Arbres_rituelliques_de_Pout_Diack_07.jpg/500px-Arbres_rituelliques_de_Pout_Diack_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:A Tiv man appears wearing cultural attire 12.jpg",
-      "country": "Nigeria",
-      "views": 994,
-      "commons_views": 994,
-      "reuse_views": 0,
-      "total_views": 994,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/A_Tiv_man_appears_wearing_cultural_attire_12.jpg/500px-A_Tiv_man_appears_wearing_cultural_attire_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Arbres rituelliques de Pout Diack 14.jpg",
-      "country": "Senegal",
-      "views": 994,
-      "commons_views": 994,
-      "reuse_views": 0,
-      "total_views": 994,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Arbres_rituelliques_de_Pout_Diack_14.jpg/500px-Arbres_rituelliques_de_Pout_Diack_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Arbres rituelliques de Pout Diack 05.jpg",
-      "country": "Senegal",
-      "views": 992,
-      "commons_views": 992,
-      "reuse_views": 0,
-      "total_views": 992,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Arbres_rituelliques_de_Pout_Diack_05.jpg/500px-Arbres_rituelliques_de_Pout_Diack_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "thumb": ""
     },
     {
       "title": "File:Funeral Procession in Zimbabwe.jpg",
       "country": "Zimbabwe",
-      "views": 992,
-      "commons_views": 992,
+      "views": 995,
+      "commons_views": 995,
       "reuse_views": 0,
-      "total_views": 992,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Funeral_Procession_in_Zimbabwe.jpg/500px-Funeral_Procession_in_Zimbabwe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "total_views": 995,
+      "thumb": ""
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 02.jpg",
+      "title": "File:Arbres rituelliques de Pout Diack 13.jpg",
       "country": "Senegal",
       "views": 991,
       "commons_views": 991,
       "reuse_views": 0,
       "total_views": 991,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Arbres_rituelliques_de_Pout_Diack_02.jpg/500px-Arbres_rituelliques_de_Pout_Diack_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "thumb": ""
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 04.jpg",
-      "country": "Senegal",
-      "views": 991,
-      "commons_views": 991,
+      "title": "File:A Tiv man appears wearing cultural attire 05.jpg",
+      "country": "Nigeria",
+      "views": 974,
+      "commons_views": 974,
       "reuse_views": 0,
-      "total_views": 991,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Arbres_rituelliques_de_Pout_Diack_04.jpg/500px-Arbres_rituelliques_de_Pout_Diack_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "total_views": 974,
+      "thumb": ""
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 09.jpg",
+      "title": "File:Culture lebou.jpg",
       "country": "Senegal",
-      "views": 990,
-      "commons_views": 990,
+      "views": 969,
+      "commons_views": 969,
       "reuse_views": 0,
-      "total_views": 990,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Arbres_rituelliques_de_Pout_Diack_09.jpg/500px-Arbres_rituelliques_de_Pout_Diack_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "total_views": 969,
+      "thumb": ""
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 10.jpg",
+      "title": "File:Collection de sacs en paille tressée.jpg",
       "country": "Senegal",
-      "views": 987,
-      "commons_views": 987,
+      "views": 963,
+      "commons_views": 963,
       "reuse_views": 0,
-      "total_views": 987,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Arbres_rituelliques_de_Pout_Diack_10.jpg/500px-Arbres_rituelliques_de_Pout_Diack_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "total_views": 963,
+      "thumb": ""
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 03.jpg",
-      "country": "Senegal",
-      "views": 986,
-      "commons_views": 986,
+      "title": "File:A̱di̱ri̱m (kcg) - A̱gatak (kaj) - Drum beaten for the demi-gods (en) 01.jpg",
+      "country": "Nigeria",
+      "views": 957,
+      "commons_views": 957,
       "reuse_views": 0,
-      "total_views": 986,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Arbres_rituelliques_de_Pout_Diack_03.jpg/500px-Arbres_rituelliques_de_Pout_Diack_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Arbres rituelliques de Pout Diack 08.jpg",
-      "country": "Senegal",
-      "views": 986,
-      "commons_views": 986,
-      "reuse_views": 0,
-      "total_views": 986,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Arbres_rituelliques_de_Pout_Diack_08.jpg/500px-Arbres_rituelliques_de_Pout_Diack_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Arbres rituelliques de Pout Diack 11.jpg",
-      "country": "Senegal",
-      "views": 986,
-      "commons_views": 986,
-      "reuse_views": 0,
-      "total_views": 986,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Arbres_rituelliques_de_Pout_Diack_11.jpg/500px-Arbres_rituelliques_de_Pout_Diack_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "total_views": 957,
+      "thumb": ""
     }
   ],
-  "top_viewed_useful": [
-    {
-      "title": "File:The public garden next to Abi al-Junud Mosque during sunset, Fes. (77503).jpg",
-      "country": "Morocco",
-      "views": 18,
-      "reuse_views": 174475,
-      "commons_views": 18,
-      "total_views": 174493,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/The_public_garden_next_to_Abi_al-Junud_Mosque_during_sunset%2C_Fes._%2877503%29.jpg/500px-The_public_garden_next_to_Abi_al-Junud_Mosque_during_sunset%2C_Fes._%2877503%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Fantazia Algerie (10).webm",
-      "country": "Algeria",
-      "views": 90,
-      "reuse_views": 11990,
-      "commons_views": 90,
-      "total_views": 12080,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Fantazia_Algerie_%2810%29.webm/500px--Fantazia_Algerie_%2810%29.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo"
-    },
-    {
-      "title": "File:Winneba Fancy Dress Festival 100.jpg",
-      "country": "Ghana",
-      "views": 26,
-      "reuse_views": 2468,
-      "commons_views": 26,
-      "total_views": 2494,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Winneba_Fancy_Dress_Festival_100.jpg/500px-Winneba_Fancy_Dress_Festival_100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Gusezerana mu mategeko mu Rwanda.jpg",
-      "country": "Rwanda",
-      "views": 68,
-      "reuse_views": 1222,
-      "commons_views": 68,
-      "total_views": 1290,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Gusezerana_mu_mategeko_mu_Rwanda.jpg/500px-Gusezerana_mu_mategeko_mu_Rwanda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Gukura ikiriyo.jpg",
-      "country": "Rwanda",
-      "views": 39,
-      "reuse_views": 336,
-      "commons_views": 39,
-      "total_views": 375,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Gukura_ikiriyo.jpg/500px-Gukura_ikiriyo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Owu Ibiapu Fongu Festival 2025 04.jpg",
-      "country": "Nigeria",
-      "views": 49,
-      "reuse_views": 201,
-      "commons_views": 49,
-      "total_views": 250,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Owu_Ibiapu_Fongu_Festival_2025_04.jpg/500px-Owu_Ibiapu_Fongu_Festival_2025_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Owu masquerades chants.ogg",
-      "country": "Nigeria",
-      "views": 47,
-      "reuse_views": 201,
-      "commons_views": 47,
-      "total_views": 248,
-      "thumb": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png"
-    },
-    {
-      "title": "File:Owu Ibiapu Fongu Festival 2025 12.jpg",
-      "country": "Nigeria",
-      "views": 41,
-      "reuse_views": 201,
-      "commons_views": 41,
-      "total_views": 242,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Owu_Ibiapu_Fongu_Festival_2025_12.jpg/500px-Owu_Ibiapu_Fongu_Festival_2025_12.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    }
-  ],
-  "sample_total_views": 1449666,
-  "contributors_count": 914,
+  "top_viewed_useful": [],
+  "sample_total_views": 1191779,
+  "contributors_count": 892,
   "contributors": [
     "007melaniin",
     "10kdollz",
@@ -468,7 +392,6 @@
     "Abdulazeem saeed",
     "Abdulmadeee1010",
     "Abeltrust",
-    "Aboubacarkhoraa",
     "Abubakar Nawa",
     "Abza1",
     "Achiri Bitamsimli",
@@ -526,7 +449,6 @@
     "Aminucrus",
     "Amosabid90",
     "Amuzujoe",
-    "Andeme Armel",
     "Andoniaina ANDRIANOMANANA",
     "Angelbaby4ever",
     "Anita ginika",
@@ -546,10 +468,10 @@
     "Asap Kamal",
     "Asmahan Musa",
     "AsmudSemen",
+    "Assabaru",
     "Atef Ouni",
     "Athenosi Hlubi",
     "Atibrarian",
-    "Augustin GANDAHO",
     "Austinea3",
     "Ayamessaoudia",
     "Ayimbila90",
@@ -570,8 +492,6 @@
     "Baname LARE",
     "Barack junior",
     "Baraka official",
-    "Barkafidele",
-    "Barke11",
     "Bationo Kilayé",
     "Bayard Bray 06",
     "Bazratmd",
@@ -603,7 +523,6 @@
     "Blsamue",
     "Bluerose25",
     "Bnhn",
-    "Bomonofamily",
     "Bossphotographe",
     "BreezeWave",
     "Bridget2023",
@@ -614,7 +533,6 @@
     "Bärbel Miemietz",
     "CE Designs",
     "CHARLYK81",
-    "Cajol Lefty",
     "CalebTokula6",
     "Camilopiz",
     "Cecilia Nkini",
@@ -684,7 +602,6 @@
     "Donatien12",
     "Dorayn",
     "Dorcas Atule",
-    "Doultraf",
     "Dozy La Joie",
     "DrRachT",
     "Dru Msanii",
@@ -709,6 +626,7 @@
     "Endiyo",
     "EnessiFaroukh",
     "EnnyOch",
+    "Ennydavids",
     "Ennydavidson",
     "Entazinda12",
     "Epelledegreat",
@@ -739,17 +657,14 @@
     "Frankincense Diala",
     "Freddy kruguer",
     "Friday musa",
-    "Funke",
     "GB1Ja",
     "GKLihouenou",
     "GNABROU",
     "GREENE LANE",
     "Galadima002",
-    "Galal El Missary",
     "GastelEtzwane",
     "GederMedia",
     "Genesis shan",
-    "Germainngandu14",
     "Ghay O",
     "Gihad Abd Elsamie",
     "Godfrey Emmanuel",
@@ -763,7 +678,6 @@
     "Greenvertone1",
     "Gri4ke",
     "Gszmadenlb",
-    "Gueiwilliams007",
     "Guillaume65",
     "Gwazayet",
     "Général Abdoulaye Fall",
@@ -771,7 +685,6 @@
     "HISHAM TWHED",
     "HYL56",
     "Hadassah Photostorie group",
-    "Halima Waziri",
     "Halimaadams",
     "HalloulimedAmeur",
     "Hamconzy",
@@ -799,7 +712,6 @@
     "Houss 2020",
     "Houssain tork",
     "Hudajafer2026",
-    "Husnkimalika",
     "IB Muazzam",
     "IGANZE",
     "IRAKIZA Gilbert",
@@ -912,6 +824,7 @@
     "Kiungaray",
     "Kizuuhaitisi",
     "Klvnn Blck",
+    "Kofi sikani",
     "Komavo",
     "Kombonimi",
     "Konaté Daouda 703",
@@ -926,6 +839,7 @@
     "Leboua25",
     "Lebu Ayiga",
     "Lermop",
+    "Lesedi Ramushu",
     "Leslie.frankliin",
     "Lexy Tchuileu",
     "Lifelame44",
@@ -936,6 +850,7 @@
     "Look4Faith",
     "Louisalphonse28",
     "LucyWinny",
+    "Lupe",
     "Lwandlexb",
     "Léna",
     "M Bash Ne",
@@ -952,7 +867,6 @@
     "Madit Matuek Raineen Luak",
     "Maelan123",
     "Maggyza",
-    "Mahamadou Ibrahim Harouna Ousmane",
     "Mai Ayman",
     "MaiDenzel",
     "Maifidausi",
@@ -961,7 +875,6 @@
     "Makrina Fayez",
     "Mallam3",
     "Maltima Rabia",
-    "Mamdouh abdalmgeed",
     "Mammysou17",
     "Manaf205",
     "Manamarthe",
@@ -976,7 +889,6 @@
     "Marwa badawy",
     "Mary Loor",
     "Maryam Bako",
-    "Maryam Bello Shafi'i",
     "Masséni Héma",
     "Mathiasbob",
     "Mathobelah",
@@ -1005,7 +917,6 @@
     "Mofenyi Kesego",
     "Mohab Abdo",
     "Mohamed Finando",
-    "Mohamed Hessen Ava",
     "Mohamed f hafez",
     "Mohamed shokry algarnosy",
     "Mohamedelmustafa omer",
@@ -1015,6 +926,7 @@
     "Mojex02",
     "Mokato242",
     "Mona Hassan Abo-Abda",
+    "Mornholt",
     "Mostafa Ahmed disha",
     "MoussaFernandez",
     "Mr. Snatch",
@@ -1032,7 +944,6 @@
     "Mvhamed bashir",
     "Mvsoa",
     "MweroB",
-    "Mwesigwa Wycliff",
     "N irera",
     "NAMUKWAYA BARBRA",
     "NANTUMBWEJ",
@@ -1076,6 +987,7 @@
     "Ntare David",
     "Ntuibuatho",
     "Nubelbariloe",
+    "Nwonwu Uchechukwu P",
     "Nwosuphayvour",
     "Nzili",
     "Nzinga11",
@@ -1118,7 +1030,6 @@
     "PASSO SONBANG",
     "PHOTOMORA",
     "Pacocreat",
-    "Palmolley",
     "Panam2014",
     "Pangou Stephane",
     "Patrick Yakeu",
@@ -1135,6 +1046,7 @@
     "Pishai elchekuti",
     "Pitroipa11",
     "Poet1803",
+    "Pond2profit",
     "Posh Photography",
     "Pretty Dodo",
     "Princeabico",
@@ -1144,17 +1056,13 @@
     "QueenSaysay",
     "Quintino Ramalho",
     "Quinze2001",
-    "Raghad Art",
     "Rahama Nina",
     "RahamaNina22",
     "RakiyaAM",
-    "Rancio45",
     "Rania Ahmed Elomarabi",
     "Rasheedhrasheed",
-    "Rawani12",
     "Ray tha creator",
     "Re-sendings",
-    "Redietmd",
     "Reem Ahmed Elomarabi",
     "Reflect photo",
     "Reine Bidali",
@@ -1238,7 +1146,6 @@
     "Syntemagic",
     "T.Adelin",
     "TOUMOU",
-    "TOURE MARIUS",
     "Tafara Matare",
     "Taherdawood2026",
     "Tamdra",
@@ -1251,8 +1158,8 @@
     "The Green Panda 1",
     "The olugirl14",
     "TheAbdulArafat",
+    "TheRoyalWatcher",
     "Therealelly jay",
-    "Thomyofph",
     "Timiadekola",
     "Timothy Akolamazima",
     "Timothy Armarfio",
@@ -1263,7 +1170,6 @@
     "TopmanJnr1",
     "Trinapee",
     "Tsubey",
-    "Tunteeya1",
     "Tusasirwe Mackline",
     "TututuM",
     "Tuyishimejosue",
@@ -1286,7 +1192,6 @@
     "Valtechproductionci",
     "Vanmulondo",
     "Verhody",
-    "Victor.ngonzo",
     "Victorpeter001",
     "Viktragi",
     "Viktuer",
@@ -1308,9 +1213,7 @@
     "Wenethecreator",
     "Weyham",
     "Wikibogwasi",
-    "Winnielevel",
     "Wisdom Mensah de Linitiateur",
-    "Worlgenson",
     "Wumpini11",
     "Wun-nam Rahimatu",
     "Wunmite Media",
@@ -1337,7 +1240,6 @@
     "Zainab118",
     "Zakaria Tunsung",
     "Zamennest",
-    "Zaroumey19",
     "Zasan Doshiyak",
     "Zeenatee5",
     "Zeetso",
@@ -1354,372 +1256,392 @@
     "وقاص محمد مهدي"
   ],
   "campaign_start_estimate": "2025-08-31T22:00:21",
-  "new_account_before_campaign_count": 19,
-  "new_account_before_campaign_percentage": 2.08,
+  "new_account_before_campaign_count": 476,
+  "new_account_before_campaign_percentage": 53.36,
   "usage": {
-    "total_usage_entries": 1226,
-    "files_used_count": 792,
-    "files_used_percentage": 1.61,
+    "total_usage_entries": 1089,
+    "files_used_count": 712,
+    "files_used_percentage": 1.45,
     "by_wiki": [
       {
         "wiki": "fr.wikipedia.org",
-        "count": 392,
-        "percentage": 31.97
-      },
-      {
-        "wiki": "meta.wikimedia.org",
-        "count": 239,
-        "percentage": 19.49
+        "count": 404,
+        "percentage": 37.1
       },
       {
         "wiki": "en.wikipedia.org",
-        "count": 162,
-        "percentage": 13.21
+        "count": 159,
+        "percentage": 14.6
+      },
+      {
+        "wiki": "meta.wikimedia.org",
+        "count": 102,
+        "percentage": 9.37
       },
       {
         "wiki": "www.wikidata.org",
-        "count": 76,
-        "percentage": 6.2
+        "count": 65,
+        "percentage": 5.97
       },
       {
         "wiki": "ha.wikipedia.org",
-        "count": 47,
-        "percentage": 3.83
+        "count": 44,
+        "percentage": 4.04
       },
       {
         "wiki": "ig.wikipedia.org",
-        "count": 47,
-        "percentage": 3.83
+        "count": 41,
+        "percentage": 3.76
       },
       {
         "wiki": "ar.wikipedia.org",
         "count": 32,
-        "percentage": 2.61
+        "percentage": 2.94
       },
       {
         "wiki": "ig.wiktionary.org",
-        "count": 26,
-        "percentage": 2.12
-      },
-      {
-        "wiki": "incubator.wikimedia.org",
-        "count": 14,
-        "percentage": 1.14
+        "count": 30,
+        "percentage": 2.75
       },
       {
         "wiki": "ru.wikipedia.org",
+        "count": 14,
+        "percentage": 1.29
+      },
+      {
+        "wiki": "incubator.wikimedia.org",
         "count": 13,
-        "percentage": 1.06
+        "percentage": 1.19
+      },
+      {
+        "wiki": "yo.wikipedia.org",
+        "count": 13,
+        "percentage": 1.19
       },
       {
         "wiki": "az.wikipedia.org",
         "count": 12,
-        "percentage": 0.98
+        "percentage": 1.1
       },
       {
         "wiki": "lt.wikipedia.org",
         "count": 12,
-        "percentage": 0.98
-      },
-      {
-        "wiki": "dga.wikipedia.org",
-        "count": 12,
-        "percentage": 0.98
-      },
-      {
-        "wiki": "yo.wikipedia.org",
-        "count": 11,
-        "percentage": 0.9
+        "percentage": 1.1
       },
       {
         "wiki": "rw.wikipedia.org",
         "count": 11,
-        "percentage": 0.9
+        "percentage": 1.01
       },
       {
-        "wiki": "de.wikipedia.org",
-        "count": 7,
-        "percentage": 0.57
+        "wiki": "dga.wikipedia.org",
+        "count": 9,
+        "percentage": 0.83
+      },
+      {
+        "wiki": "pt.wikipedia.org",
+        "count": 8,
+        "percentage": 0.73
       },
       {
         "wiki": "en.wikivoyage.org",
         "count": 7,
-        "percentage": 0.57
+        "percentage": 0.64
       },
       {
-        "wiki": "es.wikipedia.org",
+        "wiki": "de.wikipedia.org",
         "count": 6,
-        "percentage": 0.49
+        "percentage": 0.55
       },
       {
-        "wiki": "pt.wikipedia.org",
+        "wiki": "kcg.wikipedia.org",
         "count": 6,
-        "percentage": 0.49
+        "percentage": 0.55
+      },
+      {
+        "wiki": "it.wikipedia.org",
+        "count": 6,
+        "percentage": 0.55
       },
       {
         "wiki": "zu.wikipedia.org",
         "count": 5,
-        "percentage": 0.41
+        "percentage": 0.46
       },
       {
-        "wiki": "kcg.wikipedia.org",
+        "wiki": "es.wikipedia.org",
         "count": 5,
-        "percentage": 0.41
+        "percentage": 0.46
+      },
+      {
+        "wiki": "arz.wikipedia.org",
+        "count": 5,
+        "percentage": 0.46
       },
       {
         "wiki": "id.wikipedia.org",
         "count": 4,
-        "percentage": 0.33
+        "percentage": 0.37
       },
       {
-        "wiki": "wikisource.org",
+        "wiki": "ca.wikipedia.org",
         "count": 4,
-        "percentage": 0.33
-      },
-      {
-        "wiki": "arz.wikipedia.org",
-        "count": 4,
-        "percentage": 0.33
-      },
-      {
-        "wiki": "he.wikipedia.org",
-        "count": 4,
-        "percentage": 0.33
+        "percentage": 0.37
       },
       {
         "wiki": "ro.wikipedia.org",
         "count": 4,
-        "percentage": 0.33
-      },
-      {
-        "wiki": "tn.wikipedia.org",
-        "count": 3,
-        "percentage": 0.24
+        "percentage": 0.37
       },
       {
         "wiki": "ff.wikipedia.org",
         "count": 3,
-        "percentage": 0.24
+        "percentage": 0.28
       },
       {
         "wiki": "zh.wikipedia.org",
         "count": 3,
-        "percentage": 0.24
+        "percentage": 0.28
       },
       {
-        "wiki": "it.wikipedia.org",
+        "wiki": "en.wikiversity.org",
         "count": 3,
-        "percentage": 0.24
+        "percentage": 0.28
       },
       {
-        "wiki": "simple.wikipedia.org",
-        "count": 2,
-        "percentage": 0.16
+        "wiki": "vi.wikipedia.org",
+        "count": 3,
+        "percentage": 0.28
       },
       {
         "wiki": "tr.wiktionary.org",
         "count": 2,
-        "percentage": 0.16
-      },
-      {
-        "wiki": "nso.wikipedia.org",
-        "count": 2,
-        "percentage": 0.16
+        "percentage": 0.18
       },
       {
         "wiki": "ceb.wikipedia.org",
         "count": 2,
-        "percentage": 0.16
+        "percentage": 0.18
       },
       {
         "wiki": "pl.wikipedia.org",
         "count": 2,
-        "percentage": 0.16
+        "percentage": 0.18
       },
       {
         "wiki": "uk.wikipedia.org",
         "count": 2,
-        "percentage": 0.16
+        "percentage": 0.18
       },
       {
         "wiki": "eo.wikipedia.org",
         "count": 2,
-        "percentage": 0.16
+        "percentage": 0.18
       },
       {
         "wiki": "no.wikipedia.org",
         "count": 2,
-        "percentage": 0.16
-      },
-      {
-        "wiki": "en.wikiversity.org",
-        "count": 2,
-        "percentage": 0.16
+        "percentage": 0.18
       },
       {
         "wiki": "sw.wikipedia.org",
         "count": 2,
-        "percentage": 0.16
+        "percentage": 0.18
+      },
+      {
+        "wiki": "tl.wikipedia.org",
+        "count": 2,
+        "percentage": 0.18
+      },
+      {
+        "wiki": "tn.wikipedia.org",
+        "count": 2,
+        "percentage": 0.18
+      },
+      {
+        "wiki": "ms.wikipedia.org",
+        "count": 2,
+        "percentage": 0.18
       },
       {
         "wiki": "simple.wiktionary.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "be.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
+      },
+      {
+        "wiki": "simple.wikipedia.org",
+        "count": 1,
+        "percentage": 0.09
       },
       {
         "wiki": "tg.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "uz.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "tt.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "ki.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "eu.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "rsk.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
-        "wiki": "da.wikipedia.org",
+        "wiki": "nso.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "nqo.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
+      },
+      {
+        "wiki": "en.wiktionary.org",
+        "count": 1,
+        "percentage": 0.09
       },
       {
         "wiki": "ko.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "es.wiktionary.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "ast.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "ga.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
+      },
+      {
+        "wiki": "he.wikipedia.org",
+        "count": 1,
+        "percentage": 0.09
       },
       {
         "wiki": "hr.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
-      },
-      {
-        "wiki": "kcg.wiktionary.org",
-        "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "dag.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
+      },
+      {
+        "wiki": "cs.wikiquote.org",
+        "count": 1,
+        "percentage": 0.09
+      },
+      {
+        "wiki": "et.wikipedia.org",
+        "count": 1,
+        "percentage": 0.09
       },
       {
         "wiki": "pl.wiktionary.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
+      },
+      {
+        "wiki": "sd.wikipedia.org",
+        "count": 1,
+        "percentage": 0.09
       },
       {
         "wiki": "bjn.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "kai.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "en.wikiquote.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
-        "wiki": "tl.wikipedia.org",
+        "wiki": "lg.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
+      },
+      {
+        "wiki": "cs.wikipedia.org",
+        "count": 1,
+        "percentage": 0.09
       },
       {
         "wiki": "tum.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
-        "wiki": "ms.wikipedia.org",
+        "wiki": "ur.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
-      },
-      {
-        "wiki": "ca.wikipedia.org",
-        "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "bg.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "de.wikivoyage.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "fr.wikivoyage.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "sr.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
-      },
-      {
-        "wiki": "vi.wikipedia.org",
-        "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "zh.wikivoyage.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       },
       {
         "wiki": "so.wikipedia.org",
         "count": 1,
-        "percentage": 0.08
+        "percentage": 0.09
       }
     ]
   },
@@ -1730,7 +1652,7 @@
       "country": "Kenya",
       "year": 2026,
       "license": "CC BY-SA 4.0",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg/500px-Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg/500px-Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "usage": [],
       "core_usage_count": 0
     },
@@ -1740,7 +1662,7 @@
       "country": "Egypt",
       "year": 2026,
       "license": "CC BY-SA 4.0",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg/500px-%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg/500px-%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "usage": [],
       "core_usage_count": 0
     },
@@ -1750,7 +1672,7 @@
       "country": "Egypt",
       "year": 2026,
       "license": "CC BY-SA 4.0",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg/500px-%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg/500px-%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "usage": [],
       "core_usage_count": 0
     }
@@ -1803,10 +1725,6 @@
     },
     {
       "title": "File:1U5A0755.jpg",
-      "country": "Nigeria"
-    },
-    {
-      "title": "File:1U5A0790 1.jpg",
       "country": "Nigeria"
     },
     {
@@ -35539,6 +35457,10 @@
     },
     {
       "title": "File:Kakaki Sound.ogg",
+      "country": "Nigeria"
+    },
+    {
+      "title": "File:Kakaki trumpeter at the 2026 Argungu International Fishing and Cultural Festival.jpg",
       "country": "Nigeria"
     },
     {
@@ -135746,10 +135668,6 @@
       "country": "Ghana"
     },
     {
-      "title": "File:Children washing clothes.jpg",
-      "country": "Ghana"
-    },
-    {
       "title": "File:Children watching enskinment ceremony at Choggu naa's palace in Tamale.jpg",
       "country": "Ghana"
     },
@@ -136907,10 +136825,6 @@
     },
     {
       "title": "File:Enskinment of Choggu nyori Lana.webm",
-      "country": "Ghana"
-    },
-    {
-      "title": "File:Enskinment of chiefdom at chogu palace.jpg",
       "country": "Ghana"
     },
     {
@@ -143566,7 +143480,7 @@
       "country": "Egypt"
     },
     {
-      "title": "File:Just breath in.jpg",
+      "title": "File:Just breathe in.jpg",
       "country": "Egypt"
     },
     {
@@ -174418,6 +174332,10 @@
       "country": "Uganda"
     },
     {
+      "title": "File:King Oyo wearing the crown (cropped).jpg",
+      "country": "Uganda"
+    },
+    {
       "title": "File:King Oyo wearing the crown.jpg",
       "country": "Uganda"
     },
@@ -174766,7 +174684,19 @@
       "country": "Uganda"
     },
     {
+      "title": "File:Orange flowering 01.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:Orange flowering.jpg",
+      "country": "Uganda"
+    },
+    {
       "title": "File:Overcast view of Lake Victoria from Majanji Beach, Uganda.jpg",
+      "country": "Uganda"
+    },
+    {
+      "title": "File:Oyo Nyimba Kabamba Iguru Rukidi IV (cropped).jpg",
       "country": "Uganda"
     },
     {
@@ -188690,14 +188620,6 @@
       "country": "Benin"
     },
     {
-      "title": "File:Augustin Clément GANDAHO au Concours National d'Art Oratoire CNAO 2026.jpg",
-      "country": "Benin"
-    },
-    {
-      "title": "File:Augustin Clément GANDAHO au Concours d'Art Oratoire « la voix et le verbe ».jpg",
-      "country": "Benin"
-    },
-    {
       "title": "File:Boy in Vodoun Festival.jpg",
       "country": "Benin"
     },
@@ -194826,822 +194748,6 @@
       "country": "Tunisia"
     },
     {
-      "title": "File:A Passionate participant at the Day one of Wiki Loves Niger Delta BoothCamp.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 06.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 07.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 08.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 09.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 10.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 11.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 12.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 13.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 14.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 15.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 16.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 17.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 18.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 19.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 20.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 21.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 22.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 23.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 24.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 25.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 26.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 27.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 28.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 29.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 30.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 31.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger 32.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Artisanat au Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Ashioma Medi at Wiki loves Africa 2026 in Niger Delta Day one BootCamp.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Autorité Régional.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Autour du feu des scouts.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:CAROUSEL For Wiki Loves Africa 2026 in Niger Delta.pdf",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Case touareg au Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Chant et danse gourmatché 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Chant et danse gourmatché 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Chant et danse gourmatché 03 (cropped).jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Chant et danse gourmatché 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Chant et danse gourmatché 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Chant et danse gourmatché 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Chant et danse gourmatché 06.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Chant et danse gourmatché 07.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Chant et danse gourmatché.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cheval offert au premier ministre au Festival des civilisations du Fleuve à Boubon- Karma au Niger 07.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cheval offert au premier ministre au Festival des civilisations du Fleuve à Boubon- Karma au Niger 08.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cheval offert au premier ministre au Festival des civilisations du Fleuve à Boubon- Karma au Niger 17.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cure Salee Documentary.webm",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cérémonie de mariage 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cérémonie de mariage 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cérémonie de mariage 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cérémonie de mariage au Niger 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cérémonie de mariage au Niger 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cérémonie de mariage au Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Cérémonie-religieuse.webm",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dance kanouri 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dance kanouri 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dance kanouri 03 (cropped).jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dance kanouri 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dance kanouri 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dance kanouri 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dance kanouri 06.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dance kanouri.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Danse de Biti 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Danse de Biti 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Danse de Biti 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Danse de Biti.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Danse du Goumbé 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Danse du Goumbé 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Danse du Goumbé 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Danse du Goumbé 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dike Eleberi delivering a speach at the Wiki Loves Africa 2026 in Niger Delta.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Display of a mini store.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Display of eggs 🥚 sale.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Dr Carolyn Seaman announcement as a Jury for the Wiki Loves Africa 2026 in Niger Delta.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Excited participants at the Day one of Wiki Loves Niger Delta BoothCamp.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Femme peulh du Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Femmes avec les calebasses Festival des civilisations du Fleuve à Boubon- Karma au Niger 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Femmes avec les calebasses Festival des civilisations du Fleuve à Boubon- Karma au Niger 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Femmes avec les calebasses Festival des civilisations du Fleuve à Boubon- Karma au Niger 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Festival de Boubon.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Feu de veille scout.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Gaspard announcement as a Jury for the Wiki Loves Africa 2026 in Niger Delta.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Goumbe au Festival des civilisations du Fleuve à Boubon- Karma au Niger 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Goumbe au Festival des civilisations du Fleuve à Boubon- Karma au Niger 06.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Grand baobab du village.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Henné de mariage 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Henné de mariage 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Henné de mariage 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Henné de mariage 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Henné de mariage 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Henné de mariage 06.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Henné de mariage 07.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Henné de mariage.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme Peulh en tenue Traditionnel.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme Songhai 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme peulh du Niger 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme peulh du Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme songhai 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme songhai 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme songhai 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme songhai 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme songhai 06.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme songhai 07.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Homme songhai 08.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Instrument artisanal traditionnel du Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Invocation en debut du festival des civilisation des fleuves.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La danse Zarma 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La danse Zarma 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La danse Zarma 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La danse Zarma.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La danse au Gombe au Festival des civilisations du Fleuve à Boubon- Karma au Niger 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La danse des YAN TAWRI.webm",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 06.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 07.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 08.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 09.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 10.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 11.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 12.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 13.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 14.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 15.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 16.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 17.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 18.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 19.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 20.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 21.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 22.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 23.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 24.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle au Niger 25.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La lutte traditionnelle du Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La salutation 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:La salutation.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Le Goumbé.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Les Soninkés au Festival des civilisations du Fleuve à Boubon- Karma au Niger 13.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Les Soninkés au Festival des civilisations du Fleuve à Boubon- Karma au Niger 14.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Les chanteurs de la lutte au Niger 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Les chanteurs de la lutte au Niger 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Les chanteurs de la lutte au Niger 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Les chanteurs de la lutte au Niger 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Les chanteurs de la lutte au Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur de Dosso Issaka Issaka 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur de Dosso Issaka Issaka 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur de Dosso Issaka Issaka 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur de Dosso Issaka Issaka 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur de Dosso Issaka Issaka 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur de Dosso Issaka Issaka.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur du Niger 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur du Niger 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur du Niger 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur du Niger 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur du Niger 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur du Niger 06.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur du Niger 07.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur du Niger 08.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Lutteur du Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Mascotte au Festival des civilisations du Fleuve à Boubon- Karma au Niger 09.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Mascotte au Festival des civilisations du Fleuve à Boubon- Karma au Niger 10.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:PART2 CAROUSEL For Wiki Loves Africa 2026 in Niger Delta.pdf",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Partage lors des cérémonies 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Partage lors des cérémonies.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Participants at Wiki Loves Africa 2026 In Niger Delta.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Peuls bororo au Festival des civilisations du Fleuve à Boubon- Karma au Niger 12.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Photograpers from wiki loves africa 2026 in Niger Delta.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Pirogue du Demdi.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Pirogue et Cheval.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Poteries Artisanales au Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Rites Gourmantché.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Rites de vomissement de la chaîne par les Soninkés au Festival des civilisations du Fleuve à Boubon- Karma au Niger 15.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Soninkés au Festival des civilisations du Fleuve à Boubon- Karma au Niger 16.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Transport en commun au Niger 01.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Transport en commun au Niger 02.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Transport en commun au Niger 03.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Transport en commun au Niger 04.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Transport en commun au Niger 05.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Transport en commun au Niger 06.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Transport en commun au Niger.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Umasoye Igwe announcement as a Jury for the Wiki Loves Africa 2026 in Niger Delta.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:WIKI JURY ANNOUNCEMENT For Wiki Loves Africa 2026 in Niger Delta.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in Niger Delta Backdrop flier.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in Niger Delta Branded T-shirt.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in Niger Delta Roll Up.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in Niger Delta T-Shirt Sample 1.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in Niger Delta T-Shirt Sample 2.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in Niger Delta Water Bottle 2.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in Niger Delta Water Bottle.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in the Niger Delta, Call For Photographers Akwa ibom State.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in the Niger Delta, Call For Photographers Cross Rivers State.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in the Niger Delta, Call For Photographers in Bayelsa State.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in the Niger Delta, Call For Photographers in Delta State.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in the Niger Delta, Call For Photographers in Edo State.jpg",
-      "country": "Niger"
-    },
-    {
-      "title": "File:Wiki Loves Africa 2026 in the Niger Delta, Call For Photographers in Rivers State.jpg",
-      "country": "Niger"
-    },
-    {
       "title": "File:. Stage of Legends.jpg",
       "country": "Tanzania"
     },
@@ -198838,5 +197944,5 @@
       "country": "Sierra Leone"
     }
   ],
-  "elapsed_seconds": 13418.7
+  "elapsed_seconds": 12173.5
 }

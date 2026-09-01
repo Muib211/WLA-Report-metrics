@@ -210,369 +210,168 @@
   "pending_uncategorized": 19,
   "top_viewed": [
     {
-      "title": "File:Tanoura Dancing.jpg",
-      "country": "Egypt",
-      "views": 1697,
-      "reuse_views": 38354222,
-      "commons_views": 1697,
-      "total_views": 38355919,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tanoura_Dancing.jpg/500px-Tanoura_Dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Ngoma Tanzania.jpg",
-      "country": "Tanzania",
-      "views": 1161,
-      "reuse_views": 24101053,
-      "commons_views": 1161,
-      "total_views": 24102214,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ngoma_Tanzania.jpg/500px-Ngoma_Tanzania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:The Late Idi Amin Dada's Presidential Car.png",
-      "country": "Uganda",
-      "views": 5746,
-      "reuse_views": 21084098,
-      "commons_views": 5746,
-      "total_views": 21089844,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Late_Idi_Amin_Dada%27s_Presidential_Car.png/500px-The_Late_Idi_Amin_Dada%27s_Presidential_Car.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Juba City.jpg",
-      "country": "South Sudan",
-      "views": 5668,
-      "reuse_views": 19436449,
-      "commons_views": 5668,
-      "total_views": 19442117,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Juba_City.jpg/500px-Juba_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Manuring a vegetable garden.jpg",
-      "country": "Zambia",
-      "views": 4607,
-      "reuse_views": 17916416,
-      "commons_views": 4607,
-      "total_views": 17921023,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Manuring_a_vegetable_garden.jpg/500px-Manuring_a_vegetable_garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Couscous (Algérie, lieu exact non précisé).jpg",
-      "country": "Algeria",
-      "views": 4316,
-      "reuse_views": 17009158,
-      "commons_views": 4316,
-      "total_views": 17013474,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg/500px-Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Rastafarians celebrate Marcus Garvey.jpg",
-      "country": "Liberia",
-      "views": 2520,
-      "reuse_views": 14410657,
-      "commons_views": 2520,
-      "total_views": 14413177,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Rastafarians_celebrate_Marcus_Garvey.jpg/500px-Rastafarians_celebrate_Marcus_Garvey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Drummers of traditional Gbedu drum in Yoruba land of Nigeria.jpg",
-      "country": "Nigeria",
-      "views": 2841,
-      "reuse_views": 14141817,
-      "commons_views": 2841,
-      "total_views": 14144658,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Drummers_of_traditional_Gbedu_drum_in_Yoruba_land_of_Nigeria.jpg/500px-Drummers_of_traditional_Gbedu_drum_in_Yoruba_land_of_Nigeria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Umutomboko ceremony.jpg",
-      "country": "Zambia",
-      "views": 3852,
-      "reuse_views": 13533404,
-      "commons_views": 3852,
-      "total_views": 13537256,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Umutomboko_ceremony.jpg/500px-Umutomboko_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Kuduro - One of the Angolan National Dances.webm",
-      "country": "Angola",
-      "views": 4486,
-      "reuse_views": 12989433,
-      "commons_views": 4486,
-      "total_views": 12993919,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Kuduro_-_One_of_the_Angolan_National_Dances.webm/500px--Kuduro_-_One_of_the_Angolan_National_Dances.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo"
-    },
-    {
-      "title": "File:Halka du moulid 01.jpg",
-      "country": "Algeria",
-      "views": 1291,
-      "reuse_views": 12300231,
-      "commons_views": 1291,
-      "total_views": 12301522,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Halka_du_moulid_01.jpg/500px-Halka_du_moulid_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:تراث مصري 03.jpg",
-      "country": "Egypt",
-      "views": 1837,
-      "reuse_views": 11584461,
-      "commons_views": 1837,
-      "total_views": 11586298,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/%D8%AA%D8%B1%D8%A7%D8%AB_%D9%85%D8%B5%D8%B1%D9%8A_03.jpg/500px-%D8%AA%D8%B1%D8%A7%D8%AB_%D9%85%D8%B5%D8%B1%D9%8A_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Folklore of the popular heritage of the State of the Philippines 16.jpg",
-      "country": "Egypt",
-      "views": 2934,
-      "reuse_views": 11169447,
-      "commons_views": 2934,
-      "total_views": 11172381,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_16.jpg/500px-Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Moringa bread.jpg",
-      "country": "Benin",
-      "views": 2650,
-      "reuse_views": 9314125,
-      "commons_views": 2650,
-      "total_views": 9316775,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Moringa_bread.jpg/500px-Moringa_bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Danse de peuls avec les bœufs.jpg",
-      "country": "Mali",
-      "views": 2231,
-      "reuse_views": 8442204,
-      "commons_views": 2231,
-      "total_views": 8444435,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Danse_de_peuls_avec_les_b%C5%93ufs.jpg/500px-Danse_de_peuls_avec_les_b%C5%93ufs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Afrobeats star Burna Boy performing with at Nativeland Concert, Lagos, Nigeria 2016.jpg",
-      "country": "Nigeria",
-      "views": 2287,
-      "reuse_views": 8087053,
-      "commons_views": 2287,
-      "total_views": 8089340,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg/500px-Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:La paire de tambours d'atumpan (vu avec les symboles).jpg",
+      "title": "File:\"Fête de Géneration - août 2014.jpg\".jpg",
       "country": "Ivory Coast",
-      "views": 1242,
-      "reuse_views": 7377272,
-      "commons_views": 1242,
-      "total_views": 7378514,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_paire_de_tambours_d%27atumpan_%28vu_avec_les_symboles%29.jpg/500px-La_paire_de_tambours_d%27atumpan_%28vu_avec_les_symboles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
     },
     {
-      "title": "File:Oja.jpg",
-      "country": "Nigeria",
-      "views": 1602,
-      "reuse_views": 7338405,
-      "commons_views": 1602,
-      "total_views": 7340007,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Oja.jpg/500px-Oja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "title": "File:\"Fête de Géneration - sept 2014.jpg\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
     },
     {
-      "title": "File:BOUTKA2.jpg",
-      "country": "Algeria",
-      "views": 2303,
-      "reuse_views": 7138047,
-      "commons_views": 2303,
-      "total_views": 7140350,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/BOUTKA2.jpg/500px-BOUTKA2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "title": "File:\"Géneration - août 2014.jpg\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
     },
     {
-      "title": "File:Mode cérémonie de mariage au Maroc.jpg",
-      "country": "Morocco",
-      "views": 2487,
-      "reuse_views": 5974531,
-      "commons_views": 2487,
-      "total_views": 5977018,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Mode_c%C3%A9r%C3%A9monie_de_mariage_au_Maroc.jpg/500px-Mode_c%C3%A9r%C3%A9monie_de_mariage_au_Maroc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      "title": "File:\"Géneration - sept 2014\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"association - juin 2011\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"dance guerrière - sept 2014\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"danse - août2016\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"danse des guerriers - sept 2014\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"danse en pagne baoulé - déc2016\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"danse en souplesse - avril2016\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"danse oct2015\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"danse à un baptême - avril2016\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"danse à une dot - avril2016\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"la dance guerrière - sept 2014\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"la danse des guerriers - sept 2014\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"les guerriers - sept 2014\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"les rou kass kass - mars2016\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"maman danse - oct2015\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:\"réjouissance-sept 2014\".jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
+    },
+    {
+      "title": "File:A choir.jpg",
+      "country": "Ivory Coast",
+      "commons_views": 0,
+      "reuse_views": 0,
+      "total_views": 0,
+      "thumb": ""
     }
   ],
-  "top_viewed_useful": [
-    {
-      "title": "File:Tanoura Dancing.jpg",
-      "country": "Egypt",
-      "views": 1697,
-      "reuse_views": 38354222,
-      "commons_views": 1697,
-      "total_views": 38355919,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tanoura_Dancing.jpg/500px-Tanoura_Dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Ngoma Tanzania.jpg",
-      "country": "Tanzania",
-      "views": 1161,
-      "reuse_views": 24101053,
-      "commons_views": 1161,
-      "total_views": 24102214,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ngoma_Tanzania.jpg/500px-Ngoma_Tanzania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:The Late Idi Amin Dada's Presidential Car.png",
-      "country": "Uganda",
-      "views": 5746,
-      "reuse_views": 21084098,
-      "commons_views": 5746,
-      "total_views": 21089844,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Late_Idi_Amin_Dada%27s_Presidential_Car.png/500px-The_Late_Idi_Amin_Dada%27s_Presidential_Car.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Juba City.jpg",
-      "country": "South Sudan",
-      "views": 5668,
-      "reuse_views": 19436449,
-      "commons_views": 5668,
-      "total_views": 19442117,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Juba_City.jpg/500px-Juba_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Manuring a vegetable garden.jpg",
-      "country": "Zambia",
-      "views": 4607,
-      "reuse_views": 17916416,
-      "commons_views": 4607,
-      "total_views": 17921023,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Manuring_a_vegetable_garden.jpg/500px-Manuring_a_vegetable_garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Couscous (Algérie, lieu exact non précisé).jpg",
-      "country": "Algeria",
-      "views": 4316,
-      "reuse_views": 17009158,
-      "commons_views": 4316,
-      "total_views": 17013474,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg/500px-Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Rastafarians celebrate Marcus Garvey.jpg",
-      "country": "Liberia",
-      "views": 2520,
-      "reuse_views": 14410657,
-      "commons_views": 2520,
-      "total_views": 14413177,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Rastafarians_celebrate_Marcus_Garvey.jpg/500px-Rastafarians_celebrate_Marcus_Garvey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Drummers of traditional Gbedu drum in Yoruba land of Nigeria.jpg",
-      "country": "Nigeria",
-      "views": 2841,
-      "reuse_views": 14141817,
-      "commons_views": 2841,
-      "total_views": 14144658,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Drummers_of_traditional_Gbedu_drum_in_Yoruba_land_of_Nigeria.jpg/500px-Drummers_of_traditional_Gbedu_drum_in_Yoruba_land_of_Nigeria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Umutomboko ceremony.jpg",
-      "country": "Zambia",
-      "views": 3852,
-      "reuse_views": 13533404,
-      "commons_views": 3852,
-      "total_views": 13537256,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Umutomboko_ceremony.jpg/500px-Umutomboko_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Kuduro - One of the Angolan National Dances.webm",
-      "country": "Angola",
-      "views": 4486,
-      "reuse_views": 12989433,
-      "commons_views": 4486,
-      "total_views": 12993919,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Kuduro_-_One_of_the_Angolan_National_Dances.webm/500px--Kuduro_-_One_of_the_Angolan_National_Dances.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo"
-    },
-    {
-      "title": "File:Halka du moulid 01.jpg",
-      "country": "Algeria",
-      "views": 1291,
-      "reuse_views": 12300231,
-      "commons_views": 1291,
-      "total_views": 12301522,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Halka_du_moulid_01.jpg/500px-Halka_du_moulid_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:تراث مصري 03.jpg",
-      "country": "Egypt",
-      "views": 1837,
-      "reuse_views": 11584461,
-      "commons_views": 1837,
-      "total_views": 11586298,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/%D8%AA%D8%B1%D8%A7%D8%AB_%D9%85%D8%B5%D8%B1%D9%8A_03.jpg/500px-%D8%AA%D8%B1%D8%A7%D8%AB_%D9%85%D8%B5%D8%B1%D9%8A_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Folklore of the popular heritage of the State of the Philippines 16.jpg",
-      "country": "Egypt",
-      "views": 2934,
-      "reuse_views": 11169447,
-      "commons_views": 2934,
-      "total_views": 11172381,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_16.jpg/500px-Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Moringa bread.jpg",
-      "country": "Benin",
-      "views": 2650,
-      "reuse_views": 9314125,
-      "commons_views": 2650,
-      "total_views": 9316775,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Moringa_bread.jpg/500px-Moringa_bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Danse de peuls avec les bœufs.jpg",
-      "country": "Mali",
-      "views": 2231,
-      "reuse_views": 8442204,
-      "commons_views": 2231,
-      "total_views": 8444435,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Danse_de_peuls_avec_les_b%C5%93ufs.jpg/500px-Danse_de_peuls_avec_les_b%C5%93ufs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Afrobeats star Burna Boy performing with at Nativeland Concert, Lagos, Nigeria 2016.jpg",
-      "country": "Nigeria",
-      "views": 2287,
-      "reuse_views": 8087053,
-      "commons_views": 2287,
-      "total_views": 8089340,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg/500px-Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:La paire de tambours d'atumpan (vu avec les symboles).jpg",
-      "country": "Ivory Coast",
-      "views": 1242,
-      "reuse_views": 7377272,
-      "commons_views": 1242,
-      "total_views": 7378514,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_paire_de_tambours_d%27atumpan_%28vu_avec_les_symboles%29.jpg/500px-La_paire_de_tambours_d%27atumpan_%28vu_avec_les_symboles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Oja.jpg",
-      "country": "Nigeria",
-      "views": 1602,
-      "reuse_views": 7338405,
-      "commons_views": 1602,
-      "total_views": 7340007,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Oja.jpg/500px-Oja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:BOUTKA2.jpg",
-      "country": "Algeria",
-      "views": 2303,
-      "reuse_views": 7138047,
-      "commons_views": 2303,
-      "total_views": 7140350,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/BOUTKA2.jpg/500px-BOUTKA2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    },
-    {
-      "title": "File:Mode cérémonie de mariage au Maroc.jpg",
-      "country": "Morocco",
-      "views": 2487,
-      "reuse_views": 5974531,
-      "commons_views": 2487,
-      "total_views": 5977018,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Mode_c%C3%A9r%C3%A9monie_de_mariage_au_Maroc.jpg/500px-Mode_c%C3%A9r%C3%A9monie_de_mariage_au_Maroc.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-    }
-  ],
-  "sample_total_views": 641762939,
+  "top_viewed_useful": [],
+  "sample_total_views": 0,
   "contributors_count": 830,
   "contributors": [
     "9jaolodo",
@@ -34204,5 +34003,6 @@
       "country": "the Republic of the Congo"
     }
   ],
-  "elapsed_seconds": 4896.5
+  "elapsed_seconds": 4896.5,
+  "views_refreshed_at": "2026-09-01T11:30:02.873451+00:00"
 }

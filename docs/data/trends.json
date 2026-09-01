@@ -7,8 +7,8 @@
       "top_country": "Ivory Coast",
       "top_country_count": 997,
       "sample_method": "full_census",
-      "sample_total_views": 64221601,
-      "top_viewed_max_views": 7474025,
+      "sample_total_views": 0,
+      "top_viewed_max_views": 0,
       "contributors_count": 878,
       "usage_total": 5648,
       "files_used_percentage": 23.41,
@@ -20,7 +20,7 @@
       "returning_contributors_percentage": 0.0,
       "winners_count": 9,
       "generated_at": "2026-09-01T00:17:11.943597+00:00",
-      "views_refreshed_at": null
+      "views_refreshed_at": "2026-09-01T11:29:56.250304+00:00"
     },
     {
       "year": 2015,
@@ -29,8 +29,8 @@
       "top_country": "Tunisia",
       "top_country_count": 1237,
       "sample_method": "full_census",
-      "sample_total_views": 21490595,
-      "top_viewed_max_views": 5238230,
+      "sample_total_views": 0,
+      "top_viewed_max_views": 0,
       "contributors_count": 723,
       "usage_total": 4372,
       "files_used_percentage": 15.22,
@@ -42,7 +42,7 @@
       "returning_contributors_percentage": 5.1,
       "winners_count": 4,
       "generated_at": "2026-08-22T03:01:32.460069+00:00",
-      "views_refreshed_at": null
+      "views_refreshed_at": "2026-09-01T11:29:59.422692+00:00"
     },
     {
       "year": 2016,
@@ -51,8 +51,8 @@
       "top_country": "Ivory Coast",
       "top_country_count": 1170,
       "sample_method": "full_census",
-      "sample_total_views": 641762939,
-      "top_viewed_max_views": 38355919,
+      "sample_total_views": 0,
+      "top_viewed_max_views": 0,
       "contributors_count": 830,
       "usage_total": 4305,
       "files_used_percentage": 17.3,
@@ -64,7 +64,7 @@
       "returning_contributors_percentage": 7.6,
       "winners_count": 4,
       "generated_at": "2026-08-24T22:36:12.274485+00:00",
-      "views_refreshed_at": null
+      "views_refreshed_at": "2026-09-01T11:30:02.873451+00:00"
     },
     {
       "year": 2025,
@@ -73,8 +73,8 @@
       "top_country": "Nigeria",
       "top_country_count": 8051,
       "sample_method": "full_census",
-      "sample_total_views": 5169859,
-      "top_viewed_max_views": 1303986,
+      "sample_total_views": 0,
+      "top_viewed_max_views": 0,
       "contributors_count": 870,
       "usage_total": 1736,
       "files_used_percentage": 4.13,
@@ -86,124 +86,124 @@
       "returning_contributors_percentage": 2.2,
       "winners_count": 6,
       "generated_at": "2026-08-22T07:08:19.099682+00:00",
-      "views_refreshed_at": null
+      "views_refreshed_at": "2026-09-01T11:30:16.661755+00:00"
     },
     {
       "year": 2026,
-      "total_submissions": 49231,
-      "countries_count": 43,
+      "total_submissions": 49036,
+      "countries_count": 42,
       "top_country": "Nigeria",
       "top_country_count": 17107,
       "sample_method": "full_census",
-      "sample_total_views": 1449666,
-      "top_viewed_max_views": 174493,
-      "contributors_count": 914,
-      "usage_total": 1226,
-      "files_used_percentage": 1.61,
-      "new_account_before_campaign_count": 19,
-      "new_account_before_campaign_percentage": 2.08,
-      "new_contributors_count": 724,
-      "new_contributors_percentage": 79.2,
-      "returning_contributors_count": 190,
-      "returning_contributors_percentage": 20.8,
+      "sample_total_views": 1191779,
+      "top_viewed_max_views": 1567,
+      "contributors_count": 892,
+      "usage_total": 1089,
+      "files_used_percentage": 1.45,
+      "new_account_before_campaign_count": 476,
+      "new_account_before_campaign_percentage": 53.36,
+      "new_contributors_count": 707,
+      "new_contributors_percentage": 79.3,
+      "returning_contributors_count": 185,
+      "returning_contributors_percentage": 20.7,
       "winners_count": 3,
-      "generated_at": "2026-08-22T10:51:58.659007+00:00",
+      "generated_at": "2026-09-01T11:29:52.904751+00:00",
       "views_refreshed_at": null
     }
   ],
-  "grand_total_sample_views": 734094660,
-  "grand_total_unique_contributors": 3906,
-  "grand_total_usage_entries": 17287,
+  "grand_total_sample_views": 1191779,
+  "grand_total_unique_contributors": 3889,
+  "grand_total_usage_entries": 17150,
   "grand_usage_by_wiki": [
     {
       "wiki": "fr.wikipedia.org",
-      "count": 3351,
-      "percentage": 19.38
+      "count": 3363,
+      "percentage": 19.61
     },
     {
       "wiki": "en.wikipedia.org",
-      "count": 1857,
-      "percentage": 10.74
+      "count": 1854,
+      "percentage": 10.81
     },
     {
       "wiki": "meta.wikimedia.org",
-      "count": 1526,
-      "percentage": 8.83
+      "count": 1389,
+      "percentage": 8.1
     },
     {
       "wiki": "ar.wikipedia.org",
       "count": 897,
-      "percentage": 5.19
+      "percentage": 5.23
     },
     {
       "wiki": "www.wikidata.org",
-      "count": 802,
-      "percentage": 4.64
+      "count": 791,
+      "percentage": 4.61
     },
     {
       "wiki": "ha.wikipedia.org",
-      "count": 523,
+      "count": 520,
       "percentage": 3.03
     },
     {
       "wiki": "es.wikipedia.org",
-      "count": 384,
-      "percentage": 2.22
+      "count": 383,
+      "percentage": 2.23
+    },
+    {
+      "wiki": "ru.wikipedia.org",
+      "count": 308,
+      "percentage": 1.8
     },
     {
       "wiki": "ko.wikipedia.org",
       "count": 307,
-      "percentage": 1.78
-    },
-    {
-      "wiki": "ru.wikipedia.org",
-      "count": 307,
-      "percentage": 1.78
+      "percentage": 1.79
     },
     {
       "wiki": "de.wikipedia.org",
-      "count": 277,
-      "percentage": 1.6
+      "count": 276,
+      "percentage": 1.61
     },
     {
       "wiki": "ig.wikipedia.org",
-      "count": 269,
-      "percentage": 1.56
+      "count": 263,
+      "percentage": 1.53
     },
     {
       "wiki": "arz.wikipedia.org",
-      "count": 258,
-      "percentage": 1.49
+      "count": 259,
+      "percentage": 1.51
     },
     {
       "wiki": "uk.wikipedia.org",
       "count": 247,
-      "percentage": 1.43
+      "percentage": 1.44
     },
     {
       "wiki": "incubator.wikimedia.org",
-      "count": 241,
-      "percentage": 1.39
+      "count": 240,
+      "percentage": 1.4
     },
     {
       "wiki": "dga.wikipedia.org",
-      "count": 200,
-      "percentage": 1.16
+      "count": 197,
+      "percentage": 1.15
     },
     {
       "wiki": "it.wikipedia.org",
-      "count": 185,
-      "percentage": 1.07
+      "count": 188,
+      "percentage": 1.1
     },
     {
       "wiki": "pt.wikipedia.org",
-      "count": 142,
-      "percentage": 0.82
+      "count": 144,
+      "percentage": 0.84
     },
     {
       "wiki": "yo.wikipedia.org",
-      "count": 136,
-      "percentage": 0.79
+      "count": 138,
+      "percentage": 0.8
     },
     {
       "wiki": "sw.wikipedia.org",
@@ -218,22 +218,22 @@
     {
       "wiki": "ja.wikipedia.org",
       "count": 128,
-      "percentage": 0.74
+      "percentage": 0.75
     },
     {
       "wiki": "en.wikivoyage.org",
       "count": 123,
-      "percentage": 0.71
-    },
-    {
-      "wiki": "he.wikipedia.org",
-      "count": 121,
-      "percentage": 0.7
+      "percentage": 0.72
     },
     {
       "wiki": "id.wikipedia.org",
       "count": 121,
-      "percentage": 0.7
+      "percentage": 0.71
+    },
+    {
+      "wiki": "he.wikipedia.org",
+      "count": 118,
+      "percentage": 0.69
     },
     {
       "wiki": "en.wikibooks.org",
@@ -241,19 +241,19 @@
       "percentage": 0.67
     },
     {
-      "wiki": "rw.wikipedia.org",
+      "wiki": "en.wiktionary.org",
       "count": 113,
-      "percentage": 0.65
+      "percentage": 0.66
     },
     {
-      "wiki": "en.wiktionary.org",
-      "count": 112,
-      "percentage": 0.65
+      "wiki": "rw.wikipedia.org",
+      "count": 113,
+      "percentage": 0.66
     },
     {
       "wiki": "ca.wikipedia.org",
-      "count": 98,
-      "percentage": 0.57
+      "count": 101,
+      "percentage": 0.59
     },
     {
       "wiki": "nl.wikipedia.org",
@@ -263,17 +263,17 @@
     {
       "wiki": "jv.wikipedia.org",
       "count": 92,
-      "percentage": 0.53
+      "percentage": 0.54
     },
     {
       "wiki": "zh.wikipedia.org",
       "count": 92,
-      "percentage": 0.53
+      "percentage": 0.54
     },
     {
       "wiki": "pl.wikipedia.org",
       "count": 87,
-      "percentage": 0.5
+      "percentage": 0.51
     },
     {
       "wiki": "tr.wikipedia.org",
@@ -296,34 +296,29 @@
       "percentage": 0.43
     },
     {
+      "wiki": "vi.wikipedia.org",
+      "count": 72,
+      "percentage": 0.42
+    },
+    {
       "wiki": "lt.wikipedia.org",
       "count": 72,
       "percentage": 0.42
     },
     {
       "wiki": "cs.wikipedia.org",
-      "count": 70,
-      "percentage": 0.4
-    },
-    {
-      "wiki": "vi.wikipedia.org",
-      "count": 70,
-      "percentage": 0.4
+      "count": 71,
+      "percentage": 0.41
     },
     {
       "wiki": "hy.wikipedia.org",
       "count": 68,
-      "percentage": 0.39
+      "percentage": 0.4
     },
     {
       "wiki": "eu.wikipedia.org",
       "count": 68,
-      "percentage": 0.39
-    },
-    {
-      "wiki": "simple.wikipedia.org",
-      "count": 65,
-      "percentage": 0.38
+      "percentage": 0.4
     },
     {
       "wiki": "fi.wikipedia.org",
@@ -332,6 +327,11 @@
     },
     {
       "wiki": "dag.wikipedia.org",
+      "count": 64,
+      "percentage": 0.37
+    },
+    {
+      "wiki": "simple.wikipedia.org",
       "count": 64,
       "percentage": 0.37
     },
@@ -376,14 +376,19 @@
       "percentage": 0.29
     },
     {
-      "wiki": "pl.wiktionary.org",
-      "count": 49,
-      "percentage": 0.28
+      "wiki": "ig.wiktionary.org",
+      "count": 50,
+      "percentage": 0.29
     },
     {
-      "wiki": "da.wikipedia.org",
+      "wiki": "pl.wiktionary.org",
       "count": 49,
-      "percentage": 0.28
+      "percentage": 0.29
+    },
+    {
+      "wiki": "lg.wikipedia.org",
+      "count": 49,
+      "percentage": 0.29
     },
     {
       "wiki": "hu.wikipedia.org",
@@ -391,14 +396,9 @@
       "percentage": 0.28
     },
     {
-      "wiki": "lg.wikipedia.org",
+      "wiki": "da.wikipedia.org",
       "count": 48,
       "percentage": 0.28
-    },
-    {
-      "wiki": "ig.wiktionary.org",
-      "count": 46,
-      "percentage": 0.27
     },
     {
       "wiki": "fr.wikibooks.org",
@@ -406,14 +406,14 @@
       "percentage": 0.26
     },
     {
-      "wiki": "nn.wikipedia.org",
+      "wiki": "ms.wikipedia.org",
       "count": 45,
       "percentage": 0.26
     },
     {
-      "wiki": "ms.wikipedia.org",
-      "count": 44,
-      "percentage": 0.25
+      "wiki": "nn.wikipedia.org",
+      "count": 45,
+      "percentage": 0.26
     },
     {
       "wiki": "sv.wikipedia.org",
@@ -433,22 +433,22 @@
     {
       "wiki": "it.wikivoyage.org",
       "count": 37,
-      "percentage": 0.21
+      "percentage": 0.22
     },
     {
       "wiki": "az.wikipedia.org",
       "count": 37,
-      "percentage": 0.21
+      "percentage": 0.22
     },
     {
       "wiki": "fr.wikivoyage.org",
       "count": 37,
-      "percentage": 0.21
+      "percentage": 0.22
     },
     {
       "wiki": "zu.wikipedia.org",
       "count": 37,
-      "percentage": 0.21
+      "percentage": 0.22
     },
     {
       "wiki": "el.wikipedia.org",
@@ -521,39 +521,44 @@
       "percentage": 0.15
     },
     {
-      "wiki": "kcg.wiktionary.org",
+      "wiki": "ur.wikipedia.org",
       "count": 26,
       "percentage": 0.15
     },
     {
       "wiki": "avk.wikipedia.org",
       "count": 25,
-      "percentage": 0.14
+      "percentage": 0.15
     },
     {
       "wiki": "igl.wikipedia.org",
       "count": 25,
-      "percentage": 0.14
-    },
-    {
-      "wiki": "ur.wikipedia.org",
-      "count": 25,
-      "percentage": 0.14
+      "percentage": 0.15
     },
     {
       "wiki": "te.wikipedia.org",
       "count": 25,
-      "percentage": 0.14
+      "percentage": 0.15
     },
     {
       "wiki": "bg.wikipedia.org",
       "count": 25,
-      "percentage": 0.14
+      "percentage": 0.15
+    },
+    {
+      "wiki": "kcg.wiktionary.org",
+      "count": 25,
+      "percentage": 0.15
     },
     {
       "wiki": "sl.wikipedia.org",
       "count": 24,
       "percentage": 0.14
+    },
+    {
+      "wiki": "tl.wikipedia.org",
+      "count": 23,
+      "percentage": 0.13
     },
     {
       "wiki": "gl.wikipedia.org",
@@ -566,17 +571,7 @@
       "percentage": 0.13
     },
     {
-      "wiki": "tl.wikipedia.org",
-      "count": 22,
-      "percentage": 0.13
-    },
-    {
       "wiki": "ary.wikipedia.org",
-      "count": 21,
-      "percentage": 0.12
-    },
-    {
-      "wiki": "tn.wikipedia.org",
       "count": 21,
       "percentage": 0.12
     },
@@ -587,6 +582,16 @@
     },
     {
       "wiki": "tt.wikipedia.org",
+      "count": 20,
+      "percentage": 0.12
+    },
+    {
+      "wiki": "tn.wikipedia.org",
+      "count": 20,
+      "percentage": 0.12
+    },
+    {
+      "wiki": "kcg.wikipedia.org",
       "count": 20,
       "percentage": 0.12
     },
@@ -611,11 +616,6 @@
       "percentage": 0.11
     },
     {
-      "wiki": "kcg.wikipedia.org",
-      "count": 19,
-      "percentage": 0.11
-    },
-    {
       "wiki": "oc.wikipedia.org",
       "count": 18,
       "percentage": 0.1
@@ -623,6 +623,11 @@
     {
       "wiki": "sg.wiktionary.org",
       "count": 18,
+      "percentage": 0.1
+    },
+    {
+      "wiki": "et.wikipedia.org",
+      "count": 17,
       "percentage": 0.1
     },
     {
@@ -646,17 +651,17 @@
       "percentage": 0.09
     },
     {
-      "wiki": "et.wikipedia.org",
-      "count": 16,
-      "percentage": 0.09
-    },
-    {
       "wiki": "ru.wiktionary.org",
       "count": 15,
       "percentage": 0.09
     },
     {
       "wiki": "ast.wikipedia.org",
+      "count": 14,
+      "percentage": 0.08
+    },
+    {
+      "wiki": "sd.wikipedia.org",
       "count": 14,
       "percentage": 0.08
     },
@@ -672,11 +677,6 @@
     },
     {
       "wiki": "hi.wikipedia.org",
-      "count": 13,
-      "percentage": 0.08
-    },
-    {
-      "wiki": "sd.wikipedia.org",
       "count": 13,
       "percentage": 0.08
     },
@@ -921,11 +921,6 @@
       "percentage": 0.04
     },
     {
-      "wiki": "nso.wikipedia.org",
-      "count": 7,
-      "percentage": 0.04
-    },
-    {
       "wiki": "wo.wikipedia.org",
       "count": 6,
       "percentage": 0.03
@@ -966,6 +961,11 @@
       "percentage": 0.03
     },
     {
+      "wiki": "en.wikiversity.org",
+      "count": 6,
+      "percentage": 0.03
+    },
+    {
       "wiki": "sk.wikipedia.org",
       "count": 6,
       "percentage": 0.03
@@ -977,6 +977,11 @@
     },
     {
       "wiki": "ia.wikipedia.org",
+      "count": 6,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "nso.wikipedia.org",
       "count": 6,
       "percentage": 0.03
     },
@@ -1007,11 +1012,6 @@
     },
     {
       "wiki": "sq.wikipedia.org",
-      "count": 5,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "en.wikiversity.org",
       "count": 5,
       "percentage": 0.03
     },
@@ -1107,11 +1107,6 @@
     },
     {
       "wiki": "mzn.wikipedia.org",
-      "count": 4,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "wikisource.org",
       "count": 4,
       "percentage": 0.02
     },
@@ -1809,6 +1804,11 @@
       "wiki": "tg.wikipedia.org",
       "count": 1,
       "percentage": 0.01
+    },
+    {
+      "wiki": "cs.wikiquote.org",
+      "count": 1,
+      "percentage": 0.01
     }
   ],
   "grand_countries": [
@@ -1826,7 +1826,7 @@
     },
     {
       "name": "Ghana",
-      "count": 5479
+      "count": 5477
     },
     {
       "name": "Ivory Coast",
@@ -1834,7 +1834,7 @@
     },
     {
       "name": "Uganda",
-      "count": 4905
+      "count": 4909
     },
     {
       "name": "Egypt",
@@ -1885,10 +1885,6 @@
       "count": 1074
     },
     {
-      "name": "Niger",
-      "count": 1070
-    },
-    {
       "name": "South Africa",
       "count": 1050
     },
@@ -1898,10 +1894,14 @@
     },
     {
       "name": "Benin",
-      "count": 889
+      "count": 887
     },
     {
       "name": "Burkina Faso",
+      "count": 866
+    },
+    {
+      "name": "Niger",
       "count": 866
     },
     {
@@ -2040,13 +2040,13 @@
   "contributor_retention": [
     {
       "min_years": 1,
-      "count": 3906,
+      "count": 3889,
       "percentage": 100.0
     },
     {
       "min_years": 2,
-      "count": 266,
-      "percentage": 6.8
+      "count": 261,
+      "percentage": 6.7
     },
     {
       "min_years": 3,
@@ -2066,408 +2066,207 @@
   ],
   "grand_top_viewed": [
     {
-      "title": "File:Tanoura Dancing.jpg",
-      "country": "Egypt",
-      "views": 1697,
-      "reuse_views": 38354222,
-      "commons_views": 1697,
-      "total_views": 38355919,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tanoura_Dancing.jpg/500px-Tanoura_Dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "title": "File:Prestation théâtrale de la troupe de Labé au Festival International de Théâtre de Guinée 09.jpg",
+      "country": "Guinea",
+      "views": 1567,
+      "commons_views": 1567,
+      "reuse_views": 0,
+      "total_views": 1567,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:Ngoma Tanzania.jpg",
-      "country": "Tanzania",
-      "views": 1161,
-      "reuse_views": 24101053,
-      "commons_views": 1161,
-      "total_views": 24102214,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ngoma_Tanzania.jpg/500px-Ngoma_Tanzania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "title": "File:Arbres rituelliques de Pout Diack 01.jpg",
+      "country": "Senegal",
+      "views": 1126,
+      "commons_views": 1126,
+      "reuse_views": 0,
+      "total_views": 1126,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:The Late Idi Amin Dada's Presidential Car.png",
-      "country": "Uganda",
-      "views": 5746,
-      "reuse_views": 21084098,
-      "commons_views": 5746,
-      "total_views": 21089844,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Late_Idi_Amin_Dada%27s_Presidential_Car.png/500px-The_Late_Idi_Amin_Dada%27s_Presidential_Car.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "title": "File:Community Gathering at a Funeral in Zimbabwe.jpg",
+      "country": "Zimbabwe",
+      "views": 1073,
+      "reuse_views": 0,
+      "commons_views": 1073,
+      "total_views": 1073,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:Juba City.jpg",
-      "country": "South Sudan",
-      "views": 5668,
-      "reuse_views": 19436449,
-      "commons_views": 5668,
-      "total_views": 19442117,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Juba_City.jpg/500px-Juba_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Manuring a vegetable garden.jpg",
-      "country": "Zambia",
-      "views": 4607,
-      "reuse_views": 17916416,
-      "commons_views": 4607,
-      "total_views": 17921023,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Manuring_a_vegetable_garden.jpg/500px-Manuring_a_vegetable_garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Couscous (Algérie, lieu exact non précisé).jpg",
-      "country": "Algeria",
-      "views": 4316,
-      "reuse_views": 17009158,
-      "commons_views": 4316,
-      "total_views": 17013474,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg/500px-Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Rastafarians celebrate Marcus Garvey.jpg",
-      "country": "Liberia",
-      "views": 2520,
-      "reuse_views": 14410657,
-      "commons_views": 2520,
-      "total_views": 14413177,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Rastafarians_celebrate_Marcus_Garvey.jpg/500px-Rastafarians_celebrate_Marcus_Garvey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Drummers of traditional Gbedu drum in Yoruba land of Nigeria.jpg",
+      "title": "File:A Tiv man appears wearing cultural attire 12.jpg",
       "country": "Nigeria",
-      "views": 2841,
-      "reuse_views": 14141817,
-      "commons_views": 2841,
-      "total_views": 14144658,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Drummers_of_traditional_Gbedu_drum_in_Yoruba_land_of_Nigeria.jpg/500px-Drummers_of_traditional_Gbedu_drum_in_Yoruba_land_of_Nigeria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "views": 1057,
+      "commons_views": 1057,
+      "reuse_views": 0,
+      "total_views": 1057,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:Umutomboko ceremony.jpg",
-      "country": "Zambia",
-      "views": 3852,
-      "reuse_views": 13533404,
-      "commons_views": 3852,
-      "total_views": 13537256,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Umutomboko_ceremony.jpg/500px-Umutomboko_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "title": "File:Corps à corps debout en lutte traditionnelle Dialaw Festival.jpg",
+      "country": "Senegal",
+      "views": 1043,
+      "commons_views": 1043,
+      "reuse_views": 0,
+      "total_views": 1043,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:Kuduro - One of the Angolan National Dances.webm",
-      "country": "Angola",
-      "views": 4486,
-      "reuse_views": 12989433,
-      "commons_views": 4486,
-      "total_views": 12993919,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Kuduro_-_One_of_the_Angolan_National_Dances.webm/500px--Kuduro_-_One_of_the_Angolan_National_Dances.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "year": 2016
+      "title": "File:Course de pirogues traditionnelles Dialaw Festival.jpg",
+      "country": "Senegal",
+      "views": 1043,
+      "commons_views": 1043,
+      "reuse_views": 0,
+      "total_views": 1043,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:Halka du moulid 01.jpg",
-      "country": "Algeria",
-      "views": 1291,
-      "reuse_views": 12300231,
-      "commons_views": 1291,
-      "total_views": 12301522,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Halka_du_moulid_01.jpg/500px-Halka_du_moulid_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "title": "File:Célébration traditionnelle après la course de pirogues.jpg",
+      "country": "Senegal",
+      "views": 1027,
+      "commons_views": 1027,
+      "reuse_views": 0,
+      "total_views": 1027,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:تراث مصري 03.jpg",
-      "country": "Egypt",
-      "views": 1837,
-      "reuse_views": 11584461,
-      "commons_views": 1837,
-      "total_views": 11586298,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/%D8%AA%D8%B1%D8%A7%D8%AB_%D9%85%D8%B5%D8%B1%D9%8A_03.jpg/500px-%D8%AA%D8%B1%D8%A7%D8%AB_%D9%85%D8%B5%D8%B1%D9%8A_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "title": "File:Décoration Carte Afrique.jpg",
+      "country": "Senegal",
+      "views": 1027,
+      "commons_views": 1027,
+      "reuse_views": 0,
+      "total_views": 1027,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:Folklore of the popular heritage of the State of the Philippines 16.jpg",
-      "country": "Egypt",
-      "views": 2934,
-      "reuse_views": 11169447,
-      "commons_views": 2934,
-      "total_views": 11172381,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_16.jpg/500px-Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "title": "File:Arbres rituelliques de Pout Diack 14.jpg",
+      "country": "Senegal",
+      "views": 1002,
+      "commons_views": 1002,
+      "reuse_views": 0,
+      "total_views": 1002,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:Moringa bread.jpg",
-      "country": "Benin",
-      "views": 2650,
-      "reuse_views": 9314125,
-      "commons_views": 2650,
-      "total_views": 9316775,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Moringa_bread.jpg/500px-Moringa_bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Danse de peuls avec les bœufs.jpg",
-      "country": "Mali",
-      "views": 2231,
-      "reuse_views": 8442204,
-      "commons_views": 2231,
-      "total_views": 8444435,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Danse_de_peuls_avec_les_b%C5%93ufs.jpg/500px-Danse_de_peuls_avec_les_b%C5%93ufs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Afrobeats star Burna Boy performing with at Nativeland Concert, Lagos, Nigeria 2016.jpg",
+      "title": "File:A Tiv man appears wearing cultural attire 01.jpg",
       "country": "Nigeria",
-      "views": 2287,
-      "reuse_views": 8087053,
-      "commons_views": 2287,
-      "total_views": 8089340,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg/500px-Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "views": 1001,
+      "commons_views": 1001,
+      "reuse_views": 0,
+      "total_views": 1001,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:Igname frite2.jpg",
-      "country": "Ivory Coast",
-      "views": 0,
-      "reuse_views": 7474025,
-      "commons_views": 0,
-      "total_views": 7474025,
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Igname_frite2.jpg/500px-Igname_frite2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2014
+      "title": "File:Buvette mbin sérère à Ndiaganiao.jpg",
+      "country": "Senegal",
+      "views": 1001,
+      "commons_views": 1001,
+      "reuse_views": 0,
+      "total_views": 1001,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:La paire de tambours d'atumpan (vu avec les symboles).jpg",
-      "country": "Ivory Coast",
-      "views": 1242,
-      "reuse_views": 7377272,
-      "commons_views": 1242,
-      "total_views": 7378514,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_paire_de_tambours_d%27atumpan_%28vu_avec_les_symboles%29.jpg/500px-La_paire_de_tambours_d%27atumpan_%28vu_avec_les_symboles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "title": "File:Arbres rituelliques de Pout Diack 02.jpg",
+      "country": "Senegal",
+      "views": 1000,
+      "commons_views": 1000,
+      "reuse_views": 0,
+      "total_views": 1000,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:Oja.jpg",
+      "title": "File:Festival Ndiaganiao.jpg",
+      "country": "Senegal",
+      "views": 996,
+      "commons_views": 996,
+      "reuse_views": 0,
+      "total_views": 996,
+      "thumb": "",
+      "year": 2026
+    },
+    {
+      "title": "File:Boubou traditionnel du Sénégal.jpg",
+      "country": "Senegal",
+      "views": 995,
+      "commons_views": 995,
+      "reuse_views": 0,
+      "total_views": 995,
+      "thumb": "",
+      "year": 2026
+    },
+    {
+      "title": "File:Funeral Procession in Zimbabwe.jpg",
+      "country": "Zimbabwe",
+      "views": 995,
+      "commons_views": 995,
+      "reuse_views": 0,
+      "total_views": 995,
+      "thumb": "",
+      "year": 2026
+    },
+    {
+      "title": "File:Arbres rituelliques de Pout Diack 13.jpg",
+      "country": "Senegal",
+      "views": 991,
+      "commons_views": 991,
+      "reuse_views": 0,
+      "total_views": 991,
+      "thumb": "",
+      "year": 2026
+    },
+    {
+      "title": "File:A Tiv man appears wearing cultural attire 05.jpg",
       "country": "Nigeria",
-      "views": 1602,
-      "reuse_views": 7338405,
-      "commons_views": 1602,
-      "total_views": 7340007,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Oja.jpg/500px-Oja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "views": 974,
+      "commons_views": 974,
+      "reuse_views": 0,
+      "total_views": 974,
+      "thumb": "",
+      "year": 2026
     },
     {
-      "title": "File:BOUTKA2.jpg",
-      "country": "Algeria",
-      "views": 2303,
-      "reuse_views": 7138047,
-      "commons_views": 2303,
-      "total_views": 7140350,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/BOUTKA2.jpg/500px-BOUTKA2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
+      "title": "File:Culture lebou.jpg",
+      "country": "Senegal",
+      "views": 969,
+      "commons_views": 969,
+      "reuse_views": 0,
+      "total_views": 969,
+      "thumb": "",
+      "year": 2026
+    },
+    {
+      "title": "File:Collection de sacs en paille tressée.jpg",
+      "country": "Senegal",
+      "views": 963,
+      "commons_views": 963,
+      "reuse_views": 0,
+      "total_views": 963,
+      "thumb": "",
+      "year": 2026
+    },
+    {
+      "title": "File:A̱di̱ri̱m (kcg) - A̱gatak (kaj) - Drum beaten for the demi-gods (en) 01.jpg",
+      "country": "Nigeria",
+      "views": 957,
+      "commons_views": 957,
+      "reuse_views": 0,
+      "total_views": 957,
+      "thumb": "",
+      "year": 2026
     }
   ],
-  "grand_top_viewed_useful": [
-    {
-      "title": "File:Tanoura Dancing.jpg",
-      "country": "Egypt",
-      "views": 1697,
-      "reuse_views": 38354222,
-      "commons_views": 1697,
-      "total_views": 38355919,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tanoura_Dancing.jpg/500px-Tanoura_Dancing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Ngoma Tanzania.jpg",
-      "country": "Tanzania",
-      "views": 1161,
-      "reuse_views": 24101053,
-      "commons_views": 1161,
-      "total_views": 24102214,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Ngoma_Tanzania.jpg/500px-Ngoma_Tanzania.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:The Late Idi Amin Dada's Presidential Car.png",
-      "country": "Uganda",
-      "views": 5746,
-      "reuse_views": 21084098,
-      "commons_views": 5746,
-      "total_views": 21089844,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/The_Late_Idi_Amin_Dada%27s_Presidential_Car.png/500px-The_Late_Idi_Amin_Dada%27s_Presidential_Car.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Juba City.jpg",
-      "country": "South Sudan",
-      "views": 5668,
-      "reuse_views": 19436449,
-      "commons_views": 5668,
-      "total_views": 19442117,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Juba_City.jpg/500px-Juba_City.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Manuring a vegetable garden.jpg",
-      "country": "Zambia",
-      "views": 4607,
-      "reuse_views": 17916416,
-      "commons_views": 4607,
-      "total_views": 17921023,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Manuring_a_vegetable_garden.jpg/500px-Manuring_a_vegetable_garden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Couscous (Algérie, lieu exact non précisé).jpg",
-      "country": "Algeria",
-      "views": 4316,
-      "reuse_views": 17009158,
-      "commons_views": 4316,
-      "total_views": 17013474,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg/500px-Couscous_%28Alg%C3%A9rie%2C_lieu_exact_non_pr%C3%A9cis%C3%A9%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Rastafarians celebrate Marcus Garvey.jpg",
-      "country": "Liberia",
-      "views": 2520,
-      "reuse_views": 14410657,
-      "commons_views": 2520,
-      "total_views": 14413177,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Rastafarians_celebrate_Marcus_Garvey.jpg/500px-Rastafarians_celebrate_Marcus_Garvey.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Drummers of traditional Gbedu drum in Yoruba land of Nigeria.jpg",
-      "country": "Nigeria",
-      "views": 2841,
-      "reuse_views": 14141817,
-      "commons_views": 2841,
-      "total_views": 14144658,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Drummers_of_traditional_Gbedu_drum_in_Yoruba_land_of_Nigeria.jpg/500px-Drummers_of_traditional_Gbedu_drum_in_Yoruba_land_of_Nigeria.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Umutomboko ceremony.jpg",
-      "country": "Zambia",
-      "views": 3852,
-      "reuse_views": 13533404,
-      "commons_views": 3852,
-      "total_views": 13537256,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Umutomboko_ceremony.jpg/500px-Umutomboko_ceremony.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Kuduro - One of the Angolan National Dances.webm",
-      "country": "Angola",
-      "views": 4486,
-      "reuse_views": 12989433,
-      "commons_views": 4486,
-      "total_views": 12993919,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Kuduro_-_One_of_the_Angolan_National_Dances.webm/500px--Kuduro_-_One_of_the_Angolan_National_Dances.webm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo",
-      "year": 2016
-    },
-    {
-      "title": "File:Halka du moulid 01.jpg",
-      "country": "Algeria",
-      "views": 1291,
-      "reuse_views": 12300231,
-      "commons_views": 1291,
-      "total_views": 12301522,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Halka_du_moulid_01.jpg/500px-Halka_du_moulid_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:تراث مصري 03.jpg",
-      "country": "Egypt",
-      "views": 1837,
-      "reuse_views": 11584461,
-      "commons_views": 1837,
-      "total_views": 11586298,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/%D8%AA%D8%B1%D8%A7%D8%AB_%D9%85%D8%B5%D8%B1%D9%8A_03.jpg/500px-%D8%AA%D8%B1%D8%A7%D8%AB_%D9%85%D8%B5%D8%B1%D9%8A_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Folklore of the popular heritage of the State of the Philippines 16.jpg",
-      "country": "Egypt",
-      "views": 2934,
-      "reuse_views": 11169447,
-      "commons_views": 2934,
-      "total_views": 11172381,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_16.jpg/500px-Folklore_of_the_popular_heritage_of_the_State_of_the_Philippines_16.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Moringa bread.jpg",
-      "country": "Benin",
-      "views": 2650,
-      "reuse_views": 9314125,
-      "commons_views": 2650,
-      "total_views": 9316775,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Moringa_bread.jpg/500px-Moringa_bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Danse de peuls avec les bœufs.jpg",
-      "country": "Mali",
-      "views": 2231,
-      "reuse_views": 8442204,
-      "commons_views": 2231,
-      "total_views": 8444435,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Danse_de_peuls_avec_les_b%C5%93ufs.jpg/500px-Danse_de_peuls_avec_les_b%C5%93ufs.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Afrobeats star Burna Boy performing with at Nativeland Concert, Lagos, Nigeria 2016.jpg",
-      "country": "Nigeria",
-      "views": 2287,
-      "reuse_views": 8087053,
-      "commons_views": 2287,
-      "total_views": 8089340,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg/500px-Afrobeats_star_Burna_Boy_performing_with_at_Nativeland_Concert%2C_Lagos%2C_Nigeria_2016.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Igname frite2.jpg",
-      "country": "Ivory Coast",
-      "views": 0,
-      "reuse_views": 7474025,
-      "commons_views": 0,
-      "total_views": 7474025,
-      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Igname_frite2.jpg/500px-Igname_frite2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2014
-    },
-    {
-      "title": "File:La paire de tambours d'atumpan (vu avec les symboles).jpg",
-      "country": "Ivory Coast",
-      "views": 1242,
-      "reuse_views": 7377272,
-      "commons_views": 1242,
-      "total_views": 7378514,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/La_paire_de_tambours_d%27atumpan_%28vu_avec_les_symboles%29.jpg/500px-La_paire_de_tambours_d%27atumpan_%28vu_avec_les_symboles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:Oja.jpg",
-      "country": "Nigeria",
-      "views": 1602,
-      "reuse_views": 7338405,
-      "commons_views": 1602,
-      "total_views": 7340007,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Oja.jpg/500px-Oja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    },
-    {
-      "title": "File:BOUTKA2.jpg",
-      "country": "Algeria",
-      "views": 2303,
-      "reuse_views": 7138047,
-      "commons_views": 2303,
-      "total_views": 7140350,
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/BOUTKA2.jpg/500px-BOUTKA2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-      "year": 2016
-    }
-  ],
+  "grand_top_viewed_useful": [],
   "grand_winners": [
     {
       "title": "File:Egyptian Grains.jpg",
@@ -6421,7 +6220,7 @@
       "country": "Kenya",
       "year": 2026,
       "license": "CC BY-SA 4.0",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg/500px-Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg/500px-Mijikenda_Wedding_Blessing_Ceremony_%E2%80%93_Coastal_Kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "usage": [],
       "core_usage_count": 0
     },
@@ -6431,7 +6230,7 @@
       "country": "Egypt",
       "year": 2026,
       "license": "CC BY-SA 4.0",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg/500px-%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg/500px-%D8%AE%D8%B4%D9%88%D8%B9_%D8%B5%D9%84%D8%A7%D8%A9_%D9%A2%D9%A1%D9%A1%D9%A6%D9%A2%D9%A8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "usage": [],
       "core_usage_count": 0
     },
@@ -6441,7 +6240,7 @@
       "country": "Egypt",
       "year": 2026,
       "license": "CC BY-SA 4.0",
-      "thumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg/500px-%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg/500px-%D8%B5%D9%84%D8%A7%D8%A9_%D8%A7%D9%84%D8%B9%D9%8A%D8%AF_%D9%81%D9%8A_%D9%85%D8%B3%D8%AC%D8%AF_%D8%A7%D9%84%D8%B5%D8%AF%D9%8A%D9%82_37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
       "usage": [],
       "core_usage_count": 0
     }
