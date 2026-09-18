@@ -306,16 +306,18 @@ class CommonsClient:
         end = datetime.now(timezone.utc).strftime("%Y%m%d00")
         url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{domain}/all-access/all-agents/{encoded}/monthly/{year}010100/{end}"
         async with self.sem:
-            try:
-                async with self.session.get(url, headers=HEADERS, timeout=20) as resp:
-                    if resp.status == 200:
-                        data = await resp.json()
-                        return sum(item.get("views", 0) for item in data.get("items", []))
-                    if resp.status == 404:
-                        return 0  # genuinely never viewed — not a failure
-                    self.pageview_failures += 1
-            except (aiohttp.ClientError, asyncio.TimeoutError):
-                self.pageview_failures += 1
+            for attempt in range(3):
+                try:
+                    async with self.session.get(url, headers=HEADERS, timeout=20) as resp:
+                        if resp.status == 200:
+                            data = await resp.json()
+                            return sum(item.get("views", 0) for item in data.get("items", []))
+                        if resp.status == 404:
+                            return 0  # genuinely never viewed — not a failure
+                        await asyncio.sleep(1.0 * (attempt + 1))
+                except (aiohttp.ClientError, asyncio.TimeoutError):
+                    await asyncio.sleep(1.0 * (attempt + 1))
+        self.pageview_failures += 1
         return 0
 
     async def pageviews(self, file_title: str, year: int) -> int:
