@@ -111,6 +111,7 @@ class CommonsClient:
     def __init__(self, session: aiohttp.ClientSession, concurrency: int = 6):
         self.session = session
         self.sem = asyncio.Semaphore(concurrency)
+        self.pageview_failures = 0  # real request failures, not legitimate zero-view files
 
     async def get_json(self, params: dict, base: str = COMMONS_API) -> dict:
         params = dict(params)
@@ -310,8 +311,11 @@ class CommonsClient:
                     if resp.status == 200:
                         data = await resp.json()
                         return sum(item.get("views", 0) for item in data.get("items", []))
+                    if resp.status == 404:
+                        return 0  # genuinely never viewed — not a failure
+                    self.pageview_failures += 1
             except (aiohttp.ClientError, asyncio.TimeoutError):
-                pass
+                self.pageview_failures += 1
         return 0
 
     async def pageviews(self, file_title: str, year: int) -> int:
@@ -327,10 +331,11 @@ class CommonsClient:
                             data = await resp.json()
                             return sum(item.get("views", 0) for item in data.get("items", []))
                         if resp.status == 404:
-                            return 0
+                            return 0  # genuinely never viewed — not a failure
                         await asyncio.sleep(1.0 * (attempt + 1))
                 except (aiohttp.ClientError, asyncio.TimeoutError):
                     await asyncio.sleep(1.0 * (attempt + 1))
+        self.pageview_failures += 1
         return 0
 
 
@@ -509,6 +514,10 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
                 results.append({"title": title, "country": country, "views": v})
             print(f"  ...{min(i + CHUNK, len(pool))}/{len(pool)}", file=sys.stderr)
 
+        if client.pageview_failures > 0:
+            print(f"[{year}] WARNING: {client.pageview_failures} Commons pageview request(s) actually failed (network/API error, not just zero views) — some view counts below may be undercounted or wrongly zero. Consider re-running if this number is large relative to {len(pool)}.", file=sys.stderr)
+        commons_failures_seen = client.pageview_failures
+
         seen_titles = set()
         deduped_results = []
         for r in results:
@@ -526,6 +535,10 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         reuse_view_counts = await asyncio.gather(*[client.pageviews_on_page(e["wiki"], e["title"], year) for _, e in reuse_pairs])
         for (r, _), v in zip(reuse_pairs, reuse_view_counts):
             r["reuse_views"] = r.get("reuse_views", 0) + v
+
+        reuse_failures = client.pageview_failures - commons_failures_seen
+        if reuse_failures > 0:
+            print(f"[{year}] WARNING: {reuse_failures} reuse-pageview request(s) actually failed — some reuse view counts may be undercounted or wrongly zero.", file=sys.stderr)
 
         for r in deduped_results:
             r["commons_views"] = r["views"]
