@@ -108,7 +108,7 @@ def parse_mw_timestamp(s):
 
 
 class CommonsClient:
-    def __init__(self, session: aiohttp.ClientSession, concurrency: int = 6):
+    def __init__(self, session: aiohttp.ClientSession, concurrency: int = 3):
         self.session = session
         self.sem = asyncio.Semaphore(concurrency)
         self.pageview_failures = 0  # real request failures, not legitimate zero-view files
@@ -533,8 +533,19 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         for r in deduped_results:
             for e in usage_map_detailed.get(r["title"], []):
                 reuse_pairs.append((r, e))
+        if client.pageview_failures > 5:
+            print(f"[{year}] pausing 30s before the next phase, in case the pageviews API is rate-limiting us...", file=sys.stderr)
+            await asyncio.sleep(30)
+
         print(f"[{year}] measuring real reuse views across {len(reuse_pairs)} usage(s) on other Wikimedia pages...", file=sys.stderr)
-        reuse_view_counts = await asyncio.gather(*[client.pageviews_on_page(e["wiki"], e["title"], year) for _, e in reuse_pairs])
+        reuse_view_counts = []
+        REUSE_CHUNK = 200
+        for i in range(0, len(reuse_pairs), REUSE_CHUNK):
+            chunk = reuse_pairs[i:i + REUSE_CHUNK]
+            chunk_results = await asyncio.gather(*[client.pageviews_on_page(e["wiki"], e["title"], year) for _, e in chunk])
+            reuse_view_counts.extend(chunk_results)
+            if len(reuse_pairs) > REUSE_CHUNK:
+                print(f"  ...{min(i + REUSE_CHUNK, len(reuse_pairs))}/{len(reuse_pairs)}", file=sys.stderr)
         for (r, _), v in zip(reuse_pairs, reuse_view_counts):
             r["reuse_views"] = r.get("reuse_views", 0) + v
 
