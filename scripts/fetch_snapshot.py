@@ -112,6 +112,14 @@ class CommonsClient:
         self.session = session
         self.sem = asyncio.Semaphore(concurrency)
         self.pageview_failures = 0  # real request failures, not legitimate zero-view files
+        self.commons_failure_samples = []
+        self.reuse_failure_samples = []
+
+    def _record_pageview_failure(self, phase, reason):
+        self.pageview_failures += 1
+        sample_list = self.commons_failure_samples if phase == "commons" else self.reuse_failure_samples
+        if len(sample_list) < 15:
+            sample_list.append(reason)
 
     async def get_json(self, params: dict, base: str = COMMONS_API) -> dict:
         params = dict(params)
@@ -305,6 +313,7 @@ class CommonsClient:
         encoded = (page_title or "").replace(" ", "_")
         end = datetime.now(timezone.utc).strftime("%Y%m%d00")
         url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{domain}/all-access/all-agents/{encoded}/monthly/{year}010100/{end}"
+        last_reason = "unknown"
         async with self.sem:
             for attempt in range(3):
                 try:
@@ -314,10 +323,15 @@ class CommonsClient:
                             return sum(item.get("views", 0) for item in data.get("items", []))
                         if resp.status == 404:
                             return 0  # genuinely never viewed — not a failure
+                        last_reason = f"HTTP {resp.status}"
                         await asyncio.sleep(1.0 * (attempt + 1))
-                except (aiohttp.ClientError, asyncio.TimeoutError):
+                except asyncio.TimeoutError:
+                    last_reason = "timeout"
                     await asyncio.sleep(1.0 * (attempt + 1))
-        self.pageview_failures += 1
+                except aiohttp.ClientError as e:
+                    last_reason = f"{type(e).__name__}: {e}"
+                    await asyncio.sleep(1.0 * (attempt + 1))
+        self._record_pageview_failure("reuse", last_reason)
         return 0
 
     async def pageviews(self, file_title: str, year: int) -> int:
@@ -325,6 +339,7 @@ class CommonsClient:
         encoded = file_title.replace(" ", "_")
         end = datetime.now(timezone.utc).strftime("%Y%m%d00")
         url = PAGEVIEWS_API.format(title=encoded, start=f"{year}010100", end=end)
+        last_reason = "unknown"
         async with self.sem:
             for attempt in range(3):
                 try:
@@ -334,10 +349,15 @@ class CommonsClient:
                             return sum(item.get("views", 0) for item in data.get("items", []))
                         if resp.status == 404:
                             return 0  # genuinely never viewed — not a failure
+                        last_reason = f"HTTP {resp.status}"
                         await asyncio.sleep(1.0 * (attempt + 1))
-                except (aiohttp.ClientError, asyncio.TimeoutError):
+                except asyncio.TimeoutError:
+                    last_reason = "timeout"
                     await asyncio.sleep(1.0 * (attempt + 1))
-        self.pageview_failures += 1
+                except aiohttp.ClientError as e:
+                    last_reason = f"{type(e).__name__}: {e}"
+                    await asyncio.sleep(1.0 * (attempt + 1))
+        self._record_pageview_failure("commons", last_reason)
         return 0
 
 
@@ -518,6 +538,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
 
         if client.pageview_failures > 0:
             print(f"[{year}] WARNING: {client.pageview_failures} Commons pageview request(s) actually failed (network/API error, not just zero views) — some view counts below may be undercounted or wrongly zero. Consider re-running if this number is large relative to {len(pool)}.", file=sys.stderr)
+            print(f"[{year}]   sample failure reasons: {client.commons_failure_samples}", file=sys.stderr)
         commons_failures_seen = client.pageview_failures
 
         seen_titles = set()
@@ -552,6 +573,7 @@ async def build_snapshot(year: int, sample_cap, full_census: bool, out_dir: Path
         reuse_failures = client.pageview_failures - commons_failures_seen
         if reuse_failures > 0:
             print(f"[{year}] WARNING: {reuse_failures} reuse-pageview request(s) actually failed — some reuse view counts may be undercounted or wrongly zero.", file=sys.stderr)
+            print(f"[{year}]   sample failure reasons: {client.reuse_failure_samples}", file=sys.stderr)
 
         for r in deduped_results:
             r["commons_views"] = r["views"]
