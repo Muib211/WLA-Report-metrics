@@ -7,20 +7,20 @@
       "top_country": "Ivory Coast",
       "top_country_count": 997,
       "sample_method": "full_census",
-      "sample_total_views": 0,
-      "top_viewed_max_views": 0,
-      "contributors_count": 878,
-      "usage_total": 5648,
+      "sample_total_views": 1042717773,
+      "top_viewed_max_views": 75232540,
+      "contributors_count": 865,
+      "usage_total": 5673,
       "files_used_percentage": 23.41,
-      "new_account_before_campaign_count": 17,
-      "new_account_before_campaign_percentage": 1.94,
-      "new_contributors_count": 878,
+      "new_account_before_campaign_count": 738,
+      "new_account_before_campaign_percentage": 85.32,
+      "new_contributors_count": 865,
       "new_contributors_percentage": 100.0,
       "returning_contributors_count": 0,
       "returning_contributors_percentage": 0.0,
       "winners_count": 9,
-      "generated_at": "2026-09-01T00:17:11.943597+00:00",
-      "views_refreshed_at": "2026-09-01T11:29:56.250304+00:00"
+      "generated_at": "2026-09-20T20:03:49.507414+00:00",
+      "views_refreshed_at": null
     },
     {
       "year": 2015,
@@ -111,39 +111,39 @@
       "views_refreshed_at": null
     }
   ],
-  "grand_total_sample_views": 1191779,
-  "grand_total_unique_contributors": 3889,
-  "grand_total_usage_entries": 17150,
+  "grand_total_sample_views": 1043909552,
+  "grand_total_unique_contributors": 3876,
+  "grand_total_usage_entries": 17175,
   "grand_usage_by_wiki": [
     {
       "wiki": "fr.wikipedia.org",
-      "count": 3363,
-      "percentage": 19.61
+      "count": 3364,
+      "percentage": 19.59
     },
     {
       "wiki": "en.wikipedia.org",
-      "count": 1854,
-      "percentage": 10.81
+      "count": 1852,
+      "percentage": 10.78
     },
     {
       "wiki": "meta.wikimedia.org",
       "count": 1389,
-      "percentage": 8.1
+      "percentage": 8.09
     },
     {
       "wiki": "ar.wikipedia.org",
-      "count": 897,
+      "count": 898,
       "percentage": 5.23
     },
     {
       "wiki": "www.wikidata.org",
-      "count": 791,
-      "percentage": 4.61
+      "count": 793,
+      "percentage": 4.62
     },
     {
       "wiki": "ha.wikipedia.org",
-      "count": 520,
-      "percentage": 3.03
+      "count": 522,
+      "percentage": 3.04
     },
     {
       "wiki": "es.wikipedia.org",
@@ -152,12 +152,12 @@
     },
     {
       "wiki": "ru.wikipedia.org",
-      "count": 308,
+      "count": 310,
       "percentage": 1.8
     },
     {
       "wiki": "ko.wikipedia.org",
-      "count": 307,
+      "count": 308,
       "percentage": 1.79
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "wiki": "arz.wikipedia.org",
-      "count": 259,
+      "count": 260,
       "percentage": 1.51
     },
     {
@@ -187,13 +187,13 @@
     },
     {
       "wiki": "dga.wikipedia.org",
-      "count": 197,
-      "percentage": 1.15
+      "count": 196,
+      "percentage": 1.14
     },
     {
       "wiki": "it.wikipedia.org",
       "count": 188,
-      "percentage": 1.1
+      "percentage": 1.09
     },
     {
       "wiki": "pt.wikipedia.org",
@@ -212,8 +212,8 @@
     },
     {
       "wiki": "fa.wikipedia.org",
-      "count": 131,
-      "percentage": 0.76
+      "count": 132,
+      "percentage": 0.77
     },
     {
       "wiki": "ja.wikipedia.org",
@@ -228,7 +228,7 @@
     {
       "wiki": "id.wikipedia.org",
       "count": 121,
-      "percentage": 0.71
+      "percentage": 0.7
     },
     {
       "wiki": "he.wikipedia.org",
@@ -267,8 +267,8 @@
     },
     {
       "wiki": "zh.wikipedia.org",
-      "count": 92,
-      "percentage": 0.54
+      "count": 91,
+      "percentage": 0.53
     },
     {
       "wiki": "pl.wikipedia.org",
@@ -371,7 +371,7 @@
       "percentage": 0.29
     },
     {
-      "wiki": "af.wikipedia.org",
+      "wiki": "lg.wikipedia.org",
       "count": 50,
       "percentage": 0.29
     },
@@ -381,12 +381,12 @@
       "percentage": 0.29
     },
     {
-      "wiki": "pl.wiktionary.org",
+      "wiki": "af.wikipedia.org",
       "count": 49,
       "percentage": 0.29
     },
     {
-      "wiki": "lg.wikipedia.org",
+      "wiki": "pl.wiktionary.org",
       "count": 49,
       "percentage": 0.29
     },
@@ -426,6 +426,11 @@
       "percentage": 0.23
     },
     {
+      "wiki": "zu.wikipedia.org",
+      "count": 39,
+      "percentage": 0.23
+    },
+    {
       "wiki": "ka.wikipedia.org",
       "count": 38,
       "percentage": 0.22
@@ -442,11 +447,6 @@
     },
     {
       "wiki": "fr.wikivoyage.org",
-      "count": 37,
-      "percentage": 0.22
-    },
-    {
-      "wiki": "zu.wikipedia.org",
       "count": 37,
       "percentage": 0.22
     },
@@ -476,6 +476,11 @@
       "percentage": 0.19
     },
     {
+      "wiki": "ff.wikipedia.org",
+      "count": 31,
+      "percentage": 0.18
+    },
+    {
       "wiki": "kk.wikipedia.org",
       "count": 31,
       "percentage": 0.18
@@ -496,11 +501,6 @@
       "percentage": 0.17
     },
     {
-      "wiki": "ff.wikipedia.org",
-      "count": 30,
-      "percentage": 0.17
-    },
-    {
       "wiki": "hr.wikipedia.org",
       "count": 30,
       "percentage": 0.17
@@ -514,6 +514,11 @@
       "wiki": "outreach.wikimedia.org",
       "count": 29,
       "percentage": 0.17
+    },
+    {
+      "wiki": "tn.wikipedia.org",
+      "count": 27,
+      "percentage": 0.16
     },
     {
       "wiki": "tw.wikipedia.org",
@@ -586,11 +591,6 @@
       "percentage": 0.12
     },
     {
-      "wiki": "tn.wikipedia.org",
-      "count": 20,
-      "percentage": 0.12
-    },
-    {
       "wiki": "kcg.wikipedia.org",
       "count": 20,
       "percentage": 0.12
@@ -651,6 +651,11 @@
       "percentage": 0.09
     },
     {
+      "wiki": "ee.wikipedia.org",
+      "count": 15,
+      "percentage": 0.09
+    },
+    {
       "wiki": "ru.wiktionary.org",
       "count": 15,
       "percentage": 0.09
@@ -686,11 +691,6 @@
       "percentage": 0.08
     },
     {
-      "wiki": "nl.wikibooks.org",
-      "count": 12,
-      "percentage": 0.07
-    },
-    {
       "wiki": "gur.wikipedia.org",
       "count": 12,
       "percentage": 0.07
@@ -722,6 +722,11 @@
     },
     {
       "wiki": "fat.wikipedia.org",
+      "count": 10,
+      "percentage": 0.06
+    },
+    {
+      "wiki": "nl.wikibooks.org",
       "count": 10,
       "percentage": 0.06
     },
@@ -772,11 +777,6 @@
     },
     {
       "wiki": "ja.wikivoyage.org",
-      "count": 9,
-      "percentage": 0.05
-    },
-    {
-      "wiki": "ee.wikipedia.org",
       "count": 9,
       "percentage": 0.05
     },
@@ -856,6 +856,11 @@
       "percentage": 0.04
     },
     {
+      "wiki": "xh.wikipedia.org",
+      "count": 7,
+      "percentage": 0.04
+    },
+    {
       "wiki": "pnb.wikipedia.org",
       "count": 7,
       "percentage": 0.04
@@ -867,6 +872,11 @@
     },
     {
       "wiki": "eo.wikivoyage.org",
+      "count": 7,
+      "percentage": 0.04
+    },
+    {
+      "wiki": "st.wikipedia.org",
       "count": 7,
       "percentage": 0.04
     },
@@ -926,11 +936,6 @@
       "percentage": 0.03
     },
     {
-      "wiki": "xh.wikipedia.org",
-      "count": 6,
-      "percentage": 0.03
-    },
-    {
       "wiki": "el.wiktionary.org",
       "count": 6,
       "percentage": 0.03
@@ -952,11 +957,6 @@
     },
     {
       "wiki": "ar.wikiquote.org",
-      "count": 6,
-      "percentage": 0.03
-    },
-    {
-      "wiki": "st.wikipedia.org",
       "count": 6,
       "percentage": 0.03
     },
@@ -1012,6 +1012,11 @@
     },
     {
       "wiki": "sq.wikipedia.org",
+      "count": 5,
+      "percentage": 0.03
+    },
+    {
+      "wiki": "cy.wikipedia.org",
       "count": 5,
       "percentage": 0.03
     },
@@ -1081,12 +1086,12 @@
       "percentage": 0.02
     },
     {
-      "wiki": "ss.wikipedia.org",
+      "wiki": "nr.wikipedia.org",
       "count": 4,
       "percentage": 0.02
     },
     {
-      "wiki": "cy.wikipedia.org",
+      "wiki": "ss.wikipedia.org",
       "count": 4,
       "percentage": 0.02
     },
@@ -1207,11 +1212,6 @@
     },
     {
       "wiki": "bs.wikipedia.org",
-      "count": 3,
-      "percentage": 0.02
-    },
-    {
-      "wiki": "nr.wikipedia.org",
       "count": 3,
       "percentage": 0.02
     },
@@ -2040,7 +2040,7 @@
   "contributor_retention": [
     {
       "min_years": 1,
-      "count": 3889,
+      "count": 3876,
       "percentage": 100.0
     },
     {
@@ -2066,207 +2066,408 @@
   ],
   "grand_top_viewed": [
     {
-      "title": "File:Prestation théâtrale de la troupe de Labé au Festival International de Théâtre de Guinée 09.jpg",
-      "country": "Guinea",
-      "views": 1567,
-      "commons_views": 1567,
-      "reuse_views": 0,
-      "total_views": 1567,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Egyptian food Koshary.jpg",
+      "country": "Egypt",
+      "views": 35840,
+      "reuse_views": 75196700,
+      "commons_views": 35840,
+      "total_views": 75232540,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Egyptian_food_Koshary.jpg/500px-Egyptian_food_Koshary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 01.jpg",
-      "country": "Senegal",
-      "views": 1126,
-      "commons_views": 1126,
-      "reuse_views": 0,
-      "total_views": 1126,
-      "thumb": "",
-      "year": 2026
-    },
-    {
-      "title": "File:Community Gathering at a Funeral in Zimbabwe.jpg",
-      "country": "Zimbabwe",
-      "views": 1073,
-      "reuse_views": 0,
-      "commons_views": 1073,
-      "total_views": 1073,
-      "thumb": "",
-      "year": 2026
-    },
-    {
-      "title": "File:A Tiv man appears wearing cultural attire 12.jpg",
+      "title": "File:Palm nuts put out to dry.jpg",
       "country": "Nigeria",
-      "views": 1057,
-      "commons_views": 1057,
-      "reuse_views": 0,
-      "total_views": 1057,
-      "thumb": "",
-      "year": 2026
+      "views": 2951,
+      "reuse_views": 42867520,
+      "commons_views": 2951,
+      "total_views": 42870471,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Palm_nuts_put_out_to_dry.jpg/500px-Palm_nuts_put_out_to_dry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Corps à corps debout en lutte traditionnelle Dialaw Festival.jpg",
-      "country": "Senegal",
-      "views": 1043,
-      "commons_views": 1043,
-      "reuse_views": 0,
-      "total_views": 1043,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Example of Ramadan iftar 2.jpg",
+      "country": "an unknown country",
+      "views": 2335,
+      "reuse_views": 28798619,
+      "commons_views": 2335,
+      "total_views": 28800954,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Example_of_Ramadan_iftar_2.jpg/500px-Example_of_Ramadan_iftar_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Course de pirogues traditionnelles Dialaw Festival.jpg",
-      "country": "Senegal",
-      "views": 1043,
-      "commons_views": 1043,
-      "reuse_views": 0,
-      "total_views": 1043,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Eid celebration 2014 in Durban.jpg",
+      "country": "South Africa",
+      "views": 3363,
+      "reuse_views": 21155347,
+      "commons_views": 3363,
+      "total_views": 21158710,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Eid_celebration_2014_in_Durban.jpg/500px-Eid_celebration_2014_in_Durban.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Célébration traditionnelle après la course de pirogues.jpg",
-      "country": "Senegal",
-      "views": 1027,
-      "commons_views": 1027,
-      "reuse_views": 0,
-      "total_views": 1027,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Yawo women on Eid.jpg",
+      "country": "Mozambique",
+      "views": 1507,
+      "reuse_views": 20318264,
+      "commons_views": 1507,
+      "total_views": 20319771,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Yawo_women_on_Eid.jpg/500px-Yawo_women_on_Eid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Décoration Carte Afrique.jpg",
-      "country": "Senegal",
-      "views": 1027,
-      "commons_views": 1027,
-      "reuse_views": 0,
-      "total_views": 1027,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Ndolè à la viande, morue et crevettes.jpg",
+      "country": "Cameroon",
+      "views": 0,
+      "reuse_views": 17558265,
+      "commons_views": 0,
+      "total_views": 17558265,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Ndol%C3%A8_%C3%A0_la_viande%2C_morue_et_crevettes.jpg/500px-Ndol%C3%A8_%C3%A0_la_viande%2C_morue_et_crevettes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 14.jpg",
-      "country": "Senegal",
-      "views": 1002,
-      "commons_views": 1002,
-      "reuse_views": 0,
-      "total_views": 1002,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Tajines in a pottery shop in Morocco.jpg",
+      "country": "Morocco",
+      "views": 14182,
+      "reuse_views": 16709497,
+      "commons_views": 14182,
+      "total_views": 16723679,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tajines_in_a_pottery_shop_in_Morocco.jpg/500px-Tajines_in_a_pottery_shop_in_Morocco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:A Tiv man appears wearing cultural attire 01.jpg",
+      "title": "File:Hibiscus tea.jpg",
+      "country": "Tunisia",
+      "views": 3487,
+      "reuse_views": 14680122,
+      "commons_views": 3487,
+      "total_views": 14683609,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Hibiscus_tea.jpg/500px-Hibiscus_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Goat meat.jpg",
+      "country": "Uganda",
+      "views": 1309,
+      "reuse_views": 14308309,
+      "commons_views": 1309,
+      "total_views": 14309618,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Goat_meat.jpg/500px-Goat_meat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Fresh nutmeg in Zanzibar (Tanzania).JPG",
+      "country": "Tanzania",
+      "views": 3840,
+      "reuse_views": 12396017,
+      "commons_views": 3840,
+      "total_views": 12399857,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Fresh_nutmeg_in_Zanzibar_%28Tanzania%29.JPG/500px-Fresh_nutmeg_in_Zanzibar_%28Tanzania%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Moroccan cups of tea with ment.jpg",
+      "country": "Morocco",
+      "views": 1655,
+      "reuse_views": 12207010,
+      "commons_views": 1655,
+      "total_views": 12208665,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Moroccan_cups_of_tea_with_ment.jpg/500px-Moroccan_cups_of_tea_with_ment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Mbongo tchobi et banae plantin malxé.jpg",
+      "country": "Cameroon",
+      "views": 2366,
+      "reuse_views": 12203598,
+      "commons_views": 2366,
+      "total_views": 12205964,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Mbongo_tchobi_et_banae_plantin_malx%C3%A9.jpg/500px-Mbongo_tchobi_et_banae_plantin_malx%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Arewa Traditional Kitchen.jpg",
       "country": "Nigeria",
-      "views": 1001,
-      "commons_views": 1001,
-      "reuse_views": 0,
-      "total_views": 1001,
-      "thumb": "",
-      "year": 2026
+      "views": 2686,
+      "reuse_views": 11758476,
+      "commons_views": 2686,
+      "total_views": 11761162,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Arewa_Traditional_Kitchen.jpg/500px-Arewa_Traditional_Kitchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Buvette mbin sérère à Ndiaganiao.jpg",
-      "country": "Senegal",
-      "views": 1001,
-      "commons_views": 1001,
-      "reuse_views": 0,
-      "total_views": 1001,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Ary-chebbaqiya tot seu.jpg",
+      "country": "Morocco",
+      "views": 1568,
+      "reuse_views": 11661409,
+      "commons_views": 1568,
+      "total_views": 11662977,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ary-chebbaqiya_tot_seu.jpg/500px-Ary-chebbaqiya_tot_seu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 02.jpg",
-      "country": "Senegal",
-      "views": 1000,
-      "commons_views": 1000,
-      "reuse_views": 0,
-      "total_views": 1000,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Coine di gazele2.jpg",
+      "country": "Morocco",
+      "views": 850,
+      "reuse_views": 11364463,
+      "commons_views": 850,
+      "total_views": 11365313,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Coine_di_gazele2.jpg/500px-Coine_di_gazele2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Festival Ndiaganiao.jpg",
-      "country": "Senegal",
-      "views": 996,
-      "commons_views": 996,
-      "reuse_views": 0,
-      "total_views": 996,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Special meat and cheese dish in Yod Abyssinia.jpg",
+      "country": "Ethiopia",
+      "views": 1458,
+      "reuse_views": 10998104,
+      "commons_views": 1458,
+      "total_views": 10999562,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Special_meat_and_cheese_dish_in_Yod_Abyssinia.jpg/500px-Special_meat_and_cheese_dish_in_Yod_Abyssinia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Boubou traditionnel du Sénégal.jpg",
-      "country": "Senegal",
-      "views": 995,
-      "commons_views": 995,
-      "reuse_views": 0,
-      "total_views": 995,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Popcorn (pipoca).jpg",
+      "country": "Mozambique",
+      "views": 2984,
+      "reuse_views": 10820867,
+      "commons_views": 2984,
+      "total_views": 10823851,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Popcorn_%28pipoca%29.jpg/500px-Popcorn_%28pipoca%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Funeral Procession in Zimbabwe.jpg",
-      "country": "Zimbabwe",
-      "views": 995,
-      "commons_views": 995,
-      "reuse_views": 0,
-      "total_views": 995,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Ngumbi.jpg",
+      "country": "Mozambique",
+      "views": 8427,
+      "reuse_views": 10650982,
+      "commons_views": 8427,
+      "total_views": 10659409,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Ngumbi.jpg/500px-Ngumbi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:Arbres rituelliques de Pout Diack 13.jpg",
-      "country": "Senegal",
-      "views": 991,
-      "commons_views": 991,
-      "reuse_views": 0,
-      "total_views": 991,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Mintumba.jpg",
+      "country": "Cameroon",
+      "views": 1976,
+      "reuse_views": 10331367,
+      "commons_views": 1976,
+      "total_views": 10333343,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Mintumba.jpg/500px-Mintumba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     },
     {
-      "title": "File:A Tiv man appears wearing cultural attire 05.jpg",
-      "country": "Nigeria",
-      "views": 974,
-      "commons_views": 974,
-      "reuse_views": 0,
-      "total_views": 974,
-      "thumb": "",
-      "year": 2026
-    },
-    {
-      "title": "File:Culture lebou.jpg",
-      "country": "Senegal",
-      "views": 969,
-      "commons_views": 969,
-      "reuse_views": 0,
-      "total_views": 969,
-      "thumb": "",
-      "year": 2026
-    },
-    {
-      "title": "File:Collection de sacs en paille tressée.jpg",
-      "country": "Senegal",
-      "views": 963,
-      "commons_views": 963,
-      "reuse_views": 0,
-      "total_views": 963,
-      "thumb": "",
-      "year": 2026
-    },
-    {
-      "title": "File:A̱di̱ri̱m (kcg) - A̱gatak (kaj) - Drum beaten for the demi-gods (en) 01.jpg",
-      "country": "Nigeria",
-      "views": 957,
-      "commons_views": 957,
-      "reuse_views": 0,
-      "total_views": 957,
-      "thumb": "",
-      "year": 2026
+      "title": "File:Le ndolè, plat mythique camerounais..jpg",
+      "country": "Cameroon",
+      "views": 4057,
+      "reuse_views": 10262955,
+      "commons_views": 4057,
+      "total_views": 10267012,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Le_ndol%C3%A8%2C_plat_mythique_camerounais..jpg/500px-Le_ndol%C3%A8%2C_plat_mythique_camerounais..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
     }
   ],
-  "grand_top_viewed_useful": [],
+  "grand_top_viewed_useful": [
+    {
+      "title": "File:Egyptian food Koshary.jpg",
+      "country": "Egypt",
+      "views": 35840,
+      "reuse_views": 75196700,
+      "commons_views": 35840,
+      "total_views": 75232540,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Egyptian_food_Koshary.jpg/500px-Egyptian_food_Koshary.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Palm nuts put out to dry.jpg",
+      "country": "Nigeria",
+      "views": 2951,
+      "reuse_views": 42867520,
+      "commons_views": 2951,
+      "total_views": 42870471,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Palm_nuts_put_out_to_dry.jpg/500px-Palm_nuts_put_out_to_dry.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Example of Ramadan iftar 2.jpg",
+      "country": "an unknown country",
+      "views": 2335,
+      "reuse_views": 28798619,
+      "commons_views": 2335,
+      "total_views": 28800954,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Example_of_Ramadan_iftar_2.jpg/500px-Example_of_Ramadan_iftar_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Eid celebration 2014 in Durban.jpg",
+      "country": "South Africa",
+      "views": 3363,
+      "reuse_views": 21155347,
+      "commons_views": 3363,
+      "total_views": 21158710,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Eid_celebration_2014_in_Durban.jpg/500px-Eid_celebration_2014_in_Durban.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Yawo women on Eid.jpg",
+      "country": "Mozambique",
+      "views": 1507,
+      "reuse_views": 20318264,
+      "commons_views": 1507,
+      "total_views": 20319771,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Yawo_women_on_Eid.jpg/500px-Yawo_women_on_Eid.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Ndolè à la viande, morue et crevettes.jpg",
+      "country": "Cameroon",
+      "views": 0,
+      "reuse_views": 17558265,
+      "commons_views": 0,
+      "total_views": 17558265,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Ndol%C3%A8_%C3%A0_la_viande%2C_morue_et_crevettes.jpg/500px-Ndol%C3%A8_%C3%A0_la_viande%2C_morue_et_crevettes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Tajines in a pottery shop in Morocco.jpg",
+      "country": "Morocco",
+      "views": 14182,
+      "reuse_views": 16709497,
+      "commons_views": 14182,
+      "total_views": 16723679,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tajines_in_a_pottery_shop_in_Morocco.jpg/500px-Tajines_in_a_pottery_shop_in_Morocco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Hibiscus tea.jpg",
+      "country": "Tunisia",
+      "views": 3487,
+      "reuse_views": 14680122,
+      "commons_views": 3487,
+      "total_views": 14683609,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Hibiscus_tea.jpg/500px-Hibiscus_tea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Goat meat.jpg",
+      "country": "Uganda",
+      "views": 1309,
+      "reuse_views": 14308309,
+      "commons_views": 1309,
+      "total_views": 14309618,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Goat_meat.jpg/500px-Goat_meat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Fresh nutmeg in Zanzibar (Tanzania).JPG",
+      "country": "Tanzania",
+      "views": 3840,
+      "reuse_views": 12396017,
+      "commons_views": 3840,
+      "total_views": 12399857,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Fresh_nutmeg_in_Zanzibar_%28Tanzania%29.JPG/500px-Fresh_nutmeg_in_Zanzibar_%28Tanzania%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Moroccan cups of tea with ment.jpg",
+      "country": "Morocco",
+      "views": 1655,
+      "reuse_views": 12207010,
+      "commons_views": 1655,
+      "total_views": 12208665,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Moroccan_cups_of_tea_with_ment.jpg/500px-Moroccan_cups_of_tea_with_ment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Mbongo tchobi et banae plantin malxé.jpg",
+      "country": "Cameroon",
+      "views": 2366,
+      "reuse_views": 12203598,
+      "commons_views": 2366,
+      "total_views": 12205964,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Mbongo_tchobi_et_banae_plantin_malx%C3%A9.jpg/500px-Mbongo_tchobi_et_banae_plantin_malx%C3%A9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Arewa Traditional Kitchen.jpg",
+      "country": "Nigeria",
+      "views": 2686,
+      "reuse_views": 11758476,
+      "commons_views": 2686,
+      "total_views": 11761162,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Arewa_Traditional_Kitchen.jpg/500px-Arewa_Traditional_Kitchen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Ary-chebbaqiya tot seu.jpg",
+      "country": "Morocco",
+      "views": 1568,
+      "reuse_views": 11661409,
+      "commons_views": 1568,
+      "total_views": 11662977,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Ary-chebbaqiya_tot_seu.jpg/500px-Ary-chebbaqiya_tot_seu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Coine di gazele2.jpg",
+      "country": "Morocco",
+      "views": 850,
+      "reuse_views": 11364463,
+      "commons_views": 850,
+      "total_views": 11365313,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Coine_di_gazele2.jpg/500px-Coine_di_gazele2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Special meat and cheese dish in Yod Abyssinia.jpg",
+      "country": "Ethiopia",
+      "views": 1458,
+      "reuse_views": 10998104,
+      "commons_views": 1458,
+      "total_views": 10999562,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Special_meat_and_cheese_dish_in_Yod_Abyssinia.jpg/500px-Special_meat_and_cheese_dish_in_Yod_Abyssinia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Popcorn (pipoca).jpg",
+      "country": "Mozambique",
+      "views": 2984,
+      "reuse_views": 10820867,
+      "commons_views": 2984,
+      "total_views": 10823851,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Popcorn_%28pipoca%29.jpg/500px-Popcorn_%28pipoca%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Ngumbi.jpg",
+      "country": "Mozambique",
+      "views": 8427,
+      "reuse_views": 10650982,
+      "commons_views": 8427,
+      "total_views": 10659409,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Ngumbi.jpg/500px-Ngumbi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Mintumba.jpg",
+      "country": "Cameroon",
+      "views": 1976,
+      "reuse_views": 10331367,
+      "commons_views": 1976,
+      "total_views": 10333343,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Mintumba.jpg/500px-Mintumba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    },
+    {
+      "title": "File:Le ndolè, plat mythique camerounais..jpg",
+      "country": "Cameroon",
+      "views": 4057,
+      "reuse_views": 10262955,
+      "commons_views": 4057,
+      "total_views": 10267012,
+      "thumb": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Le_ndol%C3%A8%2C_plat_mythique_camerounais..jpg/500px-Le_ndol%C3%A8%2C_plat_mythique_camerounais..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "year": 2014
+    }
+  ],
   "grand_winners": [
     {
       "title": "File:Egyptian Grains.jpg",

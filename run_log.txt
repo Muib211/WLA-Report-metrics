@@ -1,0 +1,96 @@
+[2014] discovering subcategories of Category:Images from Wiki Loves Africa 2014...
+[2014] 5854 files directly in the flat root category (cross-check figure)
+[2014] 47 country branches, 0 special buckets. Walking file trees...
+  an unknown country: 4 files
+  Algeria: 73 files
+  Angola: 15 files
+  Benin: 8 files
+  Botswana: 6 files
+  Burkina Faso: 16 files
+  Burundi: 12 files
+  Cameroon: 78 files
+  Cape Verde: 5 files
+  Chad: 4 files
+  the Democratic Republic of the Congo: 18 files
+  Egypt: 442 files
+  Eritrea: 2 files
+  Ethiopia: 135 files
+  France: 3 files
+  Gabon: 6 files
+  the Gambia: 1 files
+  Ghana: 840 files
+  Guinea: 21 files
+  Ivory Coast: 997 files
+  Kenya: 211 files
+  Liberia: 34 files
+  Libya: 12 files
+  Madagascar: 25 files
+  Malawi: 80 files
+  Mali: 10 files
+  Mauritania: 2 files
+  Mauritius: 2 files
+  Morocco: 369 files
+  Mozambique: 35 files
+  Namibia: 9 files
+  Niger: 16 files
+  Nigeria: 300 files
+  the Republic of the Congo: 2 files
+  Rwanda: 37 files
+  Réunion: 5 files
+  Senegal: 174 files
+  Sierra Leone: 16 files
+  Somalia: 6 files
+  South Africa: 362 files
+  Sudan: 33 files
+  Tanzania: 368 files
+  Togo: 54 files
+  Tunisia: 751 files
+  Uganda: 732 files
+  Zambia: 50 files
+  Zimbabwe: 27 files
+[2014] fetching contributor usernames and upload timestamps for 6407 files...
+[2014] estimated campaign window: 2014-10-01 to 2025-04-21 (from upload data)
+[2014] checking account registration dates for 861 contributors...
+[2014] 734 contributors (85.25%) opened their account within ~1 month before or during the campaign
+[2014] fetching cross-wiki usage for 6407 files...
+[2014] 861 contributors, 1500 files used across 243 wikis (5673 total usages)
+[2014] found 9 winning pictures in Category:Wiki Loves Africa 2014 winning pictures, fetching details...
+[2014] measuring Commons-page views for 6408 files (full census)...
+  ...200/6408
+  ...400/6408
+  ...600/6408
+  ...800/6408
+  ...1000/6408
+  ...1200/6408
+  ...1400/6408
+  ...1600/6408
+  ...1800/6408
+  ...2000/6408
+  ...2200/6408
+  ...2400/6408
+  ...2600/6408
+  ...2800/6408
+  ...3000/6408
+  ...3200/6408
+  ...3400/6408
+  ...3600/6408
+  ...3800/6408
+  ...4000/6408
+  ...4200/6408
+  ...4400/6408
+  ...4600/6408
+  ...4800/6408
+  ...5000/6408
+  ...5200/6408
+  ...5400/6408
+  ...5600/6408
+  ...5800/6408
+  ...6000/6408
+  ...6200/6408
+  ...6400/6408
+  ...6408/6408
+[2014] WARNING: 880 Commons pageview request(s) actually failed (network/API error, not just zero views) — some view counts below may be undercounted or wrongly zero. Consider re-running if this number is large relative to 6408.
+[2014] removed 1 duplicate file(s) before ranking
+[2014] measuring real reuse views across 5673 usage(s) on other Wikimedia pages...
+[2014] WARNING: 4933 reuse-pageview request(s) actually failed — some reuse view counts may be undercounted or wrongly zero.
+[2014] wrote docs\data\2014.json (6407 submissions, 47 participating countries, 861 contributors, 9 winners, 178524758 total views)
