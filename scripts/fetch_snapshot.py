@@ -25,6 +25,7 @@ import sys
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from urllib.parse import quote
 
 import aiohttp
 
@@ -34,6 +35,12 @@ PAGEVIEWS_API = (
     "commons.wikimedia.org/all-access/all-agents/{title}/monthly/{start}/{end}"
 )
 USER_AGENT = "WikiAfroDemics-WLAReport/1.0 (https://github.com/muib211; muibshefiu@gmail.com)"
+
+# Wikimedia's per-article pageviews API has no data before this date. Requesting an
+# earlier start (as every pre-2015 contest year's crawl was doing) is very likely why
+# 2014 specifically has failed repeatedly while other years worked — the API may error
+# out on an out-of-range request rather than silently clamping it.
+PAGEVIEWS_DATA_FLOOR = "20150701"
 
 SPECIAL_BUCKET_PATTERNS = ["to check", "with unknown country", "without categories", "unidentified"]
 IGNORED_INDEX_PATTERNS = ["by country", "by theme", "by year", "by type"]
@@ -268,7 +275,13 @@ class CommonsClient:
             data = await self.get_json({"action": "query", "prop": "globalusage", "titles": "|".join(batch), "gulimit": "500", "gunamespace": "0"})
             out = {}
             for page in data.get("query", {}).get("pages", {}).values():
-                entries = [{"wiki": g.get("wiki"), "title": g.get("title")} for g in page.get("globalusage", []) if g.get("wiki")]
+                seen = set()
+                entries = []
+                for g in page.get("globalusage", []):
+                    key = (g.get("wiki"), g.get("title"))
+                    if g.get("wiki") and key not in seen:
+                        seen.add(key)
+                        entries.append({"wiki": g["wiki"], "title": g.get("title")})
                 if entries:
                     out[page["title"]] = entries
             return out
@@ -310,9 +323,10 @@ class CommonsClient:
         if not domain:
             print(f"  warning: unrecognized wiki code '{wiki_code}' — reuse views for this page couldn't be counted", file=sys.stderr)
             return 0
-        encoded = (page_title or "").replace(" ", "_")
+        encoded = quote((page_title or "").replace(" ", "_"), safe="")
         end = datetime.now(timezone.utc).strftime("%Y%m%d00")
-        url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{domain}/all-access/all-agents/{encoded}/monthly/{year}010100/{end}"
+        start = max(f"{year}010100", PAGEVIEWS_DATA_FLOOR + "00")
+        url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/{domain}/all-access/all-agents/{encoded}/monthly/{start}/{end}"
         last_reason = "unknown"
         async with self.sem:
             for attempt in range(3):
@@ -336,9 +350,10 @@ class CommonsClient:
 
     async def pageviews(self, file_title: str, year: int) -> int:
         """Cumulative Commons-page views from Jan 1 of `year` through today."""
-        encoded = file_title.replace(" ", "_")
+        encoded = quote(file_title.replace(" ", "_"), safe="")
         end = datetime.now(timezone.utc).strftime("%Y%m%d00")
-        url = PAGEVIEWS_API.format(title=encoded, start=f"{year}010100", end=end)
+        start = max(f"{year}010100", PAGEVIEWS_DATA_FLOOR + "00")
+        url = PAGEVIEWS_API.format(title=encoded, start=start, end=end)
         last_reason = "unknown"
         async with self.sem:
             for attempt in range(3):
